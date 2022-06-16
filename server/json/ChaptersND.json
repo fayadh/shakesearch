@@ -1,0 +1,945 @@
+{"WorkID":"allswell","ChapterID":24908,"Section":1,"Chapter":1,"Description":"Rousillon. The COUNT&#8217;s palace."}
+{"WorkID":"allswell","ChapterID":24909,"Section":1,"Chapter":2,"Description":"Paris. The KING&#8217;s palace."}
+{"WorkID":"allswell","ChapterID":24910,"Section":1,"Chapter":3,"Description":"Rousillon. The COUNT&#8217;s palace."}
+{"WorkID":"allswell","ChapterID":24911,"Section":2,"Chapter":1,"Description":"Paris. The KING&#8217;s palace."}
+{"WorkID":"allswell","ChapterID":24912,"Section":2,"Chapter":2,"Description":"Rousillon. The COUNT&#8217;s palace."}
+{"WorkID":"allswell","ChapterID":24913,"Section":2,"Chapter":3,"Description":"Paris. The KING&#8217;s palace."}
+{"WorkID":"allswell","ChapterID":24914,"Section":2,"Chapter":4,"Description":"Paris. The KING&#8217;s palace."}
+{"WorkID":"allswell","ChapterID":24915,"Section":2,"Chapter":5,"Description":"Paris. The KING&#8217;s palace."}
+{"WorkID":"allswell","ChapterID":24916,"Section":3,"Chapter":1,"Description":"Florence. The DUKE&#8217;s palace."}
+{"WorkID":"allswell","ChapterID":24917,"Section":3,"Chapter":2,"Description":"Rousillon. The COUNT&#8217;s palace."}
+{"WorkID":"allswell","ChapterID":24918,"Section":3,"Chapter":3,"Description":"Florence. Before the DUKE&#8217;s palace."}
+{"WorkID":"allswell","ChapterID":24919,"Section":3,"Chapter":4,"Description":"Rousillon. The COUNT&#8217;s palace."}
+{"WorkID":"allswell","ChapterID":24920,"Section":3,"Chapter":5,"Description":"Florence. Without the walls. A tucket afar off."}
+{"WorkID":"allswell","ChapterID":24921,"Section":3,"Chapter":6,"Description":"Camp before Florence."}
+{"WorkID":"allswell","ChapterID":24922,"Section":3,"Chapter":7,"Description":"Florence. The Widow&#8217;s house."}
+{"WorkID":"allswell","ChapterID":24923,"Section":4,"Chapter":1,"Description":"Without the Florentine camp."}
+{"WorkID":"allswell","ChapterID":24924,"Section":4,"Chapter":2,"Description":"Florence. The Widow&#8217;s house."}
+{"WorkID":"allswell","ChapterID":24925,"Section":4,"Chapter":3,"Description":"The Florentine camp."}
+{"WorkID":"allswell","ChapterID":24926,"Section":4,"Chapter":4,"Description":"Florence. The Widow&#8217;s house."}
+{"WorkID":"allswell","ChapterID":24927,"Section":4,"Chapter":5,"Description":"Rousillon. The COUNT&#8217;s palace."}
+{"WorkID":"allswell","ChapterID":24928,"Section":5,"Chapter":1,"Description":"Marseilles. A street."}
+{"WorkID":"allswell","ChapterID":24929,"Section":5,"Chapter":2,"Description":"Rousillon. Before the COUNT&#8217;s palace."}
+{"WorkID":"allswell","ChapterID":24930,"Section":5,"Chapter":3,"Description":"Rousillon. The COUNT&#8217;s palace."}
+{"WorkID":"antonycleo","ChapterID":24931,"Section":1,"Chapter":1,"Description":"Alexandria. A room in CLEOPATRA&#8217;s palace."}
+{"WorkID":"antonycleo","ChapterID":24932,"Section":1,"Chapter":2,"Description":"The same. Another room."}
+{"WorkID":"antonycleo","ChapterID":24933,"Section":1,"Chapter":3,"Description":"The same. Another room."}
+{"WorkID":"antonycleo","ChapterID":24934,"Section":1,"Chapter":4,"Description":"Rome. OCTAVIUS CAESAR&#8217;s house."}
+{"WorkID":"antonycleo","ChapterID":24935,"Section":1,"Chapter":5,"Description":"Alexandria. CLEOPATRA&#8217;s palace."}
+{"WorkID":"antonycleo","ChapterID":24936,"Section":2,"Chapter":1,"Description":"Messina. POMPEY&#8217;s house."}
+{"WorkID":"antonycleo","ChapterID":24937,"Section":2,"Chapter":2,"Description":"Rome. The house of LEPIDUS."}
+{"WorkID":"antonycleo","ChapterID":24938,"Section":2,"Chapter":3,"Description":"The same. OCTAVIUS CAESAR&#8217;s house."}
+{"WorkID":"antonycleo","ChapterID":24939,"Section":2,"Chapter":4,"Description":"The same. A street."}
+{"WorkID":"antonycleo","ChapterID":24940,"Section":2,"Chapter":5,"Description":"Alexandria. CLEOPATRA&#8217;s palace."}
+{"WorkID":"antonycleo","ChapterID":24941,"Section":2,"Chapter":6,"Description":"Near Misenum."}
+{"WorkID":"antonycleo","ChapterID":24942,"Section":2,"Chapter":7,"Description":"On board POMPEY&#8217;s galley, off Misenum."}
+{"WorkID":"antonycleo","ChapterID":24943,"Section":3,"Chapter":1,"Description":"A plain in Syria."}
+{"WorkID":"antonycleo","ChapterID":24944,"Section":3,"Chapter":2,"Description":"Rome. An ante-chamber in OCTAVIUS CAESAR&#8217;s house."}
+{"WorkID":"antonycleo","ChapterID":24945,"Section":3,"Chapter":3,"Description":"Alexandria. CLEOPATRA&#8217;s palace."}
+{"WorkID":"antonycleo","ChapterID":24946,"Section":3,"Chapter":4,"Description":"Athens. A room in MARK ANTONY&#8217;s house."}
+{"WorkID":"antonycleo","ChapterID":24947,"Section":3,"Chapter":5,"Description":"The same. Another room."}
+{"WorkID":"antonycleo","ChapterID":24948,"Section":3,"Chapter":6,"Description":"Rome. OCTAVIUS CAESAR&#8217;s house."}
+{"WorkID":"antonycleo","ChapterID":24949,"Section":3,"Chapter":7,"Description":"Near Actium. MARK ANTONY&#8217;s camp."}
+{"WorkID":"antonycleo","ChapterID":24950,"Section":3,"Chapter":8,"Description":"A plain near Actium."}
+{"WorkID":"antonycleo","ChapterID":24951,"Section":3,"Chapter":9,"Description":"Another part of the plain."}
+{"WorkID":"antonycleo","ChapterID":24952,"Section":3,"Chapter":10,"Description":"Another part of the plain.\n"}
+{"WorkID":"antonycleo","ChapterID":24953,"Section":3,"Chapter":11,"Description":"Alexandria. CLEOPATRA&#8217;s palace.\n"}
+{"WorkID":"antonycleo","ChapterID":24954,"Section":3,"Chapter":12,"Description":"Egypt. OCTAVIUS CAESAR&#8217;s camp.\n"}
+{"WorkID":"antonycleo","ChapterID":24955,"Section":3,"Chapter":13,"Description":"Alexandria. CLEOPATRA&#8217;s palace.\n"}
+{"WorkID":"antonycleo","ChapterID":24956,"Section":4,"Chapter":1,"Description":"Before Alexandria. OCTAVIUS CAESAR&#8217;s camp."}
+{"WorkID":"antonycleo","ChapterID":24957,"Section":4,"Chapter":2,"Description":"Alexandria. CLEOPATRA&#8217;s palace."}
+{"WorkID":"antonycleo","ChapterID":24958,"Section":4,"Chapter":3,"Description":"The same. Before the palace."}
+{"WorkID":"antonycleo","ChapterID":24959,"Section":4,"Chapter":4,"Description":"The same. A room in the palace."}
+{"WorkID":"antonycleo","ChapterID":24960,"Section":4,"Chapter":5,"Description":"Alexandria. MARK ANTONY&#8217;s camp."}
+{"WorkID":"antonycleo","ChapterID":24961,"Section":4,"Chapter":6,"Description":"Alexandria. OCTAVIUS CAESAR&#8217;s camp."}
+{"WorkID":"antonycleo","ChapterID":24962,"Section":4,"Chapter":7,"Description":"Field of battle between the camps."}
+{"WorkID":"antonycleo","ChapterID":24963,"Section":4,"Chapter":8,"Description":"Under the walls of Alexandria."}
+{"WorkID":"antonycleo","ChapterID":24964,"Section":4,"Chapter":9,"Description":"OCTAVIUS CAESAR&#8217;s camp."}
+{"WorkID":"antonycleo","ChapterID":24965,"Section":4,"Chapter":10,"Description":"Between the two camps.\n"}
+{"WorkID":"antonycleo","ChapterID":24966,"Section":4,"Chapter":11,"Description":"Another part of the same.\n"}
+{"WorkID":"antonycleo","ChapterID":24967,"Section":4,"Chapter":12,"Description":"Another part of the same.\n"}
+{"WorkID":"antonycleo","ChapterID":24968,"Section":4,"Chapter":13,"Description":"Alexandria. Cleopatra&#8217;s palace.\n"}
+{"WorkID":"antonycleo","ChapterID":24969,"Section":4,"Chapter":14,"Description":"The same. Another room.\n"}
+{"WorkID":"antonycleo","ChapterID":24970,"Section":4,"Chapter":15,"Description":"The same. A monument.\n"}
+{"WorkID":"antonycleo","ChapterID":24971,"Section":5,"Chapter":1,"Description":"Alexandria. OCTAVIUS CAESAR&#8217;s camp."}
+{"WorkID":"antonycleo","ChapterID":24972,"Section":5,"Chapter":2,"Description":"Alexandria. A room in the monument."}
+{"WorkID":"asyoulikeit","ChapterID":24973,"Section":1,"Chapter":1,"Description":"Orchard of OLIVER&#8217;S house"}
+{"WorkID":"asyoulikeit","ChapterID":24974,"Section":1,"Chapter":2,"Description":"A lawn before the DUKE&#8217;S palace"}
+{"WorkID":"asyoulikeit","ChapterID":24975,"Section":1,"Chapter":3,"Description":"The DUKE&#8217;s palace"}
+{"WorkID":"asyoulikeit","ChapterID":24976,"Section":2,"Chapter":1,"Description":"The Forest of Arden"}
+{"WorkID":"asyoulikeit","ChapterID":24977,"Section":2,"Chapter":2,"Description":"The DUKE&#8217;S palace"}
+{"WorkID":"asyoulikeit","ChapterID":24978,"Section":2,"Chapter":3,"Description":"Before OLIVER&#8217;S house"}
+{"WorkID":"asyoulikeit","ChapterID":24979,"Section":2,"Chapter":4,"Description":"The Forest of Arden"}
+{"WorkID":"asyoulikeit","ChapterID":24980,"Section":2,"Chapter":5,"Description":"Another part of the forest"}
+{"WorkID":"asyoulikeit","ChapterID":24981,"Section":2,"Chapter":6,"Description":"The forest"}
+{"WorkID":"asyoulikeit","ChapterID":24982,"Section":2,"Chapter":7,"Description":"The forest"}
+{"WorkID":"asyoulikeit","ChapterID":24983,"Section":3,"Chapter":1,"Description":"The palace"}
+{"WorkID":"asyoulikeit","ChapterID":24984,"Section":3,"Chapter":2,"Description":"The forest"}
+{"WorkID":"asyoulikeit","ChapterID":24985,"Section":3,"Chapter":3,"Description":"The forest"}
+{"WorkID":"asyoulikeit","ChapterID":24986,"Section":3,"Chapter":4,"Description":"The forest"}
+{"WorkID":"asyoulikeit","ChapterID":24987,"Section":3,"Chapter":5,"Description":"Another part of the forest"}
+{"WorkID":"asyoulikeit","ChapterID":24988,"Section":4,"Chapter":1,"Description":"The forest"}
+{"WorkID":"asyoulikeit","ChapterID":24989,"Section":4,"Chapter":2,"Description":"The forest"}
+{"WorkID":"asyoulikeit","ChapterID":24990,"Section":4,"Chapter":3,"Description":"The forest"}
+{"WorkID":"asyoulikeit","ChapterID":24991,"Section":5,"Chapter":1,"Description":"The forest"}
+{"WorkID":"asyoulikeit","ChapterID":24992,"Section":5,"Chapter":2,"Description":"The forest"}
+{"WorkID":"asyoulikeit","ChapterID":24993,"Section":5,"Chapter":3,"Description":"The forest"}
+{"WorkID":"asyoulikeit","ChapterID":24994,"Section":5,"Chapter":4,"Description":"The forest"}
+{"WorkID":"comedyerrors","ChapterID":24995,"Section":1,"Chapter":1,"Description":"A hall in DUKE SOLINUS&#8217;S palace."}
+{"WorkID":"comedyerrors","ChapterID":24996,"Section":1,"Chapter":2,"Description":"The Mart."}
+{"WorkID":"comedyerrors","ChapterID":24997,"Section":2,"Chapter":1,"Description":"The house of ANTIPHOLUS of Ephesus."}
+{"WorkID":"comedyerrors","ChapterID":24998,"Section":2,"Chapter":2,"Description":"A public place."}
+{"WorkID":"comedyerrors","ChapterID":24999,"Section":3,"Chapter":1,"Description":"Before the house of ANTIPHOLUS of Ephesus."}
+{"WorkID":"comedyerrors","ChapterID":25000,"Section":3,"Chapter":2,"Description":"The same."}
+{"WorkID":"comedyerrors","ChapterID":25001,"Section":4,"Chapter":1,"Description":"A public place."}
+{"WorkID":"comedyerrors","ChapterID":25002,"Section":4,"Chapter":2,"Description":"The house of ANTIPHOLUS of Ephesus."}
+{"WorkID":"comedyerrors","ChapterID":25003,"Section":4,"Chapter":3,"Description":"A public place."}
+{"WorkID":"comedyerrors","ChapterID":25004,"Section":4,"Chapter":4,"Description":"A street."}
+{"WorkID":"comedyerrors","ChapterID":25005,"Section":5,"Chapter":1,"Description":"A street before a Priory."}
+{"WorkID":"coriolanus","ChapterID":25006,"Section":1,"Chapter":1,"Description":"Rome. A street."}
+{"WorkID":"coriolanus","ChapterID":25007,"Section":1,"Chapter":2,"Description":"Corioli. The Senate-house."}
+{"WorkID":"coriolanus","ChapterID":25008,"Section":1,"Chapter":3,"Description":"Rome. A room in CORIOLANUS&#8217; house."}
+{"WorkID":"coriolanus","ChapterID":25009,"Section":1,"Chapter":4,"Description":"Before Corioli."}
+{"WorkID":"coriolanus","ChapterID":25010,"Section":1,"Chapter":5,"Description":"Corioli. A street."}
+{"WorkID":"coriolanus","ChapterID":25011,"Section":1,"Chapter":6,"Description":"Near the camp of Cominius."}
+{"WorkID":"coriolanus","ChapterID":25012,"Section":1,"Chapter":7,"Description":"The gates of Corioli."}
+{"WorkID":"coriolanus","ChapterID":25013,"Section":1,"Chapter":8,"Description":"A field of battle."}
+{"WorkID":"coriolanus","ChapterID":25014,"Section":1,"Chapter":9,"Description":"The Roman camp."}
+{"WorkID":"coriolanus","ChapterID":25015,"Section":1,"Chapter":10,"Description":"The camp of the Volsces.\n"}
+{"WorkID":"coriolanus","ChapterID":25016,"Section":2,"Chapter":1,"Description":"Rome. A public place."}
+{"WorkID":"coriolanus","ChapterID":25017,"Section":2,"Chapter":2,"Description":"The same. The Capitol."}
+{"WorkID":"coriolanus","ChapterID":25018,"Section":2,"Chapter":3,"Description":"The same. The Forum."}
+{"WorkID":"coriolanus","ChapterID":25019,"Section":3,"Chapter":1,"Description":"Rome. A street."}
+{"WorkID":"coriolanus","ChapterID":25020,"Section":3,"Chapter":2,"Description":"A room in CORIOLANUS&#8217;S house."}
+{"WorkID":"coriolanus","ChapterID":25021,"Section":3,"Chapter":3,"Description":"The same. The Forum."}
+{"WorkID":"coriolanus","ChapterID":25022,"Section":4,"Chapter":2,"Description":"The same. A street near the gate."}
+{"WorkID":"coriolanus","ChapterID":25023,"Section":4,"Chapter":3,"Description":"A highway between Rome and Antium."}
+{"WorkID":"coriolanus","ChapterID":25024,"Section":4,"Chapter":4,"Description":"Antium. Before Aufidius&#8217;s house."}
+{"WorkID":"coriolanus","ChapterID":25025,"Section":4,"Chapter":5,"Description":"The same. A hall in Aufidius&#8217;s house."}
+{"WorkID":"coriolanus","ChapterID":25026,"Section":4,"Chapter":6,"Description":"Rome. A public place."}
+{"WorkID":"coriolanus","ChapterID":25027,"Section":4,"Chapter":7,"Description":"A camp, at a small distance from Rome."}
+{"WorkID":"coriolanus","ChapterID":25028,"Section":5,"Chapter":1,"Description":"Rome. A public place."}
+{"WorkID":"coriolanus","ChapterID":25029,"Section":5,"Chapter":2,"Description":"Entrance of the Volscian camp before Rome."}
+{"WorkID":"coriolanus","ChapterID":25030,"Section":5,"Chapter":3,"Description":"The tent of Coriolanus."}
+{"WorkID":"coriolanus","ChapterID":25031,"Section":5,"Chapter":4,"Description":"Rome. A public place."}
+{"WorkID":"coriolanus","ChapterID":25032,"Section":5,"Chapter":5,"Description":"The same. A street near the gate."}
+{"WorkID":"coriolanus","ChapterID":25033,"Section":5,"Chapter":6,"Description":"Antium. A public place."}
+{"WorkID":"cymbeline","ChapterID":25034,"Section":1,"Chapter":1,"Description":"Britain. The garden of Cymbeline&#8217;s palace."}
+{"WorkID":"cymbeline","ChapterID":25035,"Section":1,"Chapter":2,"Description":"The same. A public place."}
+{"WorkID":"cymbeline","ChapterID":25036,"Section":1,"Chapter":3,"Description":"A room in Cymbeline&#8217;s palace."}
+{"WorkID":"cymbeline","ChapterID":25037,"Section":1,"Chapter":4,"Description":"Rome. Philario&#8217;s house."}
+{"WorkID":"cymbeline","ChapterID":25038,"Section":1,"Chapter":5,"Description":"Britain. A room in Cymbeline&#8217;s palace."}
+{"WorkID":"cymbeline","ChapterID":25039,"Section":1,"Chapter":6,"Description":"The same. Another room in the palace."}
+{"WorkID":"cymbeline","ChapterID":25040,"Section":2,"Chapter":1,"Description":"Britain. Before Cymbeline&#8217;s palace."}
+{"WorkID":"cymbeline","ChapterID":25041,"Section":2,"Chapter":2,"Description":"Imogen&#8217;s bedchamber in Cymbeline&#8217;s palace:"}
+{"WorkID":"cymbeline","ChapterID":25042,"Section":2,"Chapter":3,"Description":"An ante-chamber adjoining Imogen&#8217;s apartments."}
+{"WorkID":"cymbeline","ChapterID":25043,"Section":2,"Chapter":4,"Description":"Rome. Philario&#8217;s house."}
+{"WorkID":"cymbeline","ChapterID":25044,"Section":2,"Chapter":5,"Description":"Another room in Philario&#8217;s house."}
+{"WorkID":"cymbeline","ChapterID":25045,"Section":3,"Chapter":1,"Description":"Britain. A hall in Cymbeline&#8217;s palace."}
+{"WorkID":"cymbeline","ChapterID":25046,"Section":3,"Chapter":2,"Description":"Another room in the palace."}
+{"WorkID":"cymbeline","ChapterID":25047,"Section":3,"Chapter":3,"Description":"Wales: a mountainous country with a cave."}
+{"WorkID":"cymbeline","ChapterID":25048,"Section":3,"Chapter":4,"Description":"Country near Milford-Haven."}
+{"WorkID":"cymbeline","ChapterID":25049,"Section":3,"Chapter":5,"Description":"A room in Cymbeline&#8217;s palace."}
+{"WorkID":"cymbeline","ChapterID":25050,"Section":3,"Chapter":6,"Description":"Wales. Before the cave of Belarius."}
+{"WorkID":"cymbeline","ChapterID":25051,"Section":3,"Chapter":7,"Description":"Rome. A public place."}
+{"WorkID":"cymbeline","ChapterID":25052,"Section":4,"Chapter":1,"Description":"Wales: near the cave of Belarius."}
+{"WorkID":"cymbeline","ChapterID":25053,"Section":4,"Chapter":2,"Description":"Before the cave of Belarius."}
+{"WorkID":"cymbeline","ChapterID":25054,"Section":4,"Chapter":3,"Description":"A room in Cymbeline&#8217;s palace."}
+{"WorkID":"cymbeline","ChapterID":25055,"Section":4,"Chapter":4,"Description":"Wales: before the cave of Belarius."}
+{"WorkID":"cymbeline","ChapterID":25056,"Section":5,"Chapter":1,"Description":"Britain. The Roman camp."}
+{"WorkID":"cymbeline","ChapterID":25057,"Section":5,"Chapter":2,"Description":"Field of battle between the British and Roman camps."}
+{"WorkID":"cymbeline","ChapterID":25058,"Section":5,"Chapter":3,"Description":"Another part of the field."}
+{"WorkID":"cymbeline","ChapterID":25059,"Section":5,"Chapter":4,"Description":"A British prison."}
+{"WorkID":"cymbeline","ChapterID":25060,"Section":5,"Chapter":5,"Description":"Cymbeline&#8217;s tent."}
+{"WorkID":"hamlet","ChapterID":25061,"Section":1,"Chapter":1,"Description":"Elsinore. A platform before the Castle."}
+{"WorkID":"hamlet","ChapterID":25062,"Section":1,"Chapter":2,"Description":"Elsinore. A room of state in the Castle."}
+{"WorkID":"hamlet","ChapterID":25063,"Section":1,"Chapter":3,"Description":"Elsinore. A room in the house of Polonius."}
+{"WorkID":"hamlet","ChapterID":25064,"Section":1,"Chapter":4,"Description":"Elsinore. The platform before the Castle."}
+{"WorkID":"hamlet","ChapterID":25065,"Section":1,"Chapter":5,"Description":"Elsinore. The Castle. Another part of the fortifications."}
+{"WorkID":"hamlet","ChapterID":25066,"Section":2,"Chapter":1,"Description":"Elsinore. A room in the house of Polonius."}
+{"WorkID":"hamlet","ChapterID":25067,"Section":2,"Chapter":2,"Description":"Elsinore. A room in the Castle."}
+{"WorkID":"hamlet","ChapterID":25068,"Section":3,"Chapter":1,"Description":"Elsinore. A room in the Castle."}
+{"WorkID":"hamlet","ChapterID":25069,"Section":3,"Chapter":2,"Description":"Elsinore. hall in the Castle."}
+{"WorkID":"hamlet","ChapterID":25070,"Section":3,"Chapter":3,"Description":"A room in the Castle."}
+{"WorkID":"hamlet","ChapterID":25071,"Section":3,"Chapter":4,"Description":"The Queen&#8217;s closet."}
+{"WorkID":"hamlet","ChapterID":25072,"Section":4,"Chapter":1,"Description":"Elsinore. A room in the Castle."}
+{"WorkID":"hamlet","ChapterID":25073,"Section":4,"Chapter":2,"Description":"Elsinore. A passage in the Castle."}
+{"WorkID":"hamlet","ChapterID":25074,"Section":4,"Chapter":3,"Description":"Elsinore. A room in the Castle."}
+{"WorkID":"hamlet","ChapterID":25075,"Section":4,"Chapter":4,"Description":"Near Elsinore."}
+{"WorkID":"hamlet","ChapterID":25076,"Section":4,"Chapter":5,"Description":"Elsinore. A room in the Castle."}
+{"WorkID":"hamlet","ChapterID":25077,"Section":4,"Chapter":6,"Description":"Elsinore. Another room in the Castle."}
+{"WorkID":"hamlet","ChapterID":25078,"Section":4,"Chapter":7,"Description":"Elsinore. Another room in the Castle."}
+{"WorkID":"hamlet","ChapterID":25079,"Section":5,"Chapter":1,"Description":"Elsinore. A churchyard."}
+{"WorkID":"hamlet","ChapterID":25080,"Section":5,"Chapter":2,"Description":"Elsinore. A hall in the Castle."}
+{"WorkID":"henry4p1","ChapterID":25081,"Section":1,"Chapter":1,"Description":"London. The palace."}
+{"WorkID":"henry4p1","ChapterID":25082,"Section":1,"Chapter":2,"Description":"London. An apartment of the Prince&#8217;s."}
+{"WorkID":"henry4p1","ChapterID":25083,"Section":1,"Chapter":3,"Description":"London. The palace."}
+{"WorkID":"henry4p1","ChapterID":25084,"Section":2,"Chapter":1,"Description":"Rochester. An inn yard."}
+{"WorkID":"henry4p1","ChapterID":25085,"Section":2,"Chapter":2,"Description":"The highway, near Gadshill."}
+{"WorkID":"henry4p1","ChapterID":25086,"Section":2,"Chapter":3,"Description":"Warkworth castle"}
+{"WorkID":"henry4p1","ChapterID":25087,"Section":2,"Chapter":4,"Description":"The Boar&#8217;s-Head Tavern, Eastcheap."}
+{"WorkID":"henry4p1","ChapterID":25088,"Section":3,"Chapter":1,"Description":"Bangor. The Archdeacon&#8217;s house."}
+{"WorkID":"henry4p1","ChapterID":25089,"Section":3,"Chapter":2,"Description":"London. The palace."}
+{"WorkID":"henry4p1","ChapterID":25090,"Section":3,"Chapter":3,"Description":"Eastcheap. The Boar&#8217;s-Head Tavern."}
+{"WorkID":"henry4p1","ChapterID":25091,"Section":4,"Chapter":1,"Description":"The rebel camp near Shrewsbury."}
+{"WorkID":"henry4p1","ChapterID":25092,"Section":4,"Chapter":2,"Description":"A public road near Coventry."}
+{"WorkID":"henry4p1","ChapterID":25093,"Section":4,"Chapter":3,"Description":"The rebel camp near Shrewsbury."}
+{"WorkID":"henry4p1","ChapterID":25094,"Section":4,"Chapter":4,"Description":"York. The ARCHBISHOP&#8217;S palace."}
+{"WorkID":"henry4p1","ChapterID":25095,"Section":5,"Chapter":1,"Description":"KING HENRY IV&#8217;s camp near Shrewsbury."}
+{"WorkID":"henry4p1","ChapterID":25096,"Section":5,"Chapter":2,"Description":"The rebel camp."}
+{"WorkID":"henry4p1","ChapterID":25097,"Section":5,"Chapter":3,"Description":"Plain between the camps."}
+{"WorkID":"henry4p1","ChapterID":25098,"Section":5,"Chapter":4,"Description":"Another part of the field."}
+{"WorkID":"henry4p1","ChapterID":25099,"Section":5,"Chapter":5,"Description":"Another part of the field."}
+{"WorkID":"henry4p2","ChapterID":25100,"Section":0,"Chapter":1,"Description":"Warkworth. Before NORTHUMBERLAND&#8217;S Castle"}
+{"WorkID":"henry4p2","ChapterID":25101,"Section":1,"Chapter":1,"Description":"Warkworth. Before NORTHUMBERLAND&#8217;S Castle"}
+{"WorkID":"henry4p2","ChapterID":25102,"Section":1,"Chapter":2,"Description":"London. A street"}
+{"WorkID":"henry4p2","ChapterID":25103,"Section":1,"Chapter":3,"Description":"York. The ARCHBISHOP&#8217;S palace"}
+{"WorkID":"henry4p2","ChapterID":25104,"Section":2,"Chapter":1,"Description":"London. A street"}
+{"WorkID":"henry4p2","ChapterID":25105,"Section":2,"Chapter":2,"Description":"London. Another street"}
+{"WorkID":"henry4p2","ChapterID":25106,"Section":2,"Chapter":3,"Description":"Warkworth. Before the castle"}
+{"WorkID":"henry4p2","ChapterID":25107,"Section":2,"Chapter":4,"Description":"London. The Boar&#8217;s Head Tavern in Eastcheap"}
+{"WorkID":"henry4p2","ChapterID":25108,"Section":3,"Chapter":1,"Description":"Westminster. The palace"}
+{"WorkID":"henry4p2","ChapterID":25109,"Section":3,"Chapter":2,"Description":"Gloucestershire. Before Justice, SHALLOW&#8217;S house"}
+{"WorkID":"henry4p2","ChapterID":25110,"Section":4,"Chapter":1,"Description":"Yorkshire. Within the Forest of Gaultree"}
+{"WorkID":"henry4p2","ChapterID":25111,"Section":4,"Chapter":2,"Description":"Another part of the forest"}
+{"WorkID":"henry4p2","ChapterID":25112,"Section":4,"Chapter":3,"Description":"Another part of the forest"}
+{"WorkID":"henry4p2","ChapterID":25113,"Section":4,"Chapter":4,"Description":"Westminster. The Jerusalem Chamber"}
+{"WorkID":"henry4p2","ChapterID":25114,"Section":4,"Chapter":5,"Description":"Westminster. Another chamber"}
+{"WorkID":"henry4p2","ChapterID":25115,"Section":5,"Chapter":1,"Description":"Gloucestershire. SHALLOW&#8217;S house"}
+{"WorkID":"henry4p2","ChapterID":25116,"Section":5,"Chapter":2,"Description":"Westminster. The palace"}
+{"WorkID":"henry4p2","ChapterID":25117,"Section":5,"Chapter":3,"Description":"Gloucestershire. SHALLOW&#8217;S orchard"}
+{"WorkID":"henry4p2","ChapterID":25118,"Section":5,"Chapter":4,"Description":"London. A street"}
+{"WorkID":"henry4p2","ChapterID":25119,"Section":5,"Chapter":5,"Description":"Westminster. Near the Abbey"}
+{"WorkID":"henry5","ChapterID":25120,"Section":0,"Chapter":1,"Description":"Prologue."}
+{"WorkID":"henry5","ChapterID":25121,"Section":1,"Chapter":1,"Description":"London. An ante-chamber in the KING&#8217;S palace."}
+{"WorkID":"henry5","ChapterID":25122,"Section":1,"Chapter":2,"Description":"The same. The Presence chamber."}
+{"WorkID":"henry5","ChapterID":25123,"Section":2,"Chapter":0,"Description":"Prologue."}
+{"WorkID":"henry5","ChapterID":25124,"Section":2,"Chapter":1,"Description":"London. A street."}
+{"WorkID":"henry5","ChapterID":25125,"Section":2,"Chapter":2,"Description":"Southampton. A council-chamber."}
+{"WorkID":"henry5","ChapterID":25126,"Section":2,"Chapter":3,"Description":"London. Before a tavern."}
+{"WorkID":"henry5","ChapterID":25127,"Section":2,"Chapter":4,"Description":"France. The KING&#8217;S palace."}
+{"WorkID":"henry5","ChapterID":25128,"Section":3,"Chapter":0,"Description":"Prologue."}
+{"WorkID":"henry5","ChapterID":25129,"Section":3,"Chapter":1,"Description":"France. Before Harfleur."}
+{"WorkID":"henry5","ChapterID":25130,"Section":3,"Chapter":2,"Description":"The same."}
+{"WorkID":"henry5","ChapterID":25131,"Section":3,"Chapter":3,"Description":"The same. Before the gates."}
+{"WorkID":"henry5","ChapterID":25132,"Section":3,"Chapter":4,"Description":"The FRENCH KING&#8217;s palace."}
+{"WorkID":"henry5","ChapterID":25133,"Section":3,"Chapter":5,"Description":"The same."}
+{"WorkID":"henry5","ChapterID":25134,"Section":3,"Chapter":6,"Description":"The English camp in Picardy."}
+{"WorkID":"henry5","ChapterID":25135,"Section":3,"Chapter":7,"Description":"The French camp, near Agincourt:"}
+{"WorkID":"henry5","ChapterID":25136,"Section":4,"Chapter":0,"Description":"Prologue."}
+{"WorkID":"henry5","ChapterID":25137,"Section":4,"Chapter":1,"Description":"The English camp at Agincourt."}
+{"WorkID":"henry5","ChapterID":25138,"Section":4,"Chapter":2,"Description":"The French camp."}
+{"WorkID":"henry5","ChapterID":25139,"Section":4,"Chapter":3,"Description":"The English camp."}
+{"WorkID":"henry5","ChapterID":25140,"Section":4,"Chapter":4,"Description":"The field of battle."}
+{"WorkID":"henry5","ChapterID":25141,"Section":4,"Chapter":5,"Description":"Another part of the field."}
+{"WorkID":"henry5","ChapterID":25142,"Section":4,"Chapter":6,"Description":"Another part of the field."}
+{"WorkID":"henry5","ChapterID":25143,"Section":4,"Chapter":7,"Description":"Another part of the field."}
+{"WorkID":"henry5","ChapterID":25144,"Section":4,"Chapter":8,"Description":"Before KING HENRY&#8217;S pavilion."}
+{"WorkID":"henry5","ChapterID":25145,"Section":5,"Chapter":0,"Description":"Prologue."}
+{"WorkID":"henry5","ChapterID":25146,"Section":5,"Chapter":1,"Description":"France. The English camp."}
+{"WorkID":"henry5","ChapterID":25147,"Section":5,"Chapter":2,"Description":"France. A royal palace."}
+{"WorkID":"henry6p1","ChapterID":25148,"Section":1,"Chapter":1,"Description":"Westminster Abbey."}
+{"WorkID":"henry6p1","ChapterID":25149,"Section":1,"Chapter":2,"Description":"France. Before Orleans."}
+{"WorkID":"henry6p1","ChapterID":25150,"Section":1,"Chapter":3,"Description":"London. Before the Tower."}
+{"WorkID":"henry6p1","ChapterID":25151,"Section":1,"Chapter":4,"Description":"Orleans."}
+{"WorkID":"henry6p1","ChapterID":25152,"Section":1,"Chapter":5,"Description":"The same."}
+{"WorkID":"henry6p1","ChapterID":25153,"Section":1,"Chapter":6,"Description":"The same."}
+{"WorkID":"henry6p1","ChapterID":25154,"Section":2,"Chapter":1,"Description":"Before Orleans."}
+{"WorkID":"henry6p1","ChapterID":25155,"Section":2,"Chapter":2,"Description":"Orleans. Within the town."}
+{"WorkID":"henry6p1","ChapterID":25156,"Section":2,"Chapter":3,"Description":"Auvergne. The COUNTESS&#8217;s castle."}
+{"WorkID":"henry6p1","ChapterID":25157,"Section":2,"Chapter":4,"Description":"London. The Temple-garden."}
+{"WorkID":"henry6p1","ChapterID":25158,"Section":2,"Chapter":5,"Description":"The Tower of London."}
+{"WorkID":"henry6p1","ChapterID":25159,"Section":3,"Chapter":1,"Description":"London. The Parliament-house."}
+{"WorkID":"henry6p1","ChapterID":25160,"Section":3,"Chapter":2,"Description":"France. Before Rouen."}
+{"WorkID":"henry6p1","ChapterID":25161,"Section":3,"Chapter":3,"Description":"The plains near Rouen."}
+{"WorkID":"henry6p1","ChapterID":25162,"Section":3,"Chapter":4,"Description":"Paris. The palace."}
+{"WorkID":"henry6p1","ChapterID":25163,"Section":4,"Chapter":1,"Description":"Paris. A hall of state."}
+{"WorkID":"henry6p1","ChapterID":25164,"Section":4,"Chapter":2,"Description":"Before Bourdeaux."}
+{"WorkID":"henry6p1","ChapterID":25165,"Section":4,"Chapter":3,"Description":"Plains in Gascony."}
+{"WorkID":"henry6p1","ChapterID":25166,"Section":4,"Chapter":4,"Description":"Other plains in Gascony."}
+{"WorkID":"henry6p1","ChapterID":25167,"Section":4,"Chapter":5,"Description":"The English camp near Bourdeaux."}
+{"WorkID":"henry6p1","ChapterID":25168,"Section":4,"Chapter":6,"Description":"A field of battle."}
+{"WorkID":"henry6p1","ChapterID":25169,"Section":4,"Chapter":7,"Description":"Another part of the field."}
+{"WorkID":"henry6p1","ChapterID":25170,"Section":5,"Chapter":1,"Description":"London. The palace."}
+{"WorkID":"henry6p1","ChapterID":25171,"Section":5,"Chapter":2,"Description":"France. Plains in Anjou."}
+{"WorkID":"henry6p1","ChapterID":25172,"Section":5,"Chapter":3,"Description":"Before Angiers."}
+{"WorkID":"henry6p1","ChapterID":25173,"Section":5,"Chapter":4,"Description":"Camp of the YORK in Anjou."}
+{"WorkID":"henry6p1","ChapterID":25174,"Section":5,"Chapter":5,"Description":"London. The palace."}
+{"WorkID":"henry6p2","ChapterID":25175,"Section":1,"Chapter":1,"Description":"London. The palace."}
+{"WorkID":"henry6p2","ChapterID":25176,"Section":1,"Chapter":2,"Description":"GLOUCESTER&#8217;S house."}
+{"WorkID":"henry6p2","ChapterID":25177,"Section":1,"Chapter":3,"Description":"The palace."}
+{"WorkID":"henry6p2","ChapterID":25178,"Section":1,"Chapter":4,"Description":"GLOUCESTER&#8217;s garden."}
+{"WorkID":"henry6p2","ChapterID":25179,"Section":2,"Chapter":1,"Description":"Saint Alban&#8217;s."}
+{"WorkID":"henry6p2","ChapterID":25180,"Section":2,"Chapter":2,"Description":"London. YORK&#8217;S garden."}
+{"WorkID":"henry6p2","ChapterID":25181,"Section":2,"Chapter":3,"Description":"A hall of justice."}
+{"WorkID":"henry6p2","ChapterID":25182,"Section":2,"Chapter":4,"Description":"A street."}
+{"WorkID":"henry6p2","ChapterID":25183,"Section":3,"Chapter":1,"Description":"The Abbey at Bury St. Edmund&#8217;s."}
+{"WorkID":"henry6p2","ChapterID":25184,"Section":3,"Chapter":2,"Description":"Bury St. Edmund&#8217;s. A room of state."}
+{"WorkID":"henry6p2","ChapterID":25185,"Section":3,"Chapter":3,"Description":"A bedchamber."}
+{"WorkID":"henry6p2","ChapterID":25186,"Section":4,"Chapter":1,"Description":"The coast of Kent."}
+{"WorkID":"henry6p2","ChapterID":25187,"Section":4,"Chapter":2,"Description":"Blackheath."}
+{"WorkID":"henry6p2","ChapterID":25188,"Section":4,"Chapter":3,"Description":"Another part of Blackheath."}
+{"WorkID":"henry6p2","ChapterID":25189,"Section":4,"Chapter":4,"Description":"London. The palace."}
+{"WorkID":"henry6p2","ChapterID":25190,"Section":4,"Chapter":5,"Description":"London. The Tower."}
+{"WorkID":"henry6p2","ChapterID":25191,"Section":4,"Chapter":6,"Description":"London. Cannon Street."}
+{"WorkID":"henry6p2","ChapterID":25192,"Section":4,"Chapter":7,"Description":"London. Smithfield."}
+{"WorkID":"henry6p2","ChapterID":25193,"Section":4,"Chapter":8,"Description":"Southwark."}
+{"WorkID":"henry6p2","ChapterID":25194,"Section":4,"Chapter":9,"Description":"Kenilworth Castle."}
+{"WorkID":"henry6p2","ChapterID":25195,"Section":4,"Chapter":10,"Description":"Kent. IDEN&#8217;s garden.\n"}
+{"WorkID":"henry6p2","ChapterID":25196,"Section":5,"Chapter":1,"Description":"Fields between Dartford and Blackheath."}
+{"WorkID":"henry6p2","ChapterID":25197,"Section":5,"Chapter":2,"Description":"Saint Alban&#8217;s."}
+{"WorkID":"henry6p2","ChapterID":25198,"Section":5,"Chapter":3,"Description":"Fields near St. Alban&#8217;s."}
+{"WorkID":"henry6p3","ChapterID":25199,"Section":1,"Chapter":1,"Description":"London. The Parliament-house."}
+{"WorkID":"henry6p3","ChapterID":25200,"Section":1,"Chapter":2,"Description":"Sandal Castle."}
+{"WorkID":"henry6p3","ChapterID":25201,"Section":1,"Chapter":3,"Description":"Field of battle betwixt Sandal Castle and Wakefield."}
+{"WorkID":"henry6p3","ChapterID":25202,"Section":1,"Chapter":4,"Description":"Another part of the field."}
+{"WorkID":"henry6p3","ChapterID":25203,"Section":2,"Chapter":1,"Description":"A plain near Mortimer&#8217;s Cross in Herefordshire."}
+{"WorkID":"henry6p3","ChapterID":25204,"Section":2,"Chapter":2,"Description":"Before York."}
+{"WorkID":"henry6p3","ChapterID":25205,"Section":2,"Chapter":3,"Description":"A field of battle between Towton and Saxton, in"}
+{"WorkID":"henry6p3","ChapterID":25206,"Section":2,"Chapter":4,"Description":"Another part of the field."}
+{"WorkID":"henry6p3","ChapterID":25207,"Section":2,"Chapter":5,"Description":"Another part of the field."}
+{"WorkID":"henry6p3","ChapterID":25208,"Section":2,"Chapter":6,"Description":"Another part of the field."}
+{"WorkID":"henry6p3","ChapterID":25209,"Section":3,"Chapter":1,"Description":"A forest in the north of England."}
+{"WorkID":"henry6p3","ChapterID":25210,"Section":3,"Chapter":2,"Description":"London. The palace."}
+{"WorkID":"henry6p3","ChapterID":25211,"Section":3,"Chapter":3,"Description":"France. KING LEWIS XI&#8217;s palace."}
+{"WorkID":"henry6p3","ChapterID":25212,"Section":4,"Chapter":1,"Description":"London. The palace."}
+{"WorkID":"henry6p3","ChapterID":25213,"Section":4,"Chapter":2,"Description":"A plain in Warwickshire."}
+{"WorkID":"henry6p3","ChapterID":25214,"Section":4,"Chapter":3,"Description":"Edward&#8217;s camp, near Warwick."}
+{"WorkID":"henry6p3","ChapterID":25215,"Section":4,"Chapter":4,"Description":"London. The palace."}
+{"WorkID":"henry6p3","ChapterID":25216,"Section":4,"Chapter":5,"Description":"A park near Middleham Castle In Yorkshire."}
+{"WorkID":"henry6p3","ChapterID":25217,"Section":4,"Chapter":6,"Description":"London. The Tower."}
+{"WorkID":"henry6p3","ChapterID":25218,"Section":4,"Chapter":7,"Description":"Before York."}
+{"WorkID":"henry6p3","ChapterID":25219,"Section":4,"Chapter":8,"Description":"London. The palace."}
+{"WorkID":"henry6p3","ChapterID":25220,"Section":5,"Chapter":1,"Description":"Coventry."}
+{"WorkID":"henry6p3","ChapterID":25221,"Section":5,"Chapter":2,"Description":"A field of battle near Barnet."}
+{"WorkID":"henry6p3","ChapterID":25222,"Section":5,"Chapter":3,"Description":"Another part of the field."}
+{"WorkID":"henry6p3","ChapterID":25223,"Section":5,"Chapter":4,"Description":"Plains near Tewksbury."}
+{"WorkID":"henry6p3","ChapterID":25224,"Section":5,"Chapter":5,"Description":"Another part of the field."}
+{"WorkID":"henry6p3","ChapterID":25225,"Section":5,"Chapter":6,"Description":"London. The Tower."}
+{"WorkID":"henry6p3","ChapterID":25226,"Section":5,"Chapter":7,"Description":"London. The palace."}
+{"WorkID":"henry8","ChapterID":25227,"Section":1,"Chapter":0,"Description":"Prologue."}
+{"WorkID":"henry8","ChapterID":25228,"Section":1,"Chapter":1,"Description":"London. An ante-chamber in the palace."}
+{"WorkID":"henry8","ChapterID":25229,"Section":1,"Chapter":2,"Description":"The same. The council-chamber."}
+{"WorkID":"henry8","ChapterID":25230,"Section":1,"Chapter":3,"Description":"An ante-chamber in the palace."}
+{"WorkID":"henry8","ChapterID":25231,"Section":1,"Chapter":4,"Description":"A Hall in York Place."}
+{"WorkID":"henry8","ChapterID":25232,"Section":2,"Chapter":1,"Description":"Westminster. A street."}
+{"WorkID":"henry8","ChapterID":25233,"Section":2,"Chapter":2,"Description":"An ante-chamber in the palace."}
+{"WorkID":"henry8","ChapterID":25234,"Section":2,"Chapter":3,"Description":"An ante-chamber of the QUEEN&#8217;S apartments."}
+{"WorkID":"henry8","ChapterID":25235,"Section":2,"Chapter":4,"Description":"A hall in Black-Friars."}
+{"WorkID":"henry8","ChapterID":25236,"Section":3,"Chapter":1,"Description":"London. QUEEN KATHARINE&#8217;s apartments."}
+{"WorkID":"henry8","ChapterID":25237,"Section":3,"Chapter":2,"Description":"Ante-chamber to KING HENRY VIII&#8217;s apartment."}
+{"WorkID":"henry8","ChapterID":25238,"Section":4,"Chapter":1,"Description":"A street in Westminster."}
+{"WorkID":"henry8","ChapterID":25239,"Section":4,"Chapter":2,"Description":"Kimbolton."}
+{"WorkID":"henry8","ChapterID":25240,"Section":5,"Chapter":1,"Description":"London. A gallery in the palace."}
+{"WorkID":"henry8","ChapterID":25241,"Section":5,"Chapter":2,"Description":"Before the council-chamber. Pursuivants, Pages, &c."}
+{"WorkID":"henry8","ChapterID":25242,"Section":5,"Chapter":3,"Description":"The Council-Chamber."}
+{"WorkID":"henry8","ChapterID":25243,"Section":5,"Chapter":4,"Description":"The palace yard."}
+{"WorkID":"henry8","ChapterID":25244,"Section":5,"Chapter":5,"Description":"The palace."}
+{"WorkID":"juliuscaesar","ChapterID":25245,"Section":1,"Chapter":1,"Description":"Rome. A street."}
+{"WorkID":"juliuscaesar","ChapterID":25246,"Section":1,"Chapter":2,"Description":"A public place."}
+{"WorkID":"juliuscaesar","ChapterID":25247,"Section":1,"Chapter":3,"Description":"The same. A street."}
+{"WorkID":"juliuscaesar","ChapterID":25248,"Section":2,"Chapter":1,"Description":"Rome. BRUTUS&#8217;s orchard."}
+{"WorkID":"juliuscaesar","ChapterID":25249,"Section":2,"Chapter":2,"Description":"CAESAR&#8217;s house."}
+{"WorkID":"juliuscaesar","ChapterID":25250,"Section":2,"Chapter":3,"Description":"A street near the Capitol."}
+{"WorkID":"juliuscaesar","ChapterID":25251,"Section":2,"Chapter":4,"Description":"Another part of the same street, before the house of BRUTUS."}
+{"WorkID":"juliuscaesar","ChapterID":25252,"Section":3,"Chapter":1,"Description":"Rome. Before the Capitol; the Senate sitting above."}
+{"WorkID":"juliuscaesar","ChapterID":25253,"Section":3,"Chapter":2,"Description":"The Forum."}
+{"WorkID":"juliuscaesar","ChapterID":25254,"Section":3,"Chapter":3,"Description":"A street."}
+{"WorkID":"juliuscaesar","ChapterID":25255,"Section":4,"Chapter":1,"Description":"A house in Rome."}
+{"WorkID":"juliuscaesar","ChapterID":25256,"Section":4,"Chapter":2,"Description":"Camp near Sardis. Before BRUTUS&#8217;s tent."}
+{"WorkID":"juliuscaesar","ChapterID":25257,"Section":4,"Chapter":3,"Description":"Brutus&#8217;s tent."}
+{"WorkID":"juliuscaesar","ChapterID":25258,"Section":5,"Chapter":1,"Description":"The plains of Philippi."}
+{"WorkID":"juliuscaesar","ChapterID":25259,"Section":5,"Chapter":2,"Description":"The same. The field of battle."}
+{"WorkID":"juliuscaesar","ChapterID":25260,"Section":5,"Chapter":3,"Description":"Another part of the field."}
+{"WorkID":"juliuscaesar","ChapterID":25261,"Section":5,"Chapter":4,"Description":"Another part of the field."}
+{"WorkID":"juliuscaesar","ChapterID":25262,"Section":5,"Chapter":5,"Description":"Another part of the field."}
+{"WorkID":"kingjohn","ChapterID":25263,"Section":1,"Chapter":1,"Description":"KING JOHN&#8217;S palace."}
+{"WorkID":"kingjohn","ChapterID":25264,"Section":2,"Chapter":1,"Description":"France. Before Angiers."}
+{"WorkID":"kingjohn","ChapterID":25265,"Section":3,"Chapter":1,"Description":"The French King&#8217;s pavilion."}
+{"WorkID":"kingjohn","ChapterID":25266,"Section":3,"Chapter":2,"Description":"The same. Plains near Angiers."}
+{"WorkID":"kingjohn","ChapterID":25267,"Section":3,"Chapter":3,"Description":"The same."}
+{"WorkID":"kingjohn","ChapterID":25268,"Section":3,"Chapter":4,"Description":"The same. KING PHILIP&#8217;S tent."}
+{"WorkID":"kingjohn","ChapterID":25269,"Section":4,"Chapter":1,"Description":"A room in a castle."}
+{"WorkID":"kingjohn","ChapterID":25270,"Section":4,"Chapter":2,"Description":"KING JOHN&#8217;S palace."}
+{"WorkID":"kingjohn","ChapterID":25271,"Section":4,"Chapter":3,"Description":"Before the castle."}
+{"WorkID":"kingjohn","ChapterID":25272,"Section":5,"Chapter":1,"Description":"KING JOHN&#8217;S palace."}
+{"WorkID":"kingjohn","ChapterID":25273,"Section":5,"Chapter":2,"Description":"LEWIS&#8217;s camp at St. Edmundsbury."}
+{"WorkID":"kingjohn","ChapterID":25274,"Section":5,"Chapter":3,"Description":"The field of battle."}
+{"WorkID":"kingjohn","ChapterID":25275,"Section":5,"Chapter":4,"Description":"Another part of the field."}
+{"WorkID":"kingjohn","ChapterID":25276,"Section":5,"Chapter":5,"Description":"The French camp."}
+{"WorkID":"kingjohn","ChapterID":25277,"Section":5,"Chapter":6,"Description":"An open place in the neighbourhood of Swinstead Abbey."}
+{"WorkID":"kingjohn","ChapterID":25278,"Section":5,"Chapter":7,"Description":"The orchard in Swinstead Abbey."}
+{"WorkID":"kinglear","ChapterID":25279,"Section":1,"Chapter":1,"Description":"King Lear&#8217;s Palace."}
+{"WorkID":"kinglear","ChapterID":25280,"Section":1,"Chapter":2,"Description":"The Earl of Gloucester&#8217;s Castle."}
+{"WorkID":"kinglear","ChapterID":25281,"Section":1,"Chapter":3,"Description":"The Duke of Albany&#8217;s Palace."}
+{"WorkID":"kinglear","ChapterID":25282,"Section":1,"Chapter":4,"Description":"The Duke of Albany&#8217;s Palace."}
+{"WorkID":"kinglear","ChapterID":25283,"Section":1,"Chapter":5,"Description":"Court before the Duke of Albany&#8217;s Palace. Enter Lear, Kent, and Fool."}
+{"WorkID":"kinglear","ChapterID":25284,"Section":2,"Chapter":1,"Description":"A court within the Castle of the Earl of Gloucester."}
+{"WorkID":"kinglear","ChapterID":25285,"Section":2,"Chapter":2,"Description":"Before Gloucester&#8217;s Castle."}
+{"WorkID":"kinglear","ChapterID":25286,"Section":2,"Chapter":3,"Description":"The open country."}
+{"WorkID":"kinglear","ChapterID":25287,"Section":2,"Chapter":4,"Description":"Before Gloucester&#8217;s Castle; Kent in the stocks."}
+{"WorkID":"kinglear","ChapterID":25288,"Section":3,"Chapter":1,"Description":"A heath. Storm still."}
+{"WorkID":"kinglear","ChapterID":25289,"Section":3,"Chapter":2,"Description":"Another part of the heath. Storm still."}
+{"WorkID":"kinglear","ChapterID":25290,"Section":3,"Chapter":3,"Description":"Gloucester&#8217;s Castle."}
+{"WorkID":"kinglear","ChapterID":25291,"Section":3,"Chapter":4,"Description":"The heath. Before a hovel. Storm still."}
+{"WorkID":"kinglear","ChapterID":25292,"Section":3,"Chapter":5,"Description":"Gloucester&#8217;s Castle."}
+{"WorkID":"kinglear","ChapterID":25293,"Section":3,"Chapter":6,"Description":"A farmhouse near Gloucester&#8217;s Castle."}
+{"WorkID":"kinglear","ChapterID":25294,"Section":3,"Chapter":7,"Description":"Gloucester&#8217;s Castle."}
+{"WorkID":"kinglear","ChapterID":25295,"Section":4,"Chapter":1,"Description":"The heath."}
+{"WorkID":"kinglear","ChapterID":25296,"Section":4,"Chapter":2,"Description":"Before the Duke of Albany&#8217;s Palace."}
+{"WorkID":"kinglear","ChapterID":25297,"Section":4,"Chapter":3,"Description":"The French camp near Dover."}
+{"WorkID":"kinglear","ChapterID":25298,"Section":4,"Chapter":4,"Description":"The French camp."}
+{"WorkID":"kinglear","ChapterID":25299,"Section":4,"Chapter":5,"Description":"Gloucester&#8217;s Castle."}
+{"WorkID":"kinglear","ChapterID":25300,"Section":4,"Chapter":6,"Description":"The country near Dover."}
+{"WorkID":"kinglear","ChapterID":25301,"Section":4,"Chapter":7,"Description":"A tent in the French camp."}
+{"WorkID":"kinglear","ChapterID":25302,"Section":5,"Chapter":1,"Description":"The British camp near Dover."}
+{"WorkID":"kinglear","ChapterID":25303,"Section":5,"Chapter":2,"Description":"A field between the two camps. Alarum within."}
+{"WorkID":"kinglear","ChapterID":25304,"Section":5,"Chapter":3,"Description":"The British camp, near Dover."}
+{"WorkID":"loverscomplaint","ChapterID":25305,"Section":1,"Chapter":1,"Description":"A Lover&#8217;s Complaint."}
+{"WorkID":"loveslabours","ChapterID":25306,"Section":1,"Chapter":1,"Description":"The king of Navarre&#8217;s park."}
+{"WorkID":"loveslabours","ChapterID":25307,"Section":1,"Chapter":2,"Description":"The same."}
+{"WorkID":"loveslabours","ChapterID":25308,"Section":2,"Chapter":1,"Description":"The same."}
+{"WorkID":"loveslabours","ChapterID":25309,"Section":3,"Chapter":1,"Description":"The same."}
+{"WorkID":"loveslabours","ChapterID":25310,"Section":4,"Chapter":1,"Description":"The same."}
+{"WorkID":"loveslabours","ChapterID":25311,"Section":4,"Chapter":2,"Description":"The same."}
+{"WorkID":"loveslabours","ChapterID":25312,"Section":4,"Chapter":3,"Description":"The same."}
+{"WorkID":"loveslabours","ChapterID":25313,"Section":5,"Chapter":1,"Description":"The same."}
+{"WorkID":"loveslabours","ChapterID":25314,"Section":5,"Chapter":2,"Description":"The same."}
+{"WorkID":"macbeth","ChapterID":25315,"Section":1,"Chapter":1,"Description":"A desert place."}
+{"WorkID":"macbeth","ChapterID":25316,"Section":1,"Chapter":2,"Description":"A camp near Forres."}
+{"WorkID":"macbeth","ChapterID":25317,"Section":1,"Chapter":3,"Description":"A heath near Forres."}
+{"WorkID":"macbeth","ChapterID":25318,"Section":1,"Chapter":4,"Description":"Forres. The palace."}
+{"WorkID":"macbeth","ChapterID":25319,"Section":1,"Chapter":5,"Description":"Inverness. Macbeth&#8217;s castle."}
+{"WorkID":"macbeth","ChapterID":25320,"Section":1,"Chapter":6,"Description":"Before Macbeth&#8217;s castle."}
+{"WorkID":"macbeth","ChapterID":25321,"Section":1,"Chapter":7,"Description":"Macbeth&#8217;s castle."}
+{"WorkID":"macbeth","ChapterID":25322,"Section":2,"Chapter":1,"Description":"Court of Macbeth&#8217;s castle."}
+{"WorkID":"macbeth","ChapterID":25323,"Section":2,"Chapter":2,"Description":"The same."}
+{"WorkID":"macbeth","ChapterID":25324,"Section":2,"Chapter":3,"Description":"The same."}
+{"WorkID":"macbeth","ChapterID":25325,"Section":2,"Chapter":4,"Description":"Outside Macbeth&#8217;s castle."}
+{"WorkID":"macbeth","ChapterID":25326,"Section":3,"Chapter":1,"Description":"Forres. The palace."}
+{"WorkID":"macbeth","ChapterID":25327,"Section":3,"Chapter":2,"Description":"The palace."}
+{"WorkID":"macbeth","ChapterID":25328,"Section":3,"Chapter":3,"Description":"A park near the palace."}
+{"WorkID":"macbeth","ChapterID":25329,"Section":3,"Chapter":4,"Description":"The same. Hall in the palace."}
+{"WorkID":"macbeth","ChapterID":25330,"Section":3,"Chapter":5,"Description":"A Heath."}
+{"WorkID":"macbeth","ChapterID":25331,"Section":3,"Chapter":6,"Description":"Forres. The palace."}
+{"WorkID":"macbeth","ChapterID":25332,"Section":4,"Chapter":1,"Description":"A cavern. In the middle, a boiling cauldron."}
+{"WorkID":"macbeth","ChapterID":25333,"Section":4,"Chapter":2,"Description":"Fife. Macduff&#8217;s castle."}
+{"WorkID":"macbeth","ChapterID":25334,"Section":4,"Chapter":3,"Description":"England. Before the King&#8217;s palace."}
+{"WorkID":"macbeth","ChapterID":25335,"Section":5,"Chapter":1,"Description":"Dunsinane. Ante-room in the castle."}
+{"WorkID":"macbeth","ChapterID":25336,"Section":5,"Chapter":2,"Description":"The country near Dunsinane."}
+{"WorkID":"macbeth","ChapterID":25337,"Section":5,"Chapter":3,"Description":"Dunsinane. A room in the castle."}
+{"WorkID":"macbeth","ChapterID":25338,"Section":5,"Chapter":4,"Description":"Country near Birnam wood."}
+{"WorkID":"macbeth","ChapterID":25339,"Section":5,"Chapter":5,"Description":"Dunsinane. Within the castle."}
+{"WorkID":"macbeth","ChapterID":25340,"Section":5,"Chapter":6,"Description":"Dunsinane. Before the castle."}
+{"WorkID":"macbeth","ChapterID":25341,"Section":5,"Chapter":7,"Description":"Another part of the field."}
+{"WorkID":"macbeth","ChapterID":25342,"Section":5,"Chapter":8,"Description":"Another part of the field."}
+{"WorkID":"measure","ChapterID":25343,"Section":1,"Chapter":1,"Description":"An apartment in the DUKE&#8217;S palace."}
+{"WorkID":"measure","ChapterID":25344,"Section":1,"Chapter":2,"Description":"A Street."}
+{"WorkID":"measure","ChapterID":25345,"Section":1,"Chapter":3,"Description":"A monastery."}
+{"WorkID":"measure","ChapterID":25346,"Section":1,"Chapter":4,"Description":"A nunnery."}
+{"WorkID":"measure","ChapterID":25347,"Section":2,"Chapter":1,"Description":"A hall In ANGELO&#8217;s house."}
+{"WorkID":"measure","ChapterID":25348,"Section":2,"Chapter":2,"Description":"Another room in the same."}
+{"WorkID":"measure","ChapterID":25349,"Section":2,"Chapter":3,"Description":"A room in a prison."}
+{"WorkID":"measure","ChapterID":25350,"Section":2,"Chapter":4,"Description":"A room in ANGELO&#8217;s house."}
+{"WorkID":"measure","ChapterID":25351,"Section":3,"Chapter":1,"Description":"A room in the prison."}
+{"WorkID":"measure","ChapterID":25352,"Section":3,"Chapter":2,"Description":"The street before the prison."}
+{"WorkID":"measure","ChapterID":25353,"Section":4,"Chapter":1,"Description":"The moated grange at ST. LUKE&#8217;s."}
+{"WorkID":"measure","ChapterID":25354,"Section":4,"Chapter":2,"Description":"A room in the prison."}
+{"WorkID":"measure","ChapterID":25355,"Section":4,"Chapter":3,"Description":"Another room in the same."}
+{"WorkID":"measure","ChapterID":25356,"Section":4,"Chapter":4,"Description":"A room in ANGELO&#8217;s house."}
+{"WorkID":"measure","ChapterID":25357,"Section":4,"Chapter":5,"Description":"Fields without the town."}
+{"WorkID":"measure","ChapterID":25358,"Section":4,"Chapter":6,"Description":"Street near the city gate."}
+{"WorkID":"measure","ChapterID":25359,"Section":5,"Chapter":1,"Description":"The city gate."}
+{"WorkID":"merchantvenice","ChapterID":25360,"Section":1,"Chapter":1,"Description":"Venice. A street."}
+{"WorkID":"merchantvenice","ChapterID":25361,"Section":1,"Chapter":2,"Description":"Belmont. A room in PORTIA&#8217;S house."}
+{"WorkID":"merchantvenice","ChapterID":25362,"Section":1,"Chapter":3,"Description":"Venice. A public place."}
+{"WorkID":"merchantvenice","ChapterID":25363,"Section":2,"Chapter":1,"Description":"Belmont. A room in PORTIA&#8217;S house."}
+{"WorkID":"merchantvenice","ChapterID":25364,"Section":2,"Chapter":2,"Description":"Venice. A street."}
+{"WorkID":"merchantvenice","ChapterID":25365,"Section":2,"Chapter":3,"Description":"The same. A room in SHYLOCK&#8217;S house."}
+{"WorkID":"merchantvenice","ChapterID":25366,"Section":2,"Chapter":4,"Description":"The same. A street."}
+{"WorkID":"merchantvenice","ChapterID":25367,"Section":2,"Chapter":5,"Description":"The same. Before SHYLOCK&#8217;S house."}
+{"WorkID":"merchantvenice","ChapterID":25368,"Section":2,"Chapter":6,"Description":"The same."}
+{"WorkID":"merchantvenice","ChapterID":25369,"Section":2,"Chapter":7,"Description":"Belmont. A room in PORTIA&#8217;S house."}
+{"WorkID":"merchantvenice","ChapterID":25370,"Section":2,"Chapter":8,"Description":"Venice. A street."}
+{"WorkID":"merchantvenice","ChapterID":25371,"Section":2,"Chapter":9,"Description":"Belmont. A room in PORTIA&#8217;S house."}
+{"WorkID":"merchantvenice","ChapterID":25372,"Section":3,"Chapter":1,"Description":"Venice. A street."}
+{"WorkID":"merchantvenice","ChapterID":25373,"Section":3,"Chapter":2,"Description":"Belmont. A room in PORTIA&#8217;S house."}
+{"WorkID":"merchantvenice","ChapterID":25374,"Section":3,"Chapter":3,"Description":"Venice. A street."}
+{"WorkID":"merchantvenice","ChapterID":25375,"Section":3,"Chapter":4,"Description":"Belmont. A room in PORTIA&#8217;S house."}
+{"WorkID":"merchantvenice","ChapterID":25376,"Section":3,"Chapter":5,"Description":"The same. A garden."}
+{"WorkID":"merchantvenice","ChapterID":25377,"Section":4,"Chapter":1,"Description":"Venice. A court of justice."}
+{"WorkID":"merchantvenice","ChapterID":25378,"Section":4,"Chapter":2,"Description":"The same. A street."}
+{"WorkID":"merchantvenice","ChapterID":25379,"Section":5,"Chapter":1,"Description":"Belmont. Avenue to PORTIA&#8217;S house."}
+{"WorkID":"merrywives","ChapterID":25380,"Section":1,"Chapter":1,"Description":"Windsor. Before PAGE&#8217;s house."}
+{"WorkID":"merrywives","ChapterID":25381,"Section":1,"Chapter":2,"Description":"The same."}
+{"WorkID":"merrywives","ChapterID":25382,"Section":1,"Chapter":3,"Description":"A room in the Garter Inn."}
+{"WorkID":"merrywives","ChapterID":25383,"Section":1,"Chapter":4,"Description":"A room in DOCTOR CAIUS&#8217; house."}
+{"WorkID":"merrywives","ChapterID":25384,"Section":2,"Chapter":1,"Description":"Before PAGE&#8217;S house."}
+{"WorkID":"merrywives","ChapterID":25385,"Section":2,"Chapter":2,"Description":"A room in the Garter Inn."}
+{"WorkID":"merrywives","ChapterID":25386,"Section":2,"Chapter":3,"Description":"A field near Windsor."}
+{"WorkID":"merrywives","ChapterID":25387,"Section":3,"Chapter":1,"Description":"A field near Frogmore."}
+{"WorkID":"merrywives","ChapterID":25388,"Section":3,"Chapter":2,"Description":"A street."}
+{"WorkID":"merrywives","ChapterID":25389,"Section":3,"Chapter":3,"Description":"A room in FORD&#8217;S house."}
+{"WorkID":"merrywives","ChapterID":25390,"Section":3,"Chapter":4,"Description":"A room in PAGE&#8217;S house."}
+{"WorkID":"merrywives","ChapterID":25391,"Section":3,"Chapter":5,"Description":"A room in the Garter Inn."}
+{"WorkID":"merrywives","ChapterID":25392,"Section":4,"Chapter":1,"Description":"A street."}
+{"WorkID":"merrywives","ChapterID":25393,"Section":4,"Chapter":2,"Description":"A room in FORD&#8217;S house."}
+{"WorkID":"merrywives","ChapterID":25394,"Section":4,"Chapter":3,"Description":"A room in the Garter Inn."}
+{"WorkID":"merrywives","ChapterID":25395,"Section":4,"Chapter":4,"Description":"A room in FORD&#8217;S house."}
+{"WorkID":"merrywives","ChapterID":25396,"Section":4,"Chapter":5,"Description":"A room in the Garter Inn."}
+{"WorkID":"merrywives","ChapterID":25397,"Section":4,"Chapter":6,"Description":"Another room in the Garter Inn."}
+{"WorkID":"merrywives","ChapterID":25398,"Section":5,"Chapter":1,"Description":"A room in the Garter Inn."}
+{"WorkID":"merrywives","ChapterID":25399,"Section":5,"Chapter":2,"Description":"Windsor Park."}
+{"WorkID":"merrywives","ChapterID":25400,"Section":5,"Chapter":3,"Description":"A street leading to the Park."}
+{"WorkID":"merrywives","ChapterID":25401,"Section":5,"Chapter":4,"Description":"Windsor Park."}
+{"WorkID":"merrywives","ChapterID":25402,"Section":5,"Chapter":5,"Description":"Another part of the Park."}
+{"WorkID":"midsummer","ChapterID":25403,"Section":1,"Chapter":1,"Description":"Athens. The palace of THESEUS."}
+{"WorkID":"midsummer","ChapterID":25404,"Section":1,"Chapter":2,"Description":"Athens. QUINCE&#8217;S house."}
+{"WorkID":"midsummer","ChapterID":25405,"Section":2,"Chapter":1,"Description":"A wood near Athens."}
+{"WorkID":"midsummer","ChapterID":25406,"Section":2,"Chapter":2,"Description":"Another part of the wood."}
+{"WorkID":"midsummer","ChapterID":25407,"Section":3,"Chapter":1,"Description":"The wood. TITANIA lying asleep."}
+{"WorkID":"midsummer","ChapterID":25408,"Section":3,"Chapter":2,"Description":"Another part of the wood."}
+{"WorkID":"midsummer","ChapterID":25409,"Section":4,"Chapter":1,"Description":"The same. LYSANDER, DEMETRIUS, HELENA, and HERMIA"}
+{"WorkID":"midsummer","ChapterID":25410,"Section":4,"Chapter":2,"Description":"Athens. QUINCE&#8217;S house."}
+{"WorkID":"midsummer","ChapterID":25411,"Section":5,"Chapter":1,"Description":"Athens. The palace of THESEUS."}
+{"WorkID":"muchado","ChapterID":25412,"Section":1,"Chapter":1,"Description":"Before LEONATO&#8217;S house."}
+{"WorkID":"muchado","ChapterID":25413,"Section":1,"Chapter":2,"Description":"A room in LEONATO&#8217;s house."}
+{"WorkID":"muchado","ChapterID":25414,"Section":1,"Chapter":3,"Description":"The same."}
+{"WorkID":"muchado","ChapterID":25415,"Section":2,"Chapter":1,"Description":"A hall in LEONATO&#8217;S house."}
+{"WorkID":"muchado","ChapterID":25416,"Section":2,"Chapter":2,"Description":"The same."}
+{"WorkID":"muchado","ChapterID":25417,"Section":2,"Chapter":3,"Description":"LEONATO&#8217;S orchard."}
+{"WorkID":"muchado","ChapterID":25418,"Section":3,"Chapter":1,"Description":"LEONATO&#8217;S garden."}
+{"WorkID":"muchado","ChapterID":25419,"Section":3,"Chapter":2,"Description":"A room in LEONATO&#8217;S house"}
+{"WorkID":"muchado","ChapterID":25420,"Section":3,"Chapter":3,"Description":"A street."}
+{"WorkID":"muchado","ChapterID":25421,"Section":3,"Chapter":4,"Description":"HERO&#8217;s apartment."}
+{"WorkID":"muchado","ChapterID":25422,"Section":3,"Chapter":5,"Description":"Another room in LEONATO&#8217;S house."}
+{"WorkID":"muchado","ChapterID":25423,"Section":4,"Chapter":1,"Description":"A church."}
+{"WorkID":"muchado","ChapterID":25424,"Section":4,"Chapter":2,"Description":"A prison."}
+{"WorkID":"muchado","ChapterID":25425,"Section":5,"Chapter":1,"Description":"Before LEONATO&#8217;S house."}
+{"WorkID":"muchado","ChapterID":25426,"Section":5,"Chapter":2,"Description":"LEONATO&#8217;S garden."}
+{"WorkID":"muchado","ChapterID":25427,"Section":5,"Chapter":3,"Description":"A church."}
+{"WorkID":"muchado","ChapterID":25428,"Section":5,"Chapter":4,"Description":"A room in LEONATO&#8217;S house."}
+{"WorkID":"othello","ChapterID":25429,"Section":1,"Chapter":1,"Description":"Venice. A street."}
+{"WorkID":"othello","ChapterID":25430,"Section":1,"Chapter":2,"Description":"Another street."}
+{"WorkID":"othello","ChapterID":25431,"Section":1,"Chapter":3,"Description":"A council-chamber."}
+{"WorkID":"othello","ChapterID":25432,"Section":2,"Chapter":1,"Description":"A Sea-port in Cyprus. An open place near the quay."}
+{"WorkID":"othello","ChapterID":25433,"Section":2,"Chapter":2,"Description":"A street."}
+{"WorkID":"othello","ChapterID":25434,"Section":2,"Chapter":3,"Description":"A hall in the castle."}
+{"WorkID":"othello","ChapterID":25435,"Section":3,"Chapter":1,"Description":"Before the castle."}
+{"WorkID":"othello","ChapterID":25436,"Section":3,"Chapter":2,"Description":"A room in the castle."}
+{"WorkID":"othello","ChapterID":25437,"Section":3,"Chapter":3,"Description":"The garden of the castle."}
+{"WorkID":"othello","ChapterID":25438,"Section":3,"Chapter":4,"Description":"Before the castle."}
+{"WorkID":"othello","ChapterID":25439,"Section":4,"Chapter":1,"Description":"Cyprus. Before the castle."}
+{"WorkID":"othello","ChapterID":25440,"Section":4,"Chapter":2,"Description":"A room in the castle."}
+{"WorkID":"othello","ChapterID":25441,"Section":4,"Chapter":3,"Description":"Another room in the castle."}
+{"WorkID":"othello","ChapterID":25442,"Section":5,"Chapter":1,"Description":"Cyprus. A street."}
+{"WorkID":"othello","ChapterID":25443,"Section":5,"Chapter":2,"Description":"A bedchamber in the castle: DESDEMONA in bed asleep;"}
+{"WorkID":"passionatepilgrim","ChapterID":25444,"Section":1,"Chapter":1,"Description":"---"}
+{"WorkID":"passionatepilgrim","ChapterID":25445,"Section":1,"Chapter":2,"Description":"---"}
+{"WorkID":"passionatepilgrim","ChapterID":25446,"Section":1,"Chapter":3,"Description":"---"}
+{"WorkID":"passionatepilgrim","ChapterID":25447,"Section":1,"Chapter":4,"Description":"---"}
+{"WorkID":"passionatepilgrim","ChapterID":25448,"Section":1,"Chapter":5,"Description":"---"}
+{"WorkID":"passionatepilgrim","ChapterID":25449,"Section":1,"Chapter":6,"Description":"---"}
+{"WorkID":"passionatepilgrim","ChapterID":25450,"Section":1,"Chapter":7,"Description":"---"}
+{"WorkID":"passionatepilgrim","ChapterID":25451,"Section":1,"Chapter":8,"Description":"---"}
+{"WorkID":"passionatepilgrim","ChapterID":25452,"Section":1,"Chapter":9,"Description":"---"}
+{"WorkID":"passionatepilgrim","ChapterID":25453,"Section":1,"Chapter":10,"Description":"---\n"}
+{"WorkID":"passionatepilgrim","ChapterID":25454,"Section":1,"Chapter":11,"Description":"---\n"}
+{"WorkID":"passionatepilgrim","ChapterID":25455,"Section":1,"Chapter":12,"Description":"---\n"}
+{"WorkID":"passionatepilgrim","ChapterID":25456,"Section":1,"Chapter":13,"Description":"---\n"}
+{"WorkID":"passionatepilgrim","ChapterID":25457,"Section":1,"Chapter":14,"Description":"---\n"}
+{"WorkID":"passionatepilgrim","ChapterID":25458,"Section":1,"Chapter":15,"Description":"---\n"}
+{"WorkID":"passionatepilgrim","ChapterID":25459,"Section":1,"Chapter":16,"Description":"Sonnet to sundry notes of music\n"}
+{"WorkID":"passionatepilgrim","ChapterID":25460,"Section":1,"Chapter":17,"Description":"Sonnet to sundry notes of music\n"}
+{"WorkID":"passionatepilgrim","ChapterID":25461,"Section":1,"Chapter":18,"Description":"Sonnet to sundry notes of music\n"}
+{"WorkID":"passionatepilgrim","ChapterID":25462,"Section":1,"Chapter":19,"Description":"Sonnet to sundry notes of music\n"}
+{"WorkID":"passionatepilgrim","ChapterID":25463,"Section":1,"Chapter":20,"Description":"Sonnet to sundry notes of music\n"}
+{"WorkID":"passionatepilgrim","ChapterID":25464,"Section":1,"Chapter":21,"Description":"Sonnet to sundry notes of music\n"}
+{"WorkID":"pericles","ChapterID":25465,"Section":1,"Chapter":0,"Description":"Prologue."}
+{"WorkID":"pericles","ChapterID":25466,"Section":1,"Chapter":1,"Description":"Antioch. A room in the palace."}
+{"WorkID":"pericles","ChapterID":25467,"Section":1,"Chapter":2,"Description":"Tyre. A room in the palace."}
+{"WorkID":"pericles","ChapterID":25468,"Section":1,"Chapter":3,"Description":"Tyre. An ante-chamber in the palace."}
+{"WorkID":"pericles","ChapterID":25469,"Section":1,"Chapter":4,"Description":"Tarsus. A room in the Governor&#8217;s house."}
+{"WorkID":"pericles","ChapterID":25470,"Section":2,"Chapter":1,"Description":"Pentapolis. An open place by the sea-side."}
+{"WorkID":"pericles","ChapterID":25471,"Section":2,"Chapter":2,"Description":"The same. A public way or platform leading to the"}
+{"WorkID":"pericles","ChapterID":25472,"Section":2,"Chapter":3,"Description":"The same. A hall of state: a banquet prepared."}
+{"WorkID":"pericles","ChapterID":25473,"Section":2,"Chapter":4,"Description":"Tyre. A room in the Governor&#8217;s house."}
+{"WorkID":"pericles","ChapterID":25474,"Section":2,"Chapter":5,"Description":"Pentapolis. A room in the palace."}
+{"WorkID":"pericles","ChapterID":25475,"Section":3,"Chapter":0,"Description":"Chorus."}
+{"WorkID":"pericles","ChapterID":25476,"Section":3,"Chapter":1,"Description":"On ship."}
+{"WorkID":"pericles","ChapterID":25477,"Section":3,"Chapter":2,"Description":"Ephesus. A room in CERIMON&#8217;s house."}
+{"WorkID":"pericles","ChapterID":25478,"Section":3,"Chapter":3,"Description":"Tarsus. A room in CLEON&#8217;s house."}
+{"WorkID":"pericles","ChapterID":25479,"Section":3,"Chapter":4,"Description":"Ephesus. A room in CERIMON&#8217;s house."}
+{"WorkID":"pericles","ChapterID":25480,"Section":4,"Chapter":0,"Description":"Near the seashore."}
+{"WorkID":"pericles","ChapterID":25481,"Section":4,"Chapter":1,"Description":"Tarsus. An open place near the sea-shore."}
+{"WorkID":"pericles","ChapterID":25482,"Section":4,"Chapter":2,"Description":"Mytilene. A room in a brothel."}
+{"WorkID":"pericles","ChapterID":25483,"Section":4,"Chapter":3,"Description":"Tarsus. A room in CLEON&#8217;s house."}
+{"WorkID":"pericles","ChapterID":25484,"Section":4,"Chapter":4,"Description":"Chorus."}
+{"WorkID":"pericles","ChapterID":25485,"Section":4,"Chapter":5,"Description":"Mytilene. A street before the brothel."}
+{"WorkID":"pericles","ChapterID":25486,"Section":4,"Chapter":6,"Description":"The same. A room in the brothel."}
+{"WorkID":"pericles","ChapterID":25487,"Section":5,"Chapter":0,"Description":"Chorus."}
+{"WorkID":"pericles","ChapterID":25488,"Section":5,"Chapter":1,"Description":"On board PERICLES&#8217; ship, off Mytilene. A close"}
+{"WorkID":"pericles","ChapterID":25489,"Section":5,"Chapter":2,"Description":"Chorus."}
+{"WorkID":"pericles","ChapterID":25490,"Section":5,"Chapter":3,"Description":"The temple of Diana at Ephesus; THAISA standing"}
+{"WorkID":"phoenixturtle","ChapterID":25491,"Section":1,"Chapter":1,"Description":"The Phoenix and the Turtle"}
+{"WorkID":"rapelucrece","ChapterID":25492,"Section":1,"Chapter":0,"Description":"Dedication"}
+{"WorkID":"rapelucrece","ChapterID":25493,"Section":1,"Chapter":1,"Description":"The Argument"}
+{"WorkID":"rapelucrece","ChapterID":25494,"Section":1,"Chapter":2,"Description":"The Rape of Lucrece"}
+{"WorkID":"richard2","ChapterID":25495,"Section":1,"Chapter":1,"Description":"London. KING RICHARD II&#8217;s palace."}
+{"WorkID":"richard2","ChapterID":25496,"Section":1,"Chapter":2,"Description":"The DUKE OF LANCASTER&#8217;S palace."}
+{"WorkID":"richard2","ChapterID":25497,"Section":1,"Chapter":3,"Description":"The lists at Coventry."}
+{"WorkID":"richard2","ChapterID":25498,"Section":1,"Chapter":4,"Description":"The court."}
+{"WorkID":"richard2","ChapterID":25499,"Section":2,"Chapter":1,"Description":"Ely House."}
+{"WorkID":"richard2","ChapterID":25500,"Section":2,"Chapter":2,"Description":"The palace."}
+{"WorkID":"richard2","ChapterID":25501,"Section":2,"Chapter":3,"Description":"Wilds in Gloucestershire."}
+{"WorkID":"richard2","ChapterID":25502,"Section":2,"Chapter":4,"Description":"A camp in Wales."}
+{"WorkID":"richard2","ChapterID":25503,"Section":3,"Chapter":1,"Description":"Bristol. Before the castle."}
+{"WorkID":"richard2","ChapterID":25504,"Section":3,"Chapter":2,"Description":"The coast of Wales. A castle in view."}
+{"WorkID":"richard2","ChapterID":25505,"Section":3,"Chapter":3,"Description":"Wales. Before Flint castle."}
+{"WorkID":"richard2","ChapterID":25506,"Section":3,"Chapter":4,"Description":"LANGLEY. The DUKE OF YORK&#8217;s garden."}
+{"WorkID":"richard2","ChapterID":25507,"Section":4,"Chapter":1,"Description":"Westminster Hall."}
+{"WorkID":"richard2","ChapterID":25508,"Section":5,"Chapter":1,"Description":"London. A street leading to the Tower."}
+{"WorkID":"richard2","ChapterID":25509,"Section":5,"Chapter":2,"Description":"The DUKE OF YORK&#8217;s palace."}
+{"WorkID":"richard2","ChapterID":25510,"Section":5,"Chapter":3,"Description":"A royal palace."}
+{"WorkID":"richard2","ChapterID":25511,"Section":5,"Chapter":4,"Description":"The same."}
+{"WorkID":"richard2","ChapterID":25512,"Section":5,"Chapter":5,"Description":"Pomfret castle."}
+{"WorkID":"richard2","ChapterID":25513,"Section":5,"Chapter":6,"Description":"Windsor castle."}
+{"WorkID":"richard3","ChapterID":25514,"Section":1,"Chapter":1,"Description":"London. A street."}
+{"WorkID":"richard3","ChapterID":25515,"Section":1,"Chapter":2,"Description":"The same. Another street."}
+{"WorkID":"richard3","ChapterID":25516,"Section":1,"Chapter":3,"Description":"The palace."}
+{"WorkID":"richard3","ChapterID":25517,"Section":1,"Chapter":4,"Description":"London. The Tower."}
+{"WorkID":"richard3","ChapterID":25518,"Section":2,"Chapter":1,"Description":"London. The palace."}
+{"WorkID":"richard3","ChapterID":25519,"Section":2,"Chapter":2,"Description":"The palace."}
+{"WorkID":"richard3","ChapterID":25520,"Section":2,"Chapter":3,"Description":"London. A street."}
+{"WorkID":"richard3","ChapterID":25521,"Section":2,"Chapter":4,"Description":"London. The palace."}
+{"WorkID":"richard3","ChapterID":25522,"Section":3,"Chapter":1,"Description":"London. A street."}
+{"WorkID":"richard3","ChapterID":25523,"Section":3,"Chapter":2,"Description":"Before Lord Hastings&#8217; house."}
+{"WorkID":"richard3","ChapterID":25524,"Section":3,"Chapter":3,"Description":"Pomfret Castle."}
+{"WorkID":"richard3","ChapterID":25525,"Section":3,"Chapter":4,"Description":"The Tower of London."}
+{"WorkID":"richard3","ChapterID":25526,"Section":3,"Chapter":5,"Description":"The Tower-walls."}
+{"WorkID":"richard3","ChapterID":25527,"Section":3,"Chapter":6,"Description":"The same."}
+{"WorkID":"richard3","ChapterID":25528,"Section":3,"Chapter":7,"Description":"Baynard&#8217;s Castle."}
+{"WorkID":"richard3","ChapterID":25529,"Section":4,"Chapter":1,"Description":"Before the Tower."}
+{"WorkID":"richard3","ChapterID":25530,"Section":4,"Chapter":2,"Description":"London. The palace."}
+{"WorkID":"richard3","ChapterID":25531,"Section":4,"Chapter":3,"Description":"The same."}
+{"WorkID":"richard3","ChapterID":25532,"Section":4,"Chapter":4,"Description":"Before the palace."}
+{"WorkID":"richard3","ChapterID":25533,"Section":4,"Chapter":5,"Description":"Lord Derby&#8217;s house."}
+{"WorkID":"richard3","ChapterID":25534,"Section":5,"Chapter":1,"Description":"Salisbury. An open place."}
+{"WorkID":"richard3","ChapterID":25535,"Section":5,"Chapter":2,"Description":"The camp near Tamworth."}
+{"WorkID":"richard3","ChapterID":25536,"Section":5,"Chapter":3,"Description":"Bosworth Field."}
+{"WorkID":"richard3","ChapterID":25537,"Section":5,"Chapter":4,"Description":"Another part of the field."}
+{"WorkID":"richard3","ChapterID":25538,"Section":5,"Chapter":5,"Description":"Another part of the field."}
+{"WorkID":"romeojuliet","ChapterID":25539,"Section":0,"Chapter":1,"Description":"Verona: Mantua."}
+{"WorkID":"romeojuliet","ChapterID":25540,"Section":1,"Chapter":1,"Description":"Verona. A public place."}
+{"WorkID":"romeojuliet","ChapterID":25541,"Section":1,"Chapter":2,"Description":"A street."}
+{"WorkID":"romeojuliet","ChapterID":25542,"Section":1,"Chapter":3,"Description":"A room in Capulet&#8217;s house."}
+{"WorkID":"romeojuliet","ChapterID":25543,"Section":1,"Chapter":4,"Description":"A street."}
+{"WorkID":"romeojuliet","ChapterID":25544,"Section":1,"Chapter":5,"Description":"A hall in Capulet&#8217;s house."}
+{"WorkID":"romeojuliet","ChapterID":25545,"Section":2,"Chapter":0,"Description":"Prologue."}
+{"WorkID":"romeojuliet","ChapterID":25546,"Section":2,"Chapter":1,"Description":"A lane by the wall of Capulet&#8217;s orchard."}
+{"WorkID":"romeojuliet","ChapterID":25547,"Section":2,"Chapter":2,"Description":"Capulet&#8217;s orchard."}
+{"WorkID":"romeojuliet","ChapterID":25548,"Section":2,"Chapter":3,"Description":"Friar Laurence&#8217;s cell."}
+{"WorkID":"romeojuliet","ChapterID":25549,"Section":2,"Chapter":4,"Description":"A street."}
+{"WorkID":"romeojuliet","ChapterID":25550,"Section":2,"Chapter":5,"Description":"Capulet&#8217;s orchard."}
+{"WorkID":"romeojuliet","ChapterID":25551,"Section":2,"Chapter":6,"Description":"Friar Laurence&#8217;s cell."}
+{"WorkID":"romeojuliet","ChapterID":25552,"Section":3,"Chapter":1,"Description":"A public place."}
+{"WorkID":"romeojuliet","ChapterID":25553,"Section":3,"Chapter":2,"Description":"Capulet&#8217;s orchard."}
+{"WorkID":"romeojuliet","ChapterID":25554,"Section":3,"Chapter":3,"Description":"Friar Laurence&#8217;s cell."}
+{"WorkID":"romeojuliet","ChapterID":25555,"Section":3,"Chapter":4,"Description":"A room in Capulet&#8217;s house."}
+{"WorkID":"romeojuliet","ChapterID":25556,"Section":3,"Chapter":5,"Description":"Capulet&#8217;s orchard."}
+{"WorkID":"romeojuliet","ChapterID":25557,"Section":4,"Chapter":1,"Description":"Friar Laurence&#8217;s cell."}
+{"WorkID":"romeojuliet","ChapterID":25558,"Section":4,"Chapter":2,"Description":"Hall in Capulet&#8217;s house."}
+{"WorkID":"romeojuliet","ChapterID":25559,"Section":4,"Chapter":3,"Description":"Juliet&#8217;s chamber."}
+{"WorkID":"romeojuliet","ChapterID":25560,"Section":4,"Chapter":4,"Description":"Hall in Capulet&#8217;s house."}
+{"WorkID":"romeojuliet","ChapterID":25561,"Section":4,"Chapter":5,"Description":"Juliet&#8217;s chamber."}
+{"WorkID":"romeojuliet","ChapterID":25562,"Section":5,"Chapter":1,"Description":"Mantua. A street."}
+{"WorkID":"romeojuliet","ChapterID":25563,"Section":5,"Chapter":2,"Description":"Friar Laurence&#8217;s cell."}
+{"WorkID":"romeojuliet","ChapterID":25564,"Section":5,"Chapter":3,"Description":"A churchyard; in it a tomb belonging to the Capulets."}
+{"WorkID":"sonnets","ChapterID":25565,"Section":1,"Chapter":1,"Description":"---"}
+{"WorkID":"sonnets","ChapterID":25566,"Section":1,"Chapter":2,"Description":"---"}
+{"WorkID":"sonnets","ChapterID":25567,"Section":1,"Chapter":3,"Description":"---"}
+{"WorkID":"sonnets","ChapterID":25568,"Section":1,"Chapter":4,"Description":"---"}
+{"WorkID":"sonnets","ChapterID":25569,"Section":1,"Chapter":5,"Description":"---"}
+{"WorkID":"sonnets","ChapterID":25570,"Section":1,"Chapter":6,"Description":"---"}
+{"WorkID":"sonnets","ChapterID":25571,"Section":1,"Chapter":7,"Description":"---"}
+{"WorkID":"sonnets","ChapterID":25572,"Section":1,"Chapter":8,"Description":"---"}
+{"WorkID":"sonnets","ChapterID":25573,"Section":1,"Chapter":9,"Description":"---"}
+{"WorkID":"sonnets","ChapterID":25574,"Section":1,"Chapter":10,"Description":"---\n"}
+{"WorkID":"sonnets","ChapterID":25575,"Section":1,"Chapter":11,"Description":"---\n"}
+{"WorkID":"sonnets","ChapterID":25576,"Section":1,"Chapter":12,"Description":"---\n"}
+{"WorkID":"sonnets","ChapterID":25577,"Section":1,"Chapter":13,"Description":"---\n"}
+{"WorkID":"sonnets","ChapterID":25578,"Section":1,"Chapter":14,"Description":"---\n"}
+{"WorkID":"sonnets","ChapterID":25579,"Section":1,"Chapter":15,"Description":"---\n"}
+{"WorkID":"sonnets","ChapterID":25580,"Section":1,"Chapter":16,"Description":"---\n"}
+{"WorkID":"sonnets","ChapterID":25581,"Section":1,"Chapter":17,"Description":"---\n"}
+{"WorkID":"sonnets","ChapterID":25582,"Section":1,"Chapter":18,"Description":"---\n"}
+{"WorkID":"sonnets","ChapterID":25583,"Section":1,"Chapter":19,"Description":"---\n"}
+{"WorkID":"sonnets","ChapterID":25584,"Section":1,"Chapter":20,"Description":"---\n"}
+{"WorkID":"sonnets","ChapterID":25585,"Section":1,"Chapter":21,"Description":"---\n"}
+{"WorkID":"sonnets","ChapterID":25586,"Section":1,"Chapter":22,"Description":"---\n"}
+{"WorkID":"sonnets","ChapterID":25587,"Section":1,"Chapter":23,"Description":"---\n"}
+{"WorkID":"sonnets","ChapterID":25588,"Section":1,"Chapter":24,"Description":"---\n"}
+{"WorkID":"sonnets","ChapterID":25589,"Section":1,"Chapter":25,"Description":"---\n"}
+{"WorkID":"sonnets","ChapterID":25590,"Section":1,"Chapter":26,"Description":"---\n"}
+{"WorkID":"sonnets","ChapterID":25591,"Section":1,"Chapter":27,"Description":"---\n"}
+{"WorkID":"sonnets","ChapterID":25592,"Section":1,"Chapter":28,"Description":"---\n"}
+{"WorkID":"sonnets","ChapterID":25593,"Section":1,"Chapter":29,"Description":"---\n"}
+{"WorkID":"sonnets","ChapterID":25594,"Section":1,"Chapter":30,"Description":"---\n"}
+{"WorkID":"sonnets","ChapterID":25595,"Section":1,"Chapter":31,"Description":"---\n"}
+{"WorkID":"sonnets","ChapterID":25596,"Section":1,"Chapter":32,"Description":"---\n"}
+{"WorkID":"sonnets","ChapterID":25597,"Section":1,"Chapter":33,"Description":"---\n"}
+{"WorkID":"sonnets","ChapterID":25598,"Section":1,"Chapter":34,"Description":"---\n"}
+{"WorkID":"sonnets","ChapterID":25599,"Section":1,"Chapter":35,"Description":"---\n"}
+{"WorkID":"sonnets","ChapterID":25600,"Section":1,"Chapter":36,"Description":"---\n"}
+{"WorkID":"sonnets","ChapterID":25601,"Section":1,"Chapter":37,"Description":"---\n"}
+{"WorkID":"sonnets","ChapterID":25602,"Section":1,"Chapter":38,"Description":"---\n"}
+{"WorkID":"sonnets","ChapterID":25603,"Section":1,"Chapter":39,"Description":"---\n"}
+{"WorkID":"sonnets","ChapterID":25604,"Section":1,"Chapter":40,"Description":"---\n"}
+{"WorkID":"sonnets","ChapterID":25605,"Section":1,"Chapter":41,"Description":"---\n"}
+{"WorkID":"sonnets","ChapterID":25606,"Section":1,"Chapter":42,"Description":"---\n"}
+{"WorkID":"sonnets","ChapterID":25607,"Section":1,"Chapter":43,"Description":"---\n"}
+{"WorkID":"sonnets","ChapterID":25608,"Section":1,"Chapter":44,"Description":"---\n"}
+{"WorkID":"sonnets","ChapterID":25609,"Section":1,"Chapter":45,"Description":"---\n"}
+{"WorkID":"sonnets","ChapterID":25610,"Section":1,"Chapter":46,"Description":"---\n"}
+{"WorkID":"sonnets","ChapterID":25611,"Section":1,"Chapter":47,"Description":"---\n"}
+{"WorkID":"sonnets","ChapterID":25612,"Section":1,"Chapter":48,"Description":"---\n"}
+{"WorkID":"sonnets","ChapterID":25613,"Section":1,"Chapter":49,"Description":"---\n"}
+{"WorkID":"sonnets","ChapterID":25614,"Section":1,"Chapter":50,"Description":"---\n"}
+{"WorkID":"sonnets","ChapterID":25615,"Section":1,"Chapter":51,"Description":"---\n"}
+{"WorkID":"sonnets","ChapterID":25616,"Section":1,"Chapter":52,"Description":"---\n"}
+{"WorkID":"sonnets","ChapterID":25617,"Section":1,"Chapter":53,"Description":"---\n"}
+{"WorkID":"sonnets","ChapterID":25618,"Section":1,"Chapter":54,"Description":"---\n"}
+{"WorkID":"sonnets","ChapterID":25619,"Section":1,"Chapter":55,"Description":"---\n"}
+{"WorkID":"sonnets","ChapterID":25620,"Section":1,"Chapter":56,"Description":"---\n"}
+{"WorkID":"sonnets","ChapterID":25621,"Section":1,"Chapter":57,"Description":"---\n"}
+{"WorkID":"sonnets","ChapterID":25622,"Section":1,"Chapter":58,"Description":"---\n"}
+{"WorkID":"sonnets","ChapterID":25623,"Section":1,"Chapter":59,"Description":"---\n"}
+{"WorkID":"sonnets","ChapterID":25624,"Section":1,"Chapter":60,"Description":"---\n"}
+{"WorkID":"sonnets","ChapterID":25625,"Section":1,"Chapter":61,"Description":"---\n"}
+{"WorkID":"sonnets","ChapterID":25626,"Section":1,"Chapter":62,"Description":"---\n"}
+{"WorkID":"sonnets","ChapterID":25627,"Section":1,"Chapter":63,"Description":"---\n"}
+{"WorkID":"sonnets","ChapterID":25628,"Section":1,"Chapter":64,"Description":"---\n"}
+{"WorkID":"sonnets","ChapterID":25629,"Section":1,"Chapter":65,"Description":"---\n"}
+{"WorkID":"sonnets","ChapterID":25630,"Section":1,"Chapter":66,"Description":"---\n"}
+{"WorkID":"sonnets","ChapterID":25631,"Section":1,"Chapter":67,"Description":"---\n"}
+{"WorkID":"sonnets","ChapterID":25632,"Section":1,"Chapter":68,"Description":"---\n"}
+{"WorkID":"sonnets","ChapterID":25633,"Section":1,"Chapter":69,"Description":"---\n"}
+{"WorkID":"sonnets","ChapterID":25634,"Section":1,"Chapter":70,"Description":"---\n"}
+{"WorkID":"sonnets","ChapterID":25635,"Section":1,"Chapter":71,"Description":"---\n"}
+{"WorkID":"sonnets","ChapterID":25636,"Section":1,"Chapter":72,"Description":"---\n"}
+{"WorkID":"sonnets","ChapterID":25637,"Section":1,"Chapter":73,"Description":"---\n"}
+{"WorkID":"sonnets","ChapterID":25638,"Section":1,"Chapter":74,"Description":"---\n"}
+{"WorkID":"sonnets","ChapterID":25639,"Section":1,"Chapter":75,"Description":"---\n"}
+{"WorkID":"sonnets","ChapterID":25640,"Section":1,"Chapter":76,"Description":"---\n"}
+{"WorkID":"sonnets","ChapterID":25641,"Section":1,"Chapter":77,"Description":"---\n"}
+{"WorkID":"sonnets","ChapterID":25642,"Section":1,"Chapter":78,"Description":"---\n"}
+{"WorkID":"sonnets","ChapterID":25643,"Section":1,"Chapter":79,"Description":"---\n"}
+{"WorkID":"sonnets","ChapterID":25644,"Section":1,"Chapter":80,"Description":"---\n"}
+{"WorkID":"sonnets","ChapterID":25645,"Section":1,"Chapter":81,"Description":"---\n"}
+{"WorkID":"sonnets","ChapterID":25646,"Section":1,"Chapter":82,"Description":"---\n"}
+{"WorkID":"sonnets","ChapterID":25647,"Section":1,"Chapter":83,"Description":"---\n"}
+{"WorkID":"sonnets","ChapterID":25648,"Section":1,"Chapter":84,"Description":"---\n"}
+{"WorkID":"sonnets","ChapterID":25649,"Section":1,"Chapter":85,"Description":"---\n"}
+{"WorkID":"sonnets","ChapterID":25650,"Section":1,"Chapter":86,"Description":"---\n"}
+{"WorkID":"sonnets","ChapterID":25651,"Section":1,"Chapter":87,"Description":"---\n"}
+{"WorkID":"sonnets","ChapterID":25652,"Section":1,"Chapter":88,"Description":"---\n"}
+{"WorkID":"sonnets","ChapterID":25653,"Section":1,"Chapter":89,"Description":"---\n"}
+{"WorkID":"sonnets","ChapterID":25654,"Section":1,"Chapter":90,"Description":"---\n"}
+{"WorkID":"sonnets","ChapterID":25655,"Section":1,"Chapter":91,"Description":"---\n"}
+{"WorkID":"sonnets","ChapterID":25656,"Section":1,"Chapter":92,"Description":"---\n"}
+{"WorkID":"sonnets","ChapterID":25657,"Section":1,"Chapter":93,"Description":"---\n"}
+{"WorkID":"sonnets","ChapterID":25658,"Section":1,"Chapter":94,"Description":"---\n"}
+{"WorkID":"sonnets","ChapterID":25659,"Section":1,"Chapter":95,"Description":"---\n"}
+{"WorkID":"sonnets","ChapterID":25660,"Section":1,"Chapter":96,"Description":"---\n"}
+{"WorkID":"sonnets","ChapterID":25661,"Section":1,"Chapter":97,"Description":"---\n"}
+{"WorkID":"sonnets","ChapterID":25662,"Section":1,"Chapter":98,"Description":"---\n"}
+{"WorkID":"sonnets","ChapterID":25663,"Section":1,"Chapter":99,"Description":"---\n"}
+{"WorkID":"sonnets","ChapterID":25664,"Section":1,"Chapter":100,"Description":"---\n"}
+{"WorkID":"sonnets","ChapterID":25665,"Section":1,"Chapter":101,"Description":"---\n"}
+{"WorkID":"sonnets","ChapterID":25666,"Section":1,"Chapter":102,"Description":"---\n"}
+{"WorkID":"sonnets","ChapterID":25667,"Section":1,"Chapter":103,"Description":"---\n"}
+{"WorkID":"sonnets","ChapterID":25668,"Section":1,"Chapter":104,"Description":"---\n"}
+{"WorkID":"sonnets","ChapterID":25669,"Section":1,"Chapter":105,"Description":"---\n"}
+{"WorkID":"sonnets","ChapterID":25670,"Section":1,"Chapter":106,"Description":"---\n"}
+{"WorkID":"sonnets","ChapterID":25671,"Section":1,"Chapter":107,"Description":"---\n"}
+{"WorkID":"sonnets","ChapterID":25672,"Section":1,"Chapter":108,"Description":"---\n"}
+{"WorkID":"sonnets","ChapterID":25673,"Section":1,"Chapter":109,"Description":"---\n"}
+{"WorkID":"sonnets","ChapterID":25674,"Section":1,"Chapter":110,"Description":"---\n"}
+{"WorkID":"sonnets","ChapterID":25675,"Section":1,"Chapter":111,"Description":"---\n"}
+{"WorkID":"sonnets","ChapterID":25676,"Section":1,"Chapter":112,"Description":"---\n"}
+{"WorkID":"sonnets","ChapterID":25677,"Section":1,"Chapter":113,"Description":"---\n"}
+{"WorkID":"sonnets","ChapterID":25678,"Section":1,"Chapter":114,"Description":"---\n"}
+{"WorkID":"sonnets","ChapterID":25679,"Section":1,"Chapter":115,"Description":"---\n"}
+{"WorkID":"sonnets","ChapterID":25680,"Section":1,"Chapter":116,"Description":"---\n"}
+{"WorkID":"sonnets","ChapterID":25681,"Section":1,"Chapter":117,"Description":"---\n"}
+{"WorkID":"sonnets","ChapterID":25682,"Section":1,"Chapter":118,"Description":"---\n"}
+{"WorkID":"sonnets","ChapterID":25683,"Section":1,"Chapter":119,"Description":"---\n"}
+{"WorkID":"sonnets","ChapterID":25684,"Section":1,"Chapter":120,"Description":"---\n"}
+{"WorkID":"sonnets","ChapterID":25685,"Section":1,"Chapter":121,"Description":"---\n"}
+{"WorkID":"sonnets","ChapterID":25686,"Section":1,"Chapter":122,"Description":"---\n"}
+{"WorkID":"sonnets","ChapterID":25687,"Section":1,"Chapter":123,"Description":"---\n"}
+{"WorkID":"sonnets","ChapterID":25688,"Section":1,"Chapter":124,"Description":"---\n"}
+{"WorkID":"sonnets","ChapterID":25689,"Section":1,"Chapter":125,"Description":"---\n"}
+{"WorkID":"sonnets","ChapterID":25690,"Section":1,"Chapter":126,"Description":"---\n"}
+{"WorkID":"sonnets","ChapterID":25691,"Section":1,"Chapter":127,"Description":"---\n"}
+{"WorkID":"sonnets","ChapterID":25692,"Section":1,"Chapter":128,"Description":"---\n"}
+{"WorkID":"sonnets","ChapterID":25693,"Section":1,"Chapter":129,"Description":"---\n"}
+{"WorkID":"sonnets","ChapterID":25694,"Section":1,"Chapter":130,"Description":"---\n"}
+{"WorkID":"sonnets","ChapterID":25695,"Section":1,"Chapter":131,"Description":"---\n"}
+{"WorkID":"sonnets","ChapterID":25696,"Section":1,"Chapter":132,"Description":"---\n"}
+{"WorkID":"sonnets","ChapterID":25697,"Section":1,"Chapter":133,"Description":"---\n"}
+{"WorkID":"sonnets","ChapterID":25698,"Section":1,"Chapter":134,"Description":"---\n"}
+{"WorkID":"sonnets","ChapterID":25699,"Section":1,"Chapter":135,"Description":"---\n"}
+{"WorkID":"sonnets","ChapterID":25700,"Section":1,"Chapter":136,"Description":"---\n"}
+{"WorkID":"sonnets","ChapterID":25701,"Section":1,"Chapter":137,"Description":"---\n"}
+{"WorkID":"sonnets","ChapterID":25702,"Section":1,"Chapter":138,"Description":"---\n"}
+{"WorkID":"sonnets","ChapterID":25703,"Section":1,"Chapter":139,"Description":"---\n"}
+{"WorkID":"sonnets","ChapterID":25704,"Section":1,"Chapter":140,"Description":"---\n"}
+{"WorkID":"sonnets","ChapterID":25705,"Section":1,"Chapter":141,"Description":"---\n"}
+{"WorkID":"sonnets","ChapterID":25706,"Section":1,"Chapter":142,"Description":"---\n"}
+{"WorkID":"sonnets","ChapterID":25707,"Section":1,"Chapter":143,"Description":"---\n"}
+{"WorkID":"sonnets","ChapterID":25708,"Section":1,"Chapter":144,"Description":"---\n"}
+{"WorkID":"sonnets","ChapterID":25709,"Section":1,"Chapter":145,"Description":"---\n"}
+{"WorkID":"sonnets","ChapterID":25710,"Section":1,"Chapter":146,"Description":"---\n"}
+{"WorkID":"sonnets","ChapterID":25711,"Section":1,"Chapter":147,"Description":"---\n"}
+{"WorkID":"sonnets","ChapterID":25712,"Section":1,"Chapter":148,"Description":"---\n"}
+{"WorkID":"sonnets","ChapterID":25713,"Section":1,"Chapter":149,"Description":"---\n"}
+{"WorkID":"sonnets","ChapterID":25714,"Section":1,"Chapter":150,"Description":"---\n"}
+{"WorkID":"sonnets","ChapterID":25715,"Section":1,"Chapter":151,"Description":"---\n"}
+{"WorkID":"sonnets","ChapterID":25716,"Section":1,"Chapter":152,"Description":"---\n"}
+{"WorkID":"sonnets","ChapterID":25717,"Section":1,"Chapter":153,"Description":"---\n"}
+{"WorkID":"sonnets","ChapterID":25718,"Section":1,"Chapter":154,"Description":"---\n"}
+{"WorkID":"tamingshrew","ChapterID":25719,"Section":0,"Chapter":1,"Description":"Before an alehouse on a heath"}
+{"WorkID":"tamingshrew","ChapterID":25720,"Section":0,"Chapter":2,"Description":"A bedchamber in the LORD&#8217;S house"}
+{"WorkID":"tamingshrew","ChapterID":25721,"Section":1,"Chapter":1,"Description":"Padua. A public place"}
+{"WorkID":"tamingshrew","ChapterID":25722,"Section":1,"Chapter":2,"Description":"Padua. Before HORTENSIO&#8217;S house"}
+{"WorkID":"tamingshrew","ChapterID":25723,"Section":2,"Chapter":1,"Description":"Padua. BAPTISTA&#8217;S house"}
+{"WorkID":"tamingshrew","ChapterID":25724,"Section":3,"Chapter":1,"Description":"Padua. BAPTISTA&#8217;S house"}
+{"WorkID":"tamingshrew","ChapterID":25725,"Section":3,"Chapter":2,"Description":"Padua. Before BAPTISTA&#8217;S house"}
+{"WorkID":"tamingshrew","ChapterID":25726,"Section":4,"Chapter":1,"Description":"PETRUCHIO&#8217;S country house"}
+{"WorkID":"tamingshrew","ChapterID":25727,"Section":4,"Chapter":2,"Description":"Padua. Before BAPTISTA&#8217;S house"}
+{"WorkID":"tamingshrew","ChapterID":25728,"Section":4,"Chapter":3,"Description":"PETRUCHIO&#8217;S house"}
+{"WorkID":"tamingshrew","ChapterID":25729,"Section":4,"Chapter":4,"Description":"Padua. Before BAPTISTA&#8217;S house"}
+{"WorkID":"tamingshrew","ChapterID":25730,"Section":4,"Chapter":5,"Description":"A public road"}
+{"WorkID":"tamingshrew","ChapterID":25731,"Section":5,"Chapter":1,"Description":"Padua. Before LUCENTIO&#8217;S house"}
+{"WorkID":"tamingshrew","ChapterID":25732,"Section":5,"Chapter":2,"Description":"LUCENTIO&#8217;S house"}
+{"WorkID":"tempest","ChapterID":25733,"Section":1,"Chapter":1,"Description":"On a ship at sea: a tempestuous noise"}
+{"WorkID":"tempest","ChapterID":25734,"Section":1,"Chapter":2,"Description":"The island. Before PROSPERO&#8217;S cell."}
+{"WorkID":"tempest","ChapterID":25735,"Section":2,"Chapter":1,"Description":"Another part of the island."}
+{"WorkID":"tempest","ChapterID":25736,"Section":2,"Chapter":2,"Description":"Another part of the island."}
+{"WorkID":"tempest","ChapterID":25737,"Section":3,"Chapter":1,"Description":"Before PROSPERO&#8217;S Cell."}
+{"WorkID":"tempest","ChapterID":25738,"Section":3,"Chapter":2,"Description":"Another part of the island."}
+{"WorkID":"tempest","ChapterID":25739,"Section":3,"Chapter":3,"Description":"Another part of the island."}
+{"WorkID":"tempest","ChapterID":25740,"Section":4,"Chapter":1,"Description":"Before PROSPERO&#8217;S cell."}
+{"WorkID":"tempest","ChapterID":25741,"Section":5,"Chapter":1,"Description":"Before PROSPERO&#8217;S cell."}
+{"WorkID":"timonathens","ChapterID":25742,"Section":1,"Chapter":1,"Description":"Athens. A hall in Timon&#8217;s house."}
+{"WorkID":"timonathens","ChapterID":25743,"Section":1,"Chapter":2,"Description":"A banqueting-room in Timon&#8217;s house."}
+{"WorkID":"timonathens","ChapterID":25744,"Section":2,"Chapter":1,"Description":"A Senator&#8217;s house."}
+{"WorkID":"timonathens","ChapterID":25745,"Section":2,"Chapter":2,"Description":"The same. A hall in Timon&#8217;s house."}
+{"WorkID":"timonathens","ChapterID":25746,"Section":3,"Chapter":1,"Description":"A room in Lucullus&#8217; house."}
+{"WorkID":"timonathens","ChapterID":25747,"Section":3,"Chapter":2,"Description":"A public place."}
+{"WorkID":"timonathens","ChapterID":25748,"Section":3,"Chapter":3,"Description":"A room in Sempronius&#8217; house."}
+{"WorkID":"timonathens","ChapterID":25749,"Section":3,"Chapter":4,"Description":"The same. A hall in Timon&#8217;s house."}
+{"WorkID":"timonathens","ChapterID":25750,"Section":3,"Chapter":5,"Description":"The same. The senate-house. The Senate sitting."}
+{"WorkID":"timonathens","ChapterID":25751,"Section":3,"Chapter":6,"Description":"The same. A banqueting-room in Timon&#8217;s house."}
+{"WorkID":"timonathens","ChapterID":25752,"Section":4,"Chapter":1,"Description":"Without the walls of Athens."}
+{"WorkID":"timonathens","ChapterID":25753,"Section":4,"Chapter":2,"Description":"Athens. A room in Timon&#8217;s house."}
+{"WorkID":"timonathens","ChapterID":25754,"Section":4,"Chapter":3,"Description":"Woods and cave, near the seashore."}
+{"WorkID":"timonathens","ChapterID":25755,"Section":5,"Chapter":1,"Description":"The woods. Before Timon&#8217;s cave."}
+{"WorkID":"timonathens","ChapterID":25756,"Section":5,"Chapter":2,"Description":"Before the walls of Athens."}
+{"WorkID":"timonathens","ChapterID":25757,"Section":5,"Chapter":3,"Description":"The woods. Timon&#8217;s cave, and a rude tomb seen."}
+{"WorkID":"timonathens","ChapterID":25758,"Section":5,"Chapter":4,"Description":"Before the walls of Athens."}
+{"WorkID":"titus","ChapterID":25759,"Section":1,"Chapter":1,"Description":"Rome. Before the Capitol."}
+{"WorkID":"titus","ChapterID":25760,"Section":2,"Chapter":1,"Description":"Rome. Before the Palace."}
+{"WorkID":"titus","ChapterID":25761,"Section":2,"Chapter":2,"Description":"A forest near Rome. Horns and cry of hounds heard."}
+{"WorkID":"titus","ChapterID":25762,"Section":2,"Chapter":3,"Description":"A lonely part of the forest."}
+{"WorkID":"titus","ChapterID":25763,"Section":2,"Chapter":4,"Description":"Another part of the forest."}
+{"WorkID":"titus","ChapterID":25764,"Section":3,"Chapter":1,"Description":"Rome. A street."}
+{"WorkID":"titus","ChapterID":25765,"Section":3,"Chapter":2,"Description":"A room in Titus&#8217;s house. A banquet set out."}
+{"WorkID":"titus","ChapterID":25766,"Section":4,"Chapter":1,"Description":"Rome. Titus&#8217;s garden."}
+{"WorkID":"titus","ChapterID":25767,"Section":4,"Chapter":2,"Description":"The same. A room in the palace."}
+{"WorkID":"titus","ChapterID":25768,"Section":4,"Chapter":3,"Description":"The same. A public place."}
+{"WorkID":"titus","ChapterID":25769,"Section":4,"Chapter":4,"Description":"The same. Before the palace."}
+{"WorkID":"titus","ChapterID":25770,"Section":5,"Chapter":1,"Description":"Plains near Rome."}
+{"WorkID":"titus","ChapterID":25771,"Section":5,"Chapter":2,"Description":"Rome. Before TITUS&#8217;s house."}
+{"WorkID":"titus","ChapterID":25772,"Section":5,"Chapter":3,"Description":"Court of TITUS&#8217;s house. A banquet set out."}
+{"WorkID":"troilus","ChapterID":25773,"Section":1,"Chapter":0,"Description":"Prologue."}
+{"WorkID":"troilus","ChapterID":25774,"Section":1,"Chapter":1,"Description":"Troy. Before Priam&#8217;s palace."}
+{"WorkID":"troilus","ChapterID":25775,"Section":1,"Chapter":2,"Description":"The Same. A street."}
+{"WorkID":"troilus","ChapterID":25776,"Section":1,"Chapter":3,"Description":"The Grecian camp. Before Agamemnon&#8217;s tent."}
+{"WorkID":"troilus","ChapterID":25777,"Section":2,"Chapter":1,"Description":"A part of the Grecian camp."}
+{"WorkID":"troilus","ChapterID":25778,"Section":2,"Chapter":2,"Description":"Troy. A room in Priam&#8217;s palace."}
+{"WorkID":"troilus","ChapterID":25779,"Section":2,"Chapter":3,"Description":"The Grecian camp. Before Achilles&#8217; tent."}
+{"WorkID":"troilus","ChapterID":25780,"Section":3,"Chapter":1,"Description":"Troy. Priam&#8217;s palace."}
+{"WorkID":"troilus","ChapterID":25781,"Section":3,"Chapter":2,"Description":"The same. Pandarus&#8217; orchard."}
+{"WorkID":"troilus","ChapterID":25782,"Section":3,"Chapter":3,"Description":"The Grecian camp. Before Achilles&#8217; tent."}
+{"WorkID":"troilus","ChapterID":25783,"Section":4,"Chapter":1,"Description":"Troy. A street."}
+{"WorkID":"troilus","ChapterID":25784,"Section":4,"Chapter":2,"Description":"The same. Court of Pandarus&#8217; house."}
+{"WorkID":"troilus","ChapterID":25785,"Section":4,"Chapter":3,"Description":"The same. Street before Pandarus&#8217; house."}
+{"WorkID":"troilus","ChapterID":25786,"Section":4,"Chapter":4,"Description":"The same. Pandarus&#8217; house."}
+{"WorkID":"troilus","ChapterID":25787,"Section":4,"Chapter":5,"Description":"The Grecian camp. Lists set out."}
+{"WorkID":"troilus","ChapterID":25788,"Section":5,"Chapter":1,"Description":"The Grecian camp. Before Achilles&#8217; tent."}
+{"WorkID":"troilus","ChapterID":25789,"Section":5,"Chapter":2,"Description":"The same. Before Calchas&#8217; tent."}
+{"WorkID":"troilus","ChapterID":25790,"Section":5,"Chapter":3,"Description":"Troy. Before Priam&#8217;s palace."}
+{"WorkID":"troilus","ChapterID":25791,"Section":5,"Chapter":4,"Description":"Plains between Troy and the Grecian camp."}
+{"WorkID":"troilus","ChapterID":25792,"Section":5,"Chapter":5,"Description":"Another part of the plains."}
+{"WorkID":"troilus","ChapterID":25793,"Section":5,"Chapter":6,"Description":"Another part of the plains."}
+{"WorkID":"troilus","ChapterID":25794,"Section":5,"Chapter":7,"Description":"Another part of the plains."}
+{"WorkID":"troilus","ChapterID":25795,"Section":5,"Chapter":8,"Description":"Another part of the plains."}
+{"WorkID":"troilus","ChapterID":25796,"Section":5,"Chapter":9,"Description":"Another part of the plains."}
+{"WorkID":"troilus","ChapterID":25797,"Section":5,"Chapter":10,"Description":"Another part of the plains.\n"}
+{"WorkID":"12night","ChapterID":25798,"Section":1,"Chapter":1,"Description":"DUKE ORSINO&#8217;s palace."}
+{"WorkID":"12night","ChapterID":25799,"Section":1,"Chapter":2,"Description":"The sea-coast."}
+{"WorkID":"12night","ChapterID":25800,"Section":1,"Chapter":3,"Description":"OLIVIA&#8217;S house."}
+{"WorkID":"12night","ChapterID":25801,"Section":1,"Chapter":4,"Description":"DUKE ORSINO&#8217;s palace."}
+{"WorkID":"12night","ChapterID":25802,"Section":1,"Chapter":5,"Description":"OLIVIA&#8217;S house."}
+{"WorkID":"12night","ChapterID":25803,"Section":2,"Chapter":1,"Description":"The sea-coast."}
+{"WorkID":"12night","ChapterID":25804,"Section":2,"Chapter":2,"Description":"A street."}
+{"WorkID":"12night","ChapterID":25805,"Section":2,"Chapter":3,"Description":"OLIVIA&#8217;s house."}
+{"WorkID":"12night","ChapterID":25806,"Section":2,"Chapter":4,"Description":"DUKE ORSINO&#8217;s palace."}
+{"WorkID":"12night","ChapterID":25807,"Section":2,"Chapter":5,"Description":"OLIVIA&#8217;s garden."}
+{"WorkID":"12night","ChapterID":25808,"Section":3,"Chapter":1,"Description":"OLIVIA&#8217;s garden."}
+{"WorkID":"12night","ChapterID":25809,"Section":3,"Chapter":2,"Description":"OLIVIA&#8217;s house."}
+{"WorkID":"12night","ChapterID":25810,"Section":3,"Chapter":3,"Description":"A street."}
+{"WorkID":"12night","ChapterID":25811,"Section":3,"Chapter":4,"Description":"OLIVIA&#8217;s garden."}
+{"WorkID":"12night","ChapterID":25812,"Section":4,"Chapter":1,"Description":"Before OLIVIA&#8217;s house."}
+{"WorkID":"12night","ChapterID":25813,"Section":4,"Chapter":2,"Description":"OLIVIA&#8217;s house."}
+{"WorkID":"12night","ChapterID":25814,"Section":4,"Chapter":3,"Description":"OLIVIA&#8217;s garden."}
+{"WorkID":"12night","ChapterID":25815,"Section":5,"Chapter":1,"Description":"Before OLIVIA&#8217;s house."}
+{"WorkID":"twogents","ChapterID":25816,"Section":1,"Chapter":1,"Description":"Verona. An open place."}
+{"WorkID":"twogents","ChapterID":25817,"Section":1,"Chapter":2,"Description":"The same. Garden of JULIA&#8217;s house."}
+{"WorkID":"twogents","ChapterID":25818,"Section":1,"Chapter":3,"Description":"The same. ANTONIO&#8217;s house."}
+{"WorkID":"twogents","ChapterID":25819,"Section":2,"Chapter":1,"Description":"Milan. The DUKE&#8217;s palace."}
+{"WorkID":"twogents","ChapterID":25820,"Section":2,"Chapter":2,"Description":"Verona. JULIA&#8217;S house."}
+{"WorkID":"twogents","ChapterID":25821,"Section":2,"Chapter":3,"Description":"The same. A street."}
+{"WorkID":"twogents","ChapterID":25822,"Section":2,"Chapter":4,"Description":"Milan. The DUKE&#8217;s palace."}
+{"WorkID":"twogents","ChapterID":25823,"Section":2,"Chapter":5,"Description":"The same. A street."}
+{"WorkID":"twogents","ChapterID":25824,"Section":2,"Chapter":6,"Description":"The same. The DUKE&#8217;S palace."}
+{"WorkID":"twogents","ChapterID":25825,"Section":2,"Chapter":7,"Description":"Verona. JULIA&#8217;S house."}
+{"WorkID":"twogents","ChapterID":25826,"Section":3,"Chapter":1,"Description":"Milan. The DUKE&#8217;s palace."}
+{"WorkID":"twogents","ChapterID":25827,"Section":3,"Chapter":2,"Description":"The same. The DUKE&#8217;s palace."}
+{"WorkID":"twogents","ChapterID":25828,"Section":4,"Chapter":1,"Description":"The frontiers of Mantua. A forest."}
+{"WorkID":"twogents","ChapterID":25829,"Section":4,"Chapter":2,"Description":"Milan. Outside the DUKE&#8217;s palace, under SILVIA&#8217;s chamber."}
+{"WorkID":"twogents","ChapterID":25830,"Section":4,"Chapter":3,"Description":"The same."}
+{"WorkID":"twogents","ChapterID":25831,"Section":4,"Chapter":4,"Description":"The same."}
+{"WorkID":"twogents","ChapterID":25832,"Section":5,"Chapter":1,"Description":"Milan. An abbey."}
+{"WorkID":"twogents","ChapterID":25833,"Section":5,"Chapter":2,"Description":"The same. The DUKE&#8217;s palace."}
+{"WorkID":"twogents","ChapterID":25834,"Section":5,"Chapter":3,"Description":"The frontiers of Mantua. The forest."}
+{"WorkID":"twogents","ChapterID":25835,"Section":5,"Chapter":4,"Description":"Another part of the forest."}
+{"WorkID":"venusadonis","ChapterID":25836,"Section":1,"Chapter":0,"Description":"Dedication."}
+{"WorkID":"venusadonis","ChapterID":25837,"Section":1,"Chapter":1,"Description":"Venus and Adonis."}
+{"WorkID":"winterstale","ChapterID":25838,"Section":1,"Chapter":1,"Description":"Antechamber in LEONTES&#8217; palace."}
+{"WorkID":"winterstale","ChapterID":25839,"Section":1,"Chapter":2,"Description":"A room of state in the same."}
+{"WorkID":"winterstale","ChapterID":25840,"Section":2,"Chapter":1,"Description":"A room in LEONTES&#8217; palace."}
+{"WorkID":"winterstale","ChapterID":25841,"Section":2,"Chapter":2,"Description":"A prison."}
+{"WorkID":"winterstale","ChapterID":25842,"Section":2,"Chapter":3,"Description":"A room in LEONTES&#8217; palace."}
+{"WorkID":"winterstale","ChapterID":25843,"Section":3,"Chapter":1,"Description":"A sea-port in Sicilia."}
+{"WorkID":"winterstale","ChapterID":25844,"Section":3,"Chapter":2,"Description":"A court of Justice."}
+{"WorkID":"winterstale","ChapterID":25845,"Section":3,"Chapter":3,"Description":"Bohemia. A desert country near the sea."}
+{"WorkID":"winterstale","ChapterID":25846,"Section":4,"Chapter":1,"Description":"Chorus as Time speaks."}
+{"WorkID":"winterstale","ChapterID":25847,"Section":4,"Chapter":2,"Description":"Bohemia. The palace of POLIXENES."}
+{"WorkID":"winterstale","ChapterID":25848,"Section":4,"Chapter":3,"Description":"A road near the Shepherd&#8217;s cottage."}
+{"WorkID":"winterstale","ChapterID":25849,"Section":4,"Chapter":4,"Description":"The Shepherd&#8217;s cottage."}
+{"WorkID":"winterstale","ChapterID":25850,"Section":5,"Chapter":1,"Description":"A room in LEONTES&#8217; palace."}
+{"WorkID":"winterstale","ChapterID":25851,"Section":5,"Chapter":2,"Description":"Before LEONTES&#8217; palace."}
+{"WorkID":"winterstale","ChapterID":25852,"Section":5,"Chapter":3,"Description":"A chapel in PAULINA&#8217;S house."}

@@ -1,0 +1,1000 @@
+{"CharID":"1apparition-mac","CharName":"First Apparition","Abbrev":"First Apparition","Works":"macbeth","Description":"","SpeechCount":1}
+{"CharID":"1citizen","CharName":"First Citizen","Abbrev":"First Citizen","Works":"romeojuliet","Description":"","SpeechCount":3}
+{"CharID":"1conspirator","CharName":"First Conspirator","Abbrev":"First Conspirator","Works":"coriolanus","Description":"","SpeechCount":3}
+{"CharID":"1gentleman-oth","CharName":"First Gentleman","Abbrev":"First Gentleman","Works":"othello","Description":"","SpeechCount":1}
+{"CharID":"1goth","CharName":"First Goth","Abbrev":"First Goth","Works":"titus","Description":"","SpeechCount":4}
+{"CharID":"1murderer","CharName":"First Murderer","Abbrev":"First Murderer","Works":"macbeth","Description":"","SpeechCount":21}
+{"CharID":"1musician-oth","CharName":"First Musician","Abbrev":"First Musician","Works":"othello","Description":"","SpeechCount":5}
+{"CharID":"1musician-rj","CharName":"First Musician","Abbrev":"First Musician","Works":"romeojuliet","Description":"","SpeechCount":10}
+{"CharID":"1officer-oth","CharName":"First Officer","Abbrev":"First Officer","Works":"othello","Description":"","SpeechCount":3}
+{"CharID":"1player-ham","CharName":"First Player","Abbrev":"1Play","Works":"hamlet","Description":"","SpeechCount":8}
+{"CharID":"1senator-cor","CharName":"First Senator","Abbrev":"First Senator","Works":"coriolanus","Description":"","SpeechCount":33}
+{"CharID":"1senator-oth","CharName":"First Senator","Abbrev":"First Senator","Works":"othello","Description":"A senator of Venice","SpeechCount":8}
+{"CharID":"1servant-rj","CharName":"First Servant","Abbrev":"First Servant","Works":"romeojuliet","Description":"","SpeechCount":4}
+{"CharID":"1servingman","CharName":"First Serving-Man","Abbrev":"First Serving-Man","Works":"henry6p1","Description":"","SpeechCount":5}
+{"CharID":"1soldier","CharName":"First Soldier","Abbrev":"First Soldier","Works":"coriolanus","Description":"","SpeechCount":8}
+{"CharID":"1watchman-ma","CharName":"First Watchman","Abbrev":"First Watchman","Works":"muchado","Description":"","SpeechCount":6}
+{"CharID":"1watchman-rj","CharName":"First Watchman","Abbrev":"First Watchman","Works":"romeojuliet","Description":"","SpeechCount":6}
+{"CharID":"1witch-mac","CharName":"First Witch","Abbrev":"First Witch","Works":"macbeth","Description":"","SpeechCount":23}
+{"CharID":"2apparition-mac","CharName":"Second Apparition","Abbrev":"Second Apparition","Works":"macbeth","Description":"","SpeechCount":2}
+{"CharID":"2conspirator","CharName":"Second Conspirator","Abbrev":"Second Conspirator","Works":"coriolanus","Description":"","SpeechCount":2}
+{"CharID":"2gentleman-oth","CharName":"Second Gentleman","Abbrev":"Second Gentleman","Works":"othello","Description":"","SpeechCount":5}
+{"CharID":"2goth","CharName":"Second Goth","Abbrev":"Second Goth","Works":"titus","Description":"","SpeechCount":1}
+{"CharID":"2murderer","CharName":"Second Murderer","Abbrev":"Second Murderer","Works":"macbeth","Description":"","SpeechCount":6}
+{"CharID":"2musician-rj","CharName":"Second Musician","Abbrev":"Second Musician","Works":"romeojuliet","Description":"","SpeechCount":3}
+{"CharID":"2patrician","CharName":"Second Patrician","Abbrev":"Second Patrician","Works":"coriolanus","Description":"","SpeechCount":1}
+{"CharID":"2senator-cor","CharName":"Second Senator","Abbrev":"Second Senator","Works":"coriolanus","Description":"","SpeechCount":10}
+{"CharID":"2senator-oth","CharName":"Second Senator","Abbrev":"Second Senator","Works":"othello","Description":"A senator of Venice","SpeechCount":1}
+{"CharID":"2servant-rj","CharName":"Second Servant","Abbrev":"Second Servant","Works":"romeojuliet","Description":"","SpeechCount":6}
+{"CharID":"2servingman","CharName":"Second Serving-Man","Abbrev":"Second Serving-Man","Works":"henry6p1","Description":"","SpeechCount":2}
+{"CharID":"2soldier","CharName":"Second Soldier","Abbrev":"Second Soldier","Works":"coriolanus","Description":"","SpeechCount":1}
+{"CharID":"2watchman-ma","CharName":"Second Watchman","Abbrev":"Second Watchman","Works":"muchado","Description":"","SpeechCount":5}
+{"CharID":"2watchman-rj","CharName":"Second Watchman","Abbrev":"Second Watchman","Works":"romeojuliet","Description":"","SpeechCount":1}
+{"CharID":"2witch-mac","CharName":"Second Witch","Abbrev":"Second Witch","Works":"macbeth","Description":"","SpeechCount":15}
+{"CharID":"3apparition-mac","CharName":"Third Apparition","Abbrev":"Third Apparition","Works":"macbeth","Description":"","SpeechCount":1}
+{"CharID":"3conspirator","CharName":"Third Conspirator","Abbrev":"Third Conspirator","Works":"coriolanus","Description":"","SpeechCount":3}
+{"CharID":"3gentleman-oth","CharName":"Third Gentleman","Abbrev":"Third Gentleman","Works":"othello","Description":"","SpeechCount":4}
+{"CharID":"3goth","CharName":"Third Goth","Abbrev":"Third Goth","Works":"titus","Description":"","SpeechCount":1}
+{"CharID":"3murderer","CharName":"Third Murderer","Abbrev":"Third Murderer","Works":"macbeth","Description":"","SpeechCount":6}
+{"CharID":"3musician-rj","CharName":"Third Musician","Abbrev":"Third Musician","Works":"romeojuliet","Description":"","SpeechCount":1}
+{"CharID":"3servingman","CharName":"Third Serving-Man","Abbrev":"Third Serving-Man","Works":"henry6p1","Description":"","SpeechCount":2}
+{"CharID":"3watchman-rj","CharName":"Third Watchman","Abbrev":"Third Watchman","Works":"romeojuliet","Description":"","SpeechCount":1}
+{"CharID":"3witch-mac","CharName":"Third Witch","Abbrev":"Third Witch","Works":"macbeth","Description":"","SpeechCount":13}
+{"CharID":"4gentleman-oth","CharName":"Fourth Gentleman","Abbrev":"Fourth Gentleman","Works":"othello","Description":"","SpeechCount":1}
+{"CharID":"Aaron","CharName":"Aaron","Abbrev":"AARON","Works":"titus","Description":"a Moor, beloved by Tamora","SpeechCount":57}
+{"CharID":"Abbot","CharName":"Abbot","Abbrev":"Abbot","Works":"richard2","Description":"","SpeechCount":2}
+{"CharID":"Abergavenny","CharName":"Lord Abergavenny","Abbrev":"ABERGAVENNY","Works":"henry8","Description":"","SpeechCount":5}
+{"CharID":"Abhorson","CharName":"Abhorson","Abbrev":"ABHORSON","Works":"measure","Description":"an executioner","SpeechCount":13}
+{"CharID":"abraham-rj","CharName":"Abraham","Abbrev":"ABRAHAM","Works":"romeojuliet","Description":"Servant to Montague","SpeechCount":5}
+{"CharID":"Achilles","CharName":"Achilles","Abbrev":"ACHILLES","Works":"troilus","Description":"a Greek prince","SpeechCount":74}
+{"CharID":"adam-ayli","CharName":"Adam","Abbrev":"ADAM","Works":"asyoulikeit","Description":"servant to Oliver","SpeechCount":10}
+{"CharID":"ADRIANA","CharName":"Adriana","Abbrev":"ADRIANA","Works":"comedyerrors","Description":"wife to Antipholus of Ephesus","SpeechCount":79}
+{"CharID":"Adrian-tem","CharName":"Adrian","Abbrev":"ADRIAN","Works":"tempest","Description":"a lord","SpeechCount":9}
+{"CharID":"aedile","CharName":"Aedile","Abbrev":"Aedile","Works":"coriolanus","Description":"","SpeechCount":10}
+{"CharID":"AEGEON","CharName":"Aegeon","Abbrev":"AEGEON","Works":"comedyerrors","Description":"a merchant of Syracuse","SpeechCount":17}
+{"CharID":"AEMILIA","CharName":"Aemilia","Abbrev":"AEMILIA","Works":"comedyerrors","Description":"wife to Aegeon, an abbess at Ephesus","SpeechCount":16}
+{"CharID":"Aemilius","CharName":"Aemilius","Abbrev":"AEMILIUS","Works":"titus","Description":"a noble Roman","SpeechCount":5}
+{"CharID":"Aeneas","CharName":"Aeneas","Abbrev":"AENEAS","Works":"troilus","Description":"one of the Trojan commanders","SpeechCount":44}
+{"CharID":"Agamemnon","CharName":"Agamemnon","Abbrev":"AGAMEMNON","Works":"troilus","Description":"the Greek general","SpeechCount":52}
+{"CharID":"Agrippa","CharName":"Agrippa","Abbrev":"AGRIPPA","Works":"antonycleo","Description":"friend to Caesar","SpeechCount":28}
+{"CharID":"aguecheek","CharName":"Sir Andrew Aguecheek","Abbrev":"SIR ANDREW","Works":"12night","Description":"","SpeechCount":88}
+{"CharID":"Ajax","CharName":"Ajax","Abbrev":"AJAX","Works":"troilus","Description":"a Greek prince","SpeechCount":55}
+{"CharID":"Alarbus","CharName":"Alarbus","Abbrev":"ALARBUS","Works":"titus","Description":"son to Tamora","SpeechCount":0}
+{"CharID":"Alcibiades","CharName":"Alcibiades","Abbrev":"ALCIBIADES","Works":"timonathens","Description":"an Athenian captain","SpeechCount":39}
+{"CharID":"Alexander","CharName":"Alexander","Abbrev":"ALEXANDER","Works":"troilus","Description":"servant to Cressida","SpeechCount":8}
+{"CharID":"AlexanderIden","CharName":"Alexander Iden","Abbrev":"IDEN","Works":"henry6p2","Description":"a Kentish gentleman","SpeechCount":9}
+{"CharID":"Alexas","CharName":"Alexas","Abbrev":"ALEXAS","Works":"antonycleo","Description":"attendant on Cleopatra","SpeechCount":15}
+{"CharID":"Alice","CharName":"Alice","Abbrev":"ALICE","Works":"henry5","Description":"a lady attending on Princess Katherine","SpeechCount":22}
+{"CharID":"All-ac","CharName":"All","Abbrev":"All","Works":"antonycleo","Description":"","SpeechCount":9}
+{"CharID":"all-aw","CharName":"All","Abbrev":"All","Works":"allswell","Description":"","SpeechCount":2}
+{"CharID":"allcitizens","CharName":"All Citizens","Abbrev":"All Citizens","Works":"coriolanus","Description":"","SpeechCount":1}
+{"CharID":"AllConspirators","CharName":"All Conspirators","Abbrev":"All Conspirators","Works":"coriolanus","Description":"","SpeechCount":2}
+{"CharID":"all-cor","CharName":"All","Abbrev":"All","Works":"coriolanus","Description":"","SpeechCount":16}
+{"CharID":"All-cym","CharName":"All","Abbrev":"All","Works":"cymbeline","Description":"","SpeechCount":1}
+{"CharID":"AllGoths","CharName":"All the Goths","Abbrev":"All the Goths","Works":"titus","Description":"","SpeechCount":1}
+{"CharID":"All-h5","CharName":"All","Abbrev":"All","Works":"henry5","Description":"","SpeechCount":2}
+{"CharID":"All-h61","CharName":"All","Abbrev":"All","Works":"henry6p1","Description":"","SpeechCount":1}
+{"CharID":"All-h62","CharName":"All","Abbrev":"All","Works":"henry6p2","Description":"","SpeechCount":12}
+{"CharID":"All-h63","CharName":"All","Abbrev":"All","Works":"henry6p3","Description":"","SpeechCount":1}
+{"CharID":"All-h8","CharName":"All","Abbrev":"All","Works":"henry8","Description":"","SpeechCount":1}
+{"CharID":"all-ham","CharName":"All","Abbrev":"All","Works":"hamlet","Description":"","SpeechCount":6}
+{"CharID":"All-jc","CharName":"All","Abbrev":"All","Works":"juliuscaesar","Description":"","SpeechCount":9}
+{"CharID":"all-kr2","CharName":"All","Abbrev":"All","Works":"richard2","Description":"","SpeechCount":1}
+{"CharID":"AllLadies","CharName":"All Ladies","Abbrev":"All Ladies","Works":"timonathens","Description":"","SpeechCount":1}
+{"CharID":"AllLords","CharName":"All Lords","Abbrev":"All Lords","Works":"coriolanus","Description":"","SpeechCount":3}
+{"CharID":"AllLords-tim","CharName":"All Lords","Abbrev":"All Lords","Works":"timonathens","Description":"","SpeechCount":1}
+{"CharID":"all-mac","CharName":"All","Abbrev":"ALL","Works":"macbeth","Description":"","SpeechCount":13}
+{"CharID":"All-mnd","CharName":"All","Abbrev":"All","Works":"midsummer","Description":"","SpeechCount":2}
+{"CharID":"all-mv","CharName":"All","Abbrev":"All","Works":"merchantvenice","Description":"","SpeechCount":1}
+{"CharID":"all-mww","CharName":"All","Abbrev":"All","Works":"merrywives","Description":"","SpeechCount":1}
+{"CharID":"all-oth","CharName":"All","Abbrev":"All","Works":"othello","Description":"","SpeechCount":2}
+{"CharID":"AllPeople","CharName":"All The People","Abbrev":"All The People","Works":"coriolanus","Description":"","SpeechCount":1}
+{"CharID":"All-per","CharName":"All","Abbrev":"All","Works":"pericles","Description":"","SpeechCount":2}
+{"CharID":"All-r3","CharName":"All","Abbrev":"All","Works":"richard3","Description":"","SpeechCount":1}
+{"CharID":"AllServants-tim","CharName":"All Servants","Abbrev":"All Servants","Works":"timonathens","Description":"","SpeechCount":7}
+{"CharID":"All-ta","CharName":"All","Abbrev":"All","Works":"titus","Description":"","SpeechCount":3}
+{"CharID":"All-tc","CharName":"All","Abbrev":"All","Works":"troilus","Description":"","SpeechCount":2}
+{"CharID":"All-tim","CharName":"All","Abbrev":"All","Works":"timonathens","Description":"","SpeechCount":1}
+{"CharID":"all-ts","CharName":"All","Abbrev":"ALL","Works":"tamingshrew","Description":"","SpeechCount":1}
+{"CharID":"Alonso","CharName":"Alonso","Abbrev":"ALONSO","Works":"tempest","Description":"king of Naples","SpeechCount":40}
+{"CharID":"ambassador","CharName":"Ambassador","Abbrev":"Ambassador","Works":"hamlet","Description":"","SpeechCount":1}
+{"CharID":"amiens","CharName":"Amiens","Abbrev":"AMIENS","Works":"asyoulikeit","Description":"lord attending on the banished Duke","SpeechCount":10}
+{"CharID":"Andromache","CharName":"Andromache","Abbrev":"ANDROMACHE","Works":"troilus","Description":"wife to Hector","SpeechCount":6}
+{"CharID":"ANGELO","CharName":"Angelo","Abbrev":"ANGELO","Works":"comedyerrors","Description":"a goldsmith","SpeechCount":31}
+{"CharID":"Angelo-m4m","CharName":"Angelo","Abbrev":"ANGELO","Works":"measure","Description":"deputy","SpeechCount":83}
+{"CharID":"angus","CharName":"Angus","Abbrev":"ANGUS","Works":"macbeth","Description":"Nobleman of Scotland","SpeechCount":4}
+{"CharID":"AnneBullen","CharName":"Anne Bullen","Abbrev":"QUEEN ANNE","Works":"henry8","Description":"Katharine's maid of honor, afterwards Queen","SpeechCount":18}
+{"CharID":"annepage","CharName":"Anne Page","Abbrev":"ANNE PAGE","Works":"merrywives","Description":"Mistress Page's daughter","SpeechCount":19}
+{"CharID":"Another","CharName":"Another","Abbrev":"ANOTHER","Works":"richard3","Description":"Another","SpeechCount":1}
+{"CharID":"Antenor","CharName":"Antenor","Abbrev":"ANTENOR","Works":"troilus","Description":"one of the Trojan commanders","SpeechCount":0}
+{"CharID":"Antigonus","CharName":"Antigonus","Abbrev":"ANTIGONUS","Works":"winterstale","Description":"a lord of Sicilia","SpeechCount":19}
+{"CharID":"Antiochus","CharName":"Antiochus","Abbrev":"ANTIOCHUS","Works":"pericles","Description":"king of Antioch","SpeechCount":12}
+{"CharID":"AntiochusDaughter","CharName":"Daughter of Antiochus","Abbrev":"Daughter","Works":"pericles","Description":"","SpeechCount":1}
+{"CharID":"ANTIPHOLUSEPHESUS","CharName":"Antipholus of Ephesus","Abbrev":"ANTIPHOLUS OF EPHESUS","Works":"comedyerrors","Description":"twin brother of Antipholus of Syracuse, son to Aegeon and Aemilia","SpeechCount":76}
+{"CharID":"ANTIPHOLUSSYRACUSE","CharName":"Antipholus of Syracuse","Abbrev":"ANTIPHOLUS OF SYRACUSE","Works":"comedyerrors","Description":"twin brother of Antipholus of Ephesus, son to Aegeon and Aemelia","SpeechCount":103}
+{"CharID":"antonio","CharName":"Antonio","Abbrev":"ANTONIO","Works":"muchado","Description":"Leonato's brother","SpeechCount":23}
+{"CharID":"ANTONIO-12","CharName":"Antonio","Abbrev":"ANTONIO","Works":"12night","Description":"a sea captain, friend to Sebastain","SpeechCount":26}
+{"CharID":"Antonio-mv","CharName":"Antonio","Abbrev":"ANTONIO","Works":"merchantvenice","Description":"a merchant of Venice","SpeechCount":47}
+{"CharID":"Antonio-tem","CharName":"Antonio","Abbrev":"ANTONIO","Works":"tempest","Description":"the King's brother, the usurping Duke of Milan","SpeechCount":57}
+{"CharID":"Antonio-tg","CharName":"Antonio","Abbrev":"ANTONIO","Works":"twogents","Description":"father to Proteus","SpeechCount":11}
+{"CharID":"antony","CharName":"Antony","Abbrev":"ANTONY","Works":"juliuscaesar,antonycleo","Description":"(Marcus Antonius)","SpeechCount":253}
+{"CharID":"Apemantus","CharName":"Apemantus","Abbrev":"APEMANTUS","Works":"timonathens","Description":"a churlish philosopher","SpeechCount":100}
+{"CharID":"apothecary","CharName":"Apothecary","Abbrev":"Apothecary","Works":"romeojuliet","Description":"","SpeechCount":4}
+{"CharID":"Archidamus","CharName":"Archidamus","Abbrev":"ARCHIDAMUS","Works":"winterstale","Description":"a lord of Bohemia","SpeechCount":7}
+{"CharID":"Ariel","CharName":"Ariel","Abbrev":"ARIEL","Works":"tempest","Description":"an airy spirit","SpeechCount":45}
+{"CharID":"Artemidorus","CharName":"Artemidorus","Abbrev":"ARTEMIDORUS","Works":"juliuscaesar","Description":"of Cnidos, a teacher of rhetoric.","SpeechCount":4}
+{"CharID":"Arthur","CharName":"Arthur","Abbrev":"ARTHUR","Works":"kingjohn","Description":"Duke of Bretagne, nephew to the king","SpeechCount":23}
+{"CharID":"Arviragus","CharName":"Arviragus","Abbrev":"ARVIRAGUS","Works":"cymbeline","Description":"son to Cymbeline, disguised under the name of Cadwal, supposed son to Morgan","SpeechCount":46}
+{"CharID":"Attandants-ac","CharName":"Attendants","Abbrev":"Attendants","Works":"antonycleo","Description":"","SpeechCount":1}
+{"CharID":"Attendant-ac","CharName":"Attendant","Abbrev":"Attendant","Works":"antonycleo","Description":"","SpeechCount":2}
+{"CharID":"Attendant-cym","CharName":"Attendant","Abbrev":"Attendant","Works":"cymbeline","Description":"","SpeechCount":1}
+{"CharID":"attendant-mac","CharName":"Attendant","Abbrev":"ATTENDANT","Works":"macbeth","Description":"","SpeechCount":1}
+{"CharID":"audrey","CharName":"Audrey","Abbrev":"AUDREY","Works":"asyoulikeit","Description":"a country wench","SpeechCount":12}
+{"CharID":"Aumerle","CharName":"Duke of Aumerle","Abbrev":"DUKE OF AUMERLE","Works":"richard2","Description":"son of the Duke of York","SpeechCount":38}
+{"CharID":"Autolycus","CharName":"Autolycus","Abbrev":"AUTOLYCUS","Works":"winterstale","Description":"a rogue","SpeechCount":67}
+{"CharID":"Bagot","CharName":"Bagot","Abbrev":"BAGOT","Works":"richard2","Description":"servant to King Richard II","SpeechCount":6}
+{"CharID":"balthasar","CharName":"Balthasar","Abbrev":"BALTHASAR","Works":"romeojuliet","Description":"Servant to Romeo","SpeechCount":12}
+{"CharID":"balthasar-ma","CharName":"Balthasar","Abbrev":"BALTHASAR","Works":"muchado","Description":"Attendant on Don Pedro","SpeechCount":11}
+{"CharID":"Balthasar-mv","CharName":"Balthasar","Abbrev":"BALTHASAR","Works":"merchantvenice","Description":"servant to Portia","SpeechCount":1}
+{"CharID":"BALTHAZAR","CharName":"Balthazar","Abbrev":"BALTHAZAR","Works":"comedyerrors","Description":"a merchant","SpeechCount":5}
+{"CharID":"Banditti","CharName":"Banditti","Abbrev":"Banditti","Works":"timonathens","Description":"","SpeechCount":4}
+{"CharID":"banquo","CharName":"Banquo","Abbrev":"BANQUO","Works":"macbeth","Description":"General of the King's army","SpeechCount":33}
+{"CharID":"baptista","CharName":"Baptista Minola","Abbrev":"BAPTISTA","Works":"tamingshrew","Description":"a gentleman of Padua","SpeechCount":68}
+{"CharID":"bardolph","CharName":"Lord Bardolph","Abbrev":"LORD BARDOLPH","Works":"henry4p1,henry4p2","Description":"","SpeechCount":35}
+{"CharID":"bardolphlesser","CharName":"Bardolph","Abbrev":"BARDOLPH","Works":"henry4p2,henry5","Description":"","SpeechCount":46}
+{"CharID":"bardolph-mww","CharName":"Bardolph","Abbrev":"BARDOLPH","Works":"merrywives","Description":"sharper attending on Falstaff","SpeechCount":14}
+{"CharID":"Barnardine","CharName":"Barnardine","Abbrev":"BARNARDINE","Works":"measure","Description":"a dissolute prisoner","SpeechCount":7}
+{"CharID":"Bassanio","CharName":"Bassanio","Abbrev":"BASSANIO","Works":"merchantvenice","Description":"Antonio's friend, suitor likewise to Portia","SpeechCount":73}
+{"CharID":"Basset","CharName":"Basset","Abbrev":"BASSET","Works":"henry6p1","Description":"of the Red Rose, or Lancaster, faction","SpeechCount":7}
+{"CharID":"Bassianus","CharName":"Bassianus","Abbrev":"BASSIANUS","Works":"titus","Description":"brother to Saturninus; in love with Lavinia","SpeechCount":14}
+{"CharID":"BastardOrleans","CharName":"Bastard of Orleans","Abbrev":"BASTARD OF ORLEANS","Works":"henry6p1","Description":"","SpeechCount":12}
+{"CharID":"Bates","CharName":"Bates","Abbrev":"BATES","Works":"henry5","Description":"soldier in King Henry's army","SpeechCount":7}
+{"CharID":"Bawd","CharName":"Bawd","Abbrev":"Bawd","Works":"pericles","Description":"","SpeechCount":43}
+{"CharID":"Beadle","CharName":"Beadle","Abbrev":"Beadle","Works":"henry6p2","Description":"","SpeechCount":1}
+{"CharID":"beadle1","CharName":"First Beadle","Abbrev":"FIRST BEADLE","Works":"henry4p2","Description":"","SpeechCount":4}
+{"CharID":"beadle2","CharName":"Second Beadle","Abbrev":"SECOND BEADLE","Works":"henry4p2","Description":"","SpeechCount":0}
+{"CharID":"beatrice","CharName":"Beatrice","Abbrev":"BEATRICE","Works":"muchado","Description":"Niece to Leonato","SpeechCount":106}
+{"CharID":"bedford","CharName":"Duke of Bedford","Abbrev":"BEDFORD","Works":"henry5,henry6p1","Description":"brother to Henry IV, uncle to Henry V","SpeechCount":24}
+{"CharID":"Belarius","CharName":"Belarius","Abbrev":"BELARIUS","Works":"cymbeline","Description":"a banished lord, disguised under the name of Morgan","SpeechCount":58}
+{"CharID":"belch","CharName":"Sir Toby Belch","Abbrev":"SIR TOBY BELCH","Works":"12night","Description":"uncle to Olivia","SpeechCount":152}
+{"CharID":"benedick","CharName":"Benedick","Abbrev":"BENEDICK","Works":"muchado","Description":"A young lord of Padua","SpeechCount":134}
+{"CharID":"benvolio","CharName":"Benvolio","Abbrev":"BENVOLIO","Works":"romeojuliet","Description":"Nephew to Montague, and friend to Romeo","SpeechCount":64}
+{"CharID":"Berkeley","CharName":"Berkeley","Abbrev":"BERKELEY","Works":"richard3","Description":"a gentleman attending on Lady Anne","SpeechCount":0}
+{"CharID":"bernardo","CharName":"Bernardo","Abbrev":"Ber","Works":"hamlet","Description":"sentinel","SpeechCount":19}
+{"CharID":"BERTRAM","CharName":"Bertram","Abbrev":"BERTRAM","Works":"allswell","Description":"Count of Rousillon","SpeechCount":102}
+{"CharID":"Bevis","CharName":"George Bevis","Abbrev":"BEVIS","Works":"henry6p2","Description":"a follower of Cade","SpeechCount":9}
+{"CharID":"bianca","CharName":"Bianca","Abbrev":"BIANCA","Works":"tamingshrew","Description":"","SpeechCount":29}
+{"CharID":"bianca-oth","CharName":"Bianca","Abbrev":"BIANCA","Works":"othello","Description":"Mistress to Cassio","SpeechCount":15}
+{"CharID":"Bigot","CharName":"Lord Bigot","Abbrev":"BIGOT","Works":"kingjohn","Description":"","SpeechCount":6}
+{"CharID":"biondello","CharName":"Biondello","Abbrev":"BIONDELLO","Works":"tamingshrew","Description":"","SpeechCount":39}
+{"CharID":"Biron","CharName":"Biron","Abbrev":"BIRON","Works":"loveslabours","Description":"lord attending on the king","SpeechCount":159}
+{"CharID":"BishopCarlisle","CharName":"Bishop of Carlisle","Abbrev":"BISHOP OF CARLISLE","Works":"richard2","Description":"","SpeechCount":6}
+{"CharID":"BishopLincoln","CharName":"Bishop Lincoln","Abbrev":"LINCOLN","Works":"henry8","Description":"","SpeechCount":2}
+{"CharID":"Blanch","CharName":"Blanch","Abbrev":"BLANCH","Works":"kingjohn","Description":"of Spain, niece to King John","SpeechCount":9}
+{"CharID":"blunt","CharName":"Blunt","Abbrev":"BLUNT","Works":"henry4p1,henry4p2","Description":"","SpeechCount":11}
+{"CharID":"Blunt-r3","CharName":"Blunt","Abbrev":"Blunt","Works":"richard3","Description":"","SpeechCount":3}
+{"CharID":"Boatswain","CharName":"Boatswain","Abbrev":"Boatswain","Works":"tempest","Description":"","SpeechCount":12}
+{"CharID":"Bolingbroke-h62","CharName":"Bolingbroke","Abbrev":"BOLINGBROKE","Works":"henry6p2","Description":"a conjurer","SpeechCount":7}
+{"CharID":"Bona","CharName":"Bona","Abbrev":"BONA","Works":"henry6p3","Description":"sister to the French Queen","SpeechCount":4}
+{"CharID":"borachio","CharName":"Borachio","Abbrev":"BORACHIO","Works":"muchado","Description":"Follower of Don Juan","SpeechCount":38}
+{"CharID":"both-aw","CharName":"Both","Abbrev":"Both","Works":"allswell","Description":"","SpeechCount":2}
+{"CharID":"bothcitizens","CharName":"Both Citizens","Abbrev":"Both Citizens","Works":"coriolanus","Description":"","SpeechCount":1}
+{"CharID":"both-cor","CharName":"Both","Abbrev":"Both","Works":"coriolanus","Description":"","SpeechCount":3}
+{"CharID":"Both-h62","CharName":"Both","Abbrev":"Both","Works":"henry6p2","Description":"","SpeechCount":1}
+{"CharID":"Both-h8","CharName":"Both","Abbrev":"Both","Works":"henry8","Description":"","SpeechCount":1}
+{"CharID":"Both-per","CharName":"Both","Abbrev":"Both","Works":"pericles","Description":"","SpeechCount":1}
+{"CharID":"Both-r3","CharName":"Both","Abbrev":"Both","Works":"richard3","Description":"","SpeechCount":3}
+{"CharID":"Both-tim","CharName":"Both","Abbrev":"Both","Works":"timonathens","Description":"","SpeechCount":7}
+{"CharID":"bothtribunes","CharName":"Both Tribunes","Abbrev":"Both Tribunes","Works":"coriolanus","Description":"","SpeechCount":4}
+{"CharID":"Bottom","CharName":"Bottom","Abbrev":"BOTTOM","Works":"midsummer","Description":"a weaver","SpeechCount":59}
+{"CharID":"Boult","CharName":"Boult","Abbrev":"BOULT","Works":"pericles","Description":"Pandar's servant","SpeechCount":38}
+{"CharID":"Bourbon","CharName":"Duke of Bourbon","Abbrev":"BOURBON","Works":"henry5","Description":"","SpeechCount":4}
+{"CharID":"Boyet","CharName":"Boyet","Abbrev":"BOYET","Works":"loveslabours","Description":"lord attending on the princess of France","SpeechCount":80}
+{"CharID":"boy-h5","CharName":"Boy","Abbrev":"Boy","Works":"henry5","Description":"","SpeechCount":16}
+{"CharID":"Boy-h61","CharName":"Boy","Abbrev":"Boy","Works":"henry6p1","Description":"son of the Master-Gunner","SpeechCount":2}
+{"CharID":"boy-ma","CharName":"Boy","Abbrev":"Boy","Works":"muchado","Description":"","SpeechCount":2}
+{"CharID":"Boy-r3","CharName":"Boy","Abbrev":"Boy","Works":"richard3","Description":"a young son of Clarence","SpeechCount":7}
+{"CharID":"Boy-tc","CharName":"Boy","Abbrev":"Boy","Works":"troilus","Description":"servant to Troilus","SpeechCount":3}
+{"CharID":"brabantio","CharName":"Brabantio","Abbrev":"BRABANTIO","Works":"othello","Description":"A senator of Venice","SpeechCount":30}
+{"CharID":"Brandon-h8","CharName":"Brandon","Abbrev":"BRANDON","Works":"henry8","Description":"","SpeechCount":6}
+{"CharID":"brothers-h4p2","CharName":"Brothers","Abbrev":"BROTHERS","Works":"henry4p2","Description":"","SpeechCount":1}
+{"CharID":"Brutus","CharName":"Brutus","Abbrev":"BRUTUS","Works":"juliuscaesar","Description":"(Marcus Brutus)","SpeechCount":194}
+{"CharID":"bullcalf","CharName":"Peter Bullcalf","Abbrev":"BULLCALF","Works":"henry4p2","Description":"country soldier","SpeechCount":5}
+{"CharID":"Bushy","CharName":"Bushy","Abbrev":"BUSHY","Works":"richard2","Description":"servant to King Richard II","SpeechCount":13}
+{"CharID":"caithness","CharName":"Caithness","Abbrev":"CAITHNESS","Works":"macbeth","Description":"Nobleman of Scotland","SpeechCount":3}
+{"CharID":"Caius","CharName":"Caius","Abbrev":"CAIUS","Works":"titus","Description":"kinsman to Titus","SpeechCount":0}
+{"CharID":"CaiusLucius","CharName":"Caius Lucius","Abbrev":"CAIUS LUCIUS","Works":"cymbeline","Description":"general of the Roman forces","SpeechCount":25}
+{"CharID":"Calchas","CharName":"Calchas","Abbrev":"CALCHAS","Works":"troilus","Description":"a Trojan priest, taking part with the Greeks","SpeechCount":4}
+{"CharID":"Caliban","CharName":"Caliban","Abbrev":"CALIBAN","Works":"tempest","Description":"a savage and deformed slave","SpeechCount":50}
+{"CharID":"Calpurnia","CharName":"Calpurnia","Abbrev":"CALPURNIA","Works":"juliuscaesar","Description":"wife to Caesar","SpeechCount":6}
+{"CharID":"cambridge","CharName":"Earl of Cambridge","Abbrev":"CAMBRIDGE","Works":"henry5","Description":"","SpeechCount":5}
+{"CharID":"Camillo","CharName":"Camillo","Abbrev":"CAMILLO","Works":"winterstale","Description":"a lord of Sicilia","SpeechCount":72}
+{"CharID":"Campeius","CharName":"Cardinal Campeius","Abbrev":"CARDINAL CAMPEIUS","Works":"henry8","Description":"","SpeechCount":14}
+{"CharID":"Canidius","CharName":"Canidius","Abbrev":"CANIDIUS","Works":"antonycleo","Description":"lieutenant-general to Antony","SpeechCount":10}
+{"CharID":"canterbury","CharName":"Archbishop of Canterbury","Abbrev":"CANTERBURY","Works":"henry5","Description":"","SpeechCount":18}
+{"CharID":"Caphis","CharName":"Caphis","Abbrev":"CAPHIS","Works":"timonathens","Description":"servant to Timon's creditors","SpeechCount":14}
+{"CharID":"Captain-ac","CharName":"Captain","Abbrev":"Captain","Works":"antonycleo","Description":"","SpeechCount":1}
+{"CharID":"Captain-h61","CharName":"Captain","Abbrev":"Captain","Works":"henry6p1","Description":"","SpeechCount":5}
+{"CharID":"Captain-h62","CharName":"Captain","Abbrev":"Captain","Works":"henry6p2","Description":"","SpeechCount":11}
+{"CharID":"captain-kl","CharName":"Captain","Abbrev":"Capt","Works":"kinglear","Description":"","SpeechCount":5}
+{"CharID":"Captain-kr2","CharName":"Captain","Abbrev":"Captain","Works":"richard2","Description":"","SpeechCount":2}
+{"CharID":"captain-ta","CharName":"Captain","Abbrev":"Captain","Works":"titus","Description":"","SpeechCount":1}
+{"CharID":"Capucius","CharName":"Capucius","Abbrev":"CAPUCIUS","Works":"henry8","Description":"Ambassador from the Emperor Charles V","SpeechCount":5}
+{"CharID":"capulet","CharName":"Capulet","Abbrev":"CAPULET","Works":"romeojuliet","Description":"Head of the house of Capulet","SpeechCount":51}
+{"CharID":"capulet2","CharName":"Second Capulet","Abbrev":"Second Capulet","Works":"romeojuliet","Description":"An old man, cousin to Capulet","SpeechCount":2}
+{"CharID":"CardinalBourchier","CharName":"Cardinal Bourchier","Abbrev":"CARDINAL","Works":"richard3","Description":"archbishop of Canterbury","SpeechCount":2}
+{"CharID":"CardinalPandulph","CharName":"Cardinal Pandulph","Abbrev":"CARDINAL PANDULPH","Works":"kingjohn","Description":"the Pope's legate","SpeechCount":23}
+{"CharID":"Carrier","CharName":"Carrier","Abbrev":"Carrier","Works":"henry4p1","Description":"","SpeechCount":1}
+{"CharID":"Casca","CharName":"Casca","Abbrev":"CASCA","Works":"juliuscaesar","Description":"a conspirator against Caesar","SpeechCount":39}
+{"CharID":"Cassandra","CharName":"Cassandra","Abbrev":"CASSANDRA","Works":"troilus","Description":"daughter to Priam, a prophetess","SpeechCount":13}
+{"CharID":"cassio","CharName":"Cassio","Abbrev":"CASSIO","Works":"othello","Description":"Othello's lieutenant","SpeechCount":110}
+{"CharID":"Cassius","CharName":"Cassius","Abbrev":"CASSIUS","Works":"juliuscaesar","Description":"a conspirator against Caesar","SpeechCount":140}
+{"CharID":"Cato","CharName":"Young Cato","Abbrev":"CATO","Works":"juliuscaesar","Description":"friend to Brutus","SpeechCount":3}
+{"CharID":"celia","CharName":"Celia","Abbrev":"CELIA","Works":"asyoulikeit","Description":"daughter to Frederick","SpeechCount":108}
+{"CharID":"Ceres","CharName":"Ceres","Abbrev":"CERES","Works":"tempest","Description":"presented by spirits","SpeechCount":4}
+{"CharID":"Cerimon","CharName":"Cerimon","Abbrev":"CERIMON","Works":"pericles","Description":"a lord of Ephesus","SpeechCount":23}
+{"CharID":"Chamberlain","CharName":"Chamberlain","Abbrev":"Chamberlain","Works":"henry4p1","Description":"","SpeechCount":6}
+{"CharID":"charles-ayli","CharName":"Charles","Abbrev":"CHARLES","Works":"asyoulikeit","Description":"wrestler to Frederick","SpeechCount":8}
+{"CharID":"Charles-h61","CharName":"Charles, King of France","Abbrev":"CHARLES","Works":"henry6p1","Description":"king of France","SpeechCount":41}
+{"CharID":"Charmian","CharName":"Charmian","Abbrev":"CHARMIAN","Works":"antonycleo","Description":"attendant on Cleopatra","SpeechCount":63}
+{"CharID":"Chatillon","CharName":"Chatillon","Abbrev":"CHATILLON","Works":"kingjohn","Description":"ambassador from France to King John","SpeechCount":5}
+{"CharID":"chiefjustice","CharName":"Lord Chief Justice","Abbrev":"CHIEF JUSTICE","Works":"henry4p2","Description":"","SpeechCount":56}
+{"CharID":"Children-r3","CharName":"Children","Abbrev":"Children","Works":"richard3","Description":"","SpeechCount":3}
+{"CharID":"Chiron","CharName":"Chiron","Abbrev":"CHIRON","Works":"titus","Description":"son to Tamora","SpeechCount":30}
+{"CharID":"Chorus-h5","CharName":"Chorus","Abbrev":"Chorus","Works":"henry5","Description":"","SpeechCount":6}
+{"CharID":"Chorus-h8","CharName":"Chorus","Abbrev":"Chorus","Works":"henry8","Description":"","SpeechCount":2}
+{"CharID":"chorus-rj","CharName":"Chorus","Abbrev":"Chorus","Works":"romeojuliet","Description":"","SpeechCount":2}
+{"CharID":"Chorus-tc","CharName":"Chorus","Abbrev":"Chorus","Works":"troilus","Description":"","SpeechCount":1}
+{"CharID":"ChristopherUrswick","CharName":"Christopher Urswick","Abbrev":"CHRISTOPHER","Works":"richard3","Description":"a priest","SpeechCount":2}
+{"CharID":"cicero","CharName":"Cicero","Abbrev":"Ciceronis","Works":"juliuscaesar","Description":"Senator","SpeechCount":4}
+{"CharID":"Cinna","CharName":"Cinna","Abbrev":"CINNA","Works":"juliuscaesar","Description":"a conspirator against Caesar","SpeechCount":11}
+{"CharID":"CinnaPoet","CharName":"Cinna the Poet","Abbrev":"CINNA THE POET","Works":"juliuscaesar","Description":"","SpeechCount":8}
+{"CharID":"citizen","CharName":"Citizen","Abbrev":"Citizen","Works":"coriolanus","Description":"","SpeechCount":3}
+{"CharID":"citizens","CharName":"Citizens","Abbrev":"Citizens","Works":"coriolanus","Description":"","SpeechCount":17}
+{"CharID":"Citizens-jc","CharName":"Citizens","Abbrev":"Citizens","Works":"juliuscaesar","Description":"","SpeechCount":2}
+{"CharID":"Citizens-r3","CharName":"Citizens","Abbrev":"Citizens","Works":"richard3","Description":"","SpeechCount":0}
+{"CharID":"claudio","CharName":"Claudio","Abbrev":"CLAUDIO","Works":"muchado","Description":"A young lord of Florence","SpeechCount":125}
+{"CharID":"Claudio-m4m","CharName":"Claudio","Abbrev":"CLAUDIO","Works":"measure","Description":"a young gentleman","SpeechCount":35}
+{"CharID":"claudius","CharName":"Claudius","Abbrev":"King","Works":"hamlet","Description":"King of Denmark","SpeechCount":102}
+{"CharID":"Claudius-jc","CharName":"Claudius","Abbrev":"CLAUDIUS","Works":"juliuscaesar","Description":"servant to Brutus","SpeechCount":2}
+{"CharID":"Cleomenes","CharName":"Cleomenes","Abbrev":"CLEOMENES","Works":"winterstale","Description":"a lord of Sicilia","SpeechCount":7}
+{"CharID":"Cleon","CharName":"Cleon","Abbrev":"CLEON","Works":"pericles","Description":"governor of Tarsus","SpeechCount":19}
+{"CharID":"Cleopatra","CharName":"Cleopatra","Abbrev":"CLEOPATRA","Works":"antonycleo","Description":"queen of Egypt","SpeechCount":204}
+{"CharID":"ClerkChatham","CharName":"Clerk of Chatham","Abbrev":"Clerk","Works":"henry6p2","Description":"","SpeechCount":2}
+{"CharID":"Clerk-mv","CharName":"Clerk","Abbrev":"Clerk","Works":"merchantvenice","Description":"","SpeechCount":1}
+{"CharID":"Clitus","CharName":"Clitus","Abbrev":"CLITUS","Works":"juliuscaesar","Description":"servant to Brutus","SpeechCount":8}
+{"CharID":"Cloten","CharName":"Cloten","Abbrev":"CLOTEN","Works":"cymbeline","Description":"son to the Queen by a former husband","SpeechCount":77}
+{"CharID":"clown1-ham","CharName":"First Clown","Abbrev":"Clown","Works":"hamlet","Description":"","SpeechCount":34}
+{"CharID":"clown2-ham","CharName":"Second Clown","Abbrev":"Other","Works":"hamlet","Description":"","SpeechCount":12}
+{"CharID":"Clown-ac","CharName":"Clown","Abbrev":"Clown","Works":"antonycleo","Description":"","SpeechCount":8}
+{"CharID":"Clown-aw","CharName":"Clown","Abbrev":"Clown","Works":"allswell","Description":"servant to the Countess","SpeechCount":58}
+{"CharID":"clown-oth","CharName":"Clown","Abbrev":"Clown","Works":"othello","Description":"Servant to Othello","SpeechCount":14}
+{"CharID":"clown-ta","CharName":"Clown","Abbrev":"Clown","Works":"titus","Description":"","SpeechCount":12}
+{"CharID":"Clown-wt","CharName":"Clown","Abbrev":"Clown","Works":"winterstale","Description":"son of the old Shepherd","SpeechCount":64}
+{"CharID":"Cobweb","CharName":"Cobweb","Abbrev":"COBWEB","Works":"midsummer","Description":"a fairy","SpeechCount":4}
+{"CharID":"colville","CharName":"Sir John Colville","Abbrev":"COLVILLE","Works":"henry4p2","Description":"","SpeechCount":5}
+{"CharID":"cominius","CharName":"Cominius","Abbrev":"COMINIUS","Works":"coriolanus","Description":"general against the Volscians","SpeechCount":67}
+{"CharID":"Commons","CharName":"Commons","Abbrev":"Commons","Works":"henry6p2","Description":"","SpeechCount":2}
+{"CharID":"conrade","CharName":"Conrade","Abbrev":"CONRADE","Works":"muchado","Description":"Follower of Don Juan","SpeechCount":23}
+{"CharID":"Constable","CharName":"Constable of France","Abbrev":"Constable","Works":"henry5","Description":"","SpeechCount":40}
+{"CharID":"Constance","CharName":"Constance","Abbrev":"CONSTANCE","Works":"kingjohn","Description":"mother to Arthur","SpeechCount":36}
+{"CharID":"cordelia","CharName":"Cordelia","Abbrev":"Cor","Works":"kinglear","Description":"daughter to Lear","SpeechCount":31}
+{"CharID":"corin","CharName":"Corin","Abbrev":"CORIN","Works":"asyoulikeit","Description":"shepherd","SpeechCount":24}
+{"CharID":"coriolanus","CharName":"Coriolanus","Abbrev":"CORIOLANUS","Works":"coriolanus","Description":"previously Caius Marcius Coriolanus","SpeechCount":189}
+{"CharID":"cornelius","CharName":"Cornelius","Abbrev":"Cor","Works":"hamlet","Description":"courtier","SpeechCount":1}
+{"CharID":"Cornelius-cym","CharName":"Cornelius","Abbrev":"CORNELIUS","Works":"cymbeline","Description":"a physician","SpeechCount":13}
+{"CharID":"Costard","CharName":"Costard","Abbrev":"COSTARD","Works":"loveslabours","Description":"a clown","SpeechCount":83}
+{"CharID":"CountessAuvergne","CharName":"Countess of Auvergne","Abbrev":"COUNTESS OF AUVERGNE","Works":"henry6p1","Description":"","SpeechCount":13}
+{"CharID":"Countess-aw","CharName":"Countess","Abbrev":"COUNTESS","Works":"allswell","Description":"mother to Bertram","SpeechCount":87}
+{"CharID":"Court","CharName":"Court","Abbrev":"COURT","Works":"henry5","Description":"soldier in King Henry's army","SpeechCount":1}
+{"CharID":"Courtezan","CharName":"Courtezan","Abbrev":"Courtezan","Works":"comedyerrors","Description":"","SpeechCount":11}
+{"CharID":"Cranmer","CharName":"Archbishop Cranmer","Abbrev":"CRANMER","Works":"henry8","Description":"Archbishop of Canterbury","SpeechCount":21}
+{"CharID":"Cressida","CharName":"Cressida","Abbrev":"CRESSIDA","Works":"troilus","Description":"daughter to Calchas","SpeechCount":152}
+{"CharID":"Crier-h8","CharName":"Crier","Abbrev":"Crier","Works":"henry8","Description":"","SpeechCount":3}
+{"CharID":"Cromwell","CharName":"Cromwell","Abbrev":"CROMWELL","Works":"henry8","Description":"servant to Wolsey","SpeechCount":21}
+{"CharID":"Cupid","CharName":"Cupid","Abbrev":"Cupid","Works":"timonathens","Description":"","SpeechCount":1}
+{"CharID":"curan","CharName":"Curan","Abbrev":"Cur","Works":"kinglear","Description":"a courtier","SpeechCount":4}
+{"CharID":"CURIO","CharName":"Curio","Abbrev":"CURIO","Works":"12night","Description":"gentleman attending on the Duke","SpeechCount":4}
+{"CharID":"curtis","CharName":"Curtis","Abbrev":"CURTIS","Works":"tamingshrew","Description":"","SpeechCount":20}
+{"CharID":"cymbeline","CharName":"Cymbeline","Abbrev":"CYMBELINE","Works":"cymbeline","Description":"king of Britain","SpeechCount":81}
+{"CharID":"dancer","CharName":"Dancer","Abbrev":"Dancer","Works":"henry4p2","Description":"speaks the Epilogue","SpeechCount":1}
+{"CharID":"Dardanius","CharName":"Dardanius","Abbrev":"DARDANIUS","Works":"juliuscaesar","Description":"servant to Brutus","SpeechCount":3}
+{"CharID":"dauphin","CharName":"Lewis the Dauphin","Abbrev":"DAUPHIN","Works":"henry5","Description":"","SpeechCount":31}
+{"CharID":"davy","CharName":"Davy","Abbrev":"DAVY","Works":"henry4p2","Description":"servant to Shallow","SpeechCount":14}
+{"CharID":"Decius Brutus","CharName":"Decius Brutus","Abbrev":"DECIUS BRUTUS","Works":"juliuscaesar","Description":"a conspirator against Caesar","SpeechCount":12}
+{"CharID":"Deiphobus","CharName":"Deiphobus","Abbrev":"DEIPHOBUS","Works":"troilus","Description":"son of Priam, king of Troy","SpeechCount":2}
+{"CharID":"Demetrius","CharName":"Demetrius","Abbrev":"Demetrius","Works":"titus","Description":"son to Tamora","SpeechCount":39}
+{"CharID":"Demetrius-ac","CharName":"Demetrius","Abbrev":"DEMETRIUS","Works":"antonycleo","Description":"friend to Antony","SpeechCount":2}
+{"CharID":"Demetrius-mnd","CharName":"Demetrius","Abbrev":"DEMETRIUS","Works":"midsummer","Description":"in love with Hermia","SpeechCount":48}
+{"CharID":"dennis","CharName":"Dennis","Abbrev":"DENNIS","Works":"asyoulikeit","Description":"shepherd","SpeechCount":2}
+{"CharID":"Denny","CharName":"Sir Anthony Denny","Abbrev":"DENNY","Works":"henry8","Description":"","SpeechCount":3}
+{"CharID":"Dercetas","CharName":"Dercetas","Abbrev":"DERCETAS","Works":"antonycleo","Description":"friend to Antony","SpeechCount":5}
+{"CharID":"desdemona","CharName":"Desdemona","Abbrev":"DESDEMONA","Works":"othello","Description":"Daughter to Brabantio and wife to Othello","SpeechCount":165}
+{"CharID":"DIANA","CharName":"Diana","Abbrev":"DIANA","Works":"allswell","Description":"daughter to the Widow","SpeechCount":44}
+{"CharID":"Diana-per","CharName":"Diana","Abbrev":"DIANA","Works":"pericles","Description":"","SpeechCount":1}
+{"CharID":"DickButcher","CharName":"Dick the Butcher","Abbrev":"DICK","Works":"henry6p2","Description":"a follower of Cade","SpeechCount":24}
+{"CharID":"Diomedes","CharName":"Diomedes","Abbrev":"DIOMEDES","Works":"antonycleo","Description":"attendant on Cleopatra","SpeechCount":7}
+{"CharID":"Diomedes-tc","CharName":"Diomedes","Abbrev":"DIOMEDES","Works":"troilus","Description":"a Greek prince","SpeechCount":54}
+{"CharID":"Dion","CharName":"Dion","Abbrev":"DION","Works":"winterstale","Description":"a lord of Sicilia","SpeechCount":4}
+{"CharID":"Dionyza","CharName":"Dionyza","Abbrev":"DIONYZA","Works":"pericles","Description":"wife to Cleon","SpeechCount":19}
+{"CharID":"DocButts","CharName":"Doctor Butts","Abbrev":"DOCTOR BUTTS","Works":"henry8","Description":"physician to the King","SpeechCount":4}
+{"CharID":"doctorcaius","CharName":"Doctor Caius","Abbrev":"DOCTOR CAIUS","Works":"merrywives","Description":"a French physician","SpeechCount":49}
+{"CharID":"doctor-kl","CharName":"Doctor","Abbrev":"Doct","Works":"kinglear","Description":"","SpeechCount":8}
+{"CharID":"doctor-mac","CharName":"Doctor","Abbrev":"Doctor","Works":"macbeth","Description":"","SpeechCount":20}
+{"CharID":"dogberry","CharName":"Dogberry","Abbrev":"DOGBERRY","Works":"muchado","Description":"A constable","SpeechCount":52}
+{"CharID":"Dolabella","CharName":"Dolabella","Abbrev":"DOLABELLA","Works":"antonycleo","Description":"friend to Caesar","SpeechCount":23}
+{"CharID":"DomitiusEnobarus","CharName":"Domitius Enobarus","Abbrev":"DOMITIUS ENOBARBUS","Works":"antonycleo","Description":"friend to Antony","SpeechCount":113}
+{"CharID":"DonAdriano","CharName":"Don Adriano de Armado","Abbrev":"DON ADRIANO DE ARMADO","Works":"loveslabours","Description":"a fantastical Spaniard","SpeechCount":102}
+{"CharID":"donalbain","CharName":"Donalbain","Abbrev":"DONALBAIN","Works":"macbeth","Description":"Son of Duncan","SpeechCount":3}
+{"CharID":"donjohn","CharName":"Don John","Abbrev":"DON JOHN","Works":"muchado","Description":"The prince's bastard brother","SpeechCount":40}
+{"CharID":"donpedro","CharName":"Don Pedro","Abbrev":"DON PEDRO","Works":"muchado","Description":"Prince of Arragon","SpeechCount":135}
+{"CharID":"Dorcas","CharName":"Dorcas","Abbrev":"DORCAS","Works":"winterstale","Description":"a shepherdess","SpeechCount":11}
+{"CharID":"drawer2","CharName":"Second Drawer","Abbrev":"SECOND DRAWER","Works":"henry4p2","Description":"","SpeechCount":2}
+{"CharID":"drawer3","CharName":"Third Drawer","Abbrev":"THIRD DRAWER","Works":"henry4p2","Description":"","SpeechCount":2}
+{"CharID":"DROMIOEPHESUS","CharName":"Dromio of Ephesus","Abbrev":"DROMIO OF EPHESUS","Works":"comedyerrors","Description":"twin brother to Dromio of Syracuse, and attendant on the two Antipholuses","SpeechCount":63}
+{"CharID":"DROMIOSYRACUSE","CharName":"Dromio of Syracuse","Abbrev":"DROMIO OF SYRACUSE","Works":"comedyerrors","Description":"twin brother to Dromio of Ephesus, and attendant on the two Antipholuses","SpeechCount":99}
+{"CharID":"DuchessGloucester","CharName":"Duchess of Gloucester","Abbrev":"DUCHESS","Works":"richard2","Description":"","SpeechCount":4}
+{"CharID":"DuchessYork","CharName":"Duchess of York","Abbrev":"DUCHESS OF YORK","Works":"richard2","Description":"","SpeechCount":28}
+{"CharID":"DuchessYork-r3","CharName":"Duchess of York","Abbrev":"DUCHESS of YORK","Works":"richard3","Description":"mother to King Edward IV","SpeechCount":43}
+{"CharID":"Duke","CharName":"Duke","Abbrev":"DUKE","Works":"merchantvenice","Description":"of Venice","SpeechCount":18}
+{"CharID":"dukealbany","CharName":"Duke of Albany","Abbrev":"Alb","Works":"kinglear","Description":"","SpeechCount":58}
+{"CharID":"DukeAlencon","CharName":"Duke of Alencon","Abbrev":"ALENCON","Works":"henry6p1","Description":"","SpeechCount":18}
+{"CharID":"duke-ayli","CharName":"Duke","Abbrev":"DUKE SENIOR","Works":"asyoulikeit","Description":"living in exile","SpeechCount":32}
+{"CharID":"DukeBuckingham","CharName":"Duke of Buckingham","Abbrev":"BUCKINGHAM","Works":"henry8","Description":"","SpeechCount":26}
+{"CharID":"DukeBuckingham-h6","CharName":"Duke of Buckingham","Abbrev":"BUCKINGHAM","Works":"henry6p2,richard3","Description":"","SpeechCount":115}
+{"CharID":"dukeburgundy","CharName":"Duke of Burgundy","Abbrev":"Bur","Works":"kinglear","Description":"","SpeechCount":5}
+{"CharID":"dukeburgundy-h5","CharName":"Duke of Burgundy","Abbrev":"BURGUNDY","Works":"henry5,henry6p1","Description":"","SpeechCount":25}
+{"CharID":"dukecornwall","CharName":"Duke of Cornwall","Abbrev":"Corn","Works":"kinglear","Description":"","SpeechCount":53}
+{"CharID":"dukeflorence","CharName":"Duke of Florence","Abbrev":"DUKE","Works":"allswell","Description":"","SpeechCount":6}
+{"CharID":"dukemilan","CharName":"Duke of Milan","Abbrev":"DUKE","Works":"twogents","Description":"father to Silvia","SpeechCount":48}
+{"CharID":"DukeNorfolk","CharName":"Duke of Norfolk","Abbrev":"NORFOLK","Works":"henry8","Description":"","SpeechCount":48}
+{"CharID":"DukeNorfolk-h63","CharName":"Duke of Norfolk","Abbrev":"NORFOLK","Works":"henry6p3,richard3","Description":"","SpeechCount":11}
+{"CharID":"DukeSuffolk","CharName":"Duke of Suffolk","Abbrev":"SUFFOLK","Works":"henry8","Description":"","SpeechCount":30}
+{"CharID":"DukeSurrey","CharName":"Duke of Surrey","Abbrev":"DUKE OF SURREY","Works":"richard2","Description":"","SpeechCount":3}
+{"CharID":"dukevenice","CharName":"Duke of Venice","Abbrev":"DUKE OF VENICE","Works":"othello","Description":"","SpeechCount":25}
+{"CharID":"Dull","CharName":"Dull","Abbrev":"DULL","Works":"loveslabours","Description":"a constable","SpeechCount":15}
+{"CharID":"Dumain","CharName":"Dumain","Abbrev":"DUMAIN","Works":"loveslabours","Description":"lord attending on the king","SpeechCount":54}
+{"CharID":"duncan","CharName":"Duncan","Abbrev":"DUNCAN","Works":"macbeth","Description":"King of Scotland","SpeechCount":18}
+{"CharID":"EarlDouglas","CharName":"Earl of Douglas","Abbrev":"Earl of Douglas","Works":"henry4p1","Description":"","SpeechCount":19}
+{"CharID":"earlkent","CharName":"Earl of Kent","Abbrev":"Kent","Works":"kinglear","Description":"","SpeechCount":127}
+{"CharID":"earlnorth","CharName":"Earl of Northumberland","Abbrev":"NORTHUMBERLAND","Works":"richard2,henry4p1,henry4p2","Description":"","SpeechCount":66}
+{"CharID":"EarlNorthumberland","CharName":"Earl of Northumberland","Abbrev":"NORTHUMBERLAND","Works":"henry6p3","Description":"","SpeechCount":15}
+{"CharID":"EarlOxford","CharName":"Earl Oxford","Abbrev":"OXFORD","Works":"henry6p3,richard3","Description":"","SpeechCount":14}
+{"CharID":"EarlRichmond","CharName":"Henry, Earl of Richmond","Abbrev":"HENRY OF RICHMOND","Works":"henry6p3","Description":"a youth","SpeechCount":0}
+{"CharID":"EarlSuffolk","CharName":"Earl of Suffolk","Abbrev":"SUFFOLK","Works":"henry6p1,henry6p2","Description":"","SpeechCount":108}
+{"CharID":"EarlSurrey","CharName":"Earl of Surrey","Abbrev":"SURREY","Works":"henry8","Description":"","SpeechCount":24}
+{"CharID":"EarlSurrey-r3","CharName":"Earl of Surrey","Abbrev":"SURREY","Works":"richard3","Description":"son of the Duke of Norfolk","SpeechCount":1}
+{"CharID":"EarlWestmoreland-h63","CharName":"Earl of Westmoreland","Abbrev":"WESTMORELAND","Works":"henry6p3","Description":"","SpeechCount":6}
+{"CharID":"edgar","CharName":"Edgar","Abbrev":"Edg","Works":"kinglear","Description":"son of Glouchester","SpeechCount":98}
+{"CharID":"EdmondRutland","CharName":"Edmond, Earl of Rutland","Abbrev":"RUTLAND","Works":"henry6p3","Description":"","SpeechCount":7}
+{"CharID":"edmund","CharName":"Edmund","Abbrev":"Edm","Works":"kinglear","Description":"bastard son to Glouchester","SpeechCount":79}
+{"CharID":"EdmundLangley","CharName":"Edmund of Langley","Abbrev":"DUKE OF YORK","Works":"richard2","Description":"duke of York, uncle to the king","SpeechCount":54}
+{"CharID":"EdmundMortimer","CharName":"Edmund Mortimer","Abbrev":"MORTIMER","Works":"henry6p1,henry6p3","Description":"Earl of March","SpeechCount":9}
+{"CharID":"EdwardPlantagenet","CharName":"King Edward IV (Plantagenet)","Abbrev":"EDWARD","Works":"henry6p2,henry6p3,richard3","Description":"","SpeechCount":144}
+{"CharID":"Egeus","CharName":"Egeus","Abbrev":"EGEUS","Works":"midsummer","Description":"father to Hermia","SpeechCount":7}
+{"CharID":"Eglamour","CharName":"Eglamour","Abbrev":"EGLAMOUR","Works":"twogents","Description":"agent for Silvia in her escape","SpeechCount":8}
+{"CharID":"Egyptian","CharName":"Egyptian","Abbrev":"Egyptian","Works":"antonycleo","Description":"","SpeechCount":2}
+{"CharID":"Elbow","CharName":"Elbow","Abbrev":"ELBOW","Works":"measure","Description":"a simple constable","SpeechCount":28}
+{"CharID":"Eleanor","CharName":"Eleanor","Abbrev":"DUCHESS","Works":"henry6p2","Description":"duchess of Gloucester","SpeechCount":21}
+{"CharID":"ely","CharName":"Bishop of Ely","Abbrev":"ELY","Works":"henry5","Description":"","SpeechCount":12}
+{"CharID":"emilia","CharName":"Emilia","Abbrev":"EMILIA","Works":"othello","Description":"Wife to Iago","SpeechCount":103}
+{"CharID":"Emilia-wt","CharName":"Emilia","Abbrev":"EMILIA","Works":"winterstale","Description":"a lady attending on Hermione","SpeechCount":4}
+{"CharID":"EnglishHerald","CharName":"English Herald","Abbrev":"English Herald","Works":"kingjohn","Description":"","SpeechCount":1}
+{"CharID":"Eros","CharName":"Eros","Abbrev":"EROS","Works":"antonycleo","Description":"friend to Antony","SpeechCount":27}
+{"CharID":"erpingham","CharName":"Sir Thomas Erpingham","Abbrev":"ERPINGHAM","Works":"henry5","Description":"","SpeechCount":5}
+{"CharID":"escalus","CharName":"Prince Escalus","Abbrev":"PRINCE","Works":"romeojuliet","Description":"Prince of Verona","SpeechCount":16}
+{"CharID":"Escalus-m4m","CharName":"Escalus","Abbrev":"ESCALUS","Works":"measure","Description":"Escalus","SpeechCount":78}
+{"CharID":"Escanes","CharName":"Escanes","Abbrev":"ESCANES","Works":"pericles","Description":"a lord of Tyre","SpeechCount":2}
+{"CharID":"Essex","CharName":"Essex","Abbrev":"ESSEX","Works":"kingjohn","Description":"earl of Essex","SpeechCount":1}
+{"CharID":"Euphronius","CharName":"Euphronius","Abbrev":"EUPHRONIUS","Works":"antonycleo","Description":"an ambassador from Antony to Caesar","SpeechCount":5}
+{"CharID":"exeter","CharName":"Duke of Exeter","Abbrev":"EXETER","Works":"henry5,henry6p1,henry6p3","Description":"uncle to Henry IV, great-uncle to Henry V","SpeechCount":46}
+{"CharID":"Exton","CharName":"Sir Pierce of Exton","Abbrev":"EXTON","Works":"richard2","Description":"","SpeechCount":6}
+{"CharID":"FABIAN-12","CharName":"Fabian","Abbrev":"FABIAN","Works":"12night","Description":"servant to Olivia","SpeechCount":51}
+{"CharID":"Fairy","CharName":"Fairy","Abbrev":"Fairy","Works":"midsummer","Description":"","SpeechCount":4}
+{"CharID":"falstaff","CharName":"Falstaff","Abbrev":"FALSTAFF","Works":"henry4p1,henry4p2,henry5,merrywives","Description":"Sir John Falstaff","SpeechCount":471}
+{"CharID":"fang","CharName":"Fang","Abbrev":"FANG","Works":"henry4p2","Description":"a Sheriff's officer","SpeechCount":7}
+{"CharID":"Father","CharName":"Father","Abbrev":"Father","Works":"henry6p3","Description":"who has killed his son","SpeechCount":4}
+{"CharID":"Faulconbridge","CharName":"Faulconbridge","Abbrev":"ROBERT","Works":"kingjohn","Description":"son of Sir Robert Faulconbridge","SpeechCount":4}
+{"CharID":"feeble","CharName":"Francis Feeble","Abbrev":"FEEBLE","Works":"henry4p2","Description":"country soldier","SpeechCount":7}
+{"CharID":"fenton","CharName":"Fenton","Abbrev":"FENTON","Works":"merrywives","Description":"a gentleman","SpeechCount":20}
+{"CharID":"Ferdinand","CharName":"Ferdinand","Abbrev":"FERDINAND","Works":"loveslabours","Description":"king of Navarre","SpeechCount":117}
+{"CharID":"Ferdinand-tem","CharName":"Ferdinand","Abbrev":"FERDINAND","Works":"tempest","Description":"son to the King of Naples","SpeechCount":31}
+{"CharID":"FESTE","CharName":"Feste","Abbrev":"Clown","Works":"12night","Description":"a clown, servant to Olivia","SpeechCount":104}
+{"CharID":"FifthCitizen","CharName":"Fifth Citizen","Abbrev":"Fifth Citizen","Works":"coriolanus","Description":"","SpeechCount":1}
+{"CharID":"FirstAmbassador-h5","CharName":"First Ambassador","Abbrev":"First Ambassador","Works":"henry5","Description":"","SpeechCount":2}
+{"CharID":"FirstAttendant","CharName":"First Attendant","Abbrev":"First Attendant","Works":"antonycleo","Description":"","SpeechCount":3}
+{"CharID":"FirstBandit","CharName":"First Bandit","Abbrev":"First Bandit","Works":"timonathens","Description":"","SpeechCount":5}
+{"CharID":"FirstBrother","CharName":"First Brother","Abbrev":"First Brother","Works":"cymbeline","Description":"an apparition","SpeechCount":2}
+{"CharID":"FirstCaptain-cym","CharName":"First British Captain","Abbrev":"First Captain","Works":"cymbeline","Description":"","SpeechCount":2}
+{"CharID":"FirstCarrier","CharName":"First Carrier","Abbrev":"First Carrier","Works":"henry4p1","Description":"","SpeechCount":8}
+{"CharID":"FirstCitizen","CharName":"First Citizen","Abbrev":"First Citizen","Works":"coriolanus","Description":"","SpeechCount":33}
+{"CharID":"FirstCitizen-h62","CharName":"First Citizen","Abbrev":"First Citizen","Works":"henry6p2","Description":"","SpeechCount":1}
+{"CharID":"FirstCitizen-jc","CharName":"First Citizen","Abbrev":"First Citizen","Works":"juliuscaesar","Description":"","SpeechCount":18}
+{"CharID":"FirstCitizen-kjo","CharName":"First Citizen","Abbrev":"First Citizen","Works":"kingjohn","Description":"","SpeechCount":10}
+{"CharID":"FirstCitizen-r3","CharName":"First Citizen","Abbrev":"First Citizen","Works":"richard3","Description":"","SpeechCount":7}
+{"CharID":"FirstCommoner","CharName":"First Commoner","Abbrev":"First Commoner","Works":"juliuscaesar","Description":"","SpeechCount":1}
+{"CharID":"FirstExecutioner","CharName":"First Executioner","Abbrev":"First Executioner","Works":"kingjohn","Description":"","SpeechCount":2}
+{"CharID":"FirstFish","CharName":"First Fisherman","Abbrev":"First Fisherman","Works":"pericles","Description":"","SpeechCount":15}
+{"CharID":"FirstGaoler","CharName":"First Gaoler","Abbrev":"First Gaoler","Works":"cymbeline","Description":"","SpeechCount":9}
+{"CharID":"FirstGaoler-h61","CharName":"First Gaoler","Abbrev":"First Gaoler","Works":"henry6p1","Description":"","SpeechCount":2}
+{"CharID":"FirstGentleman","CharName":"First Gentleman","Abbrev":"First Gentleman","Works":"measure","Description":"","SpeechCount":12}
+{"CharID":"FirstGentleman-aw","CharName":"First Gentleman","Abbrev":"First Gentleman","Works":"allswell","Description":"","SpeechCount":7}
+{"CharID":"FirstGentleman-cym","CharName":"First Gentleman","Abbrev":"First Gentleman","Works":"cymbeline","Description":"a gentleman of Cymbeline's court","SpeechCount":10}
+{"CharID":"FirstGentleman-h62","CharName":"First Gentleman","Abbrev":"First Gentleman","Works":"henry6p2","Description":"","SpeechCount":4}
+{"CharID":"FirstGentleman-h8","CharName":"First Gentleman","Abbrev":"First Gentleman","Works":"henry8","Description":"","SpeechCount":34}
+{"CharID":"FirstGentleman-wt","CharName":"First Gentleman","Abbrev":"First Gentleman","Works":"winterstale","Description":"","SpeechCount":6}
+{"CharID":"FirstGent-per","CharName":"First Gentleman","Abbrev":"First Gentleman","Works":"pericles","Description":"","SpeechCount":10}
+{"CharID":"FirstGuard","CharName":"First Guard","Abbrev":"First Guard","Works":"antonycleo","Description":"","SpeechCount":11}
+{"CharID":"FirstHerald-kr2","CharName":"First Herald","Abbrev":"First Herald","Works":"richard2","Description":"","SpeechCount":1}
+{"CharID":"FirstKeeper","CharName":"First Keeper","Abbrev":"First Keeper","Works":"henry6p3","Description":"","SpeechCount":7}
+{"CharID":"FirstKnight-per","CharName":"First Knight","Abbrev":"First Knight","Works":"pericles","Description":"","SpeechCount":2}
+{"CharID":"FirstLady","CharName":"First Lady","Abbrev":"First Lady","Works":"timonathens","Description":"","SpeechCount":1}
+{"CharID":"FirstLady-cym","CharName":"First Lady","Abbrev":"First Lady","Works":"cymbeline","Description":"","SpeechCount":2}
+{"CharID":"FirstLady-wt","CharName":"First Lady","Abbrev":"First Lady","Works":"winterstale","Description":"","SpeechCount":4}
+{"CharID":"FirstLord","CharName":"First Lord","Abbrev":"First Lord","Works":"coriolanus","Description":"","SpeechCount":4}
+{"CharID":"FirstLord-aw","CharName":"First Lord","Abbrev":"First Lord","Works":"allswell","Description":"","SpeechCount":48}
+{"CharID":"firstlord-ayli","CharName":"First Lord","Abbrev":"FIRST LORD","Works":"asyoulikeit","Description":"","SpeechCount":6}
+{"CharID":"FirstLord-cym","CharName":"First Lord","Abbrev":"First Lord","Works":"cymbeline","Description":"a lord of Cymbeline's court","SpeechCount":15}
+{"CharID":"FirstLord-lll","CharName":"First Lord","Abbrev":"First Lord","Works":"loveslabours","Description":"","SpeechCount":2}
+{"CharID":"FirstLord-per","CharName":"First Lord","Abbrev":"First Lord","Works":"pericles","Description":"","SpeechCount":9}
+{"CharID":"FirstLord-tim","CharName":"First Lord","Abbrev":"First Lord","Works":"timonathens","Description":"","SpeechCount":28}
+{"CharID":"FirstLord-wt","CharName":"First Lord","Abbrev":"First Lord","Works":"winterstale","Description":"","SpeechCount":14}
+{"CharID":"FirstMerchant","CharName":"First Merchant","Abbrev":"First Merchant","Works":"comedyerrors","Description":"friend to Antipholus of Syracuse","SpeechCount":3}
+{"CharID":"FirstMessenger-h63","CharName":"First Messenger","Abbrev":"First Messenger","Works":"henry6p3","Description":"","SpeechCount":1}
+{"CharID":"FirstMurderer-h62","CharName":"First Murderer","Abbrev":"First Murderer","Works":"henry6p2","Description":"","SpeechCount":4}
+{"CharID":"FirstMurderer-r3","CharName":"First Murderer","Abbrev":"First Murderer","Works":"richard3","Description":"","SpeechCount":33}
+{"CharID":"FirstNeighbour-h62","CharName":"First Neighbour","Abbrev":"First Neighbour","Works":"henry6p2","Description":"","SpeechCount":1}
+{"CharID":"FirstOfficer-12","CharName":"First Officer","Abbrev":"First Officer","Works":"12night","Description":"","SpeechCount":5}
+{"CharID":"FirstOfficer-ac","CharName":"First Officer","Abbrev":"First Officer","Works":"antonycleo","Description":"","SpeechCount":0}
+{"CharID":"FirstOfficer-cor","CharName":"First Officer","Abbrev":"First Officer","Works":"coriolanus","Description":"","SpeechCount":4}
+{"CharID":"FirstOutlaw","CharName":"First Outlaw","Abbrev":"First Outlaw","Works":"twogents","Description":"","SpeechCount":11}
+{"CharID":"FirstPetitioner-h62","CharName":"First Petitioner","Abbrev":"First Petitioner","Works":"henry6p2","Description":"","SpeechCount":3}
+{"CharID":"FirstPirate","CharName":"First Pirate","Abbrev":"First Pirate","Works":"pericles","Description":"","SpeechCount":2}
+{"CharID":"FirstPrentice","CharName":"First 'Prentice","Abbrev":"First 'Prentice","Works":"henry6p2","Description":"","SpeechCount":0}
+{"CharID":"FirstRoman","CharName":"First Roman","Abbrev":"First Roman","Works":"coriolanus","Description":"","SpeechCount":1}
+{"CharID":"FirstSailor-per","CharName":"First Sailor","Abbrev":"First Sailor","Works":"pericles","Description":"","SpeechCount":4}
+{"CharID":"FirstSecretary","CharName":"First Secretary","Abbrev":"First Secretary","Works":"henry8","Description":"to Wolsey","SpeechCount":2}
+{"CharID":"FirstSenator","CharName":"First Senator","Abbrev":"First Senator","Works":"timonathens","Description":"","SpeechCount":27}
+{"CharID":"FirstSenator-cym","CharName":"First Senator","Abbrev":"First Senator","Works":"cymbeline","Description":"","SpeechCount":2}
+{"CharID":"FirstSentinel","CharName":"First Sentinel","Abbrev":"First Sentinel","Works":"henry6p1","Description":"","SpeechCount":1}
+{"CharID":"FirstServant-ac","CharName":"First Servant","Abbrev":"First Servant","Works":"antonycleo","Description":"","SpeechCount":4}
+{"CharID":"FirstServant-mww","CharName":"First Servant","Abbrev":"First Servant","Works":"merrywives","Description":"","SpeechCount":2}
+{"CharID":"FirstServant-per","CharName":"First Servant","Abbrev":"First Servant","Works":"pericles","Description":"","SpeechCount":3}
+{"CharID":"FirstServant-tim","CharName":"First Servant","Abbrev":"First Servant","Works":"timonathens","Description":"","SpeechCount":7}
+{"CharID":"FirstServant-wt","CharName":"First Servant","Abbrev":"First Servant","Works":"winterstale","Description":"","SpeechCount":2}
+{"CharID":"FirstServiceman","CharName":"First Serviceman","Abbrev":"First Serviceman","Works":"coriolanus","Description":"","SpeechCount":0}
+{"CharID":"FirstServingman","CharName":"First Servingman","Abbrev":"First Servingman","Works":"coriolanus","Description":"","SpeechCount":19}
+{"CharID":"FirstSoldier-ac","CharName":"First Soldier","Abbrev":"First Soldier","Works":"antonycleo","Description":"","SpeechCount":14}
+{"CharID":"FirstSoldier-aw","CharName":"First Soldier","Abbrev":"First Soldier","Works":"allswell","Description":"","SpeechCount":37}
+{"CharID":"FirstSoldier-h61","CharName":"First Soldier","Abbrev":"First Soldier","Works":"henry6p1","Description":"","SpeechCount":1}
+{"CharID":"FirstSoldier-jc","CharName":"First Soldier","Abbrev":"First Soldier","Works":"juliuscaesar","Description":"","SpeechCount":4}
+{"CharID":"FirstStranger","CharName":"First Stranger","Abbrev":"First Stranger","Works":"timonathens","Description":"","SpeechCount":4}
+{"CharID":"FirstTraveller","CharName":"First Traveller","Abbrev":"First Traveller","Works":"henry4p1","Description":"","SpeechCount":1}
+{"CharID":"FirstTribune","CharName":"First Tribune","Abbrev":"First Tribune","Works":"cymbeline","Description":"","SpeechCount":3}
+{"CharID":"FirstWarder","CharName":"First Warder","Abbrev":"First Warder","Works":"henry6p1","Description":"","SpeechCount":2}
+{"CharID":"FirstWatchman-h63","CharName":"First Watchman","Abbrev":"First Watchman","Works":"henry6p3","Description":"","SpeechCount":5}
+{"CharID":"Flaminius-tim","CharName":"Flaminius","Abbrev":"Flaminius","Works":"timonathens","Description":"","SpeechCount":10}
+{"CharID":"Flavius","CharName":"Flavius","Abbrev":"FLAVIUS","Works":"timonathens","Description":"steward to Timon","SpeechCount":41}
+{"CharID":"Flavius-jc","CharName":"Flavius","Abbrev":"FLAVIUS","Works":"juliuscaesar","Description":"a tribune","SpeechCount":5}
+{"CharID":"fleance","CharName":"Fleance","Abbrev":"FLEANCE","Works":"macbeth","Description":"Son to Banquo","SpeechCount":2}
+{"CharID":"Florizel","CharName":"Florizel","Abbrev":"FLORIZEL","Works":"winterstale","Description":"prince of Bohemia","SpeechCount":45}
+{"CharID":"fluellen","CharName":"Fluellen","Abbrev":"FLUELLEN","Works":"henry5","Description":"","SpeechCount":68}
+{"CharID":"Flute","CharName":"Flute","Abbrev":"FLUTE","Works":"midsummer","Description":"a bellows-mender","SpeechCount":18}
+{"CharID":"fool-kl","CharName":"Fool","Abbrev":"Fool","Works":"kinglear","Description":"","SpeechCount":58}
+{"CharID":"Fool-tim","CharName":"Fool","Abbrev":"Fool","Works":"timonathens","Description":"","SpeechCount":9}
+{"CharID":"ford","CharName":"Ford","Abbrev":"FORD","Works":"merrywives","Description":"a gentleman dwelling at Windsor","SpeechCount":99}
+{"CharID":"Forester","CharName":"Forester","Abbrev":"Forester","Works":"loveslabours","Description":"","SpeechCount":4}
+{"CharID":"fortinbras","CharName":"Fortinbras","Abbrev":"Fort","Works":"hamlet","Description":"Prince of Norway","SpeechCount":6}
+{"CharID":"FourthCitizen","CharName":"Fourth Citizen","Abbrev":"Fourth Citizen","Works":"coriolanus","Description":"","SpeechCount":3}
+{"CharID":"FourthCitizen-jc","CharName":"Fourth Citizen","Abbrev":"Fourth Citizen","Works":"juliuscaesar","Description":"","SpeechCount":16}
+{"CharID":"FourthLord","CharName":"Fourth Lord","Abbrev":"Fourth Lord","Works":"timonathens","Description":"","SpeechCount":3}
+{"CharID":"FourthLord-aw","CharName":"Fourth Lord","Abbrev":"Fourth Lord","Works":"allswell","Description":"","SpeechCount":1}
+{"CharID":"FourthMessenger","CharName":"Fourth Messenger","Abbrev":"Fourth Messenger","Works":"richard3","Description":"","SpeechCount":1}
+{"CharID":"FourthSoldier-ac","CharName":"Fourth Soldier","Abbrev":"Fourth Soldier","Works":"antonycleo","Description":"","SpeechCount":3}
+{"CharID":"Francisca","CharName":"Francisca","Abbrev":"FRANCISCA","Works":"measure","Description":"a nun","SpeechCount":2}
+{"CharID":"francisco","CharName":"Francisco","Abbrev":"Fran","Works":"hamlet","Description":"a soldier","SpeechCount":8}
+{"CharID":"Francisco-tem","CharName":"Francisco","Abbrev":"FRANCISCO","Works":"tempest","Description":"a lord","SpeechCount":2}
+{"CharID":"francis-h4p2","CharName":"Francis","Abbrev":"FRANCIS","Works":"henry4p1,henry4p2","Description":"a drawer","SpeechCount":18}
+{"CharID":"frederick","CharName":"Frederick","Abbrev":"FREDERICK","Works":"asyoulikeit","Description":"the Duke's brother, and usurper of his dominions","SpeechCount":20}
+{"CharID":"FrenchHerald","CharName":"French Herald","Abbrev":"French Herald","Works":"kingjohn","Description":"","SpeechCount":1}
+{"CharID":"frenchking","CharName":"King of France","Abbrev":"FRENCH KING","Works":"henry5","Description":"Charles VI","SpeechCount":19}
+{"CharID":"Frenchman","CharName":"Frenchman","Abbrev":"Frenchman","Works":"cymbeline","Description":"friend to Philario","SpeechCount":7}
+{"CharID":"FrenchSoldier","CharName":"French Soldier","Abbrev":"French Soldier","Works":"henry5","Description":"","SpeechCount":10}
+{"CharID":"friarfrancis","CharName":"Friar Francis","Abbrev":"FRIAR FRANCIS","Works":"muchado","Description":"","SpeechCount":16}
+{"CharID":"friarjohn","CharName":"Friar John","Abbrev":"FRIAR JOHN","Works":"romeojuliet","Description":"Franciscan friar","SpeechCount":4}
+{"CharID":"friarlaurence","CharName":"Friar Laurence","Abbrev":"FRIAR LAURENCE","Works":"romeojuliet","Description":"Franciscan friar","SpeechCount":55}
+{"CharID":"FriarPeter","CharName":"Friar Peter","Abbrev":"FRIAR PETER","Works":"measure","Description":"","SpeechCount":7}
+{"CharID":"FriarThomas","CharName":"Friar Thomas","Abbrev":"FRIAR THOMAS","Works":"measure","Description":"","SpeechCount":3}
+{"CharID":"Froth","CharName":"Froth","Abbrev":"FROTH","Works":"measure","Description":"a foolish gentleman","SpeechCount":8}
+{"CharID":"gadshill","CharName":"Gadshill","Abbrev":"Gadshill","Works":"henry4p1","Description":"","SpeechCount":17}
+{"CharID":"Gallus","CharName":"Gallus","Abbrev":"GALLUS","Works":"antonycleo","Description":"friend to Caesar","SpeechCount":1}
+{"CharID":"Gaoler","CharName":"Gaoler","Abbrev":"Gaoler","Works":"comedyerrors","Description":"","SpeechCount":1}
+{"CharID":"Gaoler-wt","CharName":"Gaoler","Abbrev":"Gaoler","Works":"winterstale","Description":"","SpeechCount":6}
+{"CharID":"Gardener","CharName":"Gardener","Abbrev":"Gardener","Works":"richard2","Description":"","SpeechCount":6}
+{"CharID":"Gardiner","CharName":"Gardiner","Abbrev":"GARDINER","Works":"henry8","Description":"bishop of Winchester","SpeechCount":22}
+{"CharID":"Garter","CharName":"Garter","Abbrev":"Garter","Works":"henry8","Description":"King-at-Arms","SpeechCount":1}
+{"CharID":"garterhost","CharName":"Host","Abbrev":"Host","Works":"merrywives","Description":"host of the Garter Inn","SpeechCount":46}
+{"CharID":"General-h61","CharName":"General","Abbrev":"General","Works":"henry6p1","Description":"of the French forces in Bordeaux","SpeechCount":1}
+{"CharID":"Gentleman-aw","CharName":"Gentleman","Abbrev":"Gentleman","Works":"allswell","Description":"","SpeechCount":9}
+{"CharID":"Gentleman-h8","CharName":"Gentleman","Abbrev":"Gentleman","Works":"henry8","Description":"","SpeechCount":3}
+{"CharID":"gentleman-kl","CharName":"Gentleman","Abbrev":"Gent","Works":"kinglear","Description":"","SpeechCount":41}
+{"CharID":"gentleman-oth","CharName":"Gentleman","Abbrev":"Gentleman","Works":"othello","Description":"","SpeechCount":1}
+{"CharID":"Gentleman-r3","CharName":"Gentleman","Abbrev":"Gentleman","Works":"richard3","Description":"","SpeechCount":1}
+{"CharID":"Gentleman-wt","CharName":"Gentleman","Abbrev":"Gentleman","Works":"winterstale","Description":"","SpeechCount":5}
+{"CharID":"Gentlemen-r3","CharName":"Gentlemen","Abbrev":"GENTLEMEN","Works":"richard3","Description":"","SpeechCount":1}
+{"CharID":"gentlewoman-cor","CharName":"Gentlewoman","Abbrev":"Gentlewoman","Works":"coriolanus","Description":"attending on Virgilia","SpeechCount":1}
+{"CharID":"gentlewoman-mac","CharName":"Gentlewoman","Abbrev":"Gentlewoman","Works":"macbeth","Description":"","SpeechCount":11}
+{"CharID":"gents-ham","CharName":"Gentlemen","Abbrev":"Gentlemen","Works":"hamlet","Description":"","SpeechCount":1}
+{"CharID":"GeorgePlantagenet","CharName":"George Plantagenet (Duke of Clarence)","Abbrev":"GEORGE","Works":"henry6p3,richard3","Description":"","SpeechCount":72}
+{"CharID":"gertrude","CharName":"Gertrude","Abbrev":"Queen","Works":"hamlet","Description":"Queen of Denmark and mother to Hamlet","SpeechCount":70}
+{"CharID":"Girl-r3","CharName":"Girl","Abbrev":"Girl","Works":"richard3","Description":"","SpeechCount":3}
+{"CharID":"glendower","CharName":"Glendower","Abbrev":"GLENDOWER","Works":"henry4p1","Description":"","SpeechCount":23}
+{"CharID":"Gloucester-h5","CharName":"Duke of Gloucester","Abbrev":"GLOUCESTER","Works":"henry5,henry6p1,henry6p2,richard3","Description":"brother to the King","SpeechCount":285}
+{"CharID":"gloucester-kl","CharName":"Earl of Gloucester","Abbrev":"Glou","Works":"kinglear","Description":"","SpeechCount":118}
+{"CharID":"goneril","CharName":"Goneril","Abbrev":"Gon","Works":"kinglear","Description":"daughter to Lear","SpeechCount":53}
+{"CharID":"Gonzalo","CharName":"Gonzalo","Abbrev":"GONZALO","Works":"tempest","Description":"an honest old counsellor","SpeechCount":52}
+{"CharID":"GovHarfleur","CharName":"Governor of Harfleur","Abbrev":"GOVERNOR","Works":"henry5","Description":"","SpeechCount":1}
+{"CharID":"gower","CharName":"Gower","Abbrev":"GOWER","Works":"henry4p2,henry5","Description":"","SpeechCount":31}
+{"CharID":"Gower-per","CharName":"Gower","Abbrev":"GOWER","Works":"pericles","Description":"as chorus","SpeechCount":8}
+{"CharID":"Grandpre","CharName":"Grandpre","Abbrev":"GRANDPRE","Works":"henry5","Description":"French lord","SpeechCount":1}
+{"CharID":"gratiano","CharName":"Gratiano","Abbrev":"GRATIANO","Works":"othello","Description":"Brother to Brabantio","SpeechCount":20}
+{"CharID":"Gratiano-mv","CharName":"Gratiano","Abbrev":"GRATIANO","Works":"merchantvenice","Description":"friend to Antonio and Bassiano","SpeechCount":48}
+{"CharID":"Green","CharName":"Green","Abbrev":"GREEN","Works":"richard2","Description":"servant to King Richard II","SpeechCount":10}
+{"CharID":"gregory","CharName":"Gregory","Abbrev":"GREGORY","Works":"romeojuliet","Description":"Servant to Capulet","SpeechCount":16}
+{"CharID":"gremio","CharName":"Gremio","Abbrev":"GREMIO","Works":"tamingshrew","Description":"","SpeechCount":58}
+{"CharID":"grey","CharName":"Sir Thomas Grey","Abbrev":"GREY","Works":"henry5","Description":"","SpeechCount":5}
+{"CharID":"Griffith","CharName":"Griffith","Abbrev":"GRIFFITH","Works":"henry8","Description":"gentleman-usher to Queen Katherine","SpeechCount":13}
+{"CharID":"Groom","CharName":"Groom","Abbrev":"Groom","Works":"richard2","Description":"","SpeechCount":4}
+{"CharID":"groom1","CharName":"First Groom","Abbrev":"FIRST GROOM","Works":"henry4p2","Description":"","SpeechCount":1}
+{"CharID":"groom2","CharName":"Second Groom","Abbrev":"SECOND GROOM","Works":"henry4p2","Description":"","SpeechCount":1}
+{"CharID":"groom3","CharName":"Third Groom","Abbrev":"THIRD GROOM","Works":"henry4p2","Description":"","SpeechCount":1}
+{"CharID":"grumio","CharName":"Grumio","Abbrev":"GRUMIO","Works":"tamingshrew","Description":"Petruchio's man","SpeechCount":63}
+{"CharID":"Guard","CharName":"Guard","Abbrev":"Guard","Works":"antonycleo","Description":"","SpeechCount":2}
+{"CharID":"Guiderius","CharName":"Guiderius","Abbrev":"GUIDERIUS","Works":"cymbeline","Description":"son to Cymbeline, disguised under the name of Polydote, supposed son to Morgan","SpeechCount":62}
+{"CharID":"guildenstern","CharName":"Guildenstern","Abbrev":"Guil","Works":"hamlet","Description":"courtier","SpeechCount":29}
+{"CharID":"Guildford","CharName":"Sir Henry Guildford","Abbrev":"GUILDFORD","Works":"henry8","Description":"","SpeechCount":1}
+{"CharID":"Gurney","CharName":"James Gurney","Abbrev":"GURNEY","Works":"kingjohn","Description":"servant to Lady Faulconbridge","SpeechCount":1}
+{"CharID":"haberdasher","CharName":"Haberdasher","Abbrev":"HABERDASHER","Works":"tamingshrew","Description":"","SpeechCount":1}
+{"CharID":"hamgent","CharName":"Gentleman","Abbrev":"Gent","Works":"hamlet","Description":"courtier","SpeechCount":2}
+{"CharID":"hamghost","CharName":"Father's Ghost","Abbrev":"Ghost","Works":"hamlet","Description":"Ghost of Hamlet's Father","SpeechCount":15}
+{"CharID":"hamlet","CharName":"Hamlet","Abbrev":"Ham","Works":"hamlet","Description":"son of the former king and nephew to the present king","SpeechCount":358}
+{"CharID":"hampriest","CharName":"Priest","Abbrev":"Priest","Works":"hamlet","Description":"","SpeechCount":2}
+{"CharID":"harcourt","CharName":"Harcourt","Abbrev":"HARCOURT","Works":"henry4p2","Description":"","SpeechCount":1}
+{"CharID":"hastings","CharName":"Lord Hastings","Abbrev":"HASTINGS","Works":"henry4p2","Description":"","SpeechCount":17}
+{"CharID":"hecate","CharName":"Hecate","Abbrev":"HECATE","Works":"macbeth","Description":"","SpeechCount":2}
+{"CharID":"Hector","CharName":"Hector","Abbrev":"HECTOR","Works":"troilus","Description":"son of Priam, king of Troy","SpeechCount":57}
+{"CharID":"Helen","CharName":"Helen","Abbrev":"HELEN","Works":"troilus","Description":"wife to Menelaus","SpeechCount":17}
+{"CharID":"HELENA","CharName":"Helena","Abbrev":"HELENA","Works":"allswell","Description":"a gentlewoman protected by the Countess","SpeechCount":109}
+{"CharID":"Helena-mnd","CharName":"Helena","Abbrev":"HELENA","Works":"midsummer","Description":"in love with Demetrius","SpeechCount":36}
+{"CharID":"Helen-cym","CharName":"Helen","Abbrev":"HELEN","Works":"cymbeline","Description":"a lady attending on Cymbeline","SpeechCount":0}
+{"CharID":"Helenus","CharName":"Helenus","Abbrev":"HELENUS","Works":"troilus","Description":"son of Priam, king of Troy","SpeechCount":1}
+{"CharID":"Helicanus","CharName":"Helicanus","Abbrev":"HELICANUS","Works":"pericles","Description":"a lord of Tyre","SpeechCount":37}
+{"CharID":"henry4","CharName":"Henry IV","Abbrev":"KING HENRY IV","Works":"richard2,henry4p1,henry4p2","Description":"King of England","SpeechCount":154}
+{"CharID":"henry5","CharName":"Henry V","Abbrev":"HENRY5","Works":"henry4p1,henry4p2,henry5","Description":"Prince, King of England","SpeechCount":377}
+{"CharID":"Henry6","CharName":"Henry VI","Abbrev":"KING HENRY VI","Works":"henry6p1,henry6p2,henry6p3,richard3","Description":"","SpeechCount":183}
+{"CharID":"Henry7","CharName":"Richmond (Henry VII)","Abbrev":"King Henry VII","Works":"richard3","Description":"Earl of Richmond, later Henry VII","SpeechCount":14}
+{"CharID":"Henry8","CharName":"Henry VIII","Abbrev":"KING HENRY VIII","Works":"henry8","Description":"","SpeechCount":81}
+{"CharID":"HenryBeaufort","CharName":"Winchester","Abbrev":"BISHOP OF WINCHESTER","Works":"henry6p1,henry6p2","Description":"Henry Beaufort, great-uncle to Henry V, bishop of Winchster, and later cardinal","SpeechCount":58}
+{"CharID":"herald-cor","CharName":"Herald","Abbrev":"Herald","Works":"coriolanus","Description":"","SpeechCount":2}
+{"CharID":"herald-h5","CharName":"Herald","Abbrev":"Herald","Works":"henry5","Description":"","SpeechCount":1}
+{"CharID":"Herald-h62","CharName":"Herald","Abbrev":"Herald","Works":"henry6p2","Description":"","SpeechCount":1}
+{"CharID":"herald-kl","CharName":"Herald","Abbrev":"Her","Works":"kinglear","Description":"","SpeechCount":4}
+{"CharID":"herald-oth","CharName":"Herald","Abbrev":"Herald","Works":"othello","Description":"","SpeechCount":1}
+{"CharID":"Hermia","CharName":"Hermia","Abbrev":"HERMIA","Works":"midsummer","Description":"daughter to Egeus, in love with Lysander","SpeechCount":48}
+{"CharID":"Hermione","CharName":"Hermione","Abbrev":"HERMIONE","Works":"winterstale","Description":"queen to Leontes","SpeechCount":35}
+{"CharID":"hero","CharName":"Hero","Abbrev":"HERO","Works":"muchado","Description":"Daughter to Leonato","SpeechCount":44}
+{"CharID":"Hippolyta","CharName":"Hippolyta","Abbrev":"HIPPOLYTA","Works":"midsummer","Description":"queen of the Amazons, betrothed to Theseus","SpeechCount":14}
+{"CharID":"Holofernes","CharName":"Holofernes","Abbrev":"HOLOFERNES","Works":"loveslabours","Description":"a schoolmaster","SpeechCount":54}
+{"CharID":"horatio","CharName":"Horatio","Abbrev":"Hor","Works":"hamlet","Description":"friend to Hamlet","SpeechCount":109}
+{"CharID":"hortensio","CharName":"Hortensio","Abbrev":"HORTENSIO","Works":"tamingshrew","Description":"","SpeechCount":70}
+{"CharID":"Hortensius","CharName":"Hortensius","Abbrev":"HORTENSIUS","Works":"timonathens","Description":"","SpeechCount":6}
+{"CharID":"Host","CharName":"Host","Abbrev":"Host","Works":"twogents","Description":"where Julia lodges","SpeechCount":16}
+{"CharID":"hostess-ts","CharName":"Hostess","Abbrev":"HOSTESS","Works":"tamingshrew","Description":"","SpeechCount":3}
+{"CharID":"hotspur","CharName":"Hotspur (Henry Percy)","Abbrev":"HOTSPUR","Works":"richard2,henry4p1","Description":"","SpeechCount":114}
+{"CharID":"Hubert","CharName":"Hubert de Burgh","Abbrev":"HUBERT","Works":"kingjohn","Description":"","SpeechCount":52}
+{"CharID":"Huntsman","CharName":"Huntsman","Abbrev":"Huntsman","Works":"henry6p3","Description":"","SpeechCount":2}
+{"CharID":"huntsman1","CharName":"First Huntsman","Abbrev":"FIRST HUNTSMAN","Works":"tamingshrew","Description":"","SpeechCount":4}
+{"CharID":"huntsman2","CharName":"Second Huntsman","Abbrev":"SECOND HUNTSMAN","Works":"tamingshrew","Description":"","SpeechCount":2}
+{"CharID":"hymen","CharName":"Hymen","Abbrev":"HYMEN","Works":"asyoulikeit","Description":"","SpeechCount":1}
+{"CharID":"Iachimo","CharName":"Iachimo","Abbrev":"IACHIMO","Works":"cymbeline","Description":"friend to Philario, an Italian.","SpeechCount":77}
+{"CharID":"iago","CharName":"Iago","Abbrev":"IAGO","Works":"othello","Description":"Othello's ancient (?)","SpeechCount":272}
+{"CharID":"Imogen","CharName":"Imogen","Abbrev":"IMOGEN","Works":"cymbeline","Description":"daughter to Cymbeline by a former queen","SpeechCount":118}
+{"CharID":"Iras","CharName":"Iras","Abbrev":"IRAS","Works":"antonycleo","Description":"attendant on Cleopatra","SpeechCount":18}
+{"CharID":"Iris","CharName":"Iris","Abbrev":"IRIS","Works":"tempest","Description":"presented by spirits","SpeechCount":4}
+{"CharID":"Isabel","CharName":"Queen Isabel","Abbrev":"QUEEN ISABEL","Works":"henry5","Description":"","SpeechCount":5}
+{"CharID":"Isabella-m4m","CharName":"Isabella","Abbrev":"ISABELLA","Works":"measure","Description":"sister to Claudio","SpeechCount":129}
+{"CharID":"JackCade","CharName":"Jack Cade","Abbrev":"CADE","Works":"henry6p2","Description":"a rebel","SpeechCount":61}
+{"CharID":"Jamy","CharName":"Jamy","Abbrev":"JAMY","Works":"henry5","Description":"","SpeechCount":4}
+{"CharID":"Jaquenetta","CharName":"Jaquenetta","Abbrev":"JAQUENETTA","Works":"loveslabours","Description":"a country wench","SpeechCount":13}
+{"CharID":"jaques1","CharName":"Jaques (lord)","Abbrev":"JAQUES","Works":"asyoulikeit","Description":"the Duke's brother, and usurper of his dominions","SpeechCount":57}
+{"CharID":"jaques2","CharName":"Jaques (son)","Abbrev":"JAQUES DE BOYS","Works":"asyoulikeit","Description":"the Duke's brother, and usurper of his dominions","SpeechCount":2}
+{"CharID":"Jessica","CharName":"Jessica","Abbrev":"JESSICA","Works":"merchantvenice","Description":"daughter to Shylock","SpeechCount":26}
+{"CharID":"Jeweller","CharName":"Jeweller","Abbrev":"Jeweller","Works":"timonathens","Description":"","SpeechCount":4}
+{"CharID":"JoanPucelle","CharName":"Joan la Pucelle","Abbrev":"JOAN LA PUCELLE","Works":"henry6p1","Description":"commonly called Joan of Arc","SpeechCount":46}
+{"CharID":"JohnGaunt","CharName":"John of Gaunt","Abbrev":"JOHN OF GAUNT","Works":"richard2","Description":"duke of Lancaster, uncle to the king","SpeechCount":28}
+{"CharID":"JohnHolland","CharName":"John Holland","Abbrev":"HOLLAND","Works":"henry6p2","Description":"a follower of Cade","SpeechCount":10}
+{"CharID":"JohnHume","CharName":"Father John Hume","Abbrev":"HUME","Works":"henry6p2","Description":"a priest","SpeechCount":6}
+{"CharID":"JohnMorton","CharName":"John Morton","Abbrev":"BISHOP OF ELY","Works":"richard3","Description":"bishop of Ely","SpeechCount":6}
+{"CharID":"JohnSouthwell","CharName":"Father John Southwell","Abbrev":"JOHN SOUTHWELL","Works":"henry6p2","Description":"a priest","SpeechCount":0}
+{"CharID":"joseph-ts","CharName":"Joseph","Abbrev":"JOSEPH","Works":"tamingshrew","Description":"a servingman","SpeechCount":1}
+{"CharID":"Jourdain","CharName":"Margaret Jourdain","Abbrev":"MARGARET JOURDAIN","Works":"henry6p2","Description":"a witch","SpeechCount":1}
+{"CharID":"Julia-tg","CharName":"Julia","Abbrev":"JULIA","Works":"twogents","Description":"beloved of Proteus","SpeechCount":107}
+{"CharID":"juliet","CharName":"Juliet","Abbrev":"JULIET","Works":"romeojuliet","Description":"Daughter to Capulet","SpeechCount":118}
+{"CharID":"Juliet-m4m","CharName":"Juliet","Abbrev":"JULIET","Works":"measure","Description":"beloved of Claudio","SpeechCount":7}
+{"CharID":"juliuscaesar","CharName":"Caesar","Abbrev":"CAESAR","Works":"juliuscaesar","Description":"(Julius Caesar)","SpeechCount":42}
+{"CharID":"juniusbrutus","CharName":"Junius Brutus","Abbrev":"BRUTUS","Works":"coriolanus","Description":"tribune of the people","SpeechCount":91}
+{"CharID":"Juno","CharName":"Juno","Abbrev":"JUNO","Works":"tempest","Description":"presented by spirits","SpeechCount":2}
+{"CharID":"Jupiter","CharName":"Jupiter","Abbrev":"Jupiter","Works":"cymbeline","Description":"","SpeechCount":1}
+{"CharID":"Justice","CharName":"Justice","Abbrev":"Justice","Works":"measure","Description":"","SpeechCount":3}
+{"CharID":"Katharine-h5","CharName":"Katharine","Abbrev":"KATHARINE","Works":"henry5","Description":"daughter to Charles and Isabel","SpeechCount":33}
+{"CharID":"Katharine-iii","CharName":"Katharine","Abbrev":"KATHARINE","Works":"loveslabours","Description":"lady attending on the princess","SpeechCount":25}
+{"CharID":"katherina","CharName":"Katherina","Abbrev":"KATHERINA","Works":"tamingshrew","Description":"the shrew","SpeechCount":82}
+{"CharID":"Keeper","CharName":"Keeper","Abbrev":"Keeper","Works":"richard2","Description":"","SpeechCount":4}
+{"CharID":"Keeper-h8","CharName":"Keeper","Abbrev":"Keeper","Works":"henry8","Description":"","SpeechCount":5}
+{"CharID":"kingfrance-aw","CharName":"King of France","Abbrev":"KING","Works":"allswell","Description":"","SpeechCount":87}
+{"CharID":"kingfrance-kl","CharName":"King of France","Abbrev":"France","Works":"kinglear","Description":"","SpeechCount":5}
+{"CharID":"kingjohn","CharName":"King John","Abbrev":"KING JOHN","Works":"kingjohn","Description":"king of England","SpeechCount":95}
+{"CharID":"KingPhilip","CharName":"King Phillip","Abbrev":"KING PHILIP","Works":"kingjohn","Description":"king of France","SpeechCount":43}
+{"CharID":"knight-kl","CharName":"Knight","Abbrev":"Knight","Works":"kinglear","Description":"","SpeechCount":5}
+{"CharID":"Knights","CharName":"Knights","Abbrev":"Knights","Works":"pericles","Description":"","SpeechCount":3}
+{"CharID":"LadyAnne","CharName":"Lady Anne","Abbrev":"LADY ANNE","Works":"richard3","Description":"widow of Edward Prince of Wales, son to King Henry VI; afterwards married to Richard III","SpeechCount":51}
+{"CharID":"ladycapulet","CharName":"Lady Capulet","Abbrev":"LADY CAPULET","Works":"romeojuliet","Description":"Wife to Capulet","SpeechCount":45}
+{"CharID":"Lady-cym","CharName":"Lady","Abbrev":"Lady","Works":"cymbeline","Description":"","SpeechCount":8}
+{"CharID":"LadyFaulconbridge","CharName":"Lady Faulconbridge","Abbrev":"LADY FAULCONBRIDGE","Works":"kingjohn","Description":"wife to Sir Robert Faulconbridge","SpeechCount":5}
+{"CharID":"Lady-kr2","CharName":"Lady","Abbrev":"Lady","Works":"richard2","Description":"attending on the Queen","SpeechCount":6}
+{"CharID":"ladymacbeth","CharName":"Lady Macbeth","Abbrev":"LADY MACBETH","Works":"macbeth","Description":"","SpeechCount":59}
+{"CharID":"ladymacduff","CharName":"Lady Macduff","Abbrev":"LADY MACDUFF","Works":"macbeth","Description":"","SpeechCount":19}
+{"CharID":"ladymontague","CharName":"Lady Montague","Abbrev":"LADY MONTAGUE","Works":"romeojuliet","Description":"Wife to Montague","SpeechCount":2}
+{"CharID":"ladynorth","CharName":"Lady Northumberland","Abbrev":"LADY NORTHUMBERLAND","Works":"henry4p2","Description":"","SpeechCount":2}
+{"CharID":"ladypercy","CharName":"Lady Percy","Abbrev":"LADY PERCY","Works":"henry4p1,henry4p2","Description":"","SpeechCount":18}
+{"CharID":"laertes","CharName":"Laertes","Abbrev":"Laer","Works":"hamlet","Description":"son to Polonius","SpeechCount":62}
+{"CharID":"LAFEU","CharName":"Lafeu","Abbrev":"LAFEU","Works":"allswell","Description":"an old lord","SpeechCount":97}
+{"CharID":"lartius","CharName":"Titus Lartius","Abbrev":"TITUS","Works":"coriolanus","Description":"general against the Volscians","SpeechCount":23}
+{"CharID":"Launce","CharName":"Launce","Abbrev":"LAUNCE","Works":"twogents","Description":"the like to Proteus","SpeechCount":68}
+{"CharID":"Launcelot","CharName":"Launcelot Gobbo","Abbrev":"LAUNCELOT","Works":"merchantvenice","Description":"the clown, servant to Shylock","SpeechCount":44}
+{"CharID":"Lavinia","CharName":"Lavinia","Abbrev":"LAVINIA","Works":"titus","Description":"","SpeechCount":15}
+{"CharID":"Lawyer","CharName":"Lawyer","Abbrev":"Lawyer","Works":"henry6p1","Description":"","SpeechCount":2}
+{"CharID":"lear","CharName":"Lear","Abbrev":"Lear","Works":"kinglear","Description":"King of Britain","SpeechCount":188}
+{"CharID":"lebeau","CharName":"Le Beau","Abbrev":"LE BEAU","Works":"asyoulikeit","Description":"a courtier attending upon Frederick","SpeechCount":14}
+{"CharID":"legate","CharName":"Legate","Abbrev":"Legate","Works":"henry6p1","Description":"","SpeechCount":1}
+{"CharID":"lennox","CharName":"Lennox","Abbrev":"LENNOX","Works":"macbeth","Description":"Nobleman of Scotland","SpeechCount":21}
+{"CharID":"Leonardo","CharName":"Leonardo","Abbrev":"LEONARDO","Works":"merchantvenice","Description":"servant to Bassiano","SpeechCount":2}
+{"CharID":"leonato","CharName":"Leonato","Abbrev":"LEONATO","Works":"muchado","Description":"Governor of Messina","SpeechCount":120}
+{"CharID":"Leonatus","CharName":"Sicilius Leonatus","Abbrev":"Sicilius Leonatus","Works":"cymbeline","Description":"an apparition","SpeechCount":7}
+{"CharID":"Leonine","CharName":"Leonine","Abbrev":"LEONINE","Works":"pericles","Description":"servant to Dionyza","SpeechCount":12}
+{"CharID":"Leontes","CharName":"Leontes","Abbrev":"LEONTES","Works":"winterstale","Description":"king of Sicilia","SpeechCount":125}
+{"CharID":"lepidus","CharName":"Lepidus","Abbrev":"LEPIDUS","Works":"juliuscaesar,antonycleo","Description":"(Marcus Antonius Lepidus)","SpeechCount":33}
+{"CharID":"Lewis","CharName":"Lewis","Abbrev":"LEWIS","Works":"kingjohn","Description":"the Dauphin","SpeechCount":29}
+{"CharID":"Lewis11","CharName":"King Lewis XI","Abbrev":"KING LEWIS XI","Works":"henry6p3","Description":"king of France","SpeechCount":21}
+{"CharID":"lieutenant","CharName":"Lieutenant","Abbrev":"LIEUTENANT","Works":"coriolanus","Description":"to Aufidius","SpeechCount":4}
+{"CharID":"Lieutenant-h62","CharName":"Lieutenant","Abbrev":"Lieutenant","Works":"henry6p3","Description":"of the Tower","SpeechCount":1}
+{"CharID":"Ligarius","CharName":"Ligarius","Abbrev":"LIGARIUS","Works":"juliuscaesar","Description":"a conspirator against Caesar","SpeechCount":5}
+{"CharID":"lodovico","CharName":"Lodovico","Abbrev":"LODOVICO","Works":"othello","Description":"Kinsman to Brabantio","SpeechCount":33}
+{"CharID":"Longaville","CharName":"Longaville","Abbrev":"LONGAVILLE","Works":"loveslabours","Description":"lord attending on the king","SpeechCount":40}
+{"CharID":"lord-ayli","CharName":"Lord","Abbrev":"LORD","Works":"asyoulikeit","Description":"","SpeechCount":2}
+{"CharID":"LordBerkeley","CharName":"Lord Berkeley","Abbrev":"LORD BERKELEY","Works":"richard2","Description":"","SpeechCount":2}
+{"CharID":"LordChamberlain","CharName":"Lord Chamberlain","Abbrev":"Chamberlain","Works":"henry8","Description":"","SpeechCount":38}
+{"CharID":"LordChancellor","CharName":"Lord Chancellor","Abbrev":"Chancellor","Works":"henry8","Description":"","SpeechCount":7}
+{"CharID":"LordClifford","CharName":"Lord Clifford","Abbrev":"CLIFFORD","Works":"henry6p2,henry6p3","Description":"","SpeechCount":52}
+{"CharID":"Lord-cym","CharName":"Lord","Abbrev":"Lord","Works":"cymbeline","Description":"","SpeechCount":6}
+{"CharID":"LordFitzwater","CharName":"Lord Fitzwater","Abbrev":"LORD FITZWATER","Works":"richard2","Description":"","SpeechCount":6}
+{"CharID":"LordGrey","CharName":"Lord Grey","Abbrev":"GREY","Works":"richard3","Description":"son of Queen Elizabeth","SpeechCount":6}
+{"CharID":"lord-ham","CharName":"Lord","Abbrev":"Lord","Works":"hamlet","Description":"","SpeechCount":3}
+{"CharID":"LordHastings-63","CharName":"Lord Hastings","Abbrev":"HASTINGS","Works":"henry6p3,richard3","Description":"","SpeechCount":56}
+{"CharID":"Lord-kr2","CharName":"Lord","Abbrev":"Lord","Works":"richard2","Description":"","SpeechCount":1}
+{"CharID":"LordLovel","CharName":"Lord Lovel","Abbrev":"LOVEL","Works":"richard3","Description":"","SpeechCount":2}
+{"CharID":"lord-ma","CharName":"Lord","Abbrev":"Lord","Works":"muchado","Description":"","SpeechCount":1}
+{"CharID":"lord-mac","CharName":"Lord","Abbrev":"Lord","Works":"macbeth","Description":"","SpeechCount":3}
+{"CharID":"LordMarshal","CharName":"Lord Marshal","Abbrev":"LORD MARSHAL","Works":"richard2","Description":"","SpeechCount":10}
+{"CharID":"Lord-per","CharName":"Lord","Abbrev":"Lord","Works":"pericles","Description":"","SpeechCount":4}
+{"CharID":"LordRivers","CharName":"Lord (Earl) Rivers","Abbrev":"RIVERS","Works":"henry6p3,richard3","Description":"brother to Lady Gray (Queen Elizabeth)","SpeechCount":29}
+{"CharID":"LordSands","CharName":"Lord Sands","Abbrev":"SANDS","Works":"henry8","Description":"","SpeechCount":17}
+{"CharID":"LordSay","CharName":"Lord Say","Abbrev":"SAY","Works":"henry6p2","Description":"","SpeechCount":13}
+{"CharID":"LordScales","CharName":"Lord Scales","Abbrev":"SCALES","Works":"henry6p2","Description":"","SpeechCount":2}
+{"CharID":"lordscroop","CharName":"Lord Scroop","Abbrev":"SCROOP","Works":"henry5","Description":"","SpeechCount":5}
+{"CharID":"Lords-cym","CharName":"Lords","Abbrev":"Lords","Works":"cymbeline","Description":"","SpeechCount":0}
+{"CharID":"lords-mac","CharName":"Lords","Abbrev":"Lords","Works":"macbeth","Description":"","SpeechCount":3}
+{"CharID":"Lords-r3","CharName":"Lords","Abbrev":"LORDS","Works":"richard3","Description":"","SpeechCount":3}
+{"CharID":"LordStafford","CharName":"Lord Stafford","Abbrev":"STAFFORD","Works":"henry6p3","Description":"","SpeechCount":0}
+{"CharID":"Lords-wt","CharName":"Lords","Abbrev":"Lords","Works":"winterstale","Description":"","SpeechCount":2}
+{"CharID":"lord-ts","CharName":"Lord","Abbrev":"LORD","Works":"tamingshrew","Description":"","SpeechCount":17}
+{"CharID":"LordWilloughby","CharName":"Lord Willoughby","Abbrev":"LORD WILLOUGHBY","Works":"richard2","Description":"","SpeechCount":8}
+{"CharID":"Lord-wt","CharName":"Lord","Abbrev":"Lord","Works":"winterstale","Description":"","SpeechCount":4}
+{"CharID":"Lorenzo","CharName":"Lorenzo","Abbrev":"LORENZO","Works":"merchantvenice","Description":"in love with Jessica","SpeechCount":47}
+{"CharID":"Lovell","CharName":"Sir Thomas Lovell","Abbrev":"LOVELL","Works":"henry8","Description":"","SpeechCount":21}
+{"CharID":"LUCE","CharName":"Luce","Abbrev":"LUCE","Works":"comedyerrors","Description":"servant to Adriana","SpeechCount":7}
+{"CharID":"lucentio","CharName":"Lucentio","Abbrev":"LUCENTIO","Works":"tamingshrew","Description":"son to Vincentio, in love with Bianca","SpeechCount":61}
+{"CharID":"Lucetta","CharName":"Lucetta","Abbrev":"LUCETTA","Works":"twogents","Description":"waiting-woman to Julia","SpeechCount":48}
+{"CharID":"LUCIANA","CharName":"Luciana","Abbrev":"LUCIANA","Works":"comedyerrors","Description":"sister to Adriana","SpeechCount":43}
+{"CharID":"lucianus","CharName":"Lucianus","Abbrev":"Luc","Works":"hamlet","Description":"","SpeechCount":0}
+{"CharID":"Lucilius","CharName":"Lucilius","Abbrev":"LUCILIUS","Works":"timonathens","Description":"servant to Timon","SpeechCount":13}
+{"CharID":"Lucilius-jc","CharName":"Lucilius","Abbrev":"LUCILIUS","Works":"juliuscaesar","Description":"friend to Brutus","SpeechCount":10}
+{"CharID":"LuciliusServant","CharName":"Lucilius' Servant","Abbrev":"Lucilius' Servant","Works":"timonathens","Description":"","SpeechCount":0}
+{"CharID":"Lucio","CharName":"Lucio","Abbrev":"LUCIO","Works":"measure","Description":"a fantastic","SpeechCount":111}
+{"CharID":"Lucius","CharName":"Lucius","Abbrev":"LUCIUS","Works":"titus","Description":"son to Titus Andronicus","SpeechCount":51}
+{"CharID":"Lucius-jc","CharName":"Lucius","Abbrev":"LUCIUS","Works":"juliuscaesar","Description":"servant to Brutus","SpeechCount":24}
+{"CharID":"Lucius-tim","CharName":"Lucius","Abbrev":"LUCIUS","Works":"timonathens","Description":"flattering lord","SpeechCount":0}
+{"CharID":"Lucullus","CharName":"Lucullus","Abbrev":"LUCULLUS","Works":"timonathens","Description":"flattering lord","SpeechCount":6}
+{"CharID":"Lychorida","CharName":"Lychorida","Abbrev":"LYCHORIDA","Works":"pericles","Description":"nurse to Marina","SpeechCount":4}
+{"CharID":"Lymoges","CharName":"Lymoges","Abbrev":"AUSTRIA","Works":"kingjohn","Description":"duke of Austria","SpeechCount":16}
+{"CharID":"Lysander","CharName":"Lysander","Abbrev":"LYSANDER","Works":"midsummer","Description":"in love with Hermia","SpeechCount":50}
+{"CharID":"Lysimachus","CharName":"Lysimachus","Abbrev":"LYSIMACHUS","Works":"pericles","Description":"governor of Mytilene","SpeechCount":40}
+{"CharID":"macbeth","CharName":"Macbeth","Abbrev":"MACBETH","Works":"macbeth","Description":"General of the King's army","SpeechCount":146}
+{"CharID":"macduff","CharName":"Macduff","Abbrev":"MACDUFF","Works":"macbeth","Description":"Nobleman of Scotland","SpeechCount":59}
+{"CharID":"macmorris","CharName":"Macmorris","Abbrev":"MACMORRIS","Works":"henry5","Description":"","SpeechCount":4}
+{"CharID":"malcolm","CharName":"Malcolm","Abbrev":"MALCOLM","Works":"macbeth","Description":"Son of Duncan","SpeechCount":40}
+{"CharID":"MALVOLIO","CharName":"Malvolio","Abbrev":"MALVOLIO","Works":"12night","Description":"steward to Olivia","SpeechCount":87}
+{"CharID":"Mamillius","CharName":"Mamillius","Abbrev":"MAMILLIUS","Works":"winterstale","Description":"young prince of Sicilia","SpeechCount":13}
+{"CharID":"Man-h8","CharName":"Man","Abbrev":"Man","Works":"henry8","Description":"the Porter's man","SpeechCount":6}
+{"CharID":"marcellus","CharName":"Marcellus","Abbrev":"Mar","Works":"hamlet","Description":"Officer","SpeechCount":37}
+{"CharID":"MarcusAndronicus","CharName":"Marcus Andronicus","Abbrev":"MARCUS ANDRONICUS","Works":"titus","Description":"tribune of the people, and brother to Titus","SpeechCount":63}
+{"CharID":"Mardian","CharName":"Mardian","Abbrev":"MARDIAN","Works":"antonycleo","Description":"a eunuch, attendant on Cleopatra","SpeechCount":7}
+{"CharID":"Margarelon","CharName":"Margarelon","Abbrev":"MARGARELON","Works":"troilus","Description":"a bastard son of Priam","SpeechCount":3}
+{"CharID":"margaret","CharName":"Margaret","Abbrev":"MARGARET","Works":"muchado","Description":"Gentlewoman attending on Hero","SpeechCount":26}
+{"CharID":"Margaret-h61","CharName":"Queen Margaret","Abbrev":"Margaret","Works":"henry6p1,henry6p2,henry6p3,richard3","Description":"daughter to Reignier, afterwards married to King Henry VI","SpeechCount":169}
+{"CharID":"MargaretPlantagenet","CharName":"Margaret Plantagenet","Abbrev":"MARGARET PLANTAGENET","Works":"richard3","Description":"a young daughter of Clarence","SpeechCount":0}
+{"CharID":"MARIA","CharName":"Maria","Abbrev":"MARIA","Works":"12night","Description":"Olivia's woman","SpeechCount":59}
+{"CharID":"Maria-lll","CharName":"Maria","Abbrev":"MARIA","Works":"loveslabours","Description":"lady attending on the princess","SpeechCount":22}
+{"CharID":"MARIANA","CharName":"Mariana","Abbrev":"MARIANA","Works":"allswell","Description":"neighbor and friend to the widow","SpeechCount":5}
+{"CharID":"Mariana-m4m","CharName":"Mariana","Abbrev":"MARIANA","Works":"measure","Description":"","SpeechCount":24}
+{"CharID":"Marina","CharName":"Marina","Abbrev":"MARINA","Works":"pericles","Description":"daughter to Pericles and Thaisa","SpeechCount":63}
+{"CharID":"Mariners","CharName":"Mariners","Abbrev":"Mariners","Works":"tempest","Description":"","SpeechCount":1}
+{"CharID":"Mariner-wt","CharName":"Mariner","Abbrev":"Mariner","Works":"winterstale","Description":"","SpeechCount":3}
+{"CharID":"MarquessMontague","CharName":"Marquess of Montague","Abbrev":"MONTAGUE","Works":"henry6p3","Description":"","SpeechCount":15}
+{"CharID":"MarquisDorset","CharName":"Marquis of Dorset","Abbrev":"DORSET","Works":"richard3","Description":"son of Queen Elizabeth","SpeechCount":10}
+{"CharID":"Marshal","CharName":"Marshal","Abbrev":"Marshal","Works":"pericles","Description":"","SpeechCount":1}
+{"CharID":"martext","CharName":"Sir Oliver Martext","Abbrev":"MARTEXT","Works":"asyoulikeit","Description":"a vicar","SpeechCount":3}
+{"CharID":"Martius","CharName":"Martius","Abbrev":"MARTIUS","Works":"titus","Description":"son to Titus Andronicus","SpeechCount":10}
+{"CharID":"Marullus","CharName":"Marullus","Abbrev":"MARULLUS","Works":"juliuscaesar","Description":"a tribune","SpeechCount":6}
+{"CharID":"Master","CharName":"Master","Abbrev":"Master","Works":"henry6p2","Description":"","SpeechCount":1}
+{"CharID":"Master-Gunner","CharName":"Master-Gunner","Abbrev":"Master-Gunner","Works":"henry6p1","Description":"of Orleans","SpeechCount":2}
+{"CharID":"MasterShip","CharName":"Master","Abbrev":"Master","Works":"tempest","Description":"master of a ship","SpeechCount":2}
+{"CharID":"MatthewGoffe","CharName":"Matthew Goffe","Abbrev":"MATTHEW GOFFE","Works":"henry6p2","Description":"","SpeechCount":0}
+{"CharID":"MayorAlbans","CharName":"Mayor of Saint Alban's","Abbrev":"Mayor","Works":"henry6p2","Description":"","SpeechCount":2}
+{"CharID":"MayorLondon","CharName":"Lord Mayor of London","Abbrev":"Mayor","Works":"henry6p1,richard3","Description":"","SpeechCount":14}
+{"CharID":"MayorYork","CharName":"Mayor of York","Abbrev":"Mayor","Works":"henry6p3","Description":"","SpeechCount":3}
+{"CharID":"Mecaenas","CharName":"Mecaenas","Abbrev":"MECAENAS","Works":"antonycleo","Description":"friend to Caesar","SpeechCount":16}
+{"CharID":"Melun","CharName":"Melun","Abbrev":"MELUN","Works":"kingjohn","Description":"a French Lord","SpeechCount":3}
+{"CharID":"Menas","CharName":"Menas","Abbrev":"MENAS","Works":"antonycleo","Description":"friend to Caesar","SpeechCount":35}
+{"CharID":"Menecrates","CharName":"Menecrates","Abbrev":"MENECRATES","Works":"antonycleo","Description":"friend to Pompey","SpeechCount":2}
+{"CharID":"Menelaus","CharName":"Menelaus","Abbrev":"MENELAUS","Works":"troilus","Description":"Agamemnon's brother","SpeechCount":11}
+{"CharID":"menenius","CharName":"Menenius Agrippa","Abbrev":"MENENIUS","Works":"coriolanus","Description":"friend to Coriolanus","SpeechCount":162}
+{"CharID":"menteith","CharName":"Menteith","Abbrev":"MENTEITH","Works":"macbeth","Description":"Nobleman of Scotland","SpeechCount":5}
+{"CharID":"Mercade","CharName":"Mercade","Abbrev":"MERCADE","Works":"loveslabours","Description":"lord attending on the princess of France","SpeechCount":3}
+{"CharID":"Merchant","CharName":"Merchant","Abbrev":"Merchant","Works":"timonathens","Description":"","SpeechCount":8}
+{"CharID":"mercutio","CharName":"Mercutio","Abbrev":"MERCUTIO","Works":"romeojuliet","Description":"Kinsman to Escalus the prince, and friend to Romeo","SpeechCount":62}
+{"CharID":"Messala","CharName":"Messala","Abbrev":"MESSALA","Works":"juliuscaesar","Description":"friend to Brutus","SpeechCount":20}
+{"CharID":"Messenger-ac","CharName":"Messenger","Abbrev":"Messenger","Works":"antonycleo","Description":"","SpeechCount":42}
+{"CharID":"Messenger-cor","CharName":"Messenger","Abbrev":"Messenger","Works":"coriolanus","Description":"","SpeechCount":12}
+{"CharID":"Messenger-cym","CharName":"Messenger","Abbrev":"Messenger","Works":"cymbeline","Description":"","SpeechCount":2}
+{"CharID":"Messenger-h41","CharName":"Messenger","Abbrev":"Messenger","Works":"henry4p1","Description":"","SpeechCount":6}
+{"CharID":"messenger-h4p2","CharName":"Messenger","Abbrev":"MESSENGER","Works":"henry4p2","Description":"","SpeechCount":1}
+{"CharID":"Messenger-h5","CharName":"Messenger","Abbrev":"Messenger","Works":"henry5","Description":"","SpeechCount":4}
+{"CharID":"Messenger-h61","CharName":"Messenger","Abbrev":"Messenger","Works":"henry6p1","Description":"","SpeechCount":14}
+{"CharID":"Messenger-h62","CharName":"Messenger","Abbrev":"Messenger","Works":"henry6p2","Description":"","SpeechCount":5}
+{"CharID":"Messenger-h63","CharName":"Messenger","Abbrev":"Messenger","Works":"henry6p3","Description":"","SpeechCount":6}
+{"CharID":"Messenger-h8","CharName":"Messenger","Abbrev":"Messenger","Works":"henry8","Description":"","SpeechCount":2}
+{"CharID":"messenger-ham","CharName":"Messenger","Abbrev":"Mess","Works":"hamlet","Description":"","SpeechCount":3}
+{"CharID":"Messenger-jc","CharName":"Messenger","Abbrev":"Messenger","Works":"juliuscaesar","Description":"","SpeechCount":1}
+{"CharID":"Messenger-kjo","CharName":"Messenger","Abbrev":"Messenger","Works":"kingjohn","Description":"","SpeechCount":9}
+{"CharID":"messenger-kl","CharName":"Messenger","Abbrev":"Mess","Works":"kinglear","Description":"","SpeechCount":1}
+{"CharID":"Messenger-m4m","CharName":"Messenger","Abbrev":"Messenger","Works":"measure","Description":"","SpeechCount":1}
+{"CharID":"messenger-ma","CharName":"Messenger","Abbrev":"Messenger","Works":"muchado","Description":"","SpeechCount":17}
+{"CharID":"messenger-mac","CharName":"Messenger","Abbrev":"Messenger","Works":"macbeth","Description":"","SpeechCount":6}
+{"CharID":"messenger-oth","CharName":"Messenger","Abbrev":"Messenger","Works":"othello","Description":"","SpeechCount":2}
+{"CharID":"Messenger-per","CharName":"Messenger","Abbrev":"Messenger","Works":"pericles","Description":"","SpeechCount":1}
+{"CharID":"Messenger-r3","CharName":"Messenger","Abbrev":"Messenger","Works":"richard3","Description":"","SpeechCount":13}
+{"CharID":"Messenger-ta","CharName":"Messenger","Abbrev":"Messenger","Works":"titus","Description":"","SpeechCount":1}
+{"CharID":"Messenger-tim","CharName":"Messenger","Abbrev":"Messenger","Works":"timonathens","Description":"","SpeechCount":6}
+{"CharID":"messenger-ts","CharName":"Messenger","Abbrev":"MESSENGER","Works":"tamingshrew","Description":"","SpeechCount":1}
+{"CharID":"MetellusCimber","CharName":"Metellus Cimber","Abbrev":"Metellus Cimber","Works":"juliuscaesar","Description":"a conspirator against Caesar","SpeechCount":5}
+{"CharID":"Michael","CharName":"Michael","Abbrev":"MICHAEL","Works":"henry6p2","Description":"a follower of Cade","SpeechCount":3}
+{"CharID":"Miranda","CharName":"Miranda","Abbrev":"MIRANDA","Works":"tempest","Description":"daughter to Prospero","SpeechCount":49}
+{"CharID":"mistressford","CharName":"Mistress Ford","Abbrev":"MISTRESS FORD","Works":"merrywives","Description":"","SpeechCount":85}
+{"CharID":"MistressOverdone","CharName":"Mistress Overdone","Abbrev":"MISTRESS OVERDONE","Works":"measure","Description":"a bawd","SpeechCount":15}
+{"CharID":"mistresspage","CharName":"Mistress Page","Abbrev":"MISTRESS PAGE","Works":"merrywives","Description":"","SpeechCount":101}
+{"CharID":"montague","CharName":"Montague","Abbrev":"MONTAGUE","Works":"romeojuliet","Description":"Head of the house of Montague","SpeechCount":10}
+{"CharID":"montano","CharName":"Montano","Abbrev":"MONTANO","Works":"othello","Description":"Othello's predecessor in the government of Cyprus","SpeechCount":24}
+{"CharID":"Montjoy","CharName":"Montjoy","Abbrev":"MONTJOY","Works":"henry5","Description":"a French herald","SpeechCount":11}
+{"CharID":"Mopsa","CharName":"Mopsa","Abbrev":"MOPSA","Works":"winterstale","Description":"a shepherdess","SpeechCount":13}
+{"CharID":"mortimer","CharName":"Mortimer","Abbrev":"MORTIMER","Works":"henry4p1","Description":"Earl of March","SpeechCount":13}
+{"CharID":"morton","CharName":"Morton","Abbrev":"MORTON","Works":"henry4p2","Description":"retainer of Northumberland","SpeechCount":6}
+{"CharID":"Moth","CharName":"Moth","Abbrev":"MOTH","Works":"loveslabours","Description":"page to Armado","SpeechCount":78}
+{"CharID":"Mother","CharName":"Mother","Abbrev":"Mother","Works":"cymbeline","Description":"an apparition","SpeechCount":3}
+{"CharID":"Moth-mnd","CharName":"Moth","Abbrev":"MOTH","Works":"midsummer","Description":"a fairy","SpeechCount":2}
+{"CharID":"mouldy","CharName":"Ralph Mouldy","Abbrev":"MOULDY","Works":"henry4p2","Description":"country soldier","SpeechCount":5}
+{"CharID":"mowbray","CharName":"Lord Mowbray","Abbrev":"MOWBRAY","Works":"henry4p2","Description":"","SpeechCount":18}
+{"CharID":"Mustardseed","CharName":"Mustardseed","Abbrev":"MUSTARDSEED","Works":"midsummer","Description":"a fairy","SpeechCount":5}
+{"CharID":"Mutius","CharName":"Mutius","Abbrev":"MUTIUS","Works":"titus","Description":"son to Titus Andronicus","SpeechCount":3}
+{"CharID":"Myrmidons","CharName":"Myrmidons","Abbrev":"MYRMIDONS","Works":"troilus","Description":"soldiers of Achilles in the Trojan war","SpeechCount":1}
+{"CharID":"nathaniel-ts","CharName":"Nathaniel","Abbrev":"NATHANIEL","Works":"tamingshrew","Description":"a servingman","SpeechCount":4}
+{"CharID":"Nerissa","CharName":"Nerissa","Abbrev":"NERISSA","Works":"merchantvenice","Description":"Portia's maid-in-waiting","SpeechCount":36}
+{"CharID":"Nestor","CharName":"Nestor","Abbrev":"NESTOR","Works":"troilus","Description":"a Greek prince","SpeechCount":38}
+{"CharID":"nicholas-ts","CharName":"Nicholas","Abbrev":"NICHOLAS","Works":"tamingshrew","Description":"a servingman","SpeechCount":1}
+{"CharID":"Nobleman-h63","CharName":"Nobleman","Abbrev":"Nobleman","Works":"henry6p3","Description":"","SpeechCount":1}
+{"CharID":"norcapt","CharName":"Norwegian Captain","Abbrev":"Capt","Works":"hamlet","Description":"","SpeechCount":7}
+{"CharID":"nurse-rj","CharName":"Nurse","Abbrev":"Nurse","Works":"romeojuliet","Description":"Nurse to Juliet","SpeechCount":90}
+{"CharID":"Nurse-ta","CharName":"Nurse","Abbrev":"Nurse","Works":"titus","Description":"","SpeechCount":10}
+{"CharID":"nym","CharName":"Nym","Abbrev":"NYM","Works":"henry5,merrywives","Description":"sharper attending on Falstaff","SpeechCount":33}
+{"CharID":"Nymphs","CharName":"Nymphs","Abbrev":"Nymphs","Works":"tempest","Description":"presented by spirits","SpeechCount":0}
+{"CharID":"Oberon","CharName":"Oberon","Abbrev":"OBERON","Works":"midsummer","Description":"king of the fairies","SpeechCount":29}
+{"CharID":"Octavia","CharName":"Octavia","Abbrev":"OCTAVIA","Works":"antonycleo","Description":"sister to Caesar and wife to Antony","SpeechCount":13}
+{"CharID":"octavius","CharName":"Octavius","Abbrev":"OCTAVIUS","Works":"juliuscaesar,antonycleo","Description":"(Octavius Caesar)","SpeechCount":117}
+{"CharID":"Officer-ce","CharName":"Officer","Abbrev":"Officer","Works":"comedyerrors","Description":"","SpeechCount":11}
+{"CharID":"Officer-cor","CharName":"Officer","Abbrev":"Officer","Works":"coriolanus","Description":"","SpeechCount":1}
+{"CharID":"Officer-h61","CharName":"Officer","Abbrev":"Officer","Works":"henry6p1","Description":"","SpeechCount":1}
+{"CharID":"Officer-wt","CharName":"Officer","Abbrev":"Officer","Works":"winterstale","Description":"","SpeechCount":5}
+{"CharID":"OldAthenian","CharName":"Old Athenian","Abbrev":"Old Athenian","Works":"timonathens","Description":"","SpeechCount":10}
+{"CharID":"OldGobbo","CharName":"Old Gobbo","Abbrev":"GOBBO","Works":"merchantvenice","Description":"father to Launcelot","SpeechCount":19}
+{"CharID":"OldLady-h8","CharName":"Old Lady","Abbrev":"Old Lady","Works":"henry8","Description":"friend to Anne Bullen","SpeechCount":14}
+{"CharID":"oldman-kl","CharName":"Old Man","Abbrev":"Old Man","Works":"kinglear","Description":"tenant to Glouchester","SpeechCount":9}
+{"CharID":"oldman-mac","CharName":"Old Man","Abbrev":"Old Man","Works":"macbeth","Description":"","SpeechCount":4}
+{"CharID":"OldShepherd","CharName":"Old Shepherd","Abbrev":"Shepherd","Works":"winterstale","Description":"reputed father of Perdita","SpeechCount":42}
+{"CharID":"oliver","CharName":"Oliver","Abbrev":"OLIVER","Works":"asyoulikeit","Description":"son of Sir Rowland de Boys","SpeechCount":37}
+{"CharID":"OLIVIA","CharName":"Olivia","Abbrev":"OLIVIA","Works":"12night","Description":"","SpeechCount":118}
+{"CharID":"ophelia","CharName":"Ophelia","Abbrev":"Oph","Works":"hamlet","Description":"daughter to Polonius","SpeechCount":58}
+{"CharID":"orlando","CharName":"Orlando","Abbrev":"ORLANDO","Works":"asyoulikeit","Description":"son of Sir Rowland de Boys","SpeechCount":120}
+{"CharID":"orleans","CharName":"Duke of Orleans","Abbrev":"ORLEANS","Works":"henry5","Description":"","SpeechCount":29}
+{"CharID":"ORSINO","CharName":"Orsino","Abbrev":"DUKE ORSINO","Works":"12night","Description":"Duke of Illyria","SpeechCount":59}
+{"CharID":"osric","CharName":"Osric","Abbrev":"Osr","Works":"hamlet","Description":"courtier","SpeechCount":25}
+{"CharID":"Ostler","CharName":"Ostler","Abbrev":"Ostler","Works":"henry4p1","Description":"","SpeechCount":1}
+{"CharID":"oswald","CharName":"Oswald","Abbrev":"Osw","Works":"kinglear","Description":"steward to Goneril","SpeechCount":38}
+{"CharID":"othello","CharName":"Othello","Abbrev":"OTHELLO","Works":"othello","Description":"A noble Moor in the service of the Ventian state","SpeechCount":274}
+{"CharID":"Outlaws","CharName":"Outlaws","Abbrev":"Outlaws","Works":"twogents","Description":"","SpeechCount":1}
+{"CharID":"page1-ayli","CharName":"First Page","Abbrev":"FIRST PAGE","Works":"asyoulikeit","Description":"","SpeechCount":3}
+{"CharID":"page2-ayli","CharName":"Second Page","Abbrev":"SECOND PAGE","Works":"asyoulikeit","Description":"","SpeechCount":2}
+{"CharID":"Page-aw","CharName":"Page","Abbrev":"Page","Works":"allswell","Description":"","SpeechCount":1}
+{"CharID":"page-h4p2","CharName":"Page","Abbrev":"PAGE","Works":"henry4p2","Description":"to Falstaff","SpeechCount":17}
+{"CharID":"Page-h8","CharName":"Page","Abbrev":"Boy","Works":"henry8","Description":"a page to Gardiner","SpeechCount":1}
+{"CharID":"page-mww","CharName":"Page","Abbrev":"PAGE","Works":"merrywives","Description":"a gentleman dwelling at Windsor","SpeechCount":75}
+{"CharID":"Page-r3","CharName":"Page","Abbrev":"Page","Works":"richard3","Description":"","SpeechCount":3}
+{"CharID":"page-rj","CharName":"Page","Abbrev":"PAGE","Works":"romeojuliet","Description":"Page to Paris","SpeechCount":4}
+{"CharID":"Page-tim","CharName":"Page","Abbrev":"Page","Works":"timonathens","Description":"","SpeechCount":4}
+{"CharID":"page-ts","CharName":"Page","Abbrev":"PAGE","Works":"tamingshrew","Description":"","SpeechCount":8}
+{"CharID":"Painter","CharName":"Painter","Abbrev":"Painter","Works":"timonathens","Description":"","SpeechCount":30}
+{"CharID":"Pandar","CharName":"Pandar","Abbrev":"Pandar","Works":"pericles","Description":"","SpeechCount":10}
+{"CharID":"Pandarus","CharName":"Pandarus","Abbrev":"PANDARUS","Works":"troilus","Description":"uncle to Cressida","SpeechCount":153}
+{"CharID":"Panthino","CharName":"Panthino","Abbrev":"PANTHINO","Works":"twogents","Description":"servant to Antonio","SpeechCount":14}
+{"CharID":"paris","CharName":"Paris","Abbrev":"PARIS","Works":"romeojuliet","Description":"A young nobleman, kinsman to Escalus the prince","SpeechCount":23}
+{"CharID":"Paris-tc","CharName":"Paris","Abbrev":"PARIS","Works":"troilus","Description":"son of Priam, king of Troy","SpeechCount":27}
+{"CharID":"PAROLLES","CharName":"Parolles","Abbrev":"PAROLLES","Works":"allswell","Description":"a follower of Bertram","SpeechCount":141}
+{"CharID":"Patience","CharName":"Patience","Abbrev":"PATIENCE","Works":"henry8","Description":"woman to Queen Katharine","SpeechCount":3}
+{"CharID":"patrician","CharName":"Patrician","Abbrev":"A Patrician","Works":"coriolanus","Description":"","SpeechCount":3}
+{"CharID":"Patroclus","CharName":"Patroclus","Abbrev":"PATROCLUS","Works":"troilus","Description":"a Greek prince","SpeechCount":37}
+{"CharID":"Paulina","CharName":"Paulina","Abbrev":"PAULINA","Works":"winterstale","Description":"wife to Antigonus","SpeechCount":59}
+{"CharID":"Peaseblossom","CharName":"Peaseblossom","Abbrev":"PEASEBLOSSOM","Works":"midsummer","Description":"a fairy","SpeechCount":4}
+{"CharID":"pedant","CharName":"Pedant","Abbrev":"PEDANT","Works":"tamingshrew","Description":"","SpeechCount":20}
+{"CharID":"Pembroke","CharName":"Pembroke","Abbrev":"PEMBROKE","Works":"kingjohn","Description":"earl of Pembroke","SpeechCount":20}
+{"CharID":"Pembroke-h63","CharName":"Earl of Pembroke","Abbrev":"PEMBROKE","Works":"henry6p3","Description":"","SpeechCount":0}
+{"CharID":"Perdita","CharName":"Perdita","Abbrev":"PERDITA","Works":"winterstale","Description":"daughter to Leontes and Hermione","SpeechCount":25}
+{"CharID":"Pericles","CharName":"Pericles","Abbrev":"PERICLES","Works":"pericles","Description":"prince of Tyre","SpeechCount":121}
+{"CharID":"Peter-h62","CharName":"Peter","Abbrev":"PETER","Works":"henry6p2","Description":"Thomas Horner's man","SpeechCount":9}
+{"CharID":"PeterPomfret","CharName":"Peter of Pomfret","Abbrev":"PETER","Works":"kingjohn","Description":"a prophet","SpeechCount":1}
+{"CharID":"peter-rj","CharName":"Peter","Abbrev":"PETER","Works":"romeojuliet","Description":"Servant to Julet's nurse","SpeechCount":13}
+{"CharID":"peter-ts","CharName":"Peter","Abbrev":"PETER","Works":"tamingshrew","Description":"a servingman","SpeechCount":2}
+{"CharID":"peto","CharName":"Peto","Abbrev":"PETO","Works":"henry4p1,henry4p2","Description":"","SpeechCount":8}
+{"CharID":"petruchio","CharName":"Petruchio","Abbrev":"PETRUCHIO","Works":"tamingshrew","Description":"a gentleman of Verona, a suitor to Katherina","SpeechCount":158}
+{"CharID":"phebe","CharName":"Phebe","Abbrev":"PHEBE","Works":"asyoulikeit","Description":"a shepherdess","SpeechCount":23}
+{"CharID":"Philario","CharName":"Philario","Abbrev":"PHILARIO","Works":"cymbeline","Description":"friend to Posthumus, an Italian.","SpeechCount":14}
+{"CharID":"Philemon","CharName":"Philemon","Abbrev":"PHILEMON","Works":"pericles","Description":"servant to Cerimon","SpeechCount":1}
+{"CharID":"PhilipBastard","CharName":"Philip the Bastard","Abbrev":"BASTARD","Works":"kingjohn","Description":"illegitimate son of Sir Robert Faulconbridge","SpeechCount":89}
+{"CharID":"philip-ts","CharName":"Philip","Abbrev":"PHILIP","Works":"tamingshrew","Description":"a servingman","SpeechCount":1}
+{"CharID":"Philo","CharName":"Philo","Abbrev":"PHILO","Works":"antonycleo","Description":"friend to Antony","SpeechCount":2}
+{"CharID":"Philostrate","CharName":"Philostrate","Abbrev":"PHILOSTRATE","Works":"midsummer","Description":"master of the revels to Theseus","SpeechCount":6}
+{"CharID":"Philotus","CharName":"Philotus","Abbrev":"PHILOTUS","Works":"timonathens","Description":"servant to Timon's creditors","SpeechCount":6}
+{"CharID":"Phrynia","CharName":"Phrynia","Abbrev":"PHRYNIA","Works":"timonathens","Description":"mistress to Alcibiades","SpeechCount":4}
+{"CharID":"PINCH","CharName":"Pinch","Abbrev":"PINCH","Works":"comedyerrors","Description":"a schoolmaster","SpeechCount":6}
+{"CharID":"Pindarus","CharName":"Pindarus","Abbrev":"PINDARUS","Works":"juliuscaesar","Description":"servant to Cassius","SpeechCount":5}
+{"CharID":"Pisanio","CharName":"Pisanio","Abbrev":"PISANIO","Works":"cymbeline","Description":"servant to Posthumus","SpeechCount":58}
+{"CharID":"pistol","CharName":"Pistol","Abbrev":"PISTOL","Works":"henry4p2,henry5,merrywives","Description":"","SpeechCount":122}
+{"CharID":"PlayerKing","CharName":"Player King","Abbrev":"PlayerKing","Works":"hamlet","Description":"","SpeechCount":4}
+{"CharID":"PlayerQueen","CharName":"Player Queen","Abbrev":"PlayerQueen","Works":"hamlet","Description":"","SpeechCount":4}
+{"CharID":"players-ts","CharName":"Players","Abbrev":"PLAYERS","Works":"tamingshrew","Description":"","SpeechCount":1}
+{"CharID":"player-ts","CharName":"Player","Abbrev":"PLAYER","Works":"tamingshrew","Description":"","SpeechCount":3}
+{"CharID":"Poet-jc","CharName":"Poet","Abbrev":"Poet","Works":"juliuscaesar","Description":"","SpeechCount":3}
+{"CharID":"Poet-tim","CharName":"Poet","Abbrev":"Poet","Works":"timonathens","Description":"","SpeechCount":30}
+{"CharID":"poins","CharName":"Edward Poins","Abbrev":"POINS","Works":"henry4p1,henry4p2","Description":"","SpeechCount":64}
+{"CharID":"Polixenes","CharName":"Polixenes","Abbrev":"POLIXENES","Works":"winterstale","Description":"king of Bohemia","SpeechCount":57}
+{"CharID":"polonius","CharName":"Polonius","Abbrev":"Pol","Works":"hamlet","Description":"Lord Chamberlain","SpeechCount":86}
+{"CharID":"Pompey","CharName":"Pompey","Abbrev":"POMPEY","Works":"antonycleo","Description":"(Sextus Pompeius)","SpeechCount":41}
+{"CharID":"Pompey-m4m","CharName":"Pompey","Abbrev":"POMPEY","Works":"measure","Description":"servant to Mistress Overdone","SpeechCount":60}
+{"CharID":"Popilius","CharName":"Popilius","Abbrev":"POPILIUS","Works":"juliuscaesar","Description":"(Popilius Lena)","SpeechCount":2}
+{"CharID":"porter","CharName":"Porter","Abbrev":"PORTER","Works":"henry4p2","Description":"","SpeechCount":2}
+{"CharID":"Porter-h61","CharName":"Porter","Abbrev":"Porter","Works":"henry6p1","Description":"","SpeechCount":1}
+{"CharID":"Porter-h8","CharName":"Porter","Abbrev":"Porter","Works":"henry8","Description":"door-keeper of the Council-chamber","SpeechCount":10}
+{"CharID":"porter-mac","CharName":"Porter","Abbrev":"Porter","Works":"macbeth","Description":"","SpeechCount":4}
+{"CharID":"Portia","CharName":"Portia","Abbrev":"PORTIA","Works":"juliuscaesar","Description":"wife to Brutus","SpeechCount":16}
+{"CharID":"Portia-mv","CharName":"Portia","Abbrev":"PORTIA","Works":"merchantvenice","Description":"a rich heiress","SpeechCount":117}
+{"CharID":"Post-h62","CharName":"Post","Abbrev":"Post","Works":"henry6p2","Description":"","SpeechCount":1}
+{"CharID":"Post-h63","CharName":"Post","Abbrev":"Post","Works":"henry6p3","Description":"","SpeechCount":9}
+{"CharID":"PosthumusLeonatus","CharName":"Posthumus Leonatus","Abbrev":"POSTHUMUS LEONATUS","Works":"cymbeline","Description":"a gentleman, husband to Imogen","SpeechCount":77}
+{"CharID":"Priam","CharName":"Priam","Abbrev":"PRIAM","Works":"troilus","Description":"king of Troy","SpeechCount":6}
+{"CharID":"Priest-12","CharName":"Priest","Abbrev":"Priest","Works":"12night","Description":"","SpeechCount":1}
+{"CharID":"Priest-r3","CharName":"Priest","Abbrev":"Priest","Works":"richard3","Description":"","SpeechCount":1}
+{"CharID":"PrinceArragon","CharName":"Prince of Arragon","Abbrev":"ARRAGON","Works":"merchantvenice","Description":"suitor to Portia","SpeechCount":4}
+{"CharID":"PrinceEdward","CharName":"Prince Edward","Abbrev":"PRINCE EDWARD","Works":"henry6p3,richard3","Description":"","SpeechCount":35}
+{"CharID":"PrinceHenry","CharName":"Prince Henry","Abbrev":"PRINCE HENRY","Works":"kingjohn","Description":"son to King John","SpeechCount":8}
+{"CharID":"princehumphrey","CharName":"Prince Humphrey","Abbrev":"PRINCE HUMPHREY","Works":"henry4p2","Description":"of Goucester","SpeechCount":11}
+{"CharID":"princejohn","CharName":"Prince John","Abbrev":"LANCASTER","Works":"henry4p1,henry4p2","Description":"of Lancaster","SpeechCount":31}
+{"CharID":"PrinceMorocco","CharName":"Prince of Morocco","Abbrev":"MOROCCO","Works":"merchantvenice","Description":"suitor to Portia","SpeechCount":7}
+{"CharID":"Princes-r3","CharName":"Princes","Abbrev":"Princes","Works":"richard3","Description":"","SpeechCount":1}
+{"CharID":"PrincessFrance","CharName":"Princess of France","Abbrev":"PRINCESS","Works":"loveslabours","Description":"","SpeechCount":102}
+{"CharID":"Proculeius","CharName":"Proculeius","Abbrev":"PROCULEIUS","Works":"antonycleo","Description":"friend to Caesar","SpeechCount":10}
+{"CharID":"Prospero","CharName":"Prospero","Abbrev":"PROSPERO","Works":"tempest","Description":"the rightful Duke of Milan","SpeechCount":115}
+{"CharID":"Proteus","CharName":"Proteus","Abbrev":"PROTEUS","Works":"twogents","Description":"a gentleman","SpeechCount":147}
+{"CharID":"Provost","CharName":"Provost","Abbrev":"Provost","Works":"measure","Description":"","SpeechCount":65}
+{"CharID":"Publius","CharName":"Publius","Abbrev":"PUBLIUS","Works":"titus","Description":"son to Marcus the Tribune","SpeechCount":5}
+{"CharID":"publius-jc","CharName":"Publius","Abbrev":"PUBLIUS","Works":"juliuscaesar","Description":"Senator","SpeechCount":2}
+{"CharID":"Puck","CharName":"Puck","Abbrev":"PUCK","Works":"midsummer","Description":"or Robin Goodfellow","SpeechCount":33}
+{"CharID":"Pursuivant","CharName":"Pursuivant","Abbrev":"Pursuivant","Works":"richard3","Description":"","SpeechCount":3}
+{"CharID":"Queen-cym","CharName":"Queen","Abbrev":"QUEEN","Works":"cymbeline","Description":"wife to Cymbeline","SpeechCount":27}
+{"CharID":"QueenElinor","CharName":"Queen Elinor","Abbrev":"QUEEN ELINOR","Works":"kingjohn","Description":"mother to King John","SpeechCount":22}
+{"CharID":"QueenElizabeth","CharName":"Queen Elizabeth","Abbrev":"QUEEN ELIZABETH","Works":"henry6p3,richard3","Description":"starts as Lady Grey, marries Edward IV","SpeechCount":129}
+{"CharID":"QueenKatharine","CharName":"Queen Katharine","Abbrev":"QUEEN KATHARINE","Works":"henry8","Description":"wife to King Henry, afterwards divorced","SpeechCount":50}
+{"CharID":"Queen-kr2","CharName":"Queen","Abbrev":"QUEEN","Works":"richard2","Description":"","SpeechCount":25}
+{"CharID":"quickly","CharName":"Hostess Quickly","Abbrev":"HOSTESS","Works":"henry4p1,henry4p2,henry5,merrywives","Description":"hostess of a tavern in Eastcheap","SpeechCount":158}
+{"CharID":"Quince","CharName":"Quince","Abbrev":"QUINCE","Works":"midsummer","Description":"a carpenter","SpeechCount":40}
+{"CharID":"Quintus","CharName":"Quintus","Abbrev":"QUINTUS","Works":"titus","Description":"son to Titus Andronicus","SpeechCount":11}
+{"CharID":"Rambures","CharName":"Rambures","Abbrev":"RAMBURES","Works":"henry5","Description":"French lord","SpeechCount":5}
+{"CharID":"Reapers","CharName":"Reapers","Abbrev":"Reapers","Works":"tempest","Description":"presented by spirits","SpeechCount":0}
+{"CharID":"regan","CharName":"Regan","Abbrev":"Reg","Works":"kinglear","Description":"daughter to Lear","SpeechCount":73}
+{"CharID":"Reignier","CharName":"Reignier","Abbrev":"REIGNIER","Works":"henry6p1","Description":"duke of Anjou, and titular king of Naples","SpeechCount":24}
+{"CharID":"reynaldo","CharName":"Reynaldo","Abbrev":"Rey","Works":"hamlet","Description":"servant to Polonius","SpeechCount":13}
+{"CharID":"Richard2","CharName":"King Richard II","Abbrev":"KING RICHARD II","Works":"richard2","Description":"king of England","SpeechCount":98}
+{"CharID":"Richard3","CharName":"Richard III","Abbrev":"RICHARD3","Works":"henry6p3,richard3","Description":"son of Richard Plantagenet, duke of York; was duke of Gloucester before enthronement","SpeechCount":246}
+{"CharID":"RichardPlantagenet","CharName":"Richard Plantagenet (Duke of Gloucester)","Abbrev":"PLANTAGENET","Works":"henry6p1,henry6p2,henry6p3,richard3","Description":"becomes duke of York in Henry VI, Part","SpeechCount":172}
+{"CharID":"RichardPlantagenet2","CharName":"Richard Plantagenet the Younger","Abbrev":"RICHARD","Works":"henry6p2","Description":"","SpeechCount":6}
+{"CharID":"robin","CharName":"Robin","Abbrev":"ROBIN","Works":"merrywives","Description":"page to Falstaff","SpeechCount":6}
+{"CharID":"roderigo","CharName":"Roderigo","Abbrev":"RODERIGO","Works":"othello","Description":"A Venetian gentleman","SpeechCount":59}
+{"CharID":"RomanCaptain","CharName":"Roman Captain","Abbrev":"Captain","Works":"cymbeline","Description":"","SpeechCount":4}
+{"CharID":"Roman-cor","CharName":"Roman","Abbrev":"Roman","Works":"coriolanus","Description":"","SpeechCount":10}
+{"CharID":"romeo","CharName":"Romeo","Abbrev":"ROMEO","Works":"romeojuliet","Description":"Son to Montague","SpeechCount":163}
+{"CharID":"rosalind","CharName":"Rosalind","Abbrev":"ROSALIND","Works":"asyoulikeit","Description":"daughter to the banished Duke","SpeechCount":201}
+{"CharID":"Rosaline-lll","CharName":"Rosaline","Abbrev":"ROSALINE","Works":"loveslabours","Description":"lady attending on the princess","SpeechCount":75}
+{"CharID":"rosencrantz","CharName":"Rosencrantz","Abbrev":"Ros","Works":"hamlet","Description":"courtier","SpeechCount":48}
+{"CharID":"ross","CharName":"Ross","Abbrev":"ROSS","Works":"macbeth","Description":"Nobleman of Scotland","SpeechCount":39}
+{"CharID":"Ross-kr2","CharName":"Lord Ross","Abbrev":"LORD ROSS","Works":"richard2","Description":"","SpeechCount":11}
+{"CharID":"rugby","CharName":"Rugby","Abbrev":"RUGBY","Works":"merrywives","Description":"servant to Doctor Caius","SpeechCount":9}
+{"CharID":"rumour","CharName":"Rumour","Abbrev":"RUMOUR","Works":"henry4p2","Description":"the Presenter","SpeechCount":1}
+{"CharID":"sailor-ham","CharName":"Sailor","Abbrev":"Sailor","Works":"hamlet","Description":"","SpeechCount":2}
+{"CharID":"sailor-oth","CharName":"Sailor","Abbrev":"Sailor","Works":"othello","Description":"","SpeechCount":2}
+{"CharID":"Salanio","CharName":"Salanio","Abbrev":"SALANIO","Works":"merchantvenice","Description":"friend to Antonio and Bassiano","SpeechCount":18}
+{"CharID":"Salarino","CharName":"Salarino","Abbrev":"SALARINO","Works":"merchantvenice","Description":"friend to Antonio and Bassiano","SpeechCount":27}
+{"CharID":"Salerio","CharName":"Salerio","Abbrev":"SALERIO","Works":"merchantvenice","Description":"friend to Antonio and Bassiano","SpeechCount":6}
+{"CharID":"salisbury","CharName":"Earl of Salisbury","Abbrev":"SALISBURY","Works":"henry5,henry6p1,henry6p2","Description":"","SpeechCount":23}
+{"CharID":"Salisbury-kj","CharName":"Salisbury","Abbrev":"SALISBURY","Works":"kingjohn","Description":"earl of Salisbury","SpeechCount":36}
+{"CharID":"Salisbury-kr2","CharName":"Earl of Salisbury","Abbrev":"EARL OF SALISBURY","Works":"richard2","Description":"","SpeechCount":3}
+{"CharID":"sampson","CharName":"Sampson","Abbrev":"SAMPSON","Works":"romeojuliet","Description":"Servant to Capulet","SpeechCount":20}
+{"CharID":"Saturninus","CharName":"Saturninus","Abbrev":"SATURNINUS","Works":"titus","Description":"son to the late Emperor of Rome, and afterwards\n\tdeclared Emperor","SpeechCount":49}
+{"CharID":"Scarus","CharName":"Scarus","Abbrev":"SCARUS","Works":"antonycleo","Description":"friend to Antony","SpeechCount":12}
+{"CharID":"Scout-h61","CharName":"Scout","Abbrev":"Scout","Works":"henry6p1","Description":"","SpeechCount":2}
+{"CharID":"Scribe-h8","CharName":"Scribe","Abbrev":"Scribe","Works":"henry8","Description":"","SpeechCount":2}
+{"CharID":"Scrivener","CharName":"Scrivener","Abbrev":"Scrivener","Works":"richard3","Description":"","SpeechCount":1}
+{"CharID":"scroop","CharName":"Archbishop Scroop","Abbrev":"ARCHBISHOP","Works":"henry4p1,henry4p2","Description":"Archbishop of York","SpeechCount":30}
+{"CharID":"SeaCaptain","CharName":"Captain","Abbrev":"Captain","Works":"12night","Description":"friend to Viola","SpeechCount":10}
+{"CharID":"SEBASTIAN","CharName":"Sebastian","Abbrev":"SEBASTIAN","Works":"12night","Description":"brother to Viola","SpeechCount":31}
+{"CharID":"Sebastian-tem","CharName":"Sebastian","Abbrev":"SEBASTIAN","Works":"tempest","Description":"the King's brother","SpeechCount":67}
+{"CharID":"SecondAttendant","CharName":"Second Attendant","Abbrev":"Second Attendant","Works":"antonycleo","Description":"","SpeechCount":1}
+{"CharID":"SecondBandit","CharName":"Second Bandit","Abbrev":"Second Bandit","Works":"timonathens","Description":"","SpeechCount":4}
+{"CharID":"SecondBrother","CharName":"Second Brother","Abbrev":"Second Brother","Works":"cymbeline","Description":"an apparition","SpeechCount":2}
+{"CharID":"SecondCaptain-cym","CharName":"Second British Captain","Abbrev":"Second Captain","Works":"cymbeline","Description":"","SpeechCount":2}
+{"CharID":"SecondCarrier","CharName":"Second Carrier","Abbrev":"Second Carrier","Works":"henry4p1","Description":"","SpeechCount":6}
+{"CharID":"SecondCitizen","CharName":"Second Citizen","Abbrev":"Second Citizen","Works":"coriolanus","Description":"","SpeechCount":18}
+{"CharID":"SecondCitizen-jc","CharName":"Second Citizen","Abbrev":"Second Citizen","Works":"juliuscaesar","Description":"","SpeechCount":18}
+{"CharID":"SecondCitizen-r3","CharName":"Second Citizen","Abbrev":"Second Citizen","Works":"richard3","Description":"","SpeechCount":6}
+{"CharID":"SecondCommoner","CharName":"Second Commoner","Abbrev":"Second Commoner","Works":"juliuscaesar","Description":"","SpeechCount":6}
+{"CharID":"SecondFish","CharName":"Second Fisherman","Abbrev":"Second Fisherman","Works":"pericles","Description":"","SpeechCount":12}
+{"CharID":"SecondGaoler","CharName":"Second Gaoler","Abbrev":"Second Gaoler","Works":"cymbeline","Description":"","SpeechCount":1}
+{"CharID":"SecondGentleman","CharName":"Second Gentleman","Abbrev":"Second Gentleman","Works":"measure","Description":"","SpeechCount":9}
+{"CharID":"SecondGentleman-aw","CharName":"Second Gentleman","Abbrev":"Second Gentleman","Works":"allswell","Description":"","SpeechCount":5}
+{"CharID":"SecondGentleman-cym","CharName":"Second Gentleman","Abbrev":"Second Gentleman","Works":"cymbeline","Description":"a gentleman of Cymbeline's court","SpeechCount":9}
+{"CharID":"SecondGentleman-h62","CharName":"Second Gentleman","Abbrev":"Second Gentleman","Works":"henry6p2","Description":"","SpeechCount":1}
+{"CharID":"SecondGentleman-h8","CharName":"Second Gentleman","Abbrev":"Second Gentleman","Works":"henry8","Description":"","SpeechCount":37}
+{"CharID":"SecondGentleman-wt","CharName":"Second Gentleman","Abbrev":"Second Gentleman","Works":"winterstale","Description":"","SpeechCount":4}
+{"CharID":"SecondGent-per","CharName":"Second Gentleman","Abbrev":"Second Gentleman","Works":"pericles","Description":"","SpeechCount":10}
+{"CharID":"SecondGuard","CharName":"Second Guard","Abbrev":"Second Guard","Works":"antonycleo","Description":"","SpeechCount":4}
+{"CharID":"SecondHerald-kr2","CharName":"Second Herald","Abbrev":"Second Herald","Works":"richard2","Description":"","SpeechCount":1}
+{"CharID":"SecondKeeper","CharName":"Second Keeper","Abbrev":"Second Keeper","Works":"henry6p3","Description":"","SpeechCount":9}
+{"CharID":"SecondKnight-per","CharName":"Second Knight","Abbrev":"Second Knight","Works":"pericles","Description":"","SpeechCount":1}
+{"CharID":"SecondLady-wt","CharName":"Second Lady","Abbrev":"Second Lady","Works":"winterstale","Description":"","SpeechCount":3}
+{"CharID":"SecondLord","CharName":"Second Lord","Abbrev":"Second Lord","Works":"coriolanus","Description":"","SpeechCount":3}
