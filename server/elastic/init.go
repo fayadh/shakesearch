@@ -243,7 +243,7 @@ func GetWorks(es *elasticsearch.Client) []interface{} {
 		es.Search.WithIndex("works"),
 		es.Search.WithBody(strings.NewReader(query)),
 		// we know Shakespeare only has 43 works.
-		// es.Search.WithSize(43),
+		es.Search.WithSize(43),
 		es.Search.WithPretty(),
 	)
 
