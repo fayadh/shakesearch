@@ -11,6 +11,9 @@ module.exports = {
     'source/serviceWorker.ts',
   ],
   rules: {
+    'jest/no-identical-title': 'off',
+    'jest/expect-expect': 'warn',
+    'jest/no-export': 'warn',
     '@typescript-eslint/explicit-function-return-type': 'off',
     'import/no-default-export': 'off',
     'jest/valid-title': 'warn',
