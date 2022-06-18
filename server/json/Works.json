@@ -6,6 +6,8 @@
 		"ShortTitle" : "12Night",
 		"Date" : 1599,
 		"GenreType" : "c",
+		"GenreName" : "comedy",
+		"GenreNamePlural" : "comedies",
 		"Source" : "Moby",
 		"TotalWords" : 19837,
 		"TotalParagraphs" : 1031
@@ -17,6 +19,8 @@
 		"ShortTitle" : "AWW",
 		"Date" : 1602,
 		"GenreType" : "c",
+		"GenreName" : "comedy",
+		"GenreNamePlural" : "comedies",
 		"Source" : "Moby",
 		"TotalWords" : 23009,
 		"TotalParagraphs" : 1034
@@ -28,6 +32,8 @@
 		"ShortTitle" : "Antony",
 		"Date" : 1606,
 		"GenreType" : "t",
+		"GenreName" : "tragedy",
+		"GenreNamePlural" : "tragedies",
 		"Source" : "Moby",
 		"TotalWords" : 24905,
 		"TotalParagraphs" : 1361
@@ -39,6 +45,8 @@
 		"ShortTitle" : "AYLI",
 		"Date" : 1599,
 		"GenreType" : "c",
+		"GenreName" : "comedy",
+		"GenreNamePlural" : "comedies",
 		"Source" : "Gutenberg",
 		"TotalWords" : 21690,
 		"TotalParagraphs" : 872
@@ -50,6 +58,8 @@
 		"ShortTitle" : "Errors",
 		"Date" : 1589,
 		"GenreType" : "c",
+		"GenreName" : "comedy",
+		"GenreNamePlural" : "comedies",
 		"Source" : "Moby",
 		"TotalWords" : 14701,
 		"TotalParagraphs" : 664
@@ -61,6 +71,8 @@
 		"ShortTitle" : "Coriolanus",
 		"Date" : 1607,
 		"GenreType" : "t",
+		"GenreName" : "tragedy",
+		"GenreNamePlural" : "tragedies",
 		"Source" : "Moby",
 		"TotalWords" : 27589,
 		"TotalParagraphs" : 1240
@@ -72,6 +84,8 @@
 		"ShortTitle" : "Cymbeline",
 		"Date" : 1609,
 		"GenreType" : "t",
+		"GenreName" : "tragedy",
+		"GenreNamePlural" : "tragedies",
 		"Source" : "Moby",
 		"TotalWords" : 27565,
 		"TotalParagraphs" : 979
@@ -83,6 +97,8 @@
 		"ShortTitle" : "Hamlet",
 		"Date" : 1600,
 		"GenreType" : "t",
+		"GenreName" : "tragedy",
+		"GenreNamePlural" : "tragedies",
 		"Source" : "Gutenberg",
 		"TotalWords" : 30557,
 		"TotalParagraphs" : 1250
@@ -94,6 +110,8 @@
 		"ShortTitle" : "Henry4p1",
 		"Date" : 1597,
 		"GenreType" : "h",
+		"GenreName" : "history",
+		"GenreNamePlural" : "histories",
 		"Source" : "Moby",
 		"TotalWords" : 24579,
 		"TotalParagraphs" : 884
@@ -105,6 +123,8 @@
 		"ShortTitle" : "Henry4p2",
 		"Date" : 1597,
 		"GenreType" : "h",
+		"GenreName" : "history",
+		"GenreNamePlural" : "histories",
 		"Source" : "Gutenberg",
 		"TotalWords" : 25689,
 		"TotalParagraphs" : 987
@@ -116,6 +136,8 @@
 		"ShortTitle" : "Henry5",
 		"Date" : 1598,
 		"GenreType" : "h",
+		"GenreName" : "history",
+		"GenreNamePlural" : "histories",
 		"Source" : "Moby",
 		"TotalWords" : 26119,
 		"TotalParagraphs" : 853
@@ -127,6 +149,8 @@
 		"ShortTitle" : "Henry6p1",
 		"Date" : 1591,
 		"GenreType" : "h",
+		"GenreName" : "history",
+		"GenreNamePlural" : "histories",
 		"Source" : "Moby",
 		"TotalWords" : 21607,
 		"TotalParagraphs" : 787
@@ -138,6 +162,8 @@
 		"ShortTitle" : "Henry6p2",
 		"Date" : 1590,
 		"GenreType" : "h",
+		"GenreName" : "history",
+		"GenreNamePlural" : "histories",
 		"Source" : "Moby",
 		"TotalWords" : 25439,
 		"TotalParagraphs" : 921
@@ -149,6 +175,8 @@
 		"ShortTitle" : "Henry6p3",
 		"Date" : 1590,
 		"GenreType" : "h",
+		"GenreName" : "history",
+		"GenreNamePlural" : "histories",
 		"Source" : "Moby",
 		"TotalWords" : 24294,
 		"TotalParagraphs" : 949
@@ -160,6 +188,8 @@
 		"ShortTitle" : "Henry8",
 		"Date" : 1612,
 		"GenreType" : "h",
+		"GenreName" : "history",
+		"GenreNamePlural" : "histories",
 		"Source" : "Moby",
 		"TotalWords" : 24629,
 		"TotalParagraphs" : 788
@@ -171,6 +201,8 @@
 		"ShortTitle" : "Caesar",
 		"Date" : 1599,
 		"GenreType" : "t",
+		"GenreName" : "tragedy",
+		"GenreNamePlural" : "tragedies",
 		"Source" : "Moby",
 		"TotalWords" : 19703,
 		"TotalParagraphs" : 895
@@ -182,6 +214,8 @@
 		"ShortTitle" : "John",
 		"Date" : 1596,
 		"GenreType" : "h",
+		"GenreName" : "history",
+		"GenreNamePlural" : "histories",
 		"Source" : "Moby",
 		"TotalWords" : 20772,
 		"TotalParagraphs" : 621
@@ -193,6 +227,8 @@
 		"ShortTitle" : "Lear",
 		"Date" : 1605,
 		"GenreType" : "t",
+		"GenreName" : "tragedy",
+		"GenreNamePlural" : "tragedies",
 		"Source" : "Gutenberg",
 		"TotalWords" : 26145,
 		"TotalParagraphs" : 1181
@@ -204,6 +240,7 @@
 		"ShortTitle" : "Complaint",
 		"Date" : 1609,
 		"GenreType" : "p",
+		"GenreName" : "poem",
 		"Source" : "Moby",
 		"TotalWords" : 2559,
 		"TotalParagraphs" : 47
@@ -215,6 +252,8 @@
 		"ShortTitle" : "LLL",
 		"Date" : 1594,
 		"GenreType" : "c",
+		"GenreName" : "comedy",
+		"GenreNamePlural" : "comedies",
 		"Source" : "Moby",
 		"TotalWords" : 21459,
 		"TotalParagraphs" : 1123
@@ -226,6 +265,8 @@
 		"ShortTitle" : "Macbeth",
 		"Date" : 1605,
 		"GenreType" : "t",
+		"GenreName" : "tragedy",
+		"GenreNamePlural" : "tragedies",
 		"Source" : "Moby",
 		"TotalWords" : 17121,
 		"TotalParagraphs" : 765
@@ -237,6 +278,8 @@
 		"ShortTitle" : "Measure",
 		"Date" : 1604,
 		"GenreType" : "c",
+		"GenreName" : "comedy",
+		"GenreNamePlural" : "comedies",
 		"Source" : "Moby",
 		"TotalWords" : 21780,
 		"TotalParagraphs" : 987
@@ -248,6 +291,8 @@
 		"ShortTitle" : "Merchant",
 		"Date" : 1596,
 		"GenreType" : "c",
+		"GenreName" : "comedy",
+		"GenreNamePlural" : "comedies",
 		"Source" : "Moby",
 		"TotalWords" : 21291,
 		"TotalParagraphs" : 722
@@ -259,6 +304,8 @@
 		"ShortTitle" : "Wives",
 		"Date" : 1600,
 		"GenreType" : "c",
+		"GenreName" : "comedy",
+		"GenreNamePlural" : "comedies",
 		"Source" : "Moby",
 		"TotalWords" : 21845,
 		"TotalParagraphs" : 1163
@@ -270,6 +317,8 @@
 		"ShortTitle" : "MND",
 		"Date" : 1595,
 		"GenreType" : "c",
+		"GenreName" : "comedy",
+		"GenreNamePlural" : "comedies",
 		"Source" : "Moby",
 		"TotalWords" : 16511,
 		"TotalParagraphs" : 605
@@ -281,6 +330,8 @@
 		"ShortTitle" : "Ado",
 		"Date" : 1598,
 		"GenreType" : "c",
+		"GenreName" : "comedy",
+		"GenreNamePlural" : "comedies",
 		"Source" : "Moby",
 		"TotalWords" : 21157,
 		"TotalParagraphs" : 1062
@@ -292,6 +343,8 @@
 		"ShortTitle" : "Othello",
 		"Date" : 1604,
 		"GenreType" : "t",
+		"GenreName" : "tragedy",
+		"GenreNamePlural" : "tragedies",
 		"Source" : "Moby",
 		"TotalWords" : 26450,
 		"TotalParagraphs" : 1309
@@ -303,6 +356,7 @@
 		"ShortTitle" : "Pilgrim",
 		"Date" : 1598,
 		"GenreType" : "p",
+		"GenreName" : "poem",
 		"Source" : "Moby",
 		"TotalWords" : 3124,
 		"TotalParagraphs" : 43
@@ -314,6 +368,8 @@
 		"ShortTitle" : "Pericles",
 		"Date" : 1608,
 		"GenreType" : "h",
+		"GenreName" : "history",
+		"GenreNamePlural" : "histories",
 		"Source" : "Moby",
 		"TotalWords" : 18529,
 		"TotalParagraphs" : 756
@@ -325,6 +381,7 @@
 		"ShortTitle" : "Phoenix",
 		"Date" : 1601,
 		"GenreType" : "p",
+		"GenreName" : "poem",
 		"Source" : "Moby",
 		"TotalWords" : 353,
 		"TotalParagraphs" : 19
@@ -336,6 +393,7 @@
 		"ShortTitle" : "Lucrece",
 		"Date" : 1594,
 		"GenreType" : "p",
+		"GenreName" : "poem",
 		"Source" : "Moby",
 		"TotalWords" : 15003,
 		"TotalParagraphs" : 269
@@ -347,6 +405,8 @@
 		"ShortTitle" : "Richard2",
 		"Date" : 1595,
 		"GenreType" : "h",
+		"GenreName" : "history",
+		"GenreNamePlural" : "histories",
 		"Source" : "Moby",
 		"TotalWords" : 22423,
 		"TotalParagraphs" : 636
@@ -358,6 +418,8 @@
 		"ShortTitle" : "Richard3",
 		"Date" : 1592,
 		"GenreType" : "h",
+		"GenreName" : "history",
+		"GenreNamePlural" : "histories",
 		"Source" : "Moby",
 		"TotalWords" : 29278,
 		"TotalParagraphs" : 1224
@@ -369,6 +431,8 @@
 		"ShortTitle" : "Romeo",
 		"Date" : 1594,
 		"GenreType" : "t",
+		"GenreName" : "tragedy",
+		"GenreNamePlural" : "tragedies",
 		"Source" : "Moby",
 		"TotalWords" : 24553,
 		"TotalParagraphs" : 990
@@ -380,6 +444,8 @@
 		"ShortTitle" : "Sonnets",
 		"Date" : 1609,
 		"GenreType" : "s",
+		"GenreName" : "sonnet",
+		"GenreNamePlural" : "sonnets",
 		"Source" : "Moby",
 		"TotalWords" : 17515,
 		"TotalParagraphs" : 154
@@ -391,6 +457,8 @@
 		"ShortTitle" : "Shrew",
 		"Date" : 1593,
 		"GenreType" : "c",
+		"GenreName" : "comedy",
+		"GenreNamePlural" : "comedies",
 		"Source" : "Gutenberg",
 		"TotalWords" : 21055,
 		"TotalParagraphs" : 965
@@ -402,6 +470,8 @@
 		"ShortTitle" : "Tempest",
 		"Date" : 1611,
 		"GenreType" : "c",
+		"GenreName" : "comedy",
+		"GenreNamePlural" : "comedies",
 		"Source" : "Moby",
 		"TotalWords" : 16633,
 		"TotalParagraphs" : 702
@@ -413,6 +483,8 @@
 		"ShortTitle" : "Timon",
 		"Date" : 1607,
 		"GenreType" : "t",
+		"GenreName" : "tragedy",
+		"GenreNamePlural" : "tragedies",
 		"Source" : "Moby",
 		"TotalWords" : 18216,
 		"TotalParagraphs" : 870
@@ -424,6 +496,8 @@
 		"ShortTitle" : "Titus",
 		"Date" : 1593,
 		"GenreType" : "t",
+		"GenreName" : "tragedy",
+		"GenreNamePlural" : "tragedies",
 		"Source" : "Moby",
 		"TotalWords" : 20743,
 		"TotalParagraphs" : 662
@@ -435,6 +509,8 @@
 		"ShortTitle" : "Troilus",
 		"Date" : 1601,
 		"GenreType" : "t",
+		"GenreName" : "tragedy",
+		"GenreNamePlural" : "tragedies",
 		"Source" : "Moby",
 		"TotalWords" : 26089,
 		"TotalParagraphs" : 1301
@@ -446,6 +522,8 @@
 		"ShortTitle" : "2Gents",
 		"Date" : 1594,
 		"GenreType" : "c",
+		"GenreName" : "comedy",
+		"GenreNamePlural" : "comedies",
 		"Source" : "Moby",
 		"TotalWords" : 17129,
 		"TotalParagraphs" : 943
@@ -457,6 +535,7 @@
 		"ShortTitle" : "Venus",
 		"Date" : 1593,
 		"GenreType" : "p",
+		"GenreName" : "poem",
 		"Source" : "Moby",
 		"TotalWords" : 9870,
 		"TotalParagraphs" : 202
@@ -468,6 +547,8 @@
 		"ShortTitle" : "WT",
 		"Date" : 1610,
 		"GenreType" : "c",
+		"GenreName" : "comedy",
+		"GenreNamePlural" : "comedies",
 		"Source" : "Moby",
 		"TotalWords" : 24914,
 		"TotalParagraphs" : 814

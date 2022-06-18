@@ -1,22 +1,27 @@
 [
 	{
 		"GenreType" : "c",
-		"GenreName" : "Comedy"
+		"GenreName" : "comedy",
+		"GenreNameLong" : "comedies"
 	},
 	{
 		"GenreType" : "h",
-		"GenreName" : "History"
+		"GenreName" : "history",
+		"GenreNameLong" : "histories"
 	},
 	{
 		"GenreType" : "p",
-		"GenreName" : "Poem"
+		"GenreName" : "poem",
+		"GenreNameLong" : "poems"
 	},
 	{
 		"GenreType" : "s",
-		"GenreName" : "Sonnet"
+		"GenreName" : "sonnet",
+		"GenreNameLong" : "sonnets"
 	},
 	{
 		"GenreType" : "t",
-		"GenreName" : "Tragedy"
+		"GenreName" : "tragedy",
+		"GenreNameLong" : "tragedies"
 	}
 ]
