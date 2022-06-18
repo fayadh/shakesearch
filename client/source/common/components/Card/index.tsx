@@ -1,21 +1,21 @@
-import React, { FunctionComponent, ReactNode } from 'react';
+import React, { FunctionComponent, ReactNode } from "react";
 
-import { Divider, Paper } from '@mui/material';
-import clsx from 'clsx';
+import { Divider, Paper } from "@mui/material";
+import clsx from "clsx";
 
-import { useStyles } from './styles';
+import { useStyles } from "./styles";
 
 export interface ICard {
   // TODO: rename to className
   classProps?: string;
-  isLoading: boolean;
+  isLoading?: boolean;
   title?: string | ReactNode;
   titleClassName?: string;
 }
 
 export const CardInner: FunctionComponent<ICard> = ({
   title,
-  isLoading,
+  isLoading = false,
   children,
   titleClassName,
 }) => {
