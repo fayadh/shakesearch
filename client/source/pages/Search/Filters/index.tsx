@@ -57,6 +57,8 @@ export const Filters: React.FC<IFiltersProps> = ({ register }) => {
   const url = `http://localhost:3001/works`;
   const { data, error, loading } = useFetch(url);
 
+  console.log("works data", data);
+
   // const charIdRegistrationProps = register("charId");
   // const actRegistrationProps = register("act");
   // const sceneRegistrationProps = register("scene");

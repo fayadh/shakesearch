@@ -65,7 +65,7 @@ func GetClusterInfo(es *elasticsearch.Client) {
 	log.Println(strings.Repeat("~", 37))
 }
 
-func prettyResult(response map[string]interface{}) map[string]interface{} {
+func PrettySearchResult(response map[string]interface{}) map[string]interface{} {
 	hits := response["hits"].(map[string]interface{})
 
 	return map[string]interface{}{
@@ -82,13 +82,9 @@ type SearchArgs struct {
 	Scene  string
 }
 
-func singleLine(s string) string {
-	return strings.Replace(s, "\n", `\n`, -1)
-}
-
 func makeMultiSearchQuery(args SearchArgs) string {
 	worksHeader := `{ "index": "works" }` + "\n"
-	worksQuery := `{ "query": {  "match": { "Title": "` + args.Query + `"} } }` + "\n"
+	worksQuery := worksHeader + "\n"
 
 	log.Printf("Printing works query..")
 	s := fmt.Sprintf("%#v", worksQuery)
@@ -156,9 +152,9 @@ func Search(es *elasticsearch.Client, args SearchArgs) map[string]interface{} {
 	log.Printf(s)
 
 	return map[string]interface{}{
-		"works":      prettyResult(responses[0].(map[string]interface{})),
-		"characters": prettyResult(responses[1].(map[string]interface{})),
-		"paragraphs": prettyResult(responses[2].(map[string]interface{})),
+		"works":      PrettySearchResult(responses[0].(map[string]interface{})),
+		"characters": PrettySearchResult(responses[1].(map[string]interface{})),
+		"paragraphs": PrettySearchResult(responses[2].(map[string]interface{})),
 	}
 }
 
@@ -229,4 +225,114 @@ func Analyze(es *elasticsearch.Client, text string) []string {
 	log.Println(tokens)
 
 	return tokens
+}
+
+// Get all characters for a given work.
+func GetWorks(es *elasticsearch.Client) []interface{} {
+	var (
+		r map[string]interface{}
+	)
+
+	query := `{ "query" : { "match_all" : {} } }`
+
+	log.Printf("Printing query..")
+	s := fmt.Sprintf("%#v", query)
+	log.Printf(s)
+
+	res, err := es.Search(
+		es.Search.WithContext(context.Background()),
+		es.Search.WithIndex("works"),
+		es.Search.WithBody(strings.NewReader(query)),
+		es.Search.WithPretty(),
+	)
+
+	if err != nil {
+		log.Fatalf("Error getting response: %s", err)
+	}
+	defer res.Body.Close()
+
+	log.Printf("Printing..")
+	s = fmt.Sprintf("%#v", res)
+	log.Printf(s)
+
+	if res.IsError() {
+		var e map[string]interface{}
+		if err := json.NewDecoder(res.Body).Decode(&e); err != nil {
+			log.Fatalf("Error parsing the response body: %s", err)
+		} else {
+			// Print the response status and error information.
+			log.Fatalf("[%s] %s: %s",
+				res.Status(),
+				e["error"].(map[string]interface{})["type"],
+				e["error"].(map[string]interface{})["reason"],
+			)
+		}
+	}
+
+	if err := json.NewDecoder(res.Body).Decode(&r); err != nil {
+		log.Fatalf("Error parsing the response body: %s", err)
+	}
+
+	log.Printf("Printing r..")
+	s = fmt.Sprintf("%#v", r)
+	log.Printf(s)
+
+	return r["hits"].(map[string]interface{})["hits"].([]interface{})
+}
+
+// Get all characters for a given work.
+func GetWorkCharacters(es *elasticsearch.Client, workId string) map[string]interface{} {
+	var (
+		r map[string]interface{}
+	)
+
+	query := `{ "query" : { "match" : { "WorkId": "` + workId + `" } } }`
+
+	log.Printf("Printing query..")
+	s := fmt.Sprintf("%#v", query)
+	log.Printf(s)
+
+	res, err := es.Search(
+		es.Search.WithContext(context.Background()),
+		es.Search.WithIndex("characters"),
+		es.Search.WithBody(strings.NewReader(query)),
+		es.Search.WithPretty(),
+	)
+
+	if err != nil {
+		log.Fatalf("Error getting response: %s", err)
+	}
+	defer res.Body.Close()
+
+	log.Printf("Printing..")
+	s = fmt.Sprintf("%#v", res)
+	log.Printf(s)
+
+	if res.IsError() {
+		var e map[string]interface{}
+		if err := json.NewDecoder(res.Body).Decode(&e); err != nil {
+			log.Fatalf("Error parsing the response body: %s", err)
+		} else {
+			// Print the response status and error information.
+			log.Fatalf("[%s] %s: %s",
+				res.Status(),
+				e["error"].(map[string]interface{})["type"],
+				e["error"].(map[string]interface{})["reason"],
+			)
+		}
+	}
+
+	if err := json.NewDecoder(res.Body).Decode(&r); err != nil {
+		log.Fatalf("Error parsing the response body: %s", err)
+	}
+
+	log.Printf("Printing..")
+	s = fmt.Sprintf("%#v", r)
+	log.Printf(s)
+
+	responses := r["responses"].([]interface{})
+	s = fmt.Sprintf("%#v", responses)
+	log.Printf(s)
+
+	return r
 }
