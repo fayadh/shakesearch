@@ -1,31 +1,48 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect } from "react";
 
-import { ButtonDiv } from '@common/buttons/ButtonDiv';
+import { ButtonDiv } from "@common/buttons/ButtonDiv";
 
-import { useStyles } from './styles';
+import { useStyles } from "./styles";
+import { doNothing } from "@common/helpers";
+import clsx from "clsx";
 
 export interface ISearchInputProps {
+  inputClassName?: string;
   onClearValue: () => void;
-  onKeyDown: React.KeyboardEventHandler<HTMLInputElement>;
+  onKeyDown?: React.KeyboardEventHandler<HTMLInputElement>;
   placeholder?: string;
   value: string;
+  onChange?: (value: string) => void;
 }
 
 /**
  * SearchInput with div container.
  */
 export const SearchInput = React.forwardRef<HTMLDivElement, ISearchInputProps>(
-  ({ onClearValue, onKeyDown, placeholder = 'search', value }, ref) => {
+  (
+    {
+      inputClassName,
+      onClearValue,
+      onChange: onChangeCallback = doNothing,
+      onKeyDown,
+      placeholder = "search",
+      value,
+    },
+    ref
+  ) => {
     const classes = useStyles();
 
     const [inputValue, setInputValue] = useState(value);
 
-    const onChange: React.ChangeEventHandler<HTMLInputElement> = ({ target: { value } }) => {
+    const onChange: React.ChangeEventHandler<HTMLInputElement> = ({
+      target: { value },
+    }) => {
       setInputValue(value);
+      onChangeCallback(value);
     };
 
     const onCloseIconClick: React.MouseEventHandler<HTMLInputElement> = () => {
-      setInputValue('');
+      setInputValue("");
       onClearValue();
     };
 
@@ -36,8 +53,7 @@ export const SearchInput = React.forwardRef<HTMLDivElement, ISearchInputProps>(
     return (
       <div className={classes.root} ref={ref}>
         <input
-          className={classes.input}
-          data-cy={'search-input'}
+          className={clsx([classes.input, inputClassName])}
           value={inputValue}
           onChange={onChange}
           onKeyDown={onKeyDown}
@@ -46,11 +62,10 @@ export const SearchInput = React.forwardRef<HTMLDivElement, ISearchInputProps>(
         {value && (
           <ButtonDiv
             className={classes.clearInput}
-            dataCy={'clear-search-filter'}
             onClick={onCloseIconClick}
           />
         )}
       </div>
     );
-  },
+  }
 );
