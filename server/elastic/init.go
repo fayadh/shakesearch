@@ -84,14 +84,13 @@ type SearchArgs struct {
 
 func makeMultiSearchQuery(args SearchArgs) string {
 	worksHeader := `{ "index": "works" }` + "\n"
-	worksQuery := worksHeader + "\n"
+	worksQuery := `{ "query": { "match": { "WorkId": "` + args.Query + `"} } }` + "\n"
 
 	log.Printf("Printing works query..")
 	s := fmt.Sprintf("%#v", worksQuery)
 	log.Printf(s)
 
-	esQuery := fmt.Sprintf(worksHeader + worksQuery + `
-	{ "index": "characters" }
+	esQuery := fmt.Sprintf(worksHeader + worksQuery + `{ "index": "characters" }
 	{ "query": { "match": { "CharName": "` + args.Query + `"} } }
 	{ "index": "paragraphs" }
 	{ "query": { "bool": { "should": [{ "match": { "PlainText": "` + args.Query + `"} }, { "match": { "CharName": "` + args.Query + `"} }, { "match": { "WorkTitle": "` + args.Query + `"} }] } } }`)
@@ -107,7 +106,7 @@ func Search(es *elasticsearch.Client, args SearchArgs) map[string]interface{} {
 
 	query := makeMultiSearchQuery(args)
 
-	log.Printf("Printing query..")
+	log.Printf("Printing search query..")
 	s := fmt.Sprintf("%#v", query)
 	log.Printf(s)
 
@@ -121,7 +120,7 @@ func Search(es *elasticsearch.Client, args SearchArgs) map[string]interface{} {
 	}
 	defer res.Body.Close()
 
-	log.Printf("Printing..")
+	log.Printf("Printing search resonse..")
 	s = fmt.Sprintf("%#v", res)
 	log.Printf(s)
 
@@ -143,7 +142,7 @@ func Search(es *elasticsearch.Client, args SearchArgs) map[string]interface{} {
 		log.Fatalf("Error parsing the response body: %s", err)
 	}
 
-	log.Printf("Printing..")
+	log.Printf("Printing search r..")
 	s = fmt.Sprintf("%#v", r)
 	log.Printf(s)
 
@@ -227,13 +226,13 @@ func Analyze(es *elasticsearch.Client, text string) []string {
 	return tokens
 }
 
-// Get all characters for a given work.
+// Get all works.
 func GetWorks(es *elasticsearch.Client) []interface{} {
 	var (
 		r map[string]interface{}
 	)
 
-	query := `{ "query" : { "match_all" : {} } }`
+	query := `{ "query" : { "match_all" : { } } }`
 
 	log.Printf("Printing query..")
 	s := fmt.Sprintf("%#v", query)
@@ -243,6 +242,8 @@ func GetWorks(es *elasticsearch.Client) []interface{} {
 		es.Search.WithContext(context.Background()),
 		es.Search.WithIndex("works"),
 		es.Search.WithBody(strings.NewReader(query)),
+		// we know Shakespeare only has 43 works.
+		// es.Search.WithSize(43),
 		es.Search.WithPretty(),
 	)
 
