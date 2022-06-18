@@ -3,6 +3,7 @@ import { useEffect, useReducer, useRef } from 'react'
 interface State<T> {
   data?: T
   error?: Error
+  loading: boolean
 }
 
 type Cache<T> = { [url: string]: T }
@@ -24,6 +25,7 @@ function useFetch<T = unknown>(url?: string, options?: RequestInit): State<T> {
   const cancelRequest = useRef<boolean>(false)
 
   const initialState: State<T> = {
+    loading: false,
     error: undefined,
     data: undefined,
   }
@@ -32,11 +34,11 @@ function useFetch<T = unknown>(url?: string, options?: RequestInit): State<T> {
   const fetchReducer = (state: State<T>, action: Action<T>): State<T> => {
     switch (action.type) {
       case 'loading':
-        return { ...initialState }
+        return { ...initialState, loading: true }
       case 'fetched':
-        return { ...initialState, data: action.payload }
+        return { ...initialState, data: action.payload, loading: false }
       case 'error':
-        return { ...initialState, error: action.payload }
+        return { ...initialState, error: action.payload, loading: false }
       default:
         return state
     }
