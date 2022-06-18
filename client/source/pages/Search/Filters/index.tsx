@@ -10,13 +10,16 @@ interface IFiltersProps {
 }
 
 /**
- * Filters
+ * Works filter.
  */
 export const WorksFilter: React.FC<IFiltersProps> = ({ register }) => {
   const classes = useStyles();
 
   const url = `http://localhost:3001/works`;
-  const { data, error, loading } = useFetch(url);
+  const { data = [], error, loading } = useFetch(url);
+  const works = data.map((d) => d._source);
+
+  console.log("works data", data);
 
   const workIdRegistrationProps = register("workId");
 
@@ -31,15 +34,10 @@ export const WorksFilter: React.FC<IFiltersProps> = ({ register }) => {
         labelId={labelId}
         id="workId-selector"
       >
-        {[
-          {
-            workId: "fooBar",
-            Title: "This is a title",
-          },
-        ].map((option) => {
+        {works.map((work) => {
           return (
-            <MenuItem key={option.workId} value={option.workId}>
-              {option.Title}
+            <MenuItem key={work.workId} value={work.workId}>
+              {work.Title}
             </MenuItem>
           );
         })}
@@ -53,11 +51,6 @@ export const WorksFilter: React.FC<IFiltersProps> = ({ register }) => {
  */
 export const Filters: React.FC<IFiltersProps> = ({ register }) => {
   const classes = useStyles();
-
-  const url = `http://localhost:3001/works`;
-  const { data, error, loading } = useFetch(url);
-
-  console.log("works data", data);
 
   // const charIdRegistrationProps = register("charId");
   // const actRegistrationProps = register("act");
