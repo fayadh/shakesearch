@@ -13,6 +13,7 @@ export interface ISearchInputProps {
   placeholder?: string;
   value: string;
   onChange?: (value: string) => void;
+  inputProps?: any;
 }
 
 /**
@@ -27,6 +28,7 @@ export const SearchInput = React.forwardRef<HTMLDivElement, ISearchInputProps>(
       onKeyDown,
       placeholder = "search",
       value,
+      inputProps = {},
     },
     ref
   ) => {
@@ -58,6 +60,7 @@ export const SearchInput = React.forwardRef<HTMLDivElement, ISearchInputProps>(
           onChange={onChange}
           onKeyDown={onKeyDown}
           placeholder={placeholder}
+          {...inputProps}
         />
         {value && (
           <ButtonDiv

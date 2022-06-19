@@ -30,3 +30,18 @@ export const setUrlQuery = (query: string) => {
     `${origin}${pathname}?${query}`
   );
 };
+
+/**
+ * Sets the value of field in the current URL query with causing a page reload.
+ *
+ * @param field string.
+ * @param value string.
+ */
+export const setUrlQueryPart = (field: string, value: string) => {
+  const {
+    location: { origin, pathname, href },
+  } = window;
+  const url = new URL(href);
+  url.searchParams.set(field, value);
+  window.history.replaceState({}, `Shakesearch`, url.href);
+};

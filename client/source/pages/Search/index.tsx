@@ -2,8 +2,7 @@ import { SearchInput } from "@common/forms/inputs/Search";
 import { joiResolver } from "@hookform/resolvers/joi";
 import useFetch from "@hooks/useFetch";
 import React, { useState } from "react";
-import { getCurrentQueryStrings, setUrlQuery } from "@common/helpers";
-import { isString } from "lodash";
+import { getCurrentQueryStrings, setUrlQueryPart } from "@common/helpers";
 import { ParagraphResults } from "@common/components/Paragraphs";
 import { useForm } from "react-hook-form";
 import Joi from "joi";
@@ -34,34 +33,54 @@ export const Search: React.FC = () => {
   const classes = useStyles();
 
   // inherit query from the url
-  const { q = "" } = getCurrentQueryStrings();
+  const { q = "", workId, charId, act, scene } = getCurrentQueryStrings();
 
-  const [query, setQuery] = useState<string>(isString(q) ? q : "");
+  console.log("here");
 
-  const url = `http://localhost:3001/search?q=${query}`;
+  const [results, setResults] = useState<{}>([]);
+
+  const { watch, formState, handleSubmit, register, setValue, getValues } =
+    useForm<IFormData>({
+      defaultValues: { q, workId, charId, act, scene },
+      mode: "onChange",
+      resolver: joiResolver(formSchema()),
+    });
+
+  const queryRegistrationProps = register("q");
+
+  // watch all fields
+  const watchAllFields = watch();
+  const formValues = getValues();
+
+  const url = `http://localhost:3001/search?q=${q}`;
+
+  console.log("getting data");
   const { data, error, loading } = useFetch(url);
 
-  const { formState, handleSubmit, register, setValue } = useForm<IFormData>({
-    defaultValues: { q },
-    mode: "onChange",
-    resolver: joiResolver(formSchema()),
-  });
+  console.log("data received", data);
+
+  React.useEffect(() => {
+    // const subscription = watch((value, { name, type }) => console.log(value, name, type));
+    // return () => subscription.unsubscribe();
+    console.log("data has changed", getValues());
+
+    // setResults(data);
+  }, [watchAllFields]);
+
+  console.log("form values", formValues);
 
   return (
     <div className={classes.root}>
       <SearchInput
+        {...queryRegistrationProps}
         inputClassName={classes.input}
         onClearValue={() => null}
-        onChange={(value) => {
-          setUrlQuery(`q=${value}`);
-          setQuery(value);
-        }}
+        inputProps={queryRegistrationProps}
         placeholder="Search"
-        value={query}
+        value={formValues.q}
       />
-      <Filters register={register} />
-
-      <ParagraphResults data={data?.paragraphs?.hits ?? []} />
+      <Filters register={register} values={formValues} />
+      <ParagraphResults data={results?.paragraphs?.hits ?? []} />
     </div>
   );
 };

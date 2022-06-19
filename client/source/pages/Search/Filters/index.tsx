@@ -1,3 +1,4 @@
+import { setUrlQueryPart } from "@common/helpers";
 import useFetch from "@hooks/useFetch";
 import { FormControl, InputLabel, MenuItem, Select } from "@mui/material";
 import React from "react";
@@ -7,6 +8,7 @@ import { useStyles } from "./styles";
 
 interface IFiltersProps {
   register: UseFormRegister<IFormData>;
+  values: IFormData;
 }
 
 /**
@@ -28,15 +30,10 @@ export const WorksFilter: React.FC<IFiltersProps> = ({ register }) => {
   return (
     <FormControl>
       <InputLabel id={labelId}>Work</InputLabel>
-      <Select
-        {...workIdRegistrationProps}
-        autoWidth
-        labelId={labelId}
-        id="workId-selector"
-      >
+      <Select autoWidth labelId={labelId} {...workIdRegistrationProps}>
         {works.map((work) => {
           return (
-            <MenuItem key={work.workId} value={work.workId}>
+            <MenuItem key={work.WorkID} value={work.WorkID}>
               {work.Title}
             </MenuItem>
           );
@@ -49,8 +46,10 @@ export const WorksFilter: React.FC<IFiltersProps> = ({ register }) => {
 /**
  * Filters
  */
-export const Filters: React.FC<IFiltersProps> = ({ register }) => {
+export const Filters: React.FC<IFiltersProps> = ({ register, values }) => {
   const classes = useStyles();
+
+  console.log("filter values", values);
 
   // const charIdRegistrationProps = register("charId");
   // const actRegistrationProps = register("act");
