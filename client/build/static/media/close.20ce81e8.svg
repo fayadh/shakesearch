@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="18px" viewBox="0 0 18 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61.2 (89653) - https://sketch.com -->
+    <title>Clear</title>
+    <desc>Created with Sketch.</desc>
+    <g id="WGT_Search-(MVP)" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="MVP_Search_Input-2" transform="translate(-540.000000, -111.000000)">
+            <g id="Content" transform="translate(240.000000, -0.000000)">
+                <g id="Header">
+                    <g id="Bar-Search" transform="translate(40.000000, 104.000000)">
+                        <g id="Clear" transform="translate(260.000000, 7.000000)">
+                            <circle id="Oval" fill="#888F9C" cx="9" cy="9" r="9"></circle>
+                            <path d="M7.02284468,6.1754924 L9,8.153 L10.9771553,6.1754924 C11.2111452,5.94150253 11.5905177,5.94150253 11.8245076,6.1754924 C12.0584975,6.40948227 12.0584975,6.78885481 11.8245076,7.02284468 L9.847,9 L11.8245076,10.9771553 C12.0584975,11.2111452 12.0584975,11.5905177 11.8245076,11.8245076 C11.5905177,12.0584975 11.2111452,12.0584975 10.9771553,11.8245076 L9,9.847 L7.02284468,11.8245076 C6.78885481,12.0584975 6.40948227,12.0584975 6.1754924,11.8245076 C5.94150253,11.5905177 5.94150253,11.2111452 6.1754924,10.9771553 L8.153,9 L6.1754924,7.02284468 C5.94150253,6.78885481 5.94150253,6.40948227 6.1754924,6.1754924 C6.40948227,5.94150253 6.78885481,5.94150253 7.02284468,6.1754924 Z" id="Close" stroke="#FFFFFF" stroke-width="0.5" fill="#FFFFFF"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
