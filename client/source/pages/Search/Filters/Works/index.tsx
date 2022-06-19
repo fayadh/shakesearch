@@ -5,6 +5,8 @@ import { FormControl, InputLabel, MenuItem, Select } from "@mui/material";
 import { UseFormRegister } from "react-hook-form";
 import { IFormData } from "../..";
 import { useStyles } from "./styles";
+import { ServerRoutes } from "@common/constants/serverRoutes";
+import { getServerRouteURL } from "@common/helpers";
 
 interface IWorksFiltersProps {
   register: UseFormRegister<IFormData>;
@@ -17,7 +19,7 @@ interface IWorksFiltersProps {
 export const WorksFilter: React.FC<IWorksFiltersProps> = ({ register }) => {
   const classes = useStyles();
 
-  const url = `http://localhost:3001/works`;
+  const url = getServerRouteURL(ServerRoutes.Works);
   const { data = [], error, loading } = useFetch(url);
 
   const works = data.map((d) => d._source);
