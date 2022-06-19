@@ -11,7 +11,7 @@ import (
 )
 
 func main() {
-	fmt.Printf("Hey u.")
+	fmt.Printf("Starting server...")
 
 	fs := http.FileServer(http.Dir("./client/build"))
 	http.Handle("/", fs)
@@ -22,8 +22,11 @@ func main() {
 	// Get all works
 	http.HandleFunc("/works", routes.HandleWorks())
 
-	// Get all works
+	// Get all work characters
 	http.HandleFunc("/works/characters", routes.HandleWorkCharacters())
+
+	// Get all work chapters
+	http.HandleFunc("/works/chapters", routes.HandleWorkChapters())
 
 	// handle ports
 	port := os.Getenv("PORT")

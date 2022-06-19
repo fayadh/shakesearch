@@ -92,7 +92,33 @@ func HandleWorkCharacters() func(w http.ResponseWriter, r *http.Request) {
 		}
 
 		es := elastic.SetupElastic()
+		results := elastic.GetWorkCharacters(es, workId[0])
 
+		// respond
+		buf := &bytes.Buffer{}
+		enc := json.NewEncoder(buf)
+		err := enc.Encode(results)
+		if err != nil {
+			w.WriteHeader(http.StatusInternalServerError)
+			w.Write([]byte("encoding failure"))
+			return
+		}
+		w.Header().Set("Content-Type", "application/json")
+		w.Header().Set("Access-Control-Allow-Origin", "*")
+		w.Write(buf.Bytes())
+	}
+}
+
+func HandleWorkChapters() func(w http.ResponseWriter, r *http.Request) {
+	return func(w http.ResponseWriter, r *http.Request) {
+		workId, ok := r.URL.Query()["workId"]
+		if !ok || len(workId[0]) < 1 {
+			w.WriteHeader(http.StatusBadRequest)
+			w.Write([]byte("missing workId in URL params"))
+			return
+		}
+
+		es := elastic.SetupElastic()
 		results := elastic.GetWorkCharacters(es, workId[0])
 
 		// respond
