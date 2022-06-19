@@ -13,7 +13,7 @@ import (
 func main() {
 	fmt.Printf("Hey u.")
 
-	fs := http.FileServer(http.Dir("./static"))
+	fs := http.FileServer(http.Dir("../client/build"))
 	http.Handle("/", fs)
 
 	// Perform a general search
