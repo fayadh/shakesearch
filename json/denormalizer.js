@@ -7,7 +7,7 @@ const characters = require('./Characters.json')
 
 console.log('Starting.')
 
-const newParagraphs = paragraphs.map(paragraph => {
+const denormalized = paragraphs.map(paragraph => {
     const character = characters.find(character => character.CharID === paragraph.CharID)
     const work = works.find(work => work.WorkID === paragraph.WorkID)
     
@@ -18,8 +18,8 @@ const newParagraphs = paragraphs.map(paragraph => {
     }
 })
 
-console.log('Total documents:', newParagraphs.length)
+console.log('Total documents:', denormalized.length)
 
-fs.writeFile('./ParagraphsDenormalized.json', JSON.stringify(newParagraphs), 'utf8', () => {
+fs.writeFile('./ParagraphsDenormalized.json', JSON.stringify(denormalized), 'utf8', () => {
     console.log('Done.')
 });
