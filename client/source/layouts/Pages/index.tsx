@@ -1,22 +1,21 @@
-/* eslint-disable max-lines-per-function */
-import React from 'react';
+import React from "react";
 
-import { Route, Switch } from 'react-router-dom';
+import { Route, Switch } from "react-router-dom";
 
-import ErrorBoundary from '@common/components/ErrorBoundary';
-import { Search } from '@pages/Search';
-import { NotFound } from '@pages/NotFound';
+import ErrorBoundary from "@common/components/ErrorBoundary";
+import { Search } from "@pages/Search";
+import { NotFound } from "@pages/NotFound";
 
-import { PageContainer } from './PageContainer';
-import { routes } from './Routes/utils';
-import { Wrapper } from './Wrapper';
+import { PageContainer } from "./PageContainer";
+import { routes } from "./Routes/utils";
+import { PagesWrapper } from "./Wrapper";
 
 /**
- * Returns authorized navigation links and pages.
+ * Returns navigable pages.
  */
 export const Pages: React.FC = () => {
   return (
-    <Wrapper>
+    <PagesWrapper>
       <PageContainer>
         <ErrorBoundary>
           <Switch>
@@ -30,6 +29,6 @@ export const Pages: React.FC = () => {
           </Switch>
         </ErrorBoundary>
       </PageContainer>
-    </Wrapper>
+    </PagesWrapper>
   );
 };

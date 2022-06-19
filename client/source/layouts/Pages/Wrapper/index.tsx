@@ -1,8 +1,8 @@
-import React from 'react';
+import React from "react";
 
-import { useStyles } from './styles';
+import { useStyles } from "./styles";
 
-export const Wrapper: React.FC = ({ children }) => {
+export const PagesWrapper: React.FC = ({ children }) => {
   const classes = useStyles();
 
   return <div className={classes.root}>{children}</div>;
