@@ -3,6 +3,7 @@ package routes
 import (
 	"bytes"
 	"encoding/json"
+	"strconv"
 
 	"pulley.com/shakesearch/elastic"
 
@@ -40,6 +41,18 @@ func HandleSearch() func(w http.ResponseWriter, r *http.Request) {
 		scene, sceneOk := r.URL.Query()["Scene"]
 		if sceneOk {
 			args.Scene = scene[0]
+		}
+
+		page, pageOk := r.URL.Query()["page"]
+		if pageOk {
+			p := page[0]
+			b, err := strconv.Atoi(p)
+			if err != nil {
+				w.WriteHeader(http.StatusBadRequest)
+				w.Write([]byte("page should be a number"))
+				return
+			}
+			args.Page = b
 		}
 
 		es := elastic.SetupElastic()

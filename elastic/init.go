@@ -5,11 +5,11 @@ import (
 	"context"
 	"encoding/json"
 	"fmt"
+	"log"
+	"strconv"
+	"strings"
 
 	"github.com/elastic/go-elasticsearch/v8"
-
-	"log"
-	"strings"
 )
 
 func SetupElastic() *elasticsearch.Client {
@@ -80,22 +80,27 @@ type SearchArgs struct {
 	CharId string
 	Act    string
 	Scene  string
+	Page   int
 }
 
 func makeMultiSearchQuery(args SearchArgs) string {
+	size := 10
+	from := size * args.Page
+
 	worksHeader := `{ "index": "works" }` + "\n"
 	worksQuery := `{ "query": { "match": { "WorkId": "` + args.Query + `"} } }` + "\n"
+	charactersHeader := `{ "index": "characters" }` + "\n"
+	charactersQuery := `{ "query": { "match": { "CharName": "` + args.Query + `"} } }` + "\n"
+	paragraphsHeader := `{ "index": "paragraphs" }` + "\n"
+	paragraphsQuery := `{ "from": ` + strconv.Itoa(from) + `, "size": ` + strconv.Itoa(size) + `, "query": { "bool": { "should": [{ "match": { "PlainText": "` + args.Query + `"} }, { "match": { "CharName": "` + args.Query + `"} }, { "match": { "WorkTitle": "` + args.Query + `"} }] } } }`
 
-	log.Printf("Printing works query..")
-	s := fmt.Sprintf("%#v", worksQuery)
-	log.Printf(s)
+	s := ""
+	if args.Page == 1 {
+		s = worksHeader + worksQuery + charactersHeader + charactersQuery
+	}
+	s += paragraphsHeader + paragraphsQuery + "\n"
 
-	esQuery := fmt.Sprintf(worksHeader + worksQuery + `{ "index": "characters" }
-	{ "query": { "match": { "CharName": "` + args.Query + `"} } }
-	{ "index": "paragraphs" }
-	{ "query": { "bool": { "should": [{ "match": { "PlainText": "` + args.Query + `"} }, { "match": { "CharName": "` + args.Query + `"} }, { "match": { "WorkTitle": "` + args.Query + `"} }] } } }`)
-
-	return esQuery + "\n"
+	return s
 }
 
 // Search for the indexed documents
@@ -150,11 +155,22 @@ func Search(es *elasticsearch.Client, args SearchArgs) map[string]interface{} {
 	s = fmt.Sprintf("%#v", responses)
 	log.Printf(s)
 
-	return map[string]interface{}{
-		"works":      PrettySearchResult(responses[0].(map[string]interface{})),
-		"characters": PrettySearchResult(responses[1].(map[string]interface{})),
-		"paragraphs": PrettySearchResult(responses[2].(map[string]interface{})),
+	emptySlice := []int{}
+
+	if args.Page == 1 {
+		return map[string]interface{}{
+			"works":      PrettySearchResult(responses[0].(map[string]interface{})),
+			"characters": PrettySearchResult(responses[1].(map[string]interface{})),
+			"paragraphs": PrettySearchResult(responses[2].(map[string]interface{})),
+		}
+	} else {
+		return map[string]interface{}{
+			"works":      emptySlice,
+			"characters": emptySlice,
+			"paragraphs": PrettySearchResult(responses[0].(map[string]interface{})),
+		}
 	}
+
 }
 
 func Analyze(es *elasticsearch.Client, text string) []string {
