@@ -6,8 +6,7 @@ import clsx from "clsx";
 import { useStyles } from "./styles";
 
 export interface ICard {
-  // TODO: rename to className
-  classProps?: string;
+  className?: string;
   isLoading?: boolean;
   title?: string | ReactNode;
   titleClassName?: string;
@@ -39,7 +38,7 @@ export const CardInner: FunctionComponent<ICard> = ({
 };
 
 export const Card: FunctionComponent<ICard> = (props) => (
-  <Paper className={props.classProps}>
+  <Paper className={props.className}>
     <CardInner {...props} />
   </Paper>
 );
