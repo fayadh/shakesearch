@@ -26,22 +26,8 @@ const denormalizedCharacters = characters.map(character => {
         return characterWorkIds.includes(work.WorkID)
     })
 
-    if(characterWorks.length > 1) {
-        console.log('Found!', characterWorks)
-    }
-    
     return {
         ...character,
         "WorkTitles": characterWorks.map(work => work.Title).toString()
     }
 })
-
-console.log('Total character documents:', denormalizedCharacters.length)
-console.log('Total paragraph documents:', denormalizedParagraphs.length)
-
-fs.writeFile('./CharactersDenormalized.json', JSON.stringify(denormalizedCharacters), 'utf8', () => {
-    console.log('Done Characters.')
-});
-fs.writeFile('./ParagraphsDenormalized.json', JSON.stringify(denormalizedParagraphs), 'utf8', () => {
-    console.log('Done Paragraphs.')
-});
