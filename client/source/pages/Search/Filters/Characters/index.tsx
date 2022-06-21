@@ -3,22 +3,23 @@ import { FormControl, InputLabel, MenuItem, Select } from "@mui/material";
 import { IFormData } from "../..";
 import React from "react";
 import { ServerRoutes } from "@common/constants/serverRoutes";
+import { TSetterFunction } from "..";
 import { UseFormRegister } from "react-hook-form";
 import { getServerRouteURL } from "@common/helpers";
 import useFetch from "@hooks/useFetch";
 import { useStyles } from "./styles";
 
-interface ICharactersFilterProps {
-  register: UseFormRegister<IFormData>;
-  workId: string;
+interface ICharactersFilterProps extends Pick<IFormData, "workId" | "charId"> {
+  setCharId: TSetterFunction;
 }
 
 /**
  * Characters filter.
  */
 export const CharactersFilter: React.FC<ICharactersFilterProps> = ({
-  register,
+  charId,
   workId,
+  setCharId,
 }) => {
   const classes = useStyles();
 
@@ -27,14 +28,19 @@ export const CharactersFilter: React.FC<ICharactersFilterProps> = ({
 
   const characters = data.map((d) => d._source);
 
-  const charIdRegistrationProps = register("charId");
-
   const labelId = "charId-label";
 
   return (
     <FormControl className={classes.root}>
       <InputLabel id={labelId}>Character</InputLabel>
-      <Select autoWidth labelId={labelId} {...charIdRegistrationProps}>
+      <Select
+        autoWidth
+        labelId={labelId}
+        value={charId}
+        onChange={(event) => {
+          setCharId(event.target.value);
+        }}
+      >
         {characters.map((character) => (
           <MenuItem key={character.CharID} value={character.CharID}>
             {character.CharName}

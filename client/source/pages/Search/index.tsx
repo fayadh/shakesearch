@@ -21,15 +21,6 @@ export interface IFormData {
   page?: number;
 }
 
-const formSchema = () =>
-  Joi.object({
-    q: Joi.string(),
-    workId: Joi.string().optional(),
-    charId: Joi.string().optional(),
-    act: Joi.string().optional(),
-    scene: Joi.string().optional(),
-  }).options({ presence: "required" });
-
 const cleanValues = (values) => {
   const newValues = _.omitBy(values, (value) => {
     return _.isNil(value) || !value;
@@ -45,54 +36,52 @@ export const Search: React.FC = () => {
   const classes = useStyles();
 
   // inherit query from the url
-  const {
-    q,
-    workId,
-    charId,
-    act,
-    scene,
-    page: pageFromQuery,
-  } = getCurrentQueryStrings();
-  const parsedQueryStrings = {
-    q,
-    workId,
-    charId,
-    act,
-    scene,
-    page: pageFromQuery,
-  };
+  const currentQueryStrings = getCurrentQueryStrings();
 
-  const [page, setPage] = useState<number>(pageFromQuery as number);
+  // q is query
+  const [q, setQ] = useState<string>(currentQueryStrings.q);
+  const [workId, setWorkId] = useState<string>(currentQueryStrings.workId);
+  const [charId, setCharId] = useState<string>(currentQueryStrings.charId);
+  const [act, setAct] = useState<number>(Number(currentQueryStrings.act));
+  const [scene, setScene] = useState<number>(Number(currentQueryStrings.scene));
+  const [page, setPage] = useState<number>(Number(currentQueryStrings.page));
 
-  const { watch, register, getValues, setValue } = useForm<IFormData>({
-    defaultValues: { q, workId, charId, act, scene, page },
-    mode: "onChange",
-    resolver: joiResolver(formSchema()),
-  });
-
-  const queryRegistrationProps = register("q");
-
-  // watch all fields
-  const watchAllFields = watch();
-  const formValues = getValues();
-
-  const s = new URLSearchParams(cleanValues(parsedQueryStrings)).toString();
+  const s = new URLSearchParams(
+    cleanValues({
+      q,
+      workId,
+      charId,
+      act,
+      scene,
+      page,
+    })
+  ).toString();
 
   const url = q ? `http://localhost:3001/search?${s}` : "";
 
   const { data, error, loading } = useFetch(url);
 
   React.useEffect(() => {
-    const newValues = cleanValues({
-      ...getValues(),
+    setCharId("");
+    setAct(0);
+    setScene(0);
+    setPage(1);
+  }, [workId]);
+
+  React.useEffect(() => {
+    const query = cleanValues({
+      q,
+      workId,
+      charId,
+      act,
+      scene,
       page,
     });
-    console.log("setting URL values as", newValues, getValues(), page);
 
-    const newUrl = new URLSearchParams(newValues).toString();
+    const url = new URLSearchParams(query).toString();
 
-    setUrlQuery(newUrl);
-  }, [watchAllFields, page]);
+    setUrlQuery(url);
+  }, [q, charId, act, scene, workId, page]);
 
   return (
     <div className={classes.root}>
@@ -101,12 +90,23 @@ export const Search: React.FC = () => {
       <SearchInput
         inputClassName={classes.input}
         onClearValue={() => null}
-        inputProps={queryRegistrationProps}
         placeholder="Search"
-        value={formValues.q}
+        onChange={(value) => setQ(value)}
+        value={q}
       />
 
-      <Filters register={register} values={formValues} setValue={setValue} />
+      <Filters
+        q={q}
+        workId={workId}
+        charId={charId}
+        act={act}
+        scene={scene}
+        setQ={setQ}
+        setWorkId={setWorkId}
+        setCharId={setCharId}
+        setAct={setAct}
+        setScene={setScene}
+      />
 
       {/* <WorkResults data={data?.works?.hits ?? []} /> */}
       {/* <CharacterResults data={data?.characters?.hits ?? []} /> */}

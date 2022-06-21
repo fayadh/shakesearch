@@ -2,36 +2,51 @@ import { CharactersFilter } from "./Characters";
 import { IFormData } from "..";
 import React from "react";
 import { ScenesAndActsFilter } from "./ScenesAndActs";
-import { UseFormRegister } from "react-hook-form";
 import { WorksFilter } from "./Works";
 import { useStyles } from "./styles";
 
-interface IFiltersProps {
-  register: UseFormRegister<IFormData>;
-  values: IFormData;
-  setValue: any;
+export type TSetterFunction = (value: string) => void;
+
+interface IFiltersProps extends IFormData {
+  setQ: TSetterFunction;
+  setWorkId: TSetterFunction;
+  setCharId: TSetterFunction;
+  setAct: TSetterFunction;
+  setScene: TSetterFunction;
 }
 
 /**
  * Search filters.
  */
 export const Filters: React.FC<IFiltersProps> = ({
-  register,
-  setValue,
-  values,
+  act,
+  charId,
+  scene,
+  workId,
+  setAct,
+  setCharId,
+  setScene,
+  setWorkId,
 }) => {
   const classes = useStyles();
 
   return (
     <div className={classes.root}>
-      <WorksFilter register={register} />
-      {values.workId && (
+      <WorksFilter value={workId} setWorkId={setWorkId} />
+
+      {workId && (
         <>
-          <CharactersFilter register={register} workId={values.workId} />
+          <CharactersFilter
+            workId={workId}
+            charId={charId}
+            setCharId={setCharId}
+          />
           <ScenesAndActsFilter
-            register={register}
-            workId={values.workId}
-            setValue={setValue}
+            workId={workId}
+            act={act}
+            scene={scene}
+            setAct={setAct}
+            setScene={setScene}
           />
         </>
       )}

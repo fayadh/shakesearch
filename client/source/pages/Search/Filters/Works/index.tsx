@@ -9,29 +9,38 @@ import useFetch from "@hooks/useFetch";
 import { useStyles } from "./styles";
 
 interface IWorksFiltersProps {
-  register: UseFormRegister<IFormData>;
-  values: IFormData;
+  value: IFormData["workId"];
+  setWorkId: (wordId: string) => void;
 }
 
 /**
  * Works filter.
  */
-export const WorksFilter: React.FC<IWorksFiltersProps> = ({ register }) => {
+export const WorksFilter: React.FC<IWorksFiltersProps> = ({
+  value,
+  setWorkId,
+}) => {
   const classes = useStyles();
 
   const url = getServerRouteURL(ServerRoutes.Works);
+
   const { data = [], error, loading } = useFetch(url);
 
   const works = data.map((d) => d._source);
-
-  const workIdRegistrationProps = register("workId");
 
   const labelId = "workId-label";
 
   return (
     <FormControl className={classes.root}>
       <InputLabel id={labelId}>Work</InputLabel>
-      <Select autoWidth labelId={labelId} {...workIdRegistrationProps}>
+      <Select
+        autoWidth
+        labelId={labelId}
+        value={value}
+        onChange={(event) => {
+          setWorkId(event.target.value);
+        }}
+      >
         {works.map((work) => (
           <MenuItem key={work.WorkID} value={work.WorkID}>
             {work.Title}

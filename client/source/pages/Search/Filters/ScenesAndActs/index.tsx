@@ -1,27 +1,29 @@
 import { FormControl, InputLabel, MenuItem, Select } from "@mui/material";
-import React, { useEffect, useState } from "react";
 
 import { IFormData } from "../..";
+import React from "react";
 import { ServerRoutes } from "@common/constants/serverRoutes";
-import { UseFormRegister } from "react-hook-form";
+import { TSetterFunction } from "..";
 import _ from "lodash";
 import { getServerRouteURL } from "@common/helpers";
 import useFetch from "@hooks/useFetch";
 import { useStyles } from "./styles";
 
-interface IScenesAndActsFilterProps {
-  register: UseFormRegister<IFormData>;
-  workId: string;
-  setValue: any;
+interface IScenesAndActsFilterProps
+  extends Pick<IFormData, "workId" | "act" | "scene"> {
+  setAct: TSetterFunction;
+  setScene: TSetterFunction;
 }
 
 /**
  * Scenes and acts filters.
  */
 export const ScenesAndActsFilter: React.FC<IScenesAndActsFilterProps> = ({
-  register,
   workId,
-  setValue,
+  act,
+  scene,
+  setAct,
+  setScene,
 }) => {
   const classes = useStyles();
 
@@ -31,26 +33,33 @@ export const ScenesAndActsFilter: React.FC<IScenesAndActsFilterProps> = ({
     error,
     loading,
   } = useFetch(`${url}?workId=${workId}`);
+
   const { SectionCount = 0, ChapterCount = 0 } = data._source;
 
-  const actRegistrationProps = register("act");
-  const sceneRegistrationProps = register("scene");
-
-  useEffect(() => {
-    setValue("act", "");
-    setValue("scene", "");
-  }, [workId]);
-
   const labelId = "charId-label";
+
+  const chaptersRange = ChapterCount ? _.range(1, ChapterCount + 1) : [];
+  const sectionsRange = SectionCount ? _.range(1, SectionCount + 1) : [];
 
   return (
     <>
       <FormControl className={classes.root}>
         <InputLabel id={labelId}>Act</InputLabel>
-        <Select autoWidth labelId={labelId} {...actRegistrationProps}>
+        <Select
+          autoWidth
+          labelId={labelId}
+          value={act}
+          onChange={(event) => {
+            setAct(event.target.value);
+          }}
+        >
           <MenuItem value="">*</MenuItem>
-          {_.range(1, ChapterCount + 1).map((chapterNumber) => (
-            <MenuItem key={chapterNumber} value={chapterNumber}>
+          {chaptersRange.map((chapterNumber) => (
+            <MenuItem
+              key={chapterNumber}
+              value={chapterNumber}
+              selected={act === chapterNumber}
+            >
               {chapterNumber}
             </MenuItem>
           ))}
@@ -59,10 +68,21 @@ export const ScenesAndActsFilter: React.FC<IScenesAndActsFilterProps> = ({
 
       <FormControl className={classes.root}>
         <InputLabel id={labelId}>Scene</InputLabel>
-        <Select autoWidth labelId={labelId} {...sceneRegistrationProps}>
+        <Select
+          autoWidth
+          labelId={labelId}
+          value={scene}
+          onChange={(event) => {
+            setScene(event.target.value);
+          }}
+        >
           <MenuItem value="">*</MenuItem>
-          {_.range(1, SectionCount + 1).map((sectionNumber) => (
-            <MenuItem key={sectionNumber} value={sectionNumber}>
+          {sectionsRange.map((sectionNumber) => (
+            <MenuItem
+              key={sectionNumber}
+              value={sectionNumber}
+              selected={act === sectionNumber}
+            >
               {sectionNumber}
             </MenuItem>
           ))}
