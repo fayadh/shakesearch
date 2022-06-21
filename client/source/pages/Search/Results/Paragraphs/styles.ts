@@ -1,19 +1,9 @@
 import makeStyles from "@mui/styles/makeStyles";
 
 export const useStyles = makeStyles((theme) => ({
-  root: {
+  content: {
     display: "flex",
-    rowGap: "10px",
-    flexDirection: "column",
-  },
-  result: {
-    borderColor: "silver",
-    border: "solid 1px",
-    borderRadius: "4px",
-    padding: theme.spacing(1),
-  },
-  context: {
-    padding: `0 ${theme.spacing(1)}`,
+    columnGap: "10px",
   },
   character: {
     color: "brown",
@@ -25,7 +15,20 @@ export const useStyles = makeStyles((theme) => ({
     color: "rosybrown",
   },
   paragraph: {
-    padding: theme.spacing(1),
     whiteSpace: "pre-line",
+  },
+  paragraphNumber: {
+    color: "silver",
+    whiteSpace: "pre-line",
+  },
+  result: {
+    borderColor: "silver",
+    border: "solid 1px",
+    borderRadius: "4px",
+  },
+  root: {
+    display: "flex",
+    flexDirection: "column",
+    rowGap: "10px",
   },
 }));
