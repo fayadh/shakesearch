@@ -2,14 +2,12 @@ import React, { useState } from "react";
 import { getCurrentQueryStrings, setUrlQuery } from "@common/helpers";
 
 import { Filters } from "./Filters";
-import Joi from "joi";
 import { Logo } from "./Logo";
 import { ParagraphResults } from "./Results/Paragraphs";
 import { SearchInput } from "@common/forms/inputs/Search";
 import _ from "lodash";
-import { joiResolver } from "@hookform/resolvers/joi";
 import useFetch from "@hooks/useFetch";
-import { useForm } from "react-hook-form";
+import { usePrevious } from "@hooks/usePrevious";
 import { useStyles } from "./styles";
 
 export interface IFormData {
@@ -46,7 +44,8 @@ export const Search: React.FC = () => {
   const [scene, setScene] = useState<number>(Number(currentQueryStrings.scene));
   const [page, setPage] = useState<number>(Number(currentQueryStrings.page));
 
-  const s = new URLSearchParams(
+  const previousWorkId = usePrevious(workId);
+  const query = new URLSearchParams(
     cleanValues({
       q,
       workId,
@@ -57,18 +56,27 @@ export const Search: React.FC = () => {
     })
   ).toString();
 
-  const url = q ? `http://localhost:3001/search?${s}` : "";
+  const url =
+    previousWorkId === workId && q
+      ? `http://localhost:3001/search?${query}`
+      : "";
 
   const { data, error, loading } = useFetch(url);
 
-  React.useEffect(() => {
+  const resetAllFiltersExceptWorkId = () => {
     setCharId("");
     setAct(0);
     setScene(0);
     setPage(1);
-  }, [workId]);
+  };
 
   React.useEffect(() => {
+    if (previousWorkId !== workId) {
+      resetAllFiltersExceptWorkId();
+
+      return;
+    }
+
     const query = cleanValues({
       q,
       workId,
