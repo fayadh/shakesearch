@@ -1,9 +1,11 @@
+import { ENV } from "@common/constants/environment";
+import { ServerRoutes } from "@common/constants/serverRoutes";
 import { parse } from "query-string";
 
 export const doNothing = () => null;
 
 export const getCurrentQueryStrings = () => {
-  return parse(location.search);
+  return parse(location.search) as Record<string, string>;
 };
 
 /**
@@ -44,4 +46,26 @@ export const setUrlQueryPart = (field: string, value: string) => {
   const url = new URL(href);
   url.searchParams.set(field, value);
   window.history.replaceState({}, `Shakesearch`, url.href);
+};
+
+/**
+ * Gets the value of field in the current URL query.
+ *
+ * @param field string.
+ */
+export const getUrlQueryPart = (field: string) => {
+  const {
+    location: { href },
+  } = window;
+  const url = new URL(href);
+  return url.searchParams.get(field);
+};
+
+/**
+ * Shape a route relative to the server URL.
+ *
+ * @param route string.
+ */
+export const getServerRouteURL = (route: ServerRoutes) => {
+  return `${ENV.serverURL}${route}`;
 };
