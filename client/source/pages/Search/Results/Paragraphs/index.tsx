@@ -1,8 +1,7 @@
-import React from "react";
 import { Card } from "@common/components/Card";
-
-import { useStyles } from "./styles";
 import { Pagination } from "@mui/material";
+import React from "react";
+import { useStyles } from "./styles";
 
 export interface IParagraphResults {
   data?: any[];
@@ -61,8 +60,8 @@ export const ParagraphResults: React.FC<IParagraphResults> = ({
                 </span>
                 <span className={classes.in}>in</span>
                 <span className={classes.work}>
-                  {cleanString(_source.WorkTitle)}, Act {_source.Chapter} Scene{" "}
-                  {_source.Section}
+                  {cleanString(_source.WorkTitle)}, Act {_source.Section} Scene{" "}
+                  {_source.Chapter}
                 </span>
               </div>
             }

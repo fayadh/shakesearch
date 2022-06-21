@@ -19,14 +19,14 @@ func main() {
 	// Perform a general search
 	http.HandleFunc("/search", routes.HandleSearch())
 
+	// Get work
+	http.HandleFunc("/work", routes.HandleWork())
+
 	// Get all works
 	http.HandleFunc("/works", routes.HandleWorks())
 
 	// Get all work characters
 	http.HandleFunc("/works/characters", routes.HandleWorkCharacters())
-
-	// Get all work chapters
-	http.HandleFunc("/works/chapters", routes.HandleWorkChapters())
 
 	// handle ports
 	port := os.Getenv("PORT")

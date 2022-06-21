@@ -297,13 +297,66 @@ func GetWorks(es *elasticsearch.Client) []interface{} {
 	return r["hits"].(map[string]interface{})["hits"].([]interface{})
 }
 
-// Get all characters for a given work.
-func GetWorkCharacters(es *elasticsearch.Client, workId string) map[string]interface{} {
+// Get work.
+func GetWork(es *elasticsearch.Client, workId string) map[string]interface{} {
 	var (
 		r map[string]interface{}
 	)
 
-	query := `{ "query" : { "match" : { "WorkId": "` + workId + `" } } }`
+	query := `{ "query" : { "match" : { "WorkID": "` + workId + `" } } }`
+
+	log.Printf("Printing query..")
+	s := fmt.Sprintf("%#v", query)
+	log.Printf(s)
+
+	res, err := es.Search(
+		es.Search.WithContext(context.Background()),
+		es.Search.WithIndex("works"),
+		es.Search.WithBody(strings.NewReader(query)),
+		es.Search.WithPretty(),
+	)
+
+	if err != nil {
+		log.Fatalf("Error getting response: %s", err)
+	}
+	defer res.Body.Close()
+
+	log.Printf("Printing..")
+	s = fmt.Sprintf("%#v", res)
+	log.Printf(s)
+
+	if res.IsError() {
+		var e map[string]interface{}
+		if err := json.NewDecoder(res.Body).Decode(&e); err != nil {
+			log.Fatalf("Error parsing the response body: %s", err)
+		} else {
+			// Print the response status and error information.
+			log.Fatalf("[%s] %s: %s",
+				res.Status(),
+				e["error"].(map[string]interface{})["type"],
+				e["error"].(map[string]interface{})["reason"],
+			)
+		}
+	}
+
+	if err := json.NewDecoder(res.Body).Decode(&r); err != nil {
+		log.Fatalf("Error parsing the response body: %s", err)
+	}
+
+	log.Printf("Printing..")
+	s = fmt.Sprintf("%#v", r)
+	log.Printf(s)
+
+	return r["hits"].(map[string]interface{})["hits"].([]interface{})[0].(map[string]interface{})
+}
+
+// Get all characters for a given work.
+func GetWorkCharacters(es *elasticsearch.Client, workId string) []interface{} {
+	var (
+		r map[string]interface{}
+	)
+
+	query := `{ "query" : { "query_string" : { "query": "` + workId + `", "default_field": "Works" } } }`
 
 	log.Printf("Printing query..")
 	s := fmt.Sprintf("%#v", query)
@@ -347,9 +400,5 @@ func GetWorkCharacters(es *elasticsearch.Client, workId string) map[string]inter
 	s = fmt.Sprintf("%#v", r)
 	log.Printf(s)
 
-	responses := r["responses"].([]interface{})
-	s = fmt.Sprintf("%#v", responses)
-	log.Printf(s)
-
-	return r
+	return r["hits"].(map[string]interface{})["hits"].([]interface{})
 }

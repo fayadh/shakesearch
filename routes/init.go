@@ -122,7 +122,7 @@ func HandleWorkCharacters() func(w http.ResponseWriter, r *http.Request) {
 	}
 }
 
-func HandleWorkChapters() func(w http.ResponseWriter, r *http.Request) {
+func HandleWork() func(w http.ResponseWriter, r *http.Request) {
 	return func(w http.ResponseWriter, r *http.Request) {
 		workId, ok := r.URL.Query()["workId"]
 		if !ok || len(workId[0]) < 1 {
@@ -132,7 +132,7 @@ func HandleWorkChapters() func(w http.ResponseWriter, r *http.Request) {
 		}
 
 		es := elastic.SetupElastic()
-		results := elastic.GetWorkCharacters(es, workId[0])
+		results := elastic.GetWork(es, workId[0])
 
 		// respond
 		buf := &bytes.Buffer{}

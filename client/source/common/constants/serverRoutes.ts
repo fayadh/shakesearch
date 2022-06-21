@@ -1,5 +1,5 @@
 export enum ServerRoutes {
+  Work = `/work`,
   Works = `/works`,
-  WorkCharacters = `/work/characters`,
-  WorkChapters = `/work/chapters`,
+  WorkCharacters = `/works/characters`,
 }

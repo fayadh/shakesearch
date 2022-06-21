@@ -2,7 +2,9 @@ import makeStyles from "@mui/styles/makeStyles";
 
 export const useStyles = makeStyles({
   root: {
-    padding: "10px",
+    columnGap: "10px",
+    display: "flex",
+    marginBottom: "32px",
     width: "100%",
   },
 });

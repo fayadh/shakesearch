@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "private": true,
   "description": "Shakesearch Client",
-  "homepage": "http://localhost:3003",
+  "homepage": "http://localhost:3002",
   "repository": {
     "type": "git",
     "url": "https://github.com/fayadh/shakesearch"
