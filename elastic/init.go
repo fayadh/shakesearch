@@ -12,6 +12,9 @@ import (
 	"github.com/elastic/go-elasticsearch/v8"
 )
 
+var TotalWorks = 43
+var TotalCharacters = 1265
+
 func SetupElastic() *elasticsearch.Client {
 	log.SetFlags(0)
 
@@ -85,14 +88,14 @@ type SearchArgs struct {
 
 func makeWorksHeadersAndQuery(args SearchArgs) string {
 	worksHeader := `{ "index": "works" }` + "\n"
-	worksQuery := `{ "query": { "match": { "WorkID": "` + args.Query + `"} } }` + "\n"
+	worksQuery := `{ "size": ` + strconv.Itoa(TotalWorks) + `, "query": { "match": { "WorkID": "` + args.Query + `"} } }` + "\n"
 
 	return worksHeader + worksQuery
 }
 
 func makeCharactersHeadersAndQuery(args SearchArgs) string {
 	charHeader := `{ "index": "characters" }` + "\n"
-	charQuery := `{ "query": { "match": { "CharName": "` + args.Query + `"} } }` + "\n"
+	charQuery := `{ "size": ` + strconv.Itoa(TotalCharacters) + `,  "query": { "match": { "CharName": "` + args.Query + `"} } }` + "\n"
 
 	return charHeader + charQuery
 }
@@ -417,7 +420,8 @@ func GetWorkCharacters(es *elasticsearch.Client, workId string) []interface{} {
 		r map[string]interface{}
 	)
 
-	query := `{ "query" : { "query_string" : { "query": "` + workId + `", "default_field": "Works" } } }`
+	// Works happesn to be a comma delimited field
+	query := `{ "size": ` + strconv.Itoa(TotalCharacters) + `,  "query" : { "query_string" : { "query": "` + workId + `", "default_field": "Works" } } }`
 
 	log.Printf("Printing query..")
 	s := fmt.Sprintf("%#v", query)
