@@ -70,8 +70,6 @@ export const Search: React.FC = () => {
   React.useEffect(() => {
     if (previousWorkId !== workId) {
       resetAllFiltersExceptWorkId();
-
-      return;
     }
 
     const query = removeEmptyValues({
