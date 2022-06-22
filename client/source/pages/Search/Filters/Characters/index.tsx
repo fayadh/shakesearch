@@ -4,7 +4,6 @@ import { IFormData } from "../..";
 import React from "react";
 import { ServerRoutes } from "@common/constants/serverRoutes";
 import { TSetterFunction } from "..";
-import { UseFormRegister } from "react-hook-form";
 import { getServerRouteURL } from "@common/helpers";
 import useFetch from "@hooks/useFetch";
 import { useStyles } from "./styles";
