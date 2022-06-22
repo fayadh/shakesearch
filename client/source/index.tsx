@@ -1,7 +1,6 @@
 import * as serviceWorker from "./serviceWorker";
 
-import { BreadcrumbsProvider } from "@common/providers/breadcrumbsProvider";
-
+import { BrowserRouter } from "react-router-dom";
 import DateAdapter from "@mui/lab/AdapterMoment";
 import ErrorBoundary from "@common/components/ErrorBoundary";
 import LocalizationProvider from "@mui/lab/LocalizationProvider";
@@ -10,7 +9,6 @@ import React from "react";
 import { StyledEngineProvider } from "@mui/material/styles";
 import { Theme } from "@common/theme";
 import { render } from "react-dom";
-import { BrowserRouter } from "react-router-dom";
 
 const App: React.FC = () => (
   <BrowserRouter basename="/">
