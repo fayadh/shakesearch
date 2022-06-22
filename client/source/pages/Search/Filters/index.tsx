@@ -41,6 +41,7 @@ export const Filters: React.FC<IFiltersProps> = ({
             charId={charId}
             setCharId={setCharId}
           />
+
           <ScenesAndActsFilter
             workId={workId}
             act={act}
