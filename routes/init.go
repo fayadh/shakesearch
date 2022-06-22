@@ -60,6 +60,7 @@ func HandleSearch() func(w http.ResponseWriter, r *http.Request) {
 		page, pageOk := r.URL.Query()["page"]
 		if pageOk {
 			p := page[0]
+
 			b, err := strconv.Atoi(p)
 			if err != nil {
 				w.WriteHeader(http.StatusBadRequest)
@@ -67,6 +68,8 @@ func HandleSearch() func(w http.ResponseWriter, r *http.Request) {
 				return
 			}
 			args.Page = b
+		} else {
+			args.Page = 1
 		}
 
 		es := elastic.SetupElastic()
