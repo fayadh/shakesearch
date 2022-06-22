@@ -1,5 +1,6 @@
 import { ENV } from "@common/constants/environment";
 import { ServerRoutes } from "@common/constants/serverRoutes";
+import _ from "lodash";
 import { parse } from "query-string";
 
 export const doNothing = () => null;
@@ -68,4 +69,18 @@ export const getUrlQueryPart = (field: string) => {
  */
 export const getServerRouteURL = (route: ServerRoutes) => {
   return `${ENV.serverURL}${route}`;
+};
+
+/**
+ * Remove empty values from an object.
+ *
+ * @param obj The object you want to remove empty values from.
+ * @returns obj
+ */
+export const removeEmptyValues = (obj: Record<string, unknown>) => {
+  const newValues = _.omitBy(obj, (value) => {
+    return _.isNil(value) || !value;
+  });
+
+  return newValues;
 };

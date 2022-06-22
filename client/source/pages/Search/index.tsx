@@ -1,5 +1,9 @@
 import React, { useState } from "react";
-import { getCurrentQueryStrings, setUrlQuery } from "@common/helpers";
+import {
+  getCurrentQueryStrings,
+  removeEmptyValues,
+  setUrlQuery,
+} from "@common/helpers";
 
 import { Filters } from "./Filters";
 import { Logo } from "./Logo";
@@ -18,20 +22,6 @@ export interface IFormData {
   scene?: number;
   page?: number;
 }
-
-/**
- * Remove empty values from an object.
- *
- * @param obj The object you want to remove empty values from.
- * @returns obj
- */
-const removeEmptyValues = (obj) => {
-  const newValues = _.omitBy(obj, (value) => {
-    return _.isNil(value) || !value;
-  });
-
-  return newValues;
-};
 
 /**
  * Search
