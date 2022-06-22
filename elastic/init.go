@@ -4,7 +4,6 @@ import (
 	"bytes"
 	"context"
 	"encoding/json"
-	"fmt"
 	"log"
 	"strconv"
 	"strings"
@@ -148,10 +147,6 @@ func makeParagraphHeadersAndQuery(args SearchArgs) string {
 }
 
 func makeMultiSearchQuery(args SearchArgs) string {
-	log.Printf("\n\n\n")
-	log.Println("WorkID", args.WorkId)
-	log.Printf("\n\n\n")
-
 	works := makeWorksHeadersAndQuery(args)
 	characters := makeCharactersHeadersAndQuery(args)
 	paragraphs := makeParagraphHeadersAndQuery(args)
@@ -173,10 +168,6 @@ func Search(es *elasticsearch.Client, args SearchArgs) map[string]interface{} {
 
 	query := makeMultiSearchQuery(args)
 
-	log.Printf("Printing search query..")
-	s := fmt.Sprintf("%#v", query)
-	log.Printf(s)
-
 	res, err := es.Msearch(strings.NewReader(query),
 		es.Msearch.WithContext(context.Background()),
 		es.Msearch.WithPretty(),
@@ -186,10 +177,6 @@ func Search(es *elasticsearch.Client, args SearchArgs) map[string]interface{} {
 		log.Fatalf("Error getting response: %s", err)
 	}
 	defer res.Body.Close()
-
-	log.Printf("Printing search resonse..")
-	s = fmt.Sprintf("%#v", res)
-	log.Printf(s)
 
 	if res.IsError() {
 		var e map[string]interface{}
@@ -209,15 +196,7 @@ func Search(es *elasticsearch.Client, args SearchArgs) map[string]interface{} {
 		log.Fatalf("Error parsing the response body: %s", err)
 	}
 
-	log.Printf("Printing search r..")
-	fmt.Printf("%v", r)
-	// s = fmt.Sprintf("%#v", r)
-	// log.Printf(s)
-
-	log.Printf("\nPrinting r..")
 	responses := r["responses"].([]interface{})
-	fmt.Printf("%v", responses)
-	// log.Printf(s)
 
 	emptySlice := []int{}
 
@@ -266,10 +245,6 @@ func Analyze(es *elasticsearch.Client, text string) []string {
 	}
 	defer res.Body.Close()
 
-	log.Printf("Printing..")
-	s := fmt.Sprintf("%#v", res)
-	log.Printf(s)
-
 	if res.IsError() {
 		var e map[string]interface{}
 		if err := json.NewDecoder(res.Body).Decode(&e); err != nil {
@@ -287,10 +262,6 @@ func Analyze(es *elasticsearch.Client, text string) []string {
 	if err := json.NewDecoder(res.Body).Decode(&r); err != nil {
 		log.Fatalf("Error parsing the response body: %s", err)
 	}
-
-	log.Printf("Printing..")
-	s = fmt.Sprintf("%#v", r)
-	log.Printf(s)
 
 	tokens := []string{}
 
@@ -314,16 +285,11 @@ func GetWorks(es *elasticsearch.Client) []interface{} {
 
 	query := `{ "query" : { "match_all" : { } } }`
 
-	log.Printf("Printing query..")
-	s := fmt.Sprintf("%#v", query)
-	log.Printf(s)
-
 	res, err := es.Search(
 		es.Search.WithContext(context.Background()),
 		es.Search.WithIndex("works"),
 		es.Search.WithBody(strings.NewReader(query)),
-		// we know Shakespeare only has 43 works.
-		es.Search.WithSize(43),
+		es.Search.WithSize(TotalWorks),
 		es.Search.WithPretty(),
 	)
 
@@ -331,10 +297,6 @@ func GetWorks(es *elasticsearch.Client) []interface{} {
 		log.Fatalf("Error getting response: %s", err)
 	}
 	defer res.Body.Close()
-
-	log.Printf("Printing..")
-	s = fmt.Sprintf("%#v", res)
-	log.Printf(s)
 
 	if res.IsError() {
 		var e map[string]interface{}
@@ -353,10 +315,6 @@ func GetWorks(es *elasticsearch.Client) []interface{} {
 	if err := json.NewDecoder(res.Body).Decode(&r); err != nil {
 		log.Fatalf("Error parsing the response body: %s", err)
 	}
-
-	log.Printf("Printing r..")
-	s = fmt.Sprintf("%#v", r)
-	log.Printf(s)
 
 	return r["hits"].(map[string]interface{})["hits"].([]interface{})
 }
@@ -369,10 +327,6 @@ func GetWork(es *elasticsearch.Client, workId string) map[string]interface{} {
 
 	query := `{ "query" : { "match" : { "WorkID": "` + workId + `" } } }`
 
-	log.Printf("Printing query..")
-	s := fmt.Sprintf("%#v", query)
-	log.Printf(s)
-
 	res, err := es.Search(
 		es.Search.WithContext(context.Background()),
 		es.Search.WithIndex("works"),
@@ -384,10 +338,6 @@ func GetWork(es *elasticsearch.Client, workId string) map[string]interface{} {
 		log.Fatalf("Error getting response: %s", err)
 	}
 	defer res.Body.Close()
-
-	log.Printf("Printing..")
-	s = fmt.Sprintf("%#v", res)
-	log.Printf(s)
 
 	if res.IsError() {
 		var e map[string]interface{}
@@ -407,10 +357,6 @@ func GetWork(es *elasticsearch.Client, workId string) map[string]interface{} {
 		log.Fatalf("Error parsing the response body: %s", err)
 	}
 
-	log.Printf("Printing..")
-	s = fmt.Sprintf("%#v", r)
-	log.Printf(s)
-
 	return r["hits"].(map[string]interface{})["hits"].([]interface{})[0].(map[string]interface{})
 }
 
@@ -420,12 +366,8 @@ func GetWorkCharacters(es *elasticsearch.Client, workId string) []interface{} {
 		r map[string]interface{}
 	)
 
-	// Works happesn to be a comma delimited field
+	// Works happens to be a comma delimited string.
 	query := `{ "size": ` + strconv.Itoa(TotalCharacters) + `,  "query" : { "query_string" : { "query": "` + workId + `", "default_field": "Works" } } }`
-
-	log.Printf("Printing query..")
-	s := fmt.Sprintf("%#v", query)
-	log.Printf(s)
 
 	res, err := es.Search(
 		es.Search.WithContext(context.Background()),
@@ -439,10 +381,6 @@ func GetWorkCharacters(es *elasticsearch.Client, workId string) []interface{} {
 	}
 	defer res.Body.Close()
 
-	log.Printf("Printing..")
-	s = fmt.Sprintf("%#v", res)
-	log.Printf(s)
-
 	if res.IsError() {
 		var e map[string]interface{}
 		if err := json.NewDecoder(res.Body).Decode(&e); err != nil {
@@ -460,10 +398,6 @@ func GetWorkCharacters(es *elasticsearch.Client, workId string) []interface{} {
 	if err := json.NewDecoder(res.Body).Decode(&r); err != nil {
 		log.Fatalf("Error parsing the response body: %s", err)
 	}
-
-	log.Printf("Printing..")
-	s = fmt.Sprintf("%#v", r)
-	log.Printf(s)
 
 	return r["hits"].(map[string]interface{})["hits"].([]interface{})
 }
