@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import {
   getCurrentQueryStrings,
+  getServerRouteURL,
   removeEmptyValues,
   setUrlQuery,
 } from "@common/helpers";
@@ -9,6 +10,7 @@ import { Filters } from "./Filters";
 import { Logo } from "./Logo";
 import { ParagraphResults } from "./Results/Paragraphs";
 import { SearchInput } from "@common/forms/inputs/Search";
+import { ServerRoutes } from "@common/constants/serverRoutes";
 import _ from "lodash";
 import useFetch from "@hooks/useFetch";
 import { usePrevious } from "@hooks/usePrevious";
@@ -52,10 +54,9 @@ export const Search: React.FC = () => {
     })
   ).toString();
 
-  const url =
-    previousWorkId === workId && q
-      ? `http://localhost:3001/search?${query}`
-      : "";
+  const searchUrl = getServerRouteURL(ServerRoutes.Search);
+
+  const url = previousWorkId === workId && q ? `${searchUrl}?${query}` : "";
 
   const { data, error, loading } = useFetch(url);
 
