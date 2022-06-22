@@ -78,29 +78,88 @@ type SearchArgs struct {
 	Query  string
 	WorkId string
 	CharId string
-	Act    string
-	Scene  string
+	Act    int
+	Scene  int
 	Page   int
 }
 
-func makeMultiSearchQuery(args SearchArgs) string {
-	size := 10
-	from := size * args.Page
-
+func makeWorksHeadersAndQuery(args SearchArgs) string {
 	worksHeader := `{ "index": "works" }` + "\n"
-	worksQuery := `{ "query": { "match": { "WorkId": "` + args.Query + `"} } }` + "\n"
-	charactersHeader := `{ "index": "characters" }` + "\n"
-	charactersQuery := `{ "query": { "match": { "CharName": "` + args.Query + `"} } }` + "\n"
+	worksQuery := `{ "query": { "match": { "WorkID": "` + args.Query + `"} } }` + "\n"
+
+	return worksHeader + worksQuery
+}
+
+func makeCharactersHeadersAndQuery(args SearchArgs) string {
+	charHeader := `{ "index": "characters" }` + "\n"
+	charQuery := `{ "query": { "match": { "CharName": "` + args.Query + `"} } }` + "\n"
+
+	return charHeader + charQuery
+}
+
+func makeParagraphHeadersAndQuery(args SearchArgs) string {
+	size := 10
+	from := size * (args.Page - 1)
+
+	paragraphsQuery := ""
 	paragraphsHeader := `{ "index": "paragraphs" }` + "\n"
-	paragraphsQuery := `{ "from": ` + strconv.Itoa(from) + `, "size": ` + strconv.Itoa(size) + `, "query": { "bool": { "should": [{ "match": { "PlainText": "` + args.Query + `"} }, { "match": { "CharName": "` + args.Query + `"} }, { "match": { "WorkTitle": "` + args.Query + `"} }] } } }`
+
+	pagination := `"from": ` + strconv.Itoa(from) + `, "size": ` + strconv.Itoa(size)
+
+	var must []string
+	var should []string
+
+	// If work is specified, only search within a work.
+	if args.WorkId != "" {
+		must = append(must, `{ "match": { "WorkID": "`+args.WorkId+`"} }`)
+	} else {
+		should = append(should, `{ "match": { "WorkID": "`+args.Query+`"} }`)
+	}
+
+	// If character is specified, only search results for that character.
+	if args.CharId != "" {
+		must = append(must, `{ "match": { "CharID": "`+args.CharId+`"} }`)
+	} else {
+		should = append(should, `{ "match": { "CharID": "`+args.Query+`"} }`)
+	}
+
+	// If act is specified, only search within the act.
+	if args.Act != 0 {
+		must = append(must, `{ "match": { "Chapter": `+strconv.Itoa(args.Act)+` } }`)
+	}
+
+	// If scene is specified, only search within the scene.
+	if args.Scene != 0 {
+		must = append(must, `{ "match": { "Section": `+strconv.Itoa(args.Scene)+` } }`)
+	}
+
+	// Search for text results that match 80% of the given keywords.
+	must = append(must, `{ "match": { "PlainText": { "query": "`+args.Query+`", "minimum_should_match": "80%" } } }`)
+
+	mustQueries := strings.Join(must, ",")
+	shouldQueries := strings.Join(should, ",")
+
+	paragraphsQuery = `{ ` + pagination + `, "query": {  "bool": {  "should": [  ` + shouldQueries + ` ], "must": [ ` + mustQueries + ` ] }  }  }`
+
+	return paragraphsHeader + paragraphsQuery
+}
+
+func makeMultiSearchQuery(args SearchArgs) string {
+	log.Printf("\n\n\n")
+	log.Println("WorkID", args.WorkId)
+	log.Printf("\n\n\n")
+
+	works := makeWorksHeadersAndQuery(args)
+	characters := makeCharactersHeadersAndQuery(args)
+	paragraphs := makeParagraphHeadersAndQuery(args)
 
 	s := ""
 	if args.Page == 1 {
-		s = worksHeader + worksQuery + charactersHeader + charactersQuery
+		s = works + characters
 	}
-	s += paragraphsHeader + paragraphsQuery + "\n"
+	s += paragraphs
 
-	return s
+	return s + "\n"
 }
 
 // Search for the indexed documents
@@ -148,12 +207,14 @@ func Search(es *elasticsearch.Client, args SearchArgs) map[string]interface{} {
 	}
 
 	log.Printf("Printing search r..")
-	s = fmt.Sprintf("%#v", r)
-	log.Printf(s)
+	fmt.Printf("%v", r)
+	// s = fmt.Sprintf("%#v", r)
+	// log.Printf(s)
 
+	log.Printf("\nPrinting r..")
 	responses := r["responses"].([]interface{})
-	s = fmt.Sprintf("%#v", responses)
-	log.Printf(s)
+	fmt.Printf("%v", responses)
+	// log.Printf(s)
 
 	emptySlice := []int{}
 

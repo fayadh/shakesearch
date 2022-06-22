@@ -23,24 +23,38 @@ func HandleSearch() func(w http.ResponseWriter, r *http.Request) {
 			Query: query[0],
 		}
 
-		workId, workIdOk := r.URL.Query()["WorkID"]
+		workId, workIdOk := r.URL.Query()["workId"]
 		if workIdOk {
 			args.WorkId = workId[0]
 		}
 
-		charId, charIdOk := r.URL.Query()["CharID"]
+		charId, charIdOk := r.URL.Query()["charId"]
 		if charIdOk {
 			args.CharId = charId[0]
 		}
 
-		act, actOk := r.URL.Query()["Act"]
+		act, actOk := r.URL.Query()["act"]
 		if actOk {
-			args.Act = act[0]
+			a := act[0]
+			act, err := strconv.Atoi(a)
+			if err != nil {
+				w.WriteHeader(http.StatusBadRequest)
+				w.Write([]byte("act should be a number"))
+				return
+			}
+			args.Act = act
 		}
 
-		scene, sceneOk := r.URL.Query()["Scene"]
+		scene, sceneOk := r.URL.Query()["scene"]
 		if sceneOk {
-			args.Scene = scene[0]
+			s := scene[0]
+			scene, err := strconv.Atoi(s)
+			if err != nil {
+				w.WriteHeader(http.StatusBadRequest)
+				w.Write([]byte("scene should be a number"))
+				return
+			}
+			args.Scene = scene
 		}
 
 		page, pageOk := r.URL.Query()["page"]
