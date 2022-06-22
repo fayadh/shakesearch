@@ -3,15 +3,23 @@ package main
 import (
 	"fmt"
 
-	"pulley.com/shakesearch/routes"
+	"github.com/joho/godotenv"
 
 	"log"
 	"net/http"
 	"os"
+
+	"pulley.com/shakesearch/routes"
 )
 
 func main() {
-	fmt.Printf("Starting server...")
+	err := godotenv.Load()
+
+	if err != nil {
+		log.Println("Error loading .env file. Falling back to passed ENV variables.")
+	}
+
+	fmt.Printf(`Starting server...` + "\n")
 
 	fs := http.FileServer(http.Dir("./client/build"))
 	http.Handle("/", fs)
@@ -35,8 +43,8 @@ func main() {
 	}
 
 	// go
-	fmt.Printf("Listening on port %s...", port)
-	err := http.ListenAndServe(fmt.Sprintf(":%s", port), nil)
+	fmt.Printf("Listening on port %s.", port)
+	err = http.ListenAndServe(fmt.Sprintf(":%s", port), nil)
 	if err != nil {
 		log.Fatal(err)
 	}

@@ -4,7 +4,9 @@ import (
 	"bytes"
 	"context"
 	"encoding/json"
+
 	"log"
+	"os"
 	"strconv"
 	"strings"
 
@@ -17,23 +19,22 @@ var TotalCharacters = 1265
 func SetupElastic() *elasticsearch.Client {
 	log.SetFlags(0)
 
-	// https://shakesearch.es.us-central1.gcp.cloud.es.io
-	// Cluster ID: 58532f2b3e2e48c2b77ee4a94a9f18d5
+	esAddress := os.Getenv("ES_URL")
+	esUsername := os.Getenv("ES_USERNAME")
+	esPassword := os.Getenv("ES_PASSWORD")
 
 	cfg := elasticsearch.Config{
 		Addresses: []string{
-			"https://shakesearch.es.us-central1.gcp.cloud.es.io",
+			esAddress,
 		},
-		Username: "elastic",
-		Password: "wcCf5kFx3qNz2tdDX6EnAIUe",
+		Username: esUsername,
+		Password: esPassword,
 	}
 	es, err := elasticsearch.NewClient(cfg)
 
 	if err != nil {
 		log.Fatalf("Error creating the client: %s", err)
 	}
-
-	GetClusterInfo(es)
 
 	return es
 }
