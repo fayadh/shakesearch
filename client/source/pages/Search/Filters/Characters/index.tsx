@@ -41,6 +41,7 @@ export const CharactersFilter: React.FC<ICharactersFilterProps> = ({
           setCharId(event.target.value);
         }}
       >
+        <MenuItem value="">*</MenuItem>
         {characters.map((character) => (
           <MenuItem key={character.CharID} value={character.CharID}>
             {character.CharName}

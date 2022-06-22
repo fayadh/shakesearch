@@ -19,8 +19,14 @@ export interface IFormData {
   page?: number;
 }
 
-const cleanValues = (values) => {
-  const newValues = _.omitBy(values, (value) => {
+/**
+ * Remove empty values from an object.
+ *
+ * @param obj The object you want to remove empty values from.
+ * @returns obj
+ */
+const removeEmptyValues = (obj) => {
+  const newValues = _.omitBy(obj, (value) => {
     return _.isNil(value) || !value;
   });
 
@@ -46,7 +52,7 @@ export const Search: React.FC = () => {
 
   const previousWorkId = usePrevious(workId);
   const query = new URLSearchParams(
-    cleanValues({
+    removeEmptyValues({
       q,
       workId,
       charId,
@@ -77,7 +83,7 @@ export const Search: React.FC = () => {
       return;
     }
 
-    const query = cleanValues({
+    const query = removeEmptyValues({
       q,
       workId,
       charId,

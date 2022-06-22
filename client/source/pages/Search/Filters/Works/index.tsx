@@ -41,6 +41,7 @@ export const WorksFilter: React.FC<IWorksFiltersProps> = ({
           setWorkId(event.target.value);
         }}
       >
+        <MenuItem value="">*</MenuItem>
         {works.map((work) => (
           <MenuItem key={work.WorkID} value={work.WorkID}>
             {work.Title}
