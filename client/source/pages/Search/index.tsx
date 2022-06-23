@@ -7,8 +7,8 @@ import {
 } from "@common/helpers";
 
 import { CharacterResults } from "./Results/Characters";
-import { Filters } from "./Filters";
 import { Logo } from "./Logo";
+import { ParagraphFilters } from "./Filters";
 import { ParagraphResults } from "./Results/Paragraphs";
 import { SearchInput } from "@common/forms/inputs/Search";
 import { ServerRoutes } from "@common/constants/serverRoutes";
@@ -117,7 +117,7 @@ export const Search: React.FC = () => {
         value={q}
       />
 
-      <Filters
+      <ParagraphFilters
         q={q}
         workId={workId}
         charId={charId}
@@ -130,15 +130,21 @@ export const Search: React.FC = () => {
         setScene={setScene}
       />
 
-      <WorkResults data={data?.works?.hits ?? []} />
-      <CharacterResults data={data?.characters?.hits ?? []} />
-      <ParagraphResults
-        data={data?.paragraphs?.hits ?? []}
-        total={data?.paragraphs?.total ?? 0}
-        isLoading={loading}
-        page={page}
-        setPage={setPage}
-      />
+      {error ? (
+        <div>Something went wrong..</div>
+      ) : (
+        <>
+          <WorkResults data={data?.works?.hits ?? []} />
+          <CharacterResults data={data?.characters?.hits ?? []} />
+          <ParagraphResults
+            data={data?.paragraphs?.hits ?? []}
+            total={data?.paragraphs?.total ?? 0}
+            isLoading={loading}
+            page={page}
+            setPage={setPage}
+          />
+        </>
+      )}
     </div>
   );
 };

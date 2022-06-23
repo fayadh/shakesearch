@@ -16,9 +16,9 @@ interface IFiltersProps extends IFormData {
 }
 
 /**
- * Search filters.
+ * Paragraph filters.
  */
-export const Filters: React.FC<IFiltersProps> = ({
+export const ParagraphFilters: React.FC<IFiltersProps> = ({
   act,
   charId,
   scene,
