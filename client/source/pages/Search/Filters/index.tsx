@@ -32,25 +32,28 @@ export const ParagraphFilters: React.FC<IFiltersProps> = ({
 
   return (
     <div className={classes.root}>
-      <WorksFilter value={workId} setWorkId={setWorkId} />
+      <div className={classes.title}>Paragraph filters</div>
+      <div className={classes.filters}>
+        <WorksFilter value={workId} setWorkId={setWorkId} />
 
-      {workId && (
-        <>
-          <CharactersFilter
-            workId={workId}
-            charId={charId}
-            setCharId={setCharId}
-          />
+        {workId && (
+          <>
+            <CharactersFilter
+              workId={workId}
+              charId={charId}
+              setCharId={setCharId}
+            />
 
-          <ScenesAndActsFilter
-            workId={workId}
-            act={act}
-            scene={scene}
-            setAct={setAct}
-            setScene={setScene}
-          />
-        </>
-      )}
+            <ScenesAndActsFilter
+              workId={workId}
+              act={act}
+              scene={scene}
+              setAct={setAct}
+              setScene={setScene}
+            />
+          </>
+        )}
+      </div>
     </div>
   );
 };
