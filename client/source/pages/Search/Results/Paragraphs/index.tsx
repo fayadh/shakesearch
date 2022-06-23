@@ -29,7 +29,7 @@ export const ParagraphResults: React.FC<IParagraphResults> = ({
   }
 
   if (data.length === 0) {
-    return <div>No Data</div>;
+    return <div>No paragraph results.</div>;
   }
 
   const cleanString = (str: string) => {
