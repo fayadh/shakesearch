@@ -10,7 +10,7 @@ import (
 	"github.com/elastic/go-elasticsearch/v8/esapi"
 )
 
-// These indexes have fixed entry counts.
+// Since Shakespeare is no longer producing works, these indexes have fixed entry counts.
 var TotalWorks = 43
 var TotalCharacters = 1265
 
