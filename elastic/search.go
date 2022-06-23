@@ -52,12 +52,12 @@ func makeParagraphHeadersAndQuery(args SearchArgs) string {
 
 	// If act is specified, only search within the act.
 	if args.Act != 0 {
-		must = append(must, `{ "match": { "Chapter": `+strconv.Itoa(args.Act)+` } }`)
+		must = append(must, `{ "match": { "Section": `+strconv.Itoa(args.Act)+` } }`)
 	}
 
 	// If scene is specified, only search within the scene.
 	if args.Scene != 0 {
-		must = append(must, `{ "match": { "Section": `+strconv.Itoa(args.Scene)+` } }`)
+		must = append(must, `{ "match": { "Chapter": `+strconv.Itoa(args.Scene)+` } }`)
 	}
 
 	// Search for text results that match 80% of the given keywords.
