@@ -11,10 +11,6 @@ import (
 
 // Get all works.
 func GetWorks(es *elasticsearch.Client) []interface{} {
-	var (
-		r map[string]interface{}
-	)
-
 	query := `{ "query" : { "match_all" : { } } }`
 
 	res, err := es.Search(
@@ -30,7 +26,8 @@ func GetWorks(es *elasticsearch.Client) []interface{} {
 	}
 	defer res.Body.Close()
 
-	HandleError(res, r)
+	HandleError(res)
+	r := DecodeBody(res.Body)
 
 	return r["hits"].(map[string]interface{})["hits"].([]interface{})
 }

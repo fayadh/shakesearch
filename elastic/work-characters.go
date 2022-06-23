@@ -12,10 +12,6 @@ import (
 
 // Get all characters for a given work.
 func GetWorkCharacters(es *elasticsearch.Client, workId string) []interface{} {
-	var (
-		r map[string]interface{}
-	)
-
 	// Works happens to be a comma delimited string.
 	query := `{ "size": ` + strconv.Itoa(TotalCharacters) + `,  "query" : { "query_string" : { "query": "` + workId + `", "default_field": "Works" } } }`
 
@@ -31,7 +27,8 @@ func GetWorkCharacters(es *elasticsearch.Client, workId string) []interface{} {
 	}
 	defer res.Body.Close()
 
-	HandleError(res, r)
+	HandleError(res)
+	r := DecodeBody(res.Body)
 
 	return r["hits"].(map[string]interface{})["hits"].([]interface{})
 }

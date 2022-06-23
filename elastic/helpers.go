@@ -2,6 +2,7 @@ package elastic
 
 import (
 	"encoding/json"
+	"io"
 	"log"
 	"os"
 
@@ -36,7 +37,7 @@ func GetClient() *elasticsearch.Client {
 	return es
 }
 
-func HandleError(res *esapi.Response, r map[string]interface{}) {
+func HandleError(res *esapi.Response) {
 	if res.IsError() {
 		var e map[string]interface{}
 		if err := json.NewDecoder(res.Body).Decode(&e); err != nil {
@@ -50,8 +51,16 @@ func HandleError(res *esapi.Response, r map[string]interface{}) {
 			)
 		}
 	}
+}
 
-	if err := json.NewDecoder(res.Body).Decode(&r); err != nil {
+func DecodeBody(b io.ReadCloser) map[string]interface{} {
+	var (
+		r (map[string]interface{})
+	)
+
+	if err := json.NewDecoder(b).Decode(&r); err != nil {
 		log.Fatalf("Error parsing the response body: %s", err)
 	}
+
+	return r
 }

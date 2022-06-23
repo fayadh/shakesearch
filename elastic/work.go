@@ -11,10 +11,6 @@ import (
 
 // Get work.
 func GetWork(es *elasticsearch.Client, workId string) map[string]interface{} {
-	var (
-		r map[string]interface{}
-	)
-
 	query := `{ "query" : { "match" : { "WorkID": "` + workId + `" } } }`
 
 	res, err := es.Search(
@@ -29,7 +25,8 @@ func GetWork(es *elasticsearch.Client, workId string) map[string]interface{} {
 	}
 	defer res.Body.Close()
 
-	HandleError(res, r)
+	HandleError(res)
+	r := DecodeBody(res.Body)
 
 	return r["hits"].(map[string]interface{})["hits"].([]interface{})[0].(map[string]interface{})
 }

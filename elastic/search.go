@@ -105,9 +105,6 @@ type SearchArgs struct {
 
 // Search for the indexed documents
 func Search(es *elasticsearch.Client, args SearchArgs) map[string]interface{} {
-	var (
-		r map[string]interface{}
-	)
 
 	query := makeMultiSearchQuery(args)
 
@@ -121,7 +118,8 @@ func Search(es *elasticsearch.Client, args SearchArgs) map[string]interface{} {
 	}
 	defer res.Body.Close()
 
-	HandleError(res, r)
+	HandleError(res)
+	r := DecodeBody(res.Body)
 
 	responses := r["responses"].([]interface{})
 
