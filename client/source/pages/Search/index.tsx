@@ -6,11 +6,13 @@ import {
   setUrlQuery,
 } from "@common/helpers";
 
+import { CharacterResults } from "./Results/Characters";
 import { Filters } from "./Filters";
 import { Logo } from "./Logo";
 import { ParagraphResults } from "./Results/Paragraphs";
 import { SearchInput } from "@common/forms/inputs/Search";
 import { ServerRoutes } from "@common/constants/serverRoutes";
+import { WorkResults } from "./Results/Works";
 import _ from "lodash";
 import useFetch from "@hooks/useFetch";
 import { usePrevious } from "@hooks/usePrevious";
@@ -111,8 +113,8 @@ export const Search: React.FC = () => {
         setScene={setScene}
       />
 
-      {/* <WorkResults data={data?.works?.hits ?? []} /> */}
-      {/* <CharacterResults data={data?.characters?.hits ?? []} /> */}
+      <WorkResults data={data?.works?.hits ?? []} />
+      <CharacterResults data={data?.characters?.hits ?? []} />
       <ParagraphResults
         data={data?.paragraphs?.hits ?? []}
         total={data?.paragraphs?.total ?? 0}

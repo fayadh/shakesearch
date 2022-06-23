@@ -1,27 +1,26 @@
 import React from "react";
-import { Card } from "@common/components/Card";
-
 import { useStyles } from "./styles";
 
 export interface ICharacterResults {
   data?: any[];
 }
 
-export const CharacterResults: React.FC<ICharacterResults> = ({ data }) => {
+export const CharacterResults: React.FC<ICharacterResults> = ({
+  data = [],
+}) => {
   const classes = useStyles();
 
-  if (!data) {
-    return <div>No Data</div>;
+  if (!data.length) {
+    return <div></div>;
   }
 
   return (
     <div className={classes.root}>
-      {data?.map(({ _source }) => {
+      <div>Characters found:</div>
+      {data?.map(({ _source: { CharName, WorkTitles } }) => {
         return (
           <div className={classes.result}>
-            <Card title={"Characters"}>
-              <span className={classes.characters}>{_source.CharName}</span>
-            </Card>
+            {CharName}, {WorkTitles}
           </div>
         );
       })}

@@ -3,8 +3,7 @@ import makeStyles from "@mui/styles/makeStyles";
 export const useStyles = makeStyles({
   root: {
     margin: "auto",
-    marginTop: "200px",
-    width: "80vw",
+    marginTop: "100px",
   },
   input: {
     border: "solid 2px indianred",

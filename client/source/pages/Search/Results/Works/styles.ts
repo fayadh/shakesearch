@@ -5,11 +5,12 @@ export const useStyles = makeStyles((theme) => ({
     display: "flex",
     rowGap: "10px",
     flexDirection: "column",
-    padding: theme.spacing(1),
-    marginBottom: theme.spacing(4),
+  },
+  result: {
     borderColor: "silver",
     border: "solid 1px",
     borderRadius: "4px",
+    padding: theme.spacing(1),
+    marginBottom: theme.spacing(4),
   },
-  result: {},
 }));
