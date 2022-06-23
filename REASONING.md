@@ -39,6 +39,7 @@
 - If any paragraph filters are provided, paragraph results will be filtered according to the work, character, act and scene provided.
 - Paragraph character, act, and scene filters only show if a work is selected.
 - No partial word matches are supported, only complete.
+- Setting paragraph filters with an empty search input will not work. Keywords must be provided.
 - Pagination is provided to go through results.
 
 # What could be improved / What I would do if I had more time.
