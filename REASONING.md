@@ -13,10 +13,9 @@
 
 ## Effort Statistics
 
-- Date repository was made:
-- Date ES Cloud service was set up:
-- Date completed:
-- Elapsed days:
+- Date repository was made: June 16th
+- Date ES Cloud service was set up: June 12th
+- Date completed: June 23rd
 
 ## Process:
 
