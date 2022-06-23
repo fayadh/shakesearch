@@ -1,15 +1,27 @@
-import makeStyles from "@mui/styles/makeStyles";
+import React from "react";
+import { useStyles } from "./styles";
 
-export const useStyles = makeStyles((theme) => ({
-  root: {
-    display: "flex",
-    rowGap: "10px",
-    flexDirection: "column",
-    padding: theme.spacing(1),
-    marginBottom: theme.spacing(4),
-    borderColor: "silver",
-    border: "solid 1px",
-    borderRadius: "4px",
-  },
-  result: {},
-}));
+export interface IWorkResults {
+  data?: any[];
+}
+
+export const WorkResults: React.FC<IWorkResults> = ({ data = [] }) => {
+  const classes = useStyles();
+
+  if (!data.length) {
+    return <div></div>;
+  }
+
+  return (
+    <div className={classes.root}>
+      <div>Works found:</div>
+      {data?.map(({ _source: { Title, Date } }) => {
+        return (
+          <div className={classes.result}>
+            {Title}, {Date}
+          </div>
+        );
+      })}
+    </div>
+  );
+};
