@@ -10,7 +10,7 @@
 
 - Server: Go
 - Front End: React
-- Database: ElasticSearch.
+- Database: ElasticSearch (hosted).
 
 ## Effort Statistics
 
@@ -23,6 +23,7 @@
 - Minimized time required to organize the CompleteWorks by finding a free nosql dump of shakespeare's works.
 - Denormalized some of the data in those tables to optimize for ElasticSearch's abilities. (circumnavigated the need for join queries)
 - Iteratively worked on setting up the Go server and figuring out how ElasticSearch queries work.
+- Setup the front end in tandem.
 - Debugged and submitted.
 
 # Difficulties
@@ -48,3 +49,4 @@
 - Add a debouncer to the
 - Cleanup type related errors and improve the UI.
 - Make better use of the css theme palette.
+- Add testing to Go routes and front end components.
