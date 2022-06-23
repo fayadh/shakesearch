@@ -12,7 +12,7 @@ import (
 
 func makeWorksHeadersAndQuery(args SearchArgs) string {
 	worksHeader := `{ "index": "works" }` + "\n"
-	worksQuery := `{ "size": ` + strconv.Itoa(TotalWorks) + `, "query": { "match": { "WorkID": "` + args.Query + `"} } }` + "\n"
+	worksQuery := `{ "size": ` + strconv.Itoa(TotalWorks) + `, "query": { "match": { "Title": "` + args.Query + `"} } }` + "\n"
 
 	return worksHeader + worksQuery
 }
