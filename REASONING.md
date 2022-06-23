@@ -46,7 +46,7 @@
 - Build pages for each of the works so that users can click on paragraph results and be taken exactly to that location for improved contextualization.
 - Implement GraphQL for better query and data management. I chose to avoid this step because I wanted to minimize implementation risk with the Go server, as this is the first time I'm building one out.
 - Turn the paragraphs filters into a drop down form with a "submit" button to minimize server calls.
-- Add a debouncer to the
+- Add a debouncer to the search input.
 - Cleanup type related errors and improve the UI.
 - Make better use of the css theme palette.
 - Add testing to Go routes and front end components.
