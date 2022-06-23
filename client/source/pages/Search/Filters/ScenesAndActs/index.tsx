@@ -36,7 +36,8 @@ export const ScenesAndActsFilter: React.FC<IScenesAndActsFilterProps> = ({
 
   const { SectionCount = 0, ChapterCount = 0 } = data._source;
 
-  const labelId = "charId-label";
+  const actlabelId = "actId-label";
+  const scenelabelId = "sceneId-label";
 
   const chaptersRange = ChapterCount ? _.range(1, ChapterCount + 1) : [];
   const sectionsRange = SectionCount ? _.range(1, SectionCount + 1) : [];
@@ -44,10 +45,10 @@ export const ScenesAndActsFilter: React.FC<IScenesAndActsFilterProps> = ({
   return (
     <>
       <FormControl className={classes.root}>
-        <InputLabel id={labelId}>Act</InputLabel>
+        <InputLabel id={actlabelId}>Act</InputLabel>
         <Select
           autoWidth
-          labelId={labelId}
+          labelId={actlabelId}
           value={act}
           onChange={(event) => {
             setAct(event.target.value);
@@ -67,10 +68,10 @@ export const ScenesAndActsFilter: React.FC<IScenesAndActsFilterProps> = ({
       </FormControl>
 
       <FormControl className={classes.root}>
-        <InputLabel id={labelId}>Scene</InputLabel>
+        <InputLabel id={scenelabelId}>Scene</InputLabel>
         <Select
           autoWidth
-          labelId={labelId}
+          labelId={scenelabelId}
           value={scene}
           onChange={(event) => {
             setScene(event.target.value);
