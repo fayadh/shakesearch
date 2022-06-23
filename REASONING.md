@@ -1,9 +1,10 @@
 # Reasoning
 
-## What would a user want with this?
+## Assumed user needs
 
 - Find works, characters, and paragraphs containing keywords provided in the search input. An 80% match will be performed against paragraphs, and all keywords will be used to match works and characters.
-- Initial search state is inherited from the URL so that it's easily shareable.
+- Have search state be reflected in the URL so that results are easily shareable.
+- Be able to paginate through results.
 
 ## Tech
 
@@ -37,6 +38,7 @@
 - If any paragraph filters are provided, paragraph results will be filtered according to the work, character, act and scene provided.
 - Paragraph character, act, and scene filters only show if a work is selected.
 - No partial word matches are supported, only complete.
+- Pagination is provided to go through results.
 
 # What could be improved / What I would do if I had more time.
 
