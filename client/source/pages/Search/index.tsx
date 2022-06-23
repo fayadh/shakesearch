@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import {
   getCurrentQueryStrings,
   getServerRouteURL,
@@ -14,6 +14,7 @@ import { SearchInput } from "@common/forms/inputs/Search";
 import { ServerRoutes } from "@common/constants/serverRoutes";
 import { WorkResults } from "./Results/Works";
 import _ from "lodash";
+import useDidMountEffect from "@hooks/useDidMountEffect";
 import useFetch from "@hooks/useFetch";
 import { usePrevious } from "@hooks/usePrevious";
 import { useStyles } from "./styles";
@@ -46,7 +47,9 @@ export const Search: React.FC = () => {
   const [scene, setScene] = useState<number>(
     Number(currentQueryStrings.scene) ?? null
   );
-  const [page, setPage] = useState<number>(Number(currentQueryStrings.page));
+  const [page, setPage] = useState<number>(
+    Number(currentQueryStrings.page) ?? null
+  );
 
   const previousWorkId = usePrevious(workId);
   const query = new URLSearchParams(
@@ -73,11 +76,7 @@ export const Search: React.FC = () => {
     setPage(1);
   };
 
-  React.useEffect(() => {
-    if (previousWorkId && previousWorkId !== workId) {
-      resetAllFiltersExceptWorkId();
-    }
-
+  const updateURL = () => {
     const query = removeEmptyValues({
       q,
       workId,
@@ -90,7 +89,21 @@ export const Search: React.FC = () => {
     const url = new URLSearchParams(query).toString();
 
     setUrlQuery(url);
-  }, [q, charId, act, scene, workId, page]);
+  };
+
+  useEffect(() => {
+    if (previousWorkId && previousWorkId !== workId) {
+      resetAllFiltersExceptWorkId();
+    }
+
+    updateURL();
+  }, [workId, page, q]);
+
+  // reset to first page character, act, or scene change, except on first load.
+  useDidMountEffect(() => {
+    setPage(1);
+    updateURL();
+  }, [charId, act, scene]);
 
   return (
     <div className={classes.root}>
