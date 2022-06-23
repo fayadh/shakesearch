@@ -40,8 +40,12 @@ export const Search: React.FC = () => {
   const [q, setQ] = useState<string>(currentQueryStrings.q);
   const [workId, setWorkId] = useState<string>(currentQueryStrings.workId);
   const [charId, setCharId] = useState<string>(currentQueryStrings.charId);
-  const [act, setAct] = useState<number>(Number(currentQueryStrings.act));
-  const [scene, setScene] = useState<number>(Number(currentQueryStrings.scene));
+  const [act, setAct] = useState<number>(
+    Number(currentQueryStrings.act) ?? null
+  );
+  const [scene, setScene] = useState<number>(
+    Number(currentQueryStrings.scene) ?? null
+  );
   const [page, setPage] = useState<number>(Number(currentQueryStrings.page));
 
   const previousWorkId = usePrevious(workId);
@@ -58,7 +62,7 @@ export const Search: React.FC = () => {
 
   const searchUrl = getServerRouteURL(ServerRoutes.Search);
 
-  const url = previousWorkId === workId && q ? `${searchUrl}?${query}` : "";
+  const url = q ? `${searchUrl}?${query}` : "";
 
   const { data, error, loading } = useFetch(url);
 
@@ -70,7 +74,7 @@ export const Search: React.FC = () => {
   };
 
   React.useEffect(() => {
-    if (previousWorkId !== workId) {
+    if (previousWorkId && previousWorkId !== workId) {
       resetAllFiltersExceptWorkId();
     }
 
