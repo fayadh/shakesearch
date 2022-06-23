@@ -54,13 +54,13 @@ export const ScenesAndActsFilter: React.FC<IScenesAndActsFilterProps> = ({
           }}
         >
           <MenuItem value="">*</MenuItem>
-          {chaptersRange.map((chapterNumber) => (
+          {sectionsRange.map((sectionNumber) => (
             <MenuItem
-              key={chapterNumber}
-              value={chapterNumber}
-              selected={act === chapterNumber}
+              key={sectionNumber}
+              value={sectionNumber}
+              selected={act === sectionNumber}
             >
-              {chapterNumber}
+              {sectionNumber}
             </MenuItem>
           ))}
         </Select>
@@ -77,13 +77,13 @@ export const ScenesAndActsFilter: React.FC<IScenesAndActsFilterProps> = ({
           }}
         >
           <MenuItem value="">*</MenuItem>
-          {sectionsRange.map((sectionNumber) => (
+          {chaptersRange.map((chapterNumber) => (
             <MenuItem
-              key={sectionNumber}
-              value={sectionNumber}
-              selected={act === sectionNumber}
+              key={chapterNumber}
+              value={chapterNumber}
+              selected={act === chapterNumber}
             >
-              {sectionNumber}
+              {chapterNumber}
             </MenuItem>
           ))}
         </Select>
