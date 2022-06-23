@@ -42,10 +42,11 @@ export const ParagraphResults: React.FC<IParagraphResults> = ({
     <div className={classes.root}>
       <div>Results found: {total}</div>
 
-      {data?.map(({ _source }) => {
+      {data?.map(({ _id, _source }) => {
         return (
           <Card
             className={classes.result}
+            key={_id}
             title={
               <div>
                 <span className={classes.character}>

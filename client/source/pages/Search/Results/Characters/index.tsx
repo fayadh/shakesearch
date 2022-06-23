@@ -17,10 +17,10 @@ export const CharacterResults: React.FC<ICharacterResults> = ({
   return (
     <div className={classes.root}>
       <strong>Characters found:</strong>
-      {data?.map(({ _source: { CharName, WorkTitles } }) => {
+      {data?.map(({ _source: { CharID, CharName, WorkTitles } }) => {
         return (
-          <div className={classes.result}>
-            {CharName}, {WorkTitles}
+          <div className={classes.result} key={CharID}>
+            {CharName} in {WorkTitles.replaceAll(",", ", ")}
           </div>
         );
       })}
