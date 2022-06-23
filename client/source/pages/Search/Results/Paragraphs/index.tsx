@@ -40,15 +40,8 @@ export const ParagraphResults: React.FC<IParagraphResults> = ({
 
   return (
     <div className={classes.root}>
-      <Pagination
-        count={pages}
-        defaultPage={page}
-        onChange={(_, page) => {
-          setPage(page);
-        }}
-      />
-
       <div>Results found: {total}</div>
+
       {data?.map(({ _source }) => {
         return (
           <Card
@@ -77,6 +70,15 @@ export const ParagraphResults: React.FC<IParagraphResults> = ({
           </Card>
         );
       })}
+
+      <Pagination
+        className={classes.pagination}
+        count={pages}
+        defaultPage={page}
+        onChange={(_, page) => {
+          setPage(page);
+        }}
+      />
     </div>
   );
 };

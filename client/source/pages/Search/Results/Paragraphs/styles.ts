@@ -14,6 +14,10 @@ export const useStyles = makeStyles((theme) => ({
   work: {
     color: "rosybrown",
   },
+  pagination: {
+    margin: "auto",
+    marginTop: "32px",
+  },
   paragraph: {
     whiteSpace: "pre-line",
   },

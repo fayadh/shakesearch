@@ -14,7 +14,7 @@ export const WorkResults: React.FC<IWorkResults> = ({ data = [] }) => {
 
   return (
     <div className={classes.root}>
-      <div>Works found:</div>
+      <strong>Works found:</strong>
       {data?.map(({ _source: { Title, Date } }) => {
         return (
           <div className={classes.result}>

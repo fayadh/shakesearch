@@ -16,7 +16,7 @@ export const CharacterResults: React.FC<ICharacterResults> = ({
 
   return (
     <div className={classes.root}>
-      <div>Characters found:</div>
+      <strong>Characters found:</strong>
       {data?.map(({ _source: { CharName, WorkTitles } }) => {
         return (
           <div className={classes.result}>
