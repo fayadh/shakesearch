@@ -45,3 +45,4 @@
 - Turn the paragraphs filters into a drop down form with a "submit" button to minimize server calls.
 - Add a debouncer to the
 - Cleanup type related errors and improve the UI.
+- Make better use of the css theme palette.
